@@ -1,0 +1,36 @@
+{
+ "generatedAt": "2026-10-31T14:00:59.610Z",
+ "total": 4,
+ "searches": {
+  "duster": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "caddy": {
+   "total": 1,
+   "baseline": true,
+   "new": [
+    "28784831"
+   ],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "jimny": {
+   "total": 3,
+   "baseline": true,
+   "new": [
+    "28780022",
+    "28756433",
+    "28687163"
+   ],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  }
+ }
+}

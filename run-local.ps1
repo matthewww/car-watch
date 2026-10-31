@@ -1,6 +1,6 @@
-# Duster Watch — local scheduled fetcher.
+# Car Watch — local scheduled fetcher.
 # AutoTrader 503-blocks GitHub-hosted runners, so this script runs via Windows
-# Task Scheduler ("DusterWatch" task), commits any data changes, and pushes;
+# Task Scheduler ("CarWatch" task), commits any data changes, and pushes;
 # the push-alert.yml workflow then relays data/alert.txt to ntfy.
 $ErrorActionPreference = "Continue"
 Set-Location $PSScriptRoot

@@ -1,17 +1,15 @@
 #!/usr/bin/env node
 /**
- * Optional LLM analyst — runs on the schedule after fetch-listings.mjs
- * when the ANALYZE_API_KEY env var / repo secret is set (exits silently otherwise).
- *
- * Reads data/listings.json + data/diff.json, asks the model for a ranked
- * shortlist with one-line reasons, writes data/analysis.json (rendered by the
- * site) and appends its own alert lines to data/alert.txt. Non-fatal: always
- * exits 0 so a model outage never breaks the data pipeline.
- *
+ * Optional LLM analyst — runs after fetch-listings.mjs when ANALYZE_API_KEY is
+ * set (exits silently otherwise). Reads data/listings.json + data/diff.json,
+ * asks the model for a ranked shortlist per search, writes
+ * data/analysis.json: { generatedAt, model, searches: { key: { headline,
+ * shortlist, alerts } } } and appends prefixed alert lines to data/alert.txt.
+ * Non-fatal: always exits 0 so a model outage never breaks the data pipeline.
  * Config (env): ANALYZE_API_KEY, ANALYZE_BASE_URL (default Together AI),
  *               ANALYZE_MODEL (default zai-org/GLM-5.3-Flash, ~3c/day at 4 runs)
  */
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, unlink } from "node:fs/promises";
 
 const readJsonSafe = async (file) => {
   try { return JSON.parse(await readFile(file, "utf8")); } catch { return null; }
@@ -22,34 +20,47 @@ if (!KEY) { console.log("analyst skipped: ANALYZE_API_KEY not set"); process.exi
 const BASE = process.env.ANALYZE_BASE_URL || "https://api.together.xyz/v1";
 const MODEL = process.env.ANALYZE_MODEL || "zai-org/GLM-5.3-Flash";
 
+/** buyer criteria per search key (fallback for unlisted keys) */
+const CRITERIA = {
+  duster:
+    "wants Automatic, 2020 or newer, but will consider ANY standout bargain; diesel preferred over petrol; trading in a 2014 Duster 1.5 dCi 4x4 (older high-km 4x4 — dealers may lowball it, multi-franchise groups more likely to take it in trade)",
+  caddy:
+    "hard caps: R300 000 and 100 000 km (funded partly by trading in a Peugeot 108); wants the LOWEST-PRICED mechanically viable options (panel van or Kombi); flag suspiciously cheap units as verify-carefully; multi-franchise dealers welcome for the trade",
+  jimny:
+    "hard caps: R300 000 and 100 000 km (funded partly by trading in a Peugeot 108); no year cap so older gens appear — wants LOWEST-PRICED mechanically viable options; prefers 2-door (3-door) Jimnys — call out 5-door models explicitly; multi-franchise dealers welcome for the trade",
+};
+
 try {
-  const d = JSON.parse(await readFile("data/listings.json", "utf8"));
-  let diff = { total: 0, new: [], dropped: [], gone: [] };
-  try { diff = JSON.parse(await readFile("data/diff.json", "utf8")); } catch {}
-  const byId = new Map(d.listings.map((l) => [l.id, l]));
+  const data = (await readJsonSafe("data/listings.json")) ?? { searches: {} };
+  let diff = { total: 0, searches: {} };
+  try { diff = (await readJsonSafe("data/diff.json")) ?? diff; } catch {}
+  if (!Object.keys(data.searches ?? {}).length) throw new Error("no searches in listings.json");
 
-  const brief = d.listings
-    .filter((l) => !l.removedAt && l.price)
-    .map((l) => ({
-      id: l.id, year: l.year, variant: l.variant, price: l.price, km: l.km,
-      trans: l.transmission, fuel: l.fuel, dealer: l.dealer, area: l.area,
-      estUnder: l.estUnder,
-    }))
-    .sort((a, b) => a.price - b.price);
+  const sections = [];
+  for (const [key, s] of Object.entries(data.searches)) {
+    const live = s.listings.filter((l) => !l.removedAt && l.price);
+    const d = diff.searches?.[key] ?? { total: 0, new: [], dropped: [], gone: [] };
+    const changedIds = new Set([...(d.new ?? []), ...(d.dropped ?? []).map((x) => x.id), ...(d.gone ?? [])]);
+    const brief = live
+      .slice()
+      .sort((a, b) => a.price - b.price)
+      .filter((l, i) => i < 25 || changedIds.has(String(l.id)))
+      .map((l) => ({
+        id: l.id, year: l.year, variant: l.variant, price: l.price, km: l.km,
+        trans: l.transmission, fuel: l.fuel, dealer: l.dealer, area: l.area,
+        estUnder: l.estUnder,
+      }));
+    const changes = d.total
+      ? `Changes this run: ${JSON.stringify({ new: d.new, dropped: d.dropped, gone: d.gone })}` +
+        (d.baseline ? " — THIS WAS THE FIRST CAPTURE of this search (baseline). Set expectations in the headline but do NOT produce alert lines for it." : "")
+      : "No changes this run.";
+    sections.push(
+      `### Search "${key}" (${s.label})\nBuyer criteria: ${CRITERIA[key] ?? "general landscape overview"}\n` +
+      `Listings (cheapest first): ${JSON.stringify(brief)}\n${changes}`
+    );
+  }
 
-  const pick = (id) => {
-    const l = byId.get(id) ?? {};
-    return { id, year: l.year, variant: l.variant, price: l.price, km: l.km, dealer: l.dealer };
-  };
-  const changes = diff.total
-    ? `Changes this run: ${JSON.stringify({
-        new: diff.new.map(pick).filter((l) => l.price),
-        dropped: diff.dropped,
-        gone: diff.gone.map(pick).filter((l) => l.price || l.variant),
-      })}`
-    : "No changes this run.";
-
-  // nothing changed and we produced a fresh analysis recently -> skip (saves cost)
+  // nothing changed anywhere and we produced a fresh analysis recently -> skip
   if (!diff.total) {
     const prevA = await readJsonSafe("data/analysis.json");
     if (prevA?.generatedAt && Date.now() - Date.parse(prevA.generatedAt) < 22 * 3600e3) {
@@ -58,20 +69,16 @@ try {
     }
   }
 
-  const prompt = `You are a used-car buying analyst for a Renault Duster watcher (AutoTrader KZN, <=R300 000, 2019+, <=100 000 km).
-Buyer criteria: wants Automatic, 2020 or newer, but will consider ANY standout bargain; diesel preferred over petrol; values dealers likely to accept a trade-in (multi-franchise groups: GWM/Haval, Hyundai, KIA, Durban Multifranchise).
-estUnder = Rands below a price model fitted on the current inventory (positive = good value, negative = overpriced). Use it, km and year in your reasoning.
+  const prompt = `You are a used-car buying analyst watching several AutoTrader KZN searches for one buyer.
+estUnder = Rands below a price model fitted on that search's current inventory (positive = good value). Use it, km and year in your reasoning.
 
-Listings (sorted by price):
-${JSON.stringify(brief)}
-
-${changes}
+${sections.join("\n\n")}
 
 Respond ONLY with JSON, no other text:
-{"headline": "<one sentence: state of this market and the best move>",
- "shortlist": [{"id": <id>, "note": "<one line: why this car for this buyer, with numbers>"}, ...max 4],
- "alerts": ["<0-2 very short lines flagging changes worth a push notification>"]}
-Rank the shortlist by desirability for this buyer.`;
+{"searches": { "<key>": {"headline": "<one sentence: state of this market and the best move>",
+  "shortlist": [{"id": <id>, "note": "<one line: why this car for this buyer, with numbers>"}, ...max 4],
+  "alerts": ["<0-2 very short lines flagging changes worth a push notification>"]}, ... }}
+Provide an entry for EVERY search key above. Rank shortlists by desirability. Be concrete with numbers.`;
 
   const callModel = () =>
     fetch(`${BASE}/chat/completions`, {
@@ -96,26 +103,44 @@ Rank the shortlist by desirability for this buyer.`;
     }
     const fenced = content.match(/```(?:json)?\s*([\s\S]*?)```/);
     const jsonish = (fenced ? fenced[1] : content).match(/\{[\s\S]*\}/);
-    if (jsonish) parsed = JSON.parse(jsonish[0]);
-    else if (attempt < 2) {
+    if (jsonish) {
+      const raw = jsonish[0];
+      for (const candidate of [raw, raw.replace(/,\s*([}\]])/g, "$1")]) { // strict, then trailing-comma-tolerant
+        try { parsed = JSON.parse(candidate); break; } catch {}
+      }
+    }
+    if (!parsed && attempt < 2) {
       console.log("analyst: empty/invalid response, retrying");
       await new Promise((r) => setTimeout(r, 2000));
     }
   }
-  if (!parsed) throw new Error("model returned no JSON after retry");
-  const out = { ...parsed, generatedAt: new Date().toISOString(), model: MODEL };
+  if (!parsed?.searches) throw new Error("model returned no per-search JSON after retry");
+
+  const byLabel = new Map(Object.entries(data.searches).map(([k, v]) => [k, v.label]));
+  const out = { generatedAt: new Date().toISOString(), model: MODEL, searches: {} };
+  const alertNew = [];
+  for (const [key, s] of Object.entries(data.searches)) {
+    const a = parsed.searches[key] ?? {};
+    out.searches[key] = { headline: a.headline ?? "", shortlist: a.shortlist ?? [], alerts: a.alerts ?? [] };
+    if (a.headline) console.log(`analyst [${s.label}]: ${a.headline}`);
+    if (diff.total && Array.isArray(a.alerts)) {
+      for (const line of a.alerts.slice(0, 2)) {
+        alertNew.push(`[${byLabel.get(key) ?? key}] ${line}`);
+      }
+    }
+  }
+
   const prevAnalysis = await readJsonSafe("data/analysis.json");
-  const relevant = (a) => JSON.stringify({ h: a.headline, s: a.shortlist, m: a.model ?? "" });
+  const relevant = (x) => JSON.stringify(Object.entries(x.searches ?? {}).map(([k, v]) => [k, v.headline, v.shortlist]));
   if (prevAnalysis && relevant(out) === relevant(prevAnalysis)) {
     console.log("analyst: no change in notes — not rewritten");
   } else {
     await writeFile("data/analysis.json", JSON.stringify(out, null, 1));
-    console.log(`analyst: ${out.headline} (${out.shortlist?.length ?? 0} picks)`);
   }
 
-  if (diff.total && Array.isArray(out.alerts) && out.alerts.length) {
+  if (alertNew.length) {
     const prev = await readFile("data/alert.txt", "utf8").catch(() => "");
-    await writeFile("data/alert.txt", prev + (prev ? "\n" : "") + out.alerts.join("\n") + "\n");
+    await writeFile("data/alert.txt", prev + (prev ? "\n" : "") + alertNew.join("\n") + "\n");
   }
 } catch (e) {
   console.log(`analyst skipped: ${e.message}`);

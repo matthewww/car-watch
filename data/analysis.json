@@ -1,24 +1,56 @@
 {
- "headline": "KZN Duster stock is thin on fairly-priced automatics, but the sweet spot is the 2022 TechRoad auto at KIA Ballito (R249,900, 47k km, ~R12k under model), with the R209,990 2022 Zen the market's standout bargain if a manual is acceptable.",
- "shortlist": [
-  {
-   "id": 28741951,
-   "note": "Best overall match: 2022 TechRoad auto diesel, 47,051 km, R249,900 (~R12,185 under model) at KIA Ballito — trade-in friendly dealer, ticks every box."
+ "generatedAt": "2026-10-31T14:02:50.707Z",
+ "model": "zai-org/GLM-5.3-Flash",
+ "searches": {
+  "duster": {
+   "headline": "No new stock this run; the standout is the 2022 1.5dCi Zen at R209,990 (R24,273 under model) if manual is acceptable, while the 2022 TechRoad Auto at R249,900/47,051 km (+R12,185) is the best fit to the auto/diesel/2020+ brief at a trade-in-friendly multi-franchise.",
+   "shortlist": [
+    {
+     "id": 28729328,
+     "note": "Standout bargain: 2022 1.5dCi Zen, R209,990 with 72,000 km — R24,273 under model, cheapest 2020+ diesel on the board; manual not auto, but the gap beats every auto here; Jetour Hillcrest is multi-franchise, better odds on the 2014 dCi 4x4 trade."
+    },
+    {
+     "id": 28741951,
+     "note": "Best match to the brief: 2022 TechRoad Auto diesel, R249,900, 47,051 km, +R12,185 under model; KIA Ballito (multi-franchise) is the natural home for the 2014 4x4 trade-in."
+    },
+    {
+     "id": 28505612,
+     "note": "Cheapest auto diesel: 2019 Dynamique Auto, R195,000, 88,500 km, +R5,717 under model — one year below the 2020 target but ~R55k less than the 2022 autos; Super Auto is an independent, so get the trade-in quote in writing."
+    },
+    {
+     "id": 28728171,
+     "note": "Near-new play: 2023 Zen, R244,900 with only 44,460 km, +R12,761 under model; manual, at Durban Multifranchise (KIA) — trade-in friendly if they want the newest car."
+    }
+   ],
+   "alerts": []
   },
-  {
-   "id": 28729328,
-   "note": "Standout bargain: 2022 Zen diesel at R209,990 is ~R24,273 under model and the cheapest 2020+ diesel in KZN here; manual is the only compromise."
+  "caddy": {
+   "headline": "Baseline capture shows a thin market: one listing, a 2020 1.6 Crew Bus at R279,990 with 76,000 km — inside both caps with ~R20k headroom; expect cheaper panel vans to define the real market in future captures.",
+   "shortlist": [
+    {
+     "id": 28784831,
+     "note": "Only option so far: 2020 1.6 Crew Bus (windowed Kombi-style, not a panel van), R279,990, 76,000 km — R20,010 under the price cap and 24,000 km under the km cap; treat as baseline, not a bargain, and verify mechanicals before committing."
+    }
+   ],
+   "alerts": []
   },
-  {
-   "id": 28728171,
-   "note": "2023 Zen, 44,460 km, R244,900 (~R12,761 under) at Durban Multifranchise KIA — newest, lowest-km value play and ideal trade-in partner; manual."
-  },
-  {
-   "id": 28508505,
-   "note": "Top-spec 2023 Intens auto diesel, 86,000 km, R259,900 (~R7,622 under) at GWM Haval Mobeni — the pick if Intens trim + auto matter more than price; km is high-ish."
+  "jimny": {
+   "headline": "Baseline of three, all 2-door (no 5-doors in this capture): the 2018 1.3 at R234,890/86,000 km is the cheapest viable route, while new-gen GLX options crowd the R289,890–R295,995 top of the R300k cap.",
+   "shortlist": [
+    {
+     "id": 28780022,
+     "note": "Cheapest viable: 2018 1.3 old-gen 2-door, R234,890, 86,000 km — R65,110 under the cap with 14,000 km of headroom; at this age/km budget for a thorough mechanical inspection."
+    },
+    {
+     "id": 28756433,
+     "note": "Newest-gen value: 2020 1.5 GLX AllGrip, R289,890, 78,000 km — R10,110 under the cap; Jetour Ballito is multi-franchise, useful for the Peugeot 108 trade."
+    },
+    {
+     "id": 28687163,
+     "note": "Lowest km by far: 2021 GLX AllGrip, R295,995, 25,115 km — but only R4,005 under the cap and no dealer listed (likely private sale), which rules out the 108 trade-in."
+    }
+   ],
+   "alerts": []
   }
- ],
- "alerts": [],
- "generatedAt": "2026-10-31T12:01:40.456Z",
- "model": "zai-org/GLM-5.3-Flash"
+ }
 }

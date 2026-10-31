@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Duster Watch — KZN</title>
+<title>Car Watch — KZN</title>
 <style>
   :root { --ink:#1a1d21; --mut:#6b7280; --line:#e5e7eb; --bg:#f6f7f8; --card:#fff;
           --new:#2563eb; --drop:#059669; --up:#b45309; --gone:#9ca3af; }
@@ -53,9 +53,13 @@
 </head>
 <body>
 <header>
-  <h1>Duster Watch <small id="updated"></small></h1>
+  <h1>Car Watch <small id="updated"></small></h1>
   <div id="banner"></div>
+  <div id="stats" class="spec" style="padding:2px 0 0;font-size:12.5px;color:var(--mut)"></div>
 </header>
+<div class="controls">
+  <div class="chips" id="tabs"></div>
+</div>
 <div class="controls">
   <div class="chips" id="chips">
     <button class="chip on" data-f="all">All</button>
@@ -73,14 +77,14 @@
 </div>
 <div id="notes"></div>
 <main id="out"><div class="empty">Loading…</div></main>
-<footer>AutoTrader KZN · Duster · ≤R300k · 2019+ · ≤100 000 km — <a href="https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/renault/duster?price=less-than-300000&year=more-than-2019&mileage=less-than-100000">search</a></footer>
+<footer>AutoTrader KZN — <a id="searchlink" href="#">open current search</a></footer>
 
 <script>
 const GROUP_ORDER = ["Durban", "Hillcrest & Pinetown", "Pietermaritzburg", "North Coast & Outer", "Other"];
 const GROUP_SHORT = { "Hillcrest & Pinetown": "Hillcrest/Pinetown", "North Coast & Outer": "N-Coast/Outer" };
 const fmt = (n) => n == null ? "?" : "R" + n.toLocaleString("en-ZA");
 const days = (iso) => (Date.now() - Date.parse(iso)) / 864e5;
-let filter = "all", sort = "price", data = null;
+let filter = "all", sort = "price", data = null, cur = null;
 
 const FILTERS = {
   all: (l) => !l.removedAt,
@@ -122,7 +126,9 @@ function card(l) {
 }
 
 function render() {
-  const live = data.listings.filter(FILTERS[filter]);
+  const s = data.searches[cur];
+  if (!s) return;
+  const live = s.listings.filter(FILTERS[filter]);
   const cmp = {
     price: (a, b) => (a.price ?? 9e9) - (b.price ?? 9e9),
     "price-desc": (a, b) => (b.price ?? 0) - (a.price ?? 0),
@@ -130,10 +136,16 @@ function render() {
     km: (a, b) => (a.km ?? 9e9) - (b.km ?? 9e9),
     year: (a, b) => (b.year ?? 0) - (a.year ?? 0),
   }[sort];
+  // landscape stats for this search
+  const priced = s.listings.filter((l) => !l.removedAt && l.price).map((l) => l.price).sort((a, b) => a - b);
+  document.getElementById("stats").textContent = priced.length
+    ? `${s.label} market: ${priced.length} live · R${Math.min(...priced).toLocaleString("en-ZA")} – R${Math.max(...priced).toLocaleString("en-ZA")} · median R${priced[Math.floor(priced.length / 2)].toLocaleString("en-ZA")}`
+    : `${s.label}: no priced listings`;
+  document.getElementById("searchlink").href = s.url;
   const groups = GROUP_ORDER.map((g) => ({ name: g, items: live.filter((l) => (l.group ?? "Other") === g).sort(cmp) }));
   if (live.length && groups.every((g) => !g.items.length))
     groups.push({ name: "Unmatched area", items: live.filter((l) => !GROUP_ORDER.includes(l.group)).sort(cmp) });
-  const removedRecent = data.listings
+  const removedRecent = s.listings
     .filter((l) => l.removedAt && days(l.removedAt) < 7)
     .sort(cmp);
   document.getElementById("out").innerHTML = groups
@@ -152,16 +164,47 @@ function render() {
     || `<div class="empty">Nothing matches this filter right now.</div>`;
 }
 
+function renderTabs() {
+  document.getElementById("tabs").innerHTML = Object.entries(data.searches)
+    .map(([k, v]) => `<button class="chip${k === cur ? " on" : ""}" data-k="${k}">${v.label}</button>`)
+    .join("");
+}
+
+function renderAnalyst(a) {
+  const s = data.searches[cur];
+  const block = a?.searches?.[cur];
+  if (!block?.headline || !s) { document.getElementById("notes").replaceChildren(); return; }
+  const byId = new Map(s.listings.map((l) => [String(l.id), l]));
+  const el = document.createElement("details");
+  el.className = "group";
+  el.open = true;
+  el.innerHTML = `<summary><span>${s.label} notes <small style="font-weight:400;color:var(--mut)">· ${a.model ?? ""} · ${new Date(a.generatedAt).toLocaleString("en-ZA", { dateStyle: "short", timeStyle: "short" })}</small></span></summary>
+    <div class="card" style="cursor:default"><div class="spec" style="font-size:13px">${block.headline}</div></div>`
+    + (block.shortlist ?? []).map((p) => {
+        const l = byId.get(String(p.id));
+        if (!l) return "";
+        return `<a class="card" href="${l.url}" target="_blank" rel="noopener">
+          <div class="row1"><span class="title">${l.year ?? "?"} ${l.variant ?? l.trim}</span><span class="price">${fmt(l.price)}</span></div>
+          <div class="spec">${p.note}</div></a>`;
+      }).join("");
+  document.getElementById("notes").replaceChildren(el);
+}
+
 fetch("data/listings.json", { cache: "no-store" })
   .then((r) => r.json())
   .then((d) => {
     data = d;
+    const keys = Object.keys(data.searches);
+    const saved = localStorage.getItem("cw-tab");
+    cur = keys.includes(saved) ? saved : keys[0];
+    renderTabs();
     document.getElementById("updated").textContent =
       "updated " + new Date(d.generatedAt).toLocaleString("en-ZA", { dateStyle: "medium", timeStyle: "short" });
-    const last = localStorage.getItem("duster-last-visit");
+    const last = localStorage.getItem("cw-last-visit");
     if (last) {
-      const fresh = d.listings.filter((l) => !l.removedAt && Date.parse(l.firstSeen) > Date.parse(last));
-      const drops = d.listings.filter((l) => (l.priceHistory ?? []).some(
+      const allListings = Object.values(data.searches).flatMap((s) => s.listings);
+      const fresh = allListings.filter((l) => !l.removedAt && Date.parse(l.firstSeen) > Date.parse(last));
+      const drops = allListings.filter((l) => (l.priceHistory ?? []).some(
         (h) => h.to < h.from && Date.parse(h.date) > Date.parse(last)));
       if (fresh.length || drops.length) {
         const el = document.getElementById("banner");
@@ -169,31 +212,27 @@ fetch("data/listings.json", { cache: "no-store" })
         el.textContent = `Since your last visit: ${fresh.length} new · ${drops.length} price drop${drops.length == 1 ? "" : "s"}`;
       }
     }
-    localStorage.setItem("duster-last-visit", String(Date.now()));
+    localStorage.setItem("cw-last-visit", String(Date.now()));
     render();
     // optional LLM analyst notes (data/analysis.json only exists when configured)
     fetch("data/analysis.json", { cache: "no-store" })
       .then((r) => (r.ok ? r.json() : null))
-      .then((a) => {
-        if (!a?.headline) return;
-        const byId = new Map(data.listings.map((l) => [String(l.id), l]));
-        const el = document.createElement("details");
-        el.className = "group";
-        el.open = true;
-        el.innerHTML = `<summary><span>Analyst notes <small style="font-weight:400;color:var(--mut)">· ${a.model ?? ""} · ${new Date(a.generatedAt).toLocaleString("en-ZA", { dateStyle: "short", timeStyle: "short" })}</small></span></summary>
-          <div class="card" style="cursor:default"><div class="spec" style="font-size:13px">${a.headline}</div></div>`
-          + (a.shortlist ?? []).map((s) => {
-              const l = byId.get(String(s.id));
-              if (!l) return "";
-              return `<a class="card" href="${l.url}" target="_blank" rel="noopener">
-                <div class="row1"><span class="title">${l.year ?? "?"} ${l.variant ?? l.trim}</span><span class="price">${fmt(l.price)}</span></div>
-                <div class="spec">${s.note}</div></a>`;
-            }).join("");
-        document.getElementById("notes").replaceChildren(el);
-      })
+      .then(renderAnalyst)
       .catch(() => {});
   })
   .catch(() => { document.getElementById("out").innerHTML = '<div class="empty">Could not load data/listings.json — run <code>node fetch-listings.mjs</code> first.</div>'; });
+
+document.getElementById("tabs").addEventListener("click", (e) => {
+  if (!e.target.dataset.k || e.target.dataset.k === cur) return;
+  cur = e.target.dataset.k;
+  localStorage.setItem("cw-tab", cur);
+  renderTabs();
+  render();
+  fetch("data/analysis.json", { cache: "no-store" })
+    .then((r) => (r.ok ? r.json() : null))
+    .then(renderAnalyst)
+    .catch(() => {});
+});
 
 document.getElementById("chips").addEventListener("click", (e) => {
   if (!e.target.dataset.f) return;

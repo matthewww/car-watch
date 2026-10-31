@@ -20,6 +20,6 @@ jobs:
         run: |
           if [ -s data/alert.txt ]; then
             curl -sf -T data/alert.txt \
-              -H "Title: Duster watch update" -H "Tags: car" \
+              -H "Title: Car watch update" -H "Tags: car" \
               "https://ntfy.sh/${NTFY_TOPIC}"
           fi
