@@ -183,6 +183,7 @@ function parsePage(html) {
  * scanning stops once the KZN block ends. */
 async function fetchCurrent() {
   const byId = new Map();
+  const trace = [];
   let kznSeen = false;
   for (let page = 1; page <= 8; page++) {
     const u = SEARCH_URL.replace(/p-\d+/, `p-${page}`);
@@ -192,10 +193,18 @@ async function fetchCurrent() {
         headers: { "User-Agent": UA, "Accept-Language": "en-ZA,en;q=0.9" },
         signal: AbortSignal.timeout(45000),
       });
-    } catch { break; }
-    if (!res.ok) break;
+    } catch (e) {
+      trace.push({ page, error: e.message });
+      break;
+    }
+    if (!res.ok) {
+      trace.push({ page, status: res.status });
+      if (page === 1) break;
+      continue;
+    }
     const html = await res.text();
     const isKzn = /\/kwazulu-natal\//.test(res.url);
+    trace.push({ page, finalUrl: res.url.replace("https://www.autotrader.co.za", ""), listings: /car-for-sale\/renault\/duster/.test(html) });
     if (!isKzn) { if (kznSeen) break; continue; }
     kznSeen = true;
     const before = byId.size;
@@ -206,7 +215,10 @@ async function fetchCurrent() {
     }
     if (byId.size === before && page > 1) break; // repeated page
   }
-  if (!kznSeen) throw new Error("no kwazulu-natal pages found — AutoTrader redirect behaviour changed");
+  if (!kznSeen) {
+    throw new Error(`no kwazulu-natal pages found — page trace: ${JSON.stringify(trace)}`);
+  }
+  console.log("page trace:", JSON.stringify(trace));
   return [...byId.values()];
 }
 
