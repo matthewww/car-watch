@@ -84,6 +84,20 @@ function parseTileText(text) {
   return out;
 }
 
+/** KZN pages can append "nearby/national" suggestion cars beyond the search
+ * filters — drop anything over the price cap or clearly outside KZN. */
+const PRICE_CAP = 300000;
+const NON_KZN = ["johannesburg", "pretoria", "tshwane", "centurion", "sandton", "midrand",
+  "randburg", "roodepoort", "krugersdorp", "soweto", "germiston", "boksburg", "benoni",
+  "kempton", "alberton", "vanderbijlpark", "vereeniging", "nigel", "bryanston", "fourways",
+  "eastgate", "westgate", "gleneagles", "selby", "the glen", "cape town", "stellenbosch",
+  "george", "gqeberha", "port elizabeth", "east london", "bloemfontein", "kimberley",
+  "mbombela", "nelpruit", "polokwane", "rustenburg", "mahikeng", "upington", "witbank",
+  "emalahleni", "middelburg"];
+const isKznListing = (l) =>
+  !(l.price && l.price > PRICE_CAP) &&
+  !NON_KZN.some((k) => `${l.area ?? ""} ${l.dealer ?? ""}`.toLowerCase().includes(k));
+
 /** Rough valuation: least-squares fit price ~ year, km, trim tier, auto, 4WD
  * across the current live inventory (ridge-regularised, 16-ish points).
  * Returns Map(id -> estUnder) where positive = cheaper than model expectation. */
@@ -163,16 +177,37 @@ function parsePage(html) {
     .filter((r) => r.price !== undefined || r.year !== undefined || r.variant !== undefined);
 }
 
-async function fetchPage() {
-  for (let attempt = 1; attempt <= 2; attempt++) {
-    const res = await fetch(SEARCH_URL, {
-      headers: { "User-Agent": UA, "Accept-Language": "en-ZA,en;q=0.9" },
-      signal: AbortSignal.timeout(45000),
-    });
-    if (res.ok) return res.text();
-    if (attempt === 2) throw new Error(`HTTP ${res.status} from AutoTrader`);
-    await new Promise((r) => setTimeout(r, 3000));
+/** Fetch ALL kwazulu-natal pages for the search. AutoTrader redirects exhausted
+ * province page slots to other provinces (p-1 may land on gauteng, p-3 on
+ * free-state) — only pages whose final URL stayed on kwazulu-natal are kept,
+ * scanning stops once the KZN block ends. */
+async function fetchCurrent() {
+  const byId = new Map();
+  let kznSeen = false;
+  for (let page = 1; page <= 8; page++) {
+    const u = SEARCH_URL.replace(/p-\d+/, `p-${page}`);
+    let res;
+    try {
+      res = await fetch(u, {
+        headers: { "User-Agent": UA, "Accept-Language": "en-ZA,en;q=0.9" },
+        signal: AbortSignal.timeout(45000),
+      });
+    } catch { break; }
+    if (!res.ok) break;
+    const html = await res.text();
+    const isKzn = /\/kwazulu-natal\//.test(res.url);
+    if (!isKzn) { if (kznSeen) break; continue; }
+    kznSeen = true;
+    const before = byId.size;
+    for (const rec of parsePage(html).filter(isKznListing)) {
+      const old = byId.get(rec.id);
+      if (old) { for (const [k, v] of Object.entries(rec)) if (old[k] === undefined) old[k] = v; }
+      else byId.set(rec.id, rec);
+    }
+    if (byId.size === before && page > 1) break; // repeated page
   }
+  if (!kznSeen) throw new Error("no kwazulu-natal pages found — AutoTrader redirect behaviour changed");
+  return [...byId.values()];
 }
 
 async function readJson(file) {
@@ -182,7 +217,7 @@ async function readJson(file) {
 
 const now = new Date();
 const iso = now.toISOString();
-const current = parsePage(await fetchPage());
+const current = await fetchCurrent();
 const currentIds = new Set(current.map((l) => l.id));
 
 await import("node:fs/promises").then((fs) => fs.mkdir(DATA_DIR, { recursive: true }));
