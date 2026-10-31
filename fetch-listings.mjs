@@ -282,13 +282,20 @@ const diff = {
   gone: goneConfirmed.map((l) => l.id),
 };
 
-// skip rewriting when nothing but timestamps changed — avoids no-op commits
-const volatileKey = (listings) =>
-  JSON.stringify(listings.map((l) => { const c = { ...l }; delete c.lastSeen; return c; }));
-if (prev && volatileKey(all) === volatileKey(prev.listings ?? [])) {
-  console.log("listings unchanged (timestamps only) — not rewritten");
+// skip rewriting when nothing but timestamps/tile order changed — avoids no-op
+// commits (AutoTrader rotates tile positions between page loads)
+const canon = (listings) =>
+  JSON.stringify(
+    listings
+      .slice()
+      .sort((a, b) => a.id.localeCompare(b.id))
+      .map((l) => { const c = { ...l }; delete c.lastSeen; return c; })
+  );
+if (prev && canon(all) === canon(prev.listings ?? [])) {
+  console.log("listings unchanged (timestamps/tile order only) — not rewritten");
 } else {
-  await writeFile(LISTINGS_FILE, JSON.stringify({ generatedAt: iso, searchUrl: SEARCH_URL, listings: all }, null, 1));
+  const sorted = all.slice().sort((a, b) => a.id.localeCompare(b.id));
+  await writeFile(LISTINGS_FILE, JSON.stringify({ generatedAt: iso, searchUrl: SEARCH_URL, listings: sorted }, null, 1));
 }
 // diff.json only exists when there are changes (analyze tolerates absence)
 if (diff.total) await writeFile(DIFF_FILE, JSON.stringify(diff, null, 1));
