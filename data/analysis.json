@@ -1,26 +1,24 @@
 {
- "headline": "A stable week with no new stock — the 2022 TechRoad Auto at KIA Ballito (R249 900, 47k km, +R12 185 under model) is the only listing ticking every box, while the R209 990 2022 Zen is the board's biggest bargain if manual is acceptable.",
+ "headline": "KZN Duster stock is thin on fairly-priced automatics, but the sweet spot is the 2022 TechRoad auto at KIA Ballito (R249,900, 47k km, ~R12k under model), with the R209,990 2022 Zen the market's standout bargain if a manual is acceptable.",
  "shortlist": [
   {
    "id": 28741951,
-   "note": "Only car matching every criterion: 2022 diesel auto, 47 051 km, +R12 185 under model, at trade-in-friendly KIA Ballito."
+   "note": "Best overall match: 2022 TechRoad auto diesel, 47,051 km, R249,900 (~R12,185 under model) at KIA Ballito — trade-in friendly dealer, ticks every box."
   },
   {
    "id": 28729328,
-   "note": "Biggest discount on the board (+R24 273): 2022 diesel Zen, 72 000 km, R209 990 — R40k under the comparable auto, if manual is acceptable."
+   "note": "Standout bargain: 2022 Zen diesel at R209,990 is ~R24,273 under model and the cheapest 2020+ diesel in KZN here; manual is the only compromise."
   },
   {
    "id": 28728171,
-   "note": "Newest, lowest-km diesel in budget: 2023 Zen, 44 460 km, +R12 761 under, at preferred Durban Multifranchise (KIA); manual only."
+   "note": "2023 Zen, 44,460 km, R244,900 (~R12,761 under) at Durban Multifranchise KIA — newest, lowest-km value play and ideal trade-in partner; manual."
   },
   {
-   "id": 28694134,
-   "note": "Top-trim 2023 Intens auto/diesel at KIA Pinetown, +R7 693 under model, but 91 345 km is close to the 100k cap."
+   "id": 28508505,
+   "note": "Top-spec 2023 Intens auto diesel, 86,000 km, R259,900 (~R7,622 under) at GWM Haval Mobeni — the pick if Intens trim + auto matter more than price; km is high-ish."
   }
  ],
- "alerts": [
-  "No new/dropped listings this run — 28729328 (+R24 273 under model) still unsold at R209 990."
- ],
- "generatedAt": "2026-10-31T12:00:53.015Z",
+ "alerts": [],
+ "generatedAt": "2026-10-31T12:01:40.456Z",
  "model": "zai-org/GLM-5.3-Flash"
 }
