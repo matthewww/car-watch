@@ -9,6 +9,9 @@ object per model:
 | `duster` | Renault Duster | ≤ R300 000, 2019+, ≤ 100 000 km |
 | `caddy` | VW Caddy | ≤ R300 000, ≤ 100 000 km (no year cap) |
 | `jimny` | Suzuki Jimny | ≤ R300 000, ≤ 100 000 km (no year cap; 5-door flagged) |
+| `seltos` | Kia Seltos | ≤ R300 000, 2019+, ≤ 100 000 km |
+| `creta` | Hyundai Creta | ≤ R300 000, 2019+, ≤ 100 000 km |
+| `hr-v` | Honda HR-V | ≤ R300 000, 2019+, ≤ 100 000 km |
 
 Trade-in context: the Duster purchase is funded by trading a 2014 Duster
 1.5 dCi 4x4; the Caddy/Jimny by trading a Peugeot 108.

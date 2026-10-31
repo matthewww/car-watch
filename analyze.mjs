@@ -28,6 +28,12 @@ const CRITERIA = {
     "hard caps: R300 000 and 100 000 km (funded partly by trading in a Peugeot 108); wants the LOWEST-PRICED mechanically viable options (panel van or Kombi); flag suspiciously cheap units as verify-carefully; multi-franchise dealers welcome for the trade",
   jimny:
     "hard caps: R300 000 and 100 000 km (funded partly by trading in a Peugeot 108); no year cap so older gens appear — wants LOWEST-PRICED mechanically viable options; prefers 2-door (3-door) Jimnys — call out 5-door models explicitly; multi-franchise dealers welcome for the trade",
+  seltos:
+    "same buyer as the duster search: Automatic, 2020+, considers any standout bargain; 433 L boot makes it boot-qualified; 1.6 petrol + 1.5CRDi diesel autos both relevant; trading in a 2014 Duster 1.5 dCi 4x4 — multi-franchise dealers preferred for the trade",
+  creta:
+    "same buyer as the duster search: Automatic, 2020+, considers any standout bargain; 433 L boot; note 2019-early-2020 cars are the older gen1 (400 L boot, 1.6 motors) vs gen2 1.5 — call that out when relevant; 1.5D/1.6D diesel autos are especially relevant; trading in a 2014 Duster 1.5 dCi 4x4",
+  "hr-v":
+    "few listings expected — Honda reliability is the draw; 2021-and-earlier = old gen (448 L boot + Magic Seats), the 2022+ hybrid is 304 L — call that out if one appears; CVT auto preferred; trading in a 2014 Duster 1.5 dCi 4x4",
 };
 
 try {
@@ -75,10 +81,10 @@ estUnder = Rands below a price model fitted on that search's current inventory (
 ${sections.join("\n\n")}
 
 Respond ONLY with JSON, no other text:
-{"searches": { "<key>": {"headline": "<one sentence: state of this market and the best move>",
-  "shortlist": [{"id": <id>, "note": "<one line: why this car for this buyer, with numbers>"}, ...max 4],
-  "alerts": ["<0-2 very short lines flagging changes worth a push notification>"]}, ... }}
-Provide an entry for EVERY search key above. Rank shortlists by desirability. Be concrete with numbers.`;
+{"searches": { "<key>": {"headline": "<one sentence, max 25 words: state of this market and the best move>",
+  "shortlist": [{"id": <id>, "note": "<max 20 words, with numbers>"}, ...max 3],
+  "alerts": ["<max 1 line, only if genuinely notable, else empty array>"]}, ... }}
+Provide an entry for EVERY search key above. Rank shortlists by desirability. Be concise — the response must fit comfortably in the token budget.`;
 
   const callModel = () =>
     fetch(`${BASE}/chat/completions`, {
@@ -87,7 +93,7 @@ Provide an entry for EVERY search key above. Rank shortlists by desirability. Be
       body: JSON.stringify({
         model: MODEL,
         temperature: 0.3,
-        max_tokens: 6000, // reasoning models spend some budget on reasoning_content
+        max_tokens: 10000, // reasoning models spend some budget on reasoning_content
         messages: [{ role: "user", content: prompt }],
       }),
       signal: AbortSignal.timeout(90000),

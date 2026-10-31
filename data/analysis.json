@@ -1,53 +1,105 @@
 {
- "generatedAt": "2026-10-31T14:02:50.707Z",
+ "generatedAt": "2026-10-31T14:28:51.628Z",
  "model": "zai-org/GLM-5.3-Flash",
  "searches": {
   "duster": {
-   "headline": "No new stock this run; the standout is the 2022 1.5dCi Zen at R209,990 (R24,273 under model) if manual is acceptable, while the 2022 TechRoad Auto at R249,900/47,051 km (+R12,185) is the best fit to the auto/diesel/2020+ brief at a trade-in-friendly multi-franchise.",
+   "headline": "Diesel autos span R195k-R285k; best-matched buy is 2022 TechRoad Auto R249990/47k km (R12.2k under); manual Zen is the bargain wildcard.",
    "shortlist": [
     {
-     "id": 28729328,
-     "note": "Standout bargain: 2022 1.5dCi Zen, R209,990 with 72,000 km — R24,273 under model, cheapest 2020+ diesel on the board; manual not auto, but the gap beats every auto here; Jetour Hillcrest is multi-franchise, better odds on the 2014 dCi 4x4 trade."
-    },
-    {
      "id": 28741951,
-     "note": "Best match to the brief: 2022 TechRoad Auto diesel, R249,900, 47,051 km, +R12,185 under model; KIA Ballito (multi-franchise) is the natural home for the 2014 4x4 trade-in."
+     "note": "2022 TechRoad Auto diesel, 47051 km, R249900, R12.2k under — matches every criterion."
     },
     {
-     "id": 28505612,
-     "note": "Cheapest auto diesel: 2019 Dynamique Auto, R195,000, 88,500 km, +R5,717 under model — one year below the 2020 target but ~R55k less than the 2022 autos; Super Auto is an independent, so get the trade-in quote in writing."
+     "id": 28729328,
+     "note": "2022 Zen diesel, 72000 km, R209990, R24.3k under — standout value but manual."
     },
     {
      "id": 28728171,
-     "note": "Near-new play: 2023 Zen, R244,900 with only 44,460 km, +R12,761 under model; manual, at Durban Multifranchise (KIA) — trade-in friendly if they want the newest car."
+     "note": "2023 Zen diesel, 44460 km, R244900, R12.8k under; Kia multi-franchise likely takes Duster trade."
     }
    ],
-   "alerts": []
+   "alerts": [
+    "Jetour Hillcrest 2022 Zen sits R24.3k under model — biggest gap in market; worth a manual-tolerance test drive."
+   ]
   },
   "caddy": {
-   "headline": "Baseline capture shows a thin market: one listing, a 2020 1.6 Crew Bus at R279,990 with 76,000 km — inside both caps with ~R20k headroom; expect cheaper panel vans to define the real market in future captures.",
+   "headline": "Thin market: single 2020 Crew Bus at R279990/76000 km fits both caps — verify condition and history before committing.",
    "shortlist": [
     {
      "id": 28784831,
-     "note": "Only option so far: 2020 1.6 Crew Bus (windowed Kombi-style, not a panel van), R279,990, 76,000 km — R20,010 under the price cap and 24,000 km under the km cap; treat as baseline, not a bargain, and verify mechanicals before committing."
+     "note": "2020 1.6 Crew Bus (Kombi-type), 76000 km, R279990 — only option; R20k headroom under cap."
+    }
+   ],
+   "alerts": [
+    "Crew Bus is a windowed Kombi-type, not a panel van — confirm it suits the need; no price benchmark exists."
+   ]
+  },
+  "jimny": {
+   "headline": "Three 3-door Jimnys under both caps; cheapest 2018 1.3 at R234890/86000 km; 2021 GLX with 25115 km is the low-km value pick.",
+   "shortlist": [
+    {
+     "id": 28780022,
+     "note": "Cheapest: 2018 1.3, 86000 km, R234890 — older gen, R65k under cap."
+    },
+    {
+     "id": 28687163,
+     "note": "2021 1.5 GLX AllGrip, 25115 km, R295995 — lowest km, just under cap."
+    },
+    {
+     "id": 28756433,
+     "note": "2020 1.5 GLX AllGrip, 78000 km, R289890 — middle option, R10k under cap."
+    }
+   ],
+   "alerts": [
+    "All three are 3-door; no 5-door Jimnys currently listed."
+   ]
+  },
+  "seltos": {
+   "headline": "Baseline: 22 Seltos captured; cheapest auto is 2021 1.6 EX R210000/100000 km (R37.7k under); expect alerts only on new or changed listings.",
+   "shortlist": [
+    {
+     "id": 28564368,
+     "note": "2021 1.6 EX Auto, 100000 km, R210000, R37.7k under — cheapest auto; km at limit."
+    },
+    {
+     "id": 28682451,
+     "note": "2021 1.6 EX manual, 93800 km, R189900, R44.9k under — biggest gap, but manual."
+    },
+    {
+     "id": 28818644,
+     "note": "2022 1.6 EX+ Auto, 97876 km, R234900, R13.7k under; multi-franchise suits Duster trade."
     }
    ],
    "alerts": []
   },
-  "jimny": {
-   "headline": "Baseline of three, all 2-door (no 5-doors in this capture): the 2018 1.3 at R234,890/86,000 km is the cheapest viable route, while new-gen GLX options crowd the R289,890–R295,995 top of the R300k cap.",
+  "creta": {
+   "headline": "Baseline: 26 Cretas captured; gen2 1.5 autos from R260k; 2024 Premium Auto R279999/40000 km (R26.9k under) leads; 2019s are gen1.",
    "shortlist": [
     {
-     "id": 28780022,
-     "note": "Cheapest viable: 2018 1.3 old-gen 2-door, R234,890, 86,000 km — R65,110 under the cap with 14,000 km of headroom; at this age/km budget for a thorough mechanical inspection."
+     "id": 28730217,
+     "note": "2024 1.5 Premium Auto, 40000 km, R279999, R26.9k under — newest, lowest-km auto."
     },
     {
-     "id": 28756433,
-     "note": "Newest-gen value: 2020 1.5 GLX AllGrip, R289,890, 78,000 km — R10,110 under the cap; Jetour Ballito is multi-franchise, useful for the Peugeot 108 trade."
+     "id": 28479041,
+     "note": "2021 1.6D Executive diesel auto, 98000 km, R249990, R15.6k under — cheapest diesel auto."
     },
     {
-     "id": 28687163,
-     "note": "Lowest km by far: 2021 GLX AllGrip, R295,995, 25,115 km — but only R4,005 under the cap and no dealer listed (likely private sale), which rules out the 108 trade-in."
+     "id": 28642521,
+     "note": "2021 1.5 Premium manual, 81000 km, R199990, R34.4k under — biggest bargain, but manual."
+    }
+   ],
+   "alerts": []
+  },
+  "hr-v": {
+   "headline": "Baseline: only two HR-Vs, both pre-2022 old gen with 448L boot and Magic Seats; 2021 Comfort auto R249990/57000 km is the pick.",
+   "shortlist": [
+    {
+     "id": 28564553,
+     "note": "2021 1.5 Comfort auto, 57000 km, R249990 — old gen, 448L boot + Magic Seats."
+    },
+    {
+     "id": 28803864,
+     "note": "2020 1.8 Elegance auto, 50000 km, R298900 — higher trim, R49k dearer."
     }
    ],
    "alerts": []
