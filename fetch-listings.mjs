@@ -84,6 +84,60 @@ function parseTileText(text) {
   return out;
 }
 
+/** Rough valuation: least-squares fit price ~ year, km, trim tier, auto, 4WD
+ * across the current live inventory (ridge-regularised, 16-ish points).
+ * Returns Map(id -> estUnder) where positive = cheaper than model expectation. */
+const TIER = [["expression", 0], ["zen", 1], ["dynamique", 2], ["techroad", 2.5], ["intens", 3]];
+const trimTier = (variant = "") =>
+  TIER.find(([k]) => variant.toLowerCase().includes(k))?.[1] ?? 1.5;
+
+function dealScores(listings) {
+  const rows = listings.filter((l) => l.price && l.year && l.km != null && !l.removedAt);
+  if (rows.length < 8) return null;
+  const feat = (l) => [
+    1,
+    l.year - 2019,
+    l.km / 10000,
+    l.transmission === "Automatic" ? 1 : 0,
+    trimTier(l.variant),
+    /4wd/i.test(l.variant ?? "") ? 1 : 0,
+  ];
+  const A = rows.map(feat);
+  const y = rows.map((l) => l.price);
+  const p = A[0].length;
+  const ata = Array.from({ length: p }, () => Array(p).fill(0));
+  const aty = Array(p).fill(0);
+  for (let i = 0; i < A.length; i++)
+    for (let a = 0; a < p; a++) {
+      aty[a] += A[i][a] * y[i];
+      for (let b = 0; b < p; b++) ata[a][b] += A[i][a] * A[i][b];
+    }
+  for (let a = 0; a < p; a++) ata[a][a] += 1e-3; // ridge for stability
+  const M = ata.map((r, i) => [...r, aty[i]]); // gaussian elimination
+  for (let col = 0; col < p; col++) {
+    let piv = col;
+    for (let r = col + 1; r < p; r++) if (Math.abs(M[r][col]) > Math.abs(M[piv][col])) piv = r;
+    [M[col], M[piv]] = [M[piv], M[col]];
+    for (let r = col + 1; r < p; r++) {
+      const f = M[r][col] / M[col][col];
+      for (let c = col; c <= p; c++) M[r][c] -= f * M[col][c];
+    }
+  }
+  const coef = Array(p).fill(0);
+  for (let r = p - 1; r >= 0; r--) {
+    coef[r] = M[r][p];
+    for (let c = r + 1; c < p; c++) coef[r] -= M[r][c] * coef[c];
+    coef[r] /= M[r][r];
+  }
+  const out = new Map();
+  rows.forEach((l, i) => {
+    let est = 0;
+    for (let a = 0; a < p; a++) est += A[i][a] * coef[a];
+    out.set(l.id, Math.round(est - l.price));
+  });
+  return out;
+}
+
 function parsePage(html) {
   const hrefRe = /href="(\/car-for-sale\/renault\/duster\/([a-z0-9-]+)\/(\d+))"/g;
   const marks = [...html.matchAll(hrefRe)];
@@ -157,6 +211,9 @@ const goneNow = prev.listings.filter((l) => !currentIds.has(l.id) && !l.removedA
 const gone = goneNow.map((l) => ({ ...l, removedAt: l.lastMissing ? iso : null, lastMissing: iso }));
 const all = [...listings, ...gone, ...prev.listings.filter((l) => l.removedAt)].slice(0, 200);
 
+const est = dealScores(listings);
+if (est) for (const l of listings) l.estUnder = est.get(l.id) ?? null;
+
 const newIds = current.filter(
   (l) => !prevIds.has(l.id) || (!prevById.get(l.id)?.price && l.price)
 );
@@ -166,7 +223,8 @@ for (const l of listings) {
   const last = l.priceHistory[l.priceHistory.length - 1];
   if (last && last.date === iso) (last.to < last.from ? drops : rises).push(l);
 }
-const goneConfirmed = gone.filter((l) => l.removedAt);
+const goneConfirmed = gone
+  .filter((l) => l.removedAt && (l.variant || l.price)); // phantoms never alerted
 
 const diff = {
   generatedAt: iso,
@@ -185,7 +243,10 @@ const byId = new Map(all.map((l) => [l.id, l]));
 const lines = [];
 for (const id of diff.new) {
   const l = byId.get(id);
-  if (l?.price) lines.push(`NEW  ${l.year ?? "?"} ${l.variant ?? l.trim}  R${l.price.toLocaleString("en-ZA")}  ${l.km?.toLocaleString("en-ZA") ?? "?"} km  ${l.dealer ?? ""} (${l.group})\n     ${l.url}`);
+  if (l?.price) {
+    const val = l.estUnder >= 8000 ? ` · ≈R${Math.round(l.estUnder / 1000)}k under` : "";
+    lines.push(`NEW  ${l.year ?? "?"} ${l.variant ?? l.trim}  R${l.price.toLocaleString("en-ZA")}  ${l.km?.toLocaleString("en-ZA") ?? "?"} km  ${l.dealer ?? ""} (${l.group})${val}\n     ${l.url}`);
+  }
 }
 for (const d of diff.dropped) {
   const l = byId.get(d.id);
@@ -197,7 +258,7 @@ for (const d of diff.increased) {
 }
 for (const id of diff.gone) {
   const l = prevById.get(id);
-  if (l) lines.push(`GONE ${l.year ?? "?"} ${l.variant ?? l.trim}  R${l.price?.toLocaleString("en-ZA") ?? "?"}  ${l.dealer ?? ""}\n     ${l.url}`);
+  if (l?.variant || l?.price) lines.push(`GONE ${l.year ?? "?"} ${l.variant ?? l.trim}  R${l.price?.toLocaleString("en-ZA") ?? "?"}  ${l.dealer ?? ""}\n     ${l.url}`);
 }
 if (lines.length) await writeFile(ALERT_FILE, lines.join("\n") + "\n");
 else await unlink(ALERT_FILE).catch(() => {});
@@ -207,5 +268,15 @@ console.log(`kept ${all.length} records incl. ${all.filter((l) => l.lastMissing 
 console.log(`changes: ${diff.total} (new ${diff.new.length}, dropped ${diff.dropped.length}, up ${diff.increased.length}, gone ${diff.gone.length})`);
 for (const g of [...new Set(listings.map((l) => l.group))]) {
   console.log(`  ${g}: ${listings.filter((l) => l.group === g).length}`);
+}
+if (est) {
+  const named = listings
+    .filter((l) => l.estUnder != null)
+    .map((l) => [l.estUnder, `${l.year} ${l.variant}`])
+    .sort((a, b) => b[0] - a[0]);
+  const tag = (e) =>
+    `${e[1]} — ≈R${Math.round(Math.abs(e[0]) / 1000)}k ${e[0] >= 0 ? "under" : "over"}`;
+  console.log(`  best value:  ${tag(named[0])}`);
+  console.log(`  worst value: ${tag(named[named.length - 1])}`);
 }
 if (lines.length) console.log(`alert written to data/alert.txt (${lines.length} items)`);

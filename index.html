@@ -40,6 +40,8 @@
   .b.flag-great { background:#dcfce7; color:#15803d; }
   .b.flag-fair  { background:#fef9c3; color:#a16207; }
   .b.flag-high  { background:#fee2e2; color:#b91c1c; }
+  .b.under { background:#dcfce7; color:#15803d; }
+  .b.over  { background:#ffedd5; color:#c2410c; }
   .b.new  { background:var(--new); color:#fff; }
   .b.drop { background:var(--drop); color:#fff; }
   .b.up   { background:#fef3c7; color:var(--up); }
@@ -64,10 +66,12 @@
   <select id="sort">
     <option value="price">Price ↑</option>
     <option value="price-desc">Price ↓</option>
+    <option value="value">Value ↑</option>
     <option value="km">km ↑</option>
     <option value="year">Year ↓</option>
   </select>
 </div>
+<div id="notes"></div>
 <main id="out"><div class="empty">Loading…</div></main>
 <footer>AutoTrader KZN · Duster · ≤R300k · 2019+ · ≤100 000 km — <a href="https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/renault/duster?price=less-than-300000&year=more-than-2019&mileage=less-than-100000">search</a></footer>
 
@@ -87,6 +91,10 @@ const FILTERS = {
 
 function badges(l) {
   let b = "";
+  if (l.estUnder != null && Math.abs(l.estUnder) >= 3000)
+    b += l.estUnder > 0
+      ? `<span class="b under" title="vs price model fitted on current inventory">≈${Math.round(l.estUnder / 1000)}k under</span>`
+      : `<span class="b over" title="vs price model fitted on current inventory">≈${Math.round(-l.estUnder / 1000)}k over</span>`;
   if (l.priceFlag) b += `<span class="b flag-${l.priceFlag.split(" ")[0].toLowerCase()}">${l.priceFlag}</span>`;
   const fresh = l.firstSeen && days(l.firstSeen) < 3;
   if (fresh && !l.removedAt) b += `<span class="b new">NEW</span>`;
@@ -118,6 +126,7 @@ function render() {
   const cmp = {
     price: (a, b) => (a.price ?? 9e9) - (b.price ?? 9e9),
     "price-desc": (a, b) => (b.price ?? 0) - (a.price ?? 0),
+    value: (a, b) => (b.estUnder ?? -9e9) - (a.estUnder ?? -9e9),
     km: (a, b) => (a.km ?? 9e9) - (b.km ?? 9e9),
     year: (a, b) => (b.year ?? 0) - (a.year ?? 0),
   }[sort];
@@ -162,6 +171,27 @@ fetch("data/listings.json", { cache: "no-store" })
     }
     localStorage.setItem("duster-last-visit", String(Date.now()));
     render();
+    // optional LLM analyst notes (data/analysis.json only exists when configured)
+    fetch("data/analysis.json", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((a) => {
+        if (!a?.headline) return;
+        const byId = new Map(data.listings.map((l) => [String(l.id), l]));
+        const el = document.createElement("details");
+        el.className = "group";
+        el.open = true;
+        el.innerHTML = `<summary><span>Analyst notes <small style="font-weight:400;color:var(--mut)">· ${a.model ?? ""} · ${new Date(a.generatedAt).toLocaleString("en-ZA", { dateStyle: "short", timeStyle: "short" })}</small></span></summary>
+          <div class="card" style="cursor:default"><div class="spec" style="font-size:13px">${a.headline}</div></div>`
+          + (a.shortlist ?? []).map((s) => {
+              const l = byId.get(String(s.id));
+              if (!l) return "";
+              return `<a class="card" href="${l.url}" target="_blank" rel="noopener">
+                <div class="row1"><span class="title">${l.year ?? "?"} ${l.variant ?? l.trim}</span><span class="price">${fmt(l.price)}</span></div>
+                <div class="spec">${s.note}</div></a>`;
+            }).join("");
+        document.getElementById("notes").replaceChildren(el);
+      })
+      .catch(() => {});
   })
   .catch(() => { document.getElementById("out").innerHTML = '<div class="empty">Could not load data/listings.json — run <code>node fetch-listings.mjs</code> first.</div>'; });
 

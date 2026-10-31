@@ -20,6 +20,12 @@ jobs:
       - name: Fetch listings
         run: node fetch-listings.mjs
 
+      - name: LLM analyst (optional — runs only if ANALYZE_API_KEY secret is set)
+        env:
+          ANALYZE_API_KEY: ${{ secrets.ANALYZE_API_KEY }}
+          ANALYZE_MODEL: ${{ vars.ANALYZE_MODEL }}
+        run: node analyze.mjs
+
       - name: Commit data
         run: |
           git config user.name "duster-watch-bot"
