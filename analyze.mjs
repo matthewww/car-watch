@@ -155,7 +155,8 @@ If none are worth adding, return an empty shortlist and say why in the headline.
     const a = parsed.searches[key] ?? {};
     out.searches[key] = { headline: a.headline ?? "", shortlist: a.shortlist ?? [], alerts: a.alerts ?? [] };
     if (a.headline) console.log(`analyst [${s.label}]: ${a.headline}`);
-    if (diff.total && !diff.searches?.[key]?.baseline && Array.isArray(a.alerts)) {
+    const d = diff.searches?.[key] ?? { total: 0, baseline: false };
+    if (d.total && !d.baseline && Array.isArray(a.alerts)) {
       for (const line of a.alerts.slice(0, 1)) {
         alertNew.push(`[${byLabel.get(key) ?? key}] ${line}`);
       }
