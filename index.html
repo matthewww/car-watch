@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Duster Watch — KZN</title>
+<style>
+  :root { --ink:#1a1d21; --mut:#6b7280; --line:#e5e7eb; --bg:#f6f7f8; --card:#fff;
+          --new:#2563eb; --drop:#059669; --up:#b45309; --gone:#9ca3af; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  header { position:sticky; top:0; z-index:9; background:var(--card); border-bottom:1px solid var(--line);
+           padding:10px 14px 8px; }
+  h1 { font-size:17px; margin:0; display:flex; justify-content:space-between; align-items:baseline; }
+  h1 small { font-weight:400; color:var(--mut); font-size:12px; }
+  #banner { display:none; margin-top:6px; font-size:13px; padding:6px 10px; border-radius:8px;
+            background:#eff6ff; color:var(--new); }
+  .controls { padding:8px 14px; display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+  .chips { display:flex; gap:6px; overflow-x:auto; flex:1; scrollbar-width:none; }
+  .chip { border:1px solid var(--line); background:var(--card); border-radius:999px;
+          padding:5px 12px; font-size:13px; white-space:nowrap; cursor:pointer; }
+  .chip.on { background:var(--ink); color:#fff; border-color:var(--ink); }
+  select { border:1px solid var(--line); border-radius:8px; padding:5px 6px; font-size:13px; background:var(--card); }
+  main { padding:0 14px 40px; }
+  details.group { background:var(--card); border:1px solid var(--line); border-radius:12px; margin:10px 0; }
+  details.group > summary { padding:10px 14px; font-weight:600; font-size:14px; cursor:pointer;
+                            list-style:none; display:flex; justify-content:space-between; }
+  details.group > summary::-webkit-details-marker { display:none; }
+  details.group > summary::after { content:"▾"; color:var(--mut); }
+  details.group[open] > summary::after { content:"▴"; }
+  .card { display:block; border-top:1px solid var(--line); padding:10px 14px; text-decoration:none; color:inherit; }
+  .row1 { display:flex; justify-content:space-between; gap:8px; align-items:baseline; }
+  .price { font-weight:700; font-size:17px; white-space:nowrap; }
+  .title { font-size:14px; }
+  .spec { color:var(--mut); font-size:12.5px; margin-top:2px; }
+  .deal { font-size:12.5px; margin-top:3px; }
+  .b { display:inline-block; font-size:11px; font-weight:600; border-radius:5px; padding:1px 6px;
+       margin-right:4px; vertical-align:1px; }
+  .b.flag-great { background:#dcfce7; color:#15803d; }
+  .b.flag-fair  { background:#fef9c3; color:#a16207; }
+  .b.flag-high  { background:#fee2e2; color:#b91c1c; }
+  .b.new  { background:var(--new); color:#fff; }
+  .b.drop { background:var(--drop); color:#fff; }
+  .b.up   { background:#fef3c7; color:var(--up); }
+  .gone { opacity:.45; }
+  .gone .price { text-decoration:line-through; }
+  footer { text-align:center; color:var(--mut); font-size:12px; padding:12px; }
+  .empty { color:var(--mut); font-size:13px; padding:20px; text-align:center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Duster Watch <small id="updated"></small></h1>
+  <div id="banner"></div>
+</header>
+<div class="controls">
+  <div class="chips" id="chips">
+    <button class="chip on" data-f="all">All</button>
+    <button class="chip" data-f="auto">Auto only</button>
+    <button class="chip" data-f="2020">2020+</button>
+    <button class="chip" data-f="deal">Auto + 2020+</button>
+  </div>
+  <select id="sort">
+    <option value="price">Price ↑</option>
+    <option value="price-desc">Price ↓</option>
+    <option value="km">km ↑</option>
+    <option value="year">Year ↓</option>
+  </select>
+</div>
+<main id="out"><div class="empty">Loading…</div></main>
+<footer>AutoTrader KZN · Duster · ≤R300k · 2019+ · ≤100 000 km — <a href="https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/renault/duster?price=less-than-300000&year=more-than-2019&mileage=less-than-100000">search</a></footer>
+
+<script>
+const GROUP_ORDER = ["Durban", "Hillcrest & Pinetown", "Pietermaritzburg", "North Coast & Outer", "Other"];
+const GROUP_SHORT = { "Hillcrest & Pinetown": "Hillcrest/Pinetown", "North Coast & Outer": "N-Coast/Outer" };
+const fmt = (n) => n == null ? "?" : "R" + n.toLocaleString("en-ZA");
+const days = (iso) => (Date.now() - Date.parse(iso)) / 864e5;
+let filter = "all", sort = "price", data = null;
+
+const FILTERS = {
+  all: (l) => !l.removedAt,
+  auto: (l) => !l.removedAt && l.transmission === "Automatic",
+  "2020": (l) => !l.removedAt && (l.year ?? 0) >= 2020,
+  deal: (l) => !l.removedAt && l.transmission === "Automatic" && (l.year ?? 0) >= 2020,
+};
+
+function badges(l) {
+  let b = "";
+  if (l.priceFlag) b += `<span class="b flag-${l.priceFlag.split(" ")[0].toLowerCase()}">${l.priceFlag}</span>`;
+  const fresh = l.firstSeen && days(l.firstSeen) < 3;
+  if (fresh && !l.removedAt) b += `<span class="b new">NEW</span>`;
+  const last = l.priceHistory?.[l.priceHistory.length - 1];
+  if (last && last.to < last.from && days(last.date) < 7)
+    b += `<span class="b drop">↓${fmt(last.from - last.to)}</span>`;
+  if (last && last.to > last.from && days(last.date) < 7)
+    b += `<span class="b up">↑</span>`;
+  if (l.removedAt) b += `<span class="b" style="background:var(--gone);color:#fff">GONE</span>`;
+  return b;
+}
+
+function card(l) {
+  const hist = (l.priceHistory ?? []).map((h) => `${h.date.slice(0, 10)}: ${fmt(h.from)} → ${fmt(h.to)}`).join("\n");
+  const spec = [l.condition, l.km != null ? l.km.toLocaleString("en-ZA") + " km" : null,
+                l.transmission, l.fuel].filter(Boolean).join(" · ");
+  const deal = [l.dealer, l.area].filter(Boolean).join(" — ")
+    + (l.dealerRating != null ? ` · ⭐${l.dealerRating} (${l.dealerReviews})` : "");
+  return `<a class="card${l.removedAt ? " gone" : ""}" href="${l.url}" target="_blank" rel="noopener">
+    <div class="row1"><span class="title">${l.year ?? "?"} ${l.variant ?? l.trim ?? "?"}</span>
+      <span class="price">${fmt(l.price)}</span></div>
+    <div class="spec">${spec}${l.incomplete ? " · <em>details not rendered by source</em>" : ""}</div>
+    <div class="deal">${deal}</div>
+    <div style="margin-top:4px">${badges(l)}</div></a>`;
+}
+
+function render() {
+  const live = data.listings.filter(FILTERS[filter]);
+  const cmp = {
+    price: (a, b) => (a.price ?? 9e9) - (b.price ?? 9e9),
+    "price-desc": (a, b) => (b.price ?? 0) - (a.price ?? 0),
+    km: (a, b) => (a.km ?? 9e9) - (b.km ?? 9e9),
+    year: (a, b) => (b.year ?? 0) - (a.year ?? 0),
+  }[sort];
+  const groups = GROUP_ORDER.map((g) => ({ name: g, items: live.filter((l) => (l.group ?? "Other") === g).sort(cmp) }));
+  if (live.length && groups.every((g) => !g.items.length))
+    groups.push({ name: "Unmatched area", items: live.filter((l) => !GROUP_ORDER.includes(l.group)).sort(cmp) });
+  const removedRecent = data.listings
+    .filter((l) => l.removedAt && days(l.removedAt) < 7)
+    .sort(cmp);
+  document.getElementById("out").innerHTML = groups
+    .filter((g) => g.items.length)
+    .map((g) => {
+      const prices = g.items.filter((l) => l.price).map((l) => l.price);
+      const range = prices.length ? `R${Math.min(...prices).toLocaleString("en-ZA")}–${Math.max(...prices).toLocaleString("en-ZA")}` : "";
+      const label = GROUP_SHORT[g.name] ?? g.name;
+      return `<details class="group" open><summary><span>${label} <small style="font-weight:400;color:var(--mut)">(${g.items.length})</small></span><small style="font-weight:400;color:var(--mut)">${range}</small></summary>
+        ${g.items.map(card).join("")}</details>`;
+    })
+    .join("")
+    + (filter === "all" && removedRecent.length
+      ? `<details class="group"><summary><span>Recently removed <small style="font-weight:400;color:var(--mut)">(${removedRecent.length})</small></span></summary>${removedRecent.map(card).join("")}</details>`
+      : "")
+    || `<div class="empty">Nothing matches this filter right now.</div>`;
+}
+
+fetch("data/listings.json", { cache: "no-store" })
+  .then((r) => r.json())
+  .then((d) => {
+    data = d;
+    document.getElementById("updated").textContent =
+      "updated " + new Date(d.generatedAt).toLocaleString("en-ZA", { dateStyle: "medium", timeStyle: "short" });
+    const last = localStorage.getItem("duster-last-visit");
+    if (last) {
+      const fresh = d.listings.filter((l) => !l.removedAt && Date.parse(l.firstSeen) > Date.parse(last));
+      const drops = d.listings.filter((l) => (l.priceHistory ?? []).some(
+        (h) => h.to < h.from && Date.parse(h.date) > Date.parse(last)));
+      if (fresh.length || drops.length) {
+        const el = document.getElementById("banner");
+        el.style.display = "block";
+        el.textContent = `Since your last visit: ${fresh.length} new · ${drops.length} price drop${drops.length == 1 ? "" : "s"}`;
+      }
+    }
+    localStorage.setItem("duster-last-visit", String(Date.now()));
+    render();
+  })
+  .catch(() => { document.getElementById("out").innerHTML = '<div class="empty">Could not load data/listings.json — run <code>node fetch-listings.mjs</code> first.</div>'; });
+
+document.getElementById("chips").addEventListener("click", (e) => {
+  if (!e.target.dataset.f) return;
+  filter = e.target.dataset.f;
+  for (const c of document.querySelectorAll(".chip")) c.classList.toggle("on", c === e.target);
+  render();
+});
+document.getElementById("sort").addEventListener("change", (e) => { sort = e.target.value; render(); });
+</script>
+</body>
+</html>
