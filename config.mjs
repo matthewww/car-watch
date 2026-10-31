@@ -93,6 +93,15 @@ export const SEARCHES = [
     priceCap: 300000,
     pageCap: 8,
   },
+  {
+    key: "proton-x70",
+    make: "proton",
+    model: "x70",
+    label: "Proton X70",
+    filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
+    priceCap: 300000,
+    pageCap: 8,
+  },
 ];
 
 /** Verified/quoted boot litres, seats up (SA spec sheets + reviews where possible).
@@ -114,7 +123,7 @@ export const BOOT_LITRES = {
   "chery/tiggo-8-pro": "448 (7-seat)", "mitsubishi/xpander": "200 up / ~700 folded",
   "citroen/basalt": "470 (unverified)", "opel/mokka": 350, "fiat/500x": 350,
   "suzuki/dzire": "378 (sedan)", "mahindra/xuv-3xo": "240-300", "nissan/x-trail": "565-585",
-  "mazda/mazda3": "508 (sedan)", "kia/pegas": "475 (sedan)", "honda/brio": 258,
+  "mazda/mazda3": "508 (sedan)", "kia/pegas": "475 (sedan)", "proton/x70": 515, "proton/x50": 330, "honda/brio": 258,
   "honda/amaze": "420 (sedan)", "toyota/agya": 200, "suzuki/ertiga": "550 (last row down)",
   "hyundai/exter": "unknown", "chery/tiggo-cross": "unknown", "changan/alsvin": "unknown",
   "baic/beijing-x55": "unknown", "toyota/vitz": "unknown", "hyundai/atos": "unknown",

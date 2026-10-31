@@ -298,19 +298,19 @@ for (const s of SEARCHES) {
     const l = merged.find((x) => x.id === id);
     if (baseline || !l?.price) continue;
     const val = l.estUnder >= 8000 ? ` · ≈R${Math.round(l.estUnder / 1000)}k under` : "";
-    alertLines.push(`[${L}] NEW  ${l.year ?? "?"} ${l.variant ?? l.trim}  R${l.price.toLocaleString("en-ZA")}  ${l.km?.toLocaleString("en-ZA") ?? "?"} km  ${l.dealer ?? ""} (${l.group})${val}\n      ${l.url}`);
+    alertLines.push(`- **[${L}] NEW** · [${l.year ?? "?"} ${l.variant ?? l.trim} — R${l.price.toLocaleString("en-ZA")} · ${l.km?.toLocaleString("en-ZA") ?? "?"} km · ${l.dealer ?? l.group ?? ""}](${l.url})${val}`);
   }
   for (const d of diffs[s.key].dropped) {
     const l = merged.find((x) => x.id === d.id);
-    if (l) alertLines.push(`[${L}] DROP R${d.from.toLocaleString("en-ZA")} -> R${d.to.toLocaleString("en-ZA")}  ${l.year ?? "?"} ${l.variant ?? l.trim}  ${l.dealer ?? ""}\n      ${l.url}`);
+    if (l) alertLines.push(`- **[${L}] DROP** R${d.from.toLocaleString("en-ZA")} → R${d.to.toLocaleString("en-ZA")} — [${l.year ?? "?"} ${l.variant ?? l.trim} · ${l.dealer ?? ""}](${l.url})`);
   }
   for (const d of diffs[s.key].increased) {
     const l = merged.find((x) => x.id === d.id);
-    if (l) alertLines.push(`[${L}] UP   R${d.from.toLocaleString("en-ZA")} -> R${d.to.toLocaleString("en-ZA")}  ${l.year ?? "?"} ${l.variant ?? l.trim}  ${l.dealer ?? ""}\n      ${l.url}`);
+    if (l) alertLines.push(`- **[${L}] UP** R${d.from.toLocaleString("en-ZA")} → R${d.to.toLocaleString("en-ZA")} — [${l.year ?? "?"} ${l.variant ?? l.trim} · ${l.dealer ?? ""}](${l.url})`);
   }
   for (const id of diffs[s.key].gone) {
     const l = prevById.get(id);
-    if (l) alertLines.push(`[${L}] GONE ${l.year ?? "?"} ${l.variant ?? l.trim}  R${l.price?.toLocaleString("en-ZA") ?? "?"}  ${l.dealer ?? ""}\n      ${l.url}`);
+    if (l) alertLines.push(`- **[${L}] GONE** ${l.year ?? "?"} ${l.variant ?? l.trim} — R${l.price?.toLocaleString("en-ZA") ?? "?"} · ${l.dealer ?? ""}`);
   }
 
   searches[s.key] = {

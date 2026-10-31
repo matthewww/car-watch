@@ -1,6 +1,8 @@
 name: push-alert
 # Relays the fetcher's alert file to ntfy whenever a scheduled local run
 # pushes changed data (runs only when data/alert.txt itself changed).
+# alert.txt is markdown — rendered by the ntfy app (X-Markdown), with the
+# first listing URL set as the notification's tap target.
 on:
   push:
     branches: [main]
@@ -19,7 +21,8 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: |
           if [ -s data/alert.txt ]; then
-            curl -sf -T data/alert.txt \
-              -H "Title: Car watch update" -H "Tags: car" \
-              "https://ntfy.sh/${NTFY_TOPIC}"
+            CLICK=$(grep -o 'https://[^) ]*' data/alert.txt | head -1)
+            ARGS=(-H "Title: Car watch update" -H "Tags: car" -H "X-Markdown: true")
+            [ -n "$CLICK" ] && ARGS+=(-H "Click: $CLICK")
+            curl -sf -T data/alert.txt "${ARGS[@]}" "https://ntfy.sh/${NTFY_TOPIC}"
           fi

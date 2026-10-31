@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-31T18:19:45.199Z",
- "total": 21,
+ "generatedAt": "2026-10-31T18:26:11.234Z",
+ "total": 7,
  "searches": {
   "duster": {
    "total": 0,
@@ -35,14 +35,12 @@
    "gone": []
   },
   "creta": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": [
-    "28433155"
-   ]
+   "gone": []
   },
   "hr-v": {
    "total": 0,
@@ -61,47 +59,40 @@
    "gone": []
   },
   "mg-zs": {
-   "total": 9,
-   "baseline": true,
-   "new": [
-    "28817670",
-    "28711221",
-    "28771843",
-    "28709642",
-    "28641536",
-    "28742202",
-    "28557318",
-    "28469130",
-    "28260879"
-   ],
+   "total": 0,
+   "baseline": false,
+   "new": [],
    "dropped": [],
    "increased": [],
    "gone": []
   },
   "haval-h6": {
-   "total": 6,
-   "baseline": true,
-   "new": [
-    "28522952",
-    "28560950",
-    "28817203",
-    "28802154",
-    "28731026",
-    "28626123"
-   ],
+   "total": 0,
+   "baseline": false,
+   "new": [],
    "dropped": [],
    "increased": [],
    "gone": []
   },
   "peugeot-2008": {
-   "total": 5,
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "proton-x70": {
+   "total": 7,
    "baseline": true,
    "new": [
-    "28768682",
-    "28339967",
-    "28789628",
-    "28193582",
-    "28710066"
+    "28604114",
+    "28118381",
+    "28049100",
+    "28049099",
+    "27777826",
+    "28029154",
+    "28039173"
    ],
    "dropped": [],
    "increased": [],

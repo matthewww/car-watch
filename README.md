@@ -16,6 +16,7 @@ object per model:
 | `mg-zs` | MG ZS | ≤ R300 000, 2019+, ≤ 100 000 km |
 | `haval-h6` | Haval H6 | ≤ R300 000, 2019+, ≤ 100 000 km |
 | `peugeot-2008` | Peugeot 2008 | ≤ R300 000, 2019+, ≤ 100 000 km |
+| `proton-x70` | Proton X70 | ≤ R300 000, 2019+, ≤ 100 000 km |
 
 Trade-in context: the Duster purchase is funded by trading a 2014 Duster
 1.5 dCi 4x4; the Caddy/Jimny by trading a Peugeot 108.

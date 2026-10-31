@@ -42,6 +42,8 @@ const CRITERIA = {
     "560 L boot, C-SUV class bigger than the duster; 2.0T 7DCT or HEV, fuel ~9.8 L/100 km; GWM/Haval multi-franchise dealers are good trade candidates; 2021-22 units may retain 5-yr/100k warranty; resale unproven",
   "peugeot-2008":
     "434 L boot, 2020+ gen2 only (all in-cap autos are 6AT); PureTech 1.2T wet-belt engine — service history is critical; strong cabin; resale knock; trading in a 2014 Duster 1.5 dCi 4x4",
+  "proton-x70":
+    "512-515 L boot qualifies; big C-SUV (4.53 m); 1.5T 7-speed wet-clutch DCT — check heat behaviour in traffic; Proton SA 5-yr warranty; launched late 2020 so 2021-22 units sit under R300k; CMH Proton group dealers for trade; trading in a 2014 Duster 1.5 dCi 4x4",
 };
 
 async function askModel(prompt, maxTokens) {
@@ -133,7 +135,7 @@ ${batch.map((k) => sectionsByKey[k]).join("\n\n")}
 Respond ONLY with JSON, no other text:
 {"searches": { "<key>": {"headline": "<one sentence, max 25 words: state of this market and the best move>",
   "shortlist": [{"id": <id>, "note": "<max 20 words, with numbers>"}, ...max 3],
-  "alerts": ["<max 1 line, only if genuinely notable, else empty array>"]}, ... }}
+  "alerts": [{"id": <id of the listing the note is about, or null>, "line": "<max 12 words>"}, ...max 1] }, ... }}
 Provide an entry for EVERY search key above (${batch.join(", ")}). Rank shortlists by desirability. Be concise — the response must fit comfortably in the token budget.`;
 
     const parsed = await askModel(prompt, 10000);
@@ -145,8 +147,12 @@ Provide an entry for EVERY search key above (${batch.join(", ")}). Rank shortlis
       if (a.headline) console.log(`analyst [${s.label}]: ${a.headline}`);
       const d = diff.searches?.[key] ?? { total: 0, baseline: false };
       if (d.total && !d.baseline && Array.isArray(a.alerts)) {
-        for (const line of a.alerts.slice(0, 1)) {
-          alertNew.push(`[${s.label}] ${line}`);
+        for (const al of a.alerts.slice(0, 1)) {
+          // analyst alert lines get a link when they reference a known listing id
+          const line = typeof al === "string" ? al : (al?.line ?? "");
+          const lid = typeof al === "object" && al?.id != null ? String(al.id) : null;
+          const url = lid ? s.listings.find((x) => String(x.id) === lid)?.url : null;
+          alertNew.push(`- **[${s.label}]** ${line}${url ? ` — [view](${url})` : ""}`);
         }
       }
     }

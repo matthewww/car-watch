@@ -23,7 +23,7 @@ const PAGE_CAP = 10; // deep enough that big makes (toyota/hyundai ~350-675 in-c
 const MAKES = [
   "baic", "bmw", "chery", "changan", "citroen", "fiat", "ford", "gwm", "haval",
   "honda", "hyundai", "isuzu", "jeep", "jetour", "kia", "mahindra", "mazda",
-  "mg", "mitsubishi", "nissan", "omoda", "opel", "peugeot", "renault",
+  "mg", "mitsubishi", "nissan", "omoda", "opel", "peugeot", "proton", "renault",
   "suzuki", "toyota", "volkswagen",
 ];
 
