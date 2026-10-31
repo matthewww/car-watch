@@ -29,6 +29,17 @@ $out = node analyze.mjs 2>&1
 $out | Out-File -Append -Encoding utf8 $log
 if ($LASTEXITCODE -ne 0) { Log "FAILED: analyze exited $LASTEXITCODE"; exit 1 }
 
+# discovery: weekly make-level census sweep (piggyback, non-fatal)
+$discFile = Join-Path $PSScriptRoot "data\discovery.json"
+$discStale = $true
+if (Test-Path $discFile) { $discStale = ((Get-Date) - (Get-Item $discFile).LastWriteTime) -gt (New-TimeSpan -Days 7) }
+if ($discStale) {
+  Log "discovery: weekly sweep"
+  $out = node discover.mjs 2>&1
+  $out | Out-File -Append -Encoding utf8 $log
+  if ($LASTEXITCODE -ne 0) { Log "discovery failed (non-fatal)" }
+}
+
 git add data
 git diff --cached --quiet
 if ($LASTEXITCODE -ne 0) {

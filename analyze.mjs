@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 /**
  * Optional LLM analyst — runs after fetch-listings.mjs when ANALYZE_API_KEY is
- * set (exits silently otherwise). Reads data/listings.json + data/diff.json,
- * asks the model for a ranked shortlist per search, writes
- * data/analysis.json: { generatedAt, model, searches: { key: { headline,
- * shortlist, alerts } } } and appends prefixed alert lines to data/alert.txt.
- * Non-fatal: always exits 0 so a model outage never breaks the data pipeline.
+ * set (exits silently otherwise). Two API calls:
+ *   1. per-search ranked shortlists -> data/analysis.json: searches.{key}
+ *   2. if a fresh discovery sweep exists: candidate-model ranking -> analysis.discovery
+ * Also appends prefixed alert lines to data/alert.txt. Non-fatal: always exits 0.
  * Config (env): ANALYZE_API_KEY, ANALYZE_BASE_URL (default Together AI),
- *               ANALYZE_MODEL (default zai-org/GLM-5.3-Flash, ~3c/day at 4 runs)
+ *               ANALYZE_MODEL (default zai-org/GLM-5.3-Flash, ~3c/day)
  */
 import { readFile, writeFile, unlink } from "node:fs/promises";
 
@@ -36,12 +35,59 @@ const CRITERIA = {
     "few listings expected — Honda reliability is the draw; 2021-and-earlier = old gen (448 L boot + Magic Seats), the 2022+ hybrid is 304 L — call that out if one appears; CVT auto preferred; trading in a 2014 Duster 1.5 dCi 4x4",
 };
 
+async function askModel(prompt, maxTokens) {
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const res = await fetch(`${BASE}/chat/completions`, {
+      method: "POST",
+      headers: { authorization: `Bearer ${KEY}`, "content-type": "application/json" },
+      body: JSON.stringify({
+        model: MODEL,
+        temperature: 0.3,
+        max_tokens: maxTokens, // reasoning models spend some budget on reasoning_content
+        messages: [{ role: "user", content: prompt }],
+      }),
+      signal: AbortSignal.timeout(90000),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status} from ${BASE}`);
+    const content = String((await res.json()).choices?.[0]?.message?.content ?? "");
+    if (process.env.ANALYZE_DEBUG) {
+      console.log(`debug content (${content.length} chars):`, JSON.stringify(content.slice(0, 300)));
+    }
+    const fenced = content.match(/```(?:json)?\s*([\s\S]*?)```/);
+    const jsonish = (fenced ? fenced[1] : content).match(/\{[\s\S]*\}/);
+    if (jsonish) {
+      const raw = jsonish[0];
+      for (const candidate of [raw, raw.replace(/,\s*([}\]])/g, "$1")]) {
+        try { return JSON.parse(candidate); } catch {}
+      }
+    }
+    if (attempt < 2) {
+      console.log("analyst: empty/invalid response, retrying");
+      await new Promise((r) => setTimeout(r, 2000));
+    }
+  }
+  return null;
+}
+
 try {
   const data = (await readJsonSafe("data/listings.json")) ?? { searches: {} };
   let diff = { total: 0, searches: {} };
   try { diff = (await readJsonSafe("data/diff.json")) ?? diff; } catch {}
+  const discovery = (await readJsonSafe("data/discovery.json")) ?? null;
   if (!Object.keys(data.searches ?? {}).length) throw new Error("no searches in listings.json");
 
+  // nothing changed anywhere and we produced a fresh analysis recently -> skip,
+  // unless a discovery sweep just landed (then rank the candidates)
+  const discFresh = discovery?.generatedAt && Date.now() - Date.parse(discovery.generatedAt) < 26 * 3600e3;
+  if (!diff.total && !discFresh) {
+    const prevA = await readJsonSafe("data/analysis.json");
+    if (prevA?.generatedAt && Date.now() - Date.parse(prevA.generatedAt) < 22 * 3600e3) {
+      console.log("analyst: no changes and analysis <22h old — skipped");
+      process.exit(0);
+    }
+  }
+
+  // ---- call 1: per-search shortlists -------------------------------------
   const sections = [];
   for (const [key, s] of Object.entries(data.searches)) {
     const live = s.listings.filter((l) => !l.removedAt && l.price);
@@ -66,16 +112,7 @@ try {
     );
   }
 
-  // nothing changed anywhere and we produced a fresh analysis recently -> skip
-  if (!diff.total) {
-    const prevA = await readJsonSafe("data/analysis.json");
-    if (prevA?.generatedAt && Date.now() - Date.parse(prevA.generatedAt) < 22 * 3600e3) {
-      console.log("analyst: no changes and analysis <22h old — skipped");
-      process.exit(0);
-    }
-  }
-
-  const prompt = `You are a used-car buying analyst watching several AutoTrader KZN searches for one buyer.
+  const mainPrompt = `You are a used-car buying analyst watching several AutoTrader KZN searches for one buyer.
 estUnder = Rands below a price model fitted on that search's current inventory (positive = good value). Use it, km and year in your reasoning.
 
 ${sections.join("\n\n")}
@@ -86,42 +123,29 @@ Respond ONLY with JSON, no other text:
   "alerts": ["<max 1 line, only if genuinely notable, else empty array>"]}, ... }}
 Provide an entry for EVERY search key above. Rank shortlists by desirability. Be concise — the response must fit comfortably in the token budget.`;
 
-  const callModel = () =>
-    fetch(`${BASE}/chat/completions`, {
-      method: "POST",
-      headers: { authorization: `Bearer ${KEY}`, "content-type": "application/json" },
-      body: JSON.stringify({
-        model: MODEL,
-        temperature: 0.3,
-        max_tokens: 10000, // reasoning models spend some budget on reasoning_content
-        messages: [{ role: "user", content: prompt }],
-      }),
-      signal: AbortSignal.timeout(90000),
-    });
-
-  let parsed = null;
-  for (let attempt = 1; attempt <= 2 && !parsed; attempt++) {
-    const res = await callModel();
-    if (!res.ok) throw new Error(`HTTP ${res.status} from ${BASE}`);
-    const content = String((await res.json()).choices?.[0]?.message?.content ?? "");
-    if (process.env.ANALYZE_DEBUG) {
-      console.log(`debug content (${content.length} chars):`, JSON.stringify(content.slice(0, 400)));
-    }
-    const fenced = content.match(/```(?:json)?\s*([\s\S]*?)```/);
-    const jsonish = (fenced ? fenced[1] : content).match(/\{[\s\S]*\}/);
-    if (jsonish) {
-      const raw = jsonish[0];
-      for (const candidate of [raw, raw.replace(/,\s*([}\]])/g, "$1")]) { // strict, then trailing-comma-tolerant
-        try { parsed = JSON.parse(candidate); break; } catch {}
-      }
-    }
-    if (!parsed && attempt < 2) {
-      console.log("analyst: empty/invalid response, retrying");
-      await new Promise((r) => setTimeout(r, 2000));
-    }
-  }
+  const parsed = await askModel(mainPrompt, 10000);
   if (!parsed?.searches) throw new Error("model returned no per-search JSON after retry");
 
+  // ---- call 2: discovery candidate ranking (only when a fresh sweep exists)
+  let discResult = null;
+  if (discovery?.candidates?.length) {
+    const cands = discovery.candidates.slice(0, 12).map((c) => ({
+      key: c.key, count: c.count, autos: c.autos, min: c.min, max: c.max,
+    }));
+    const discPrompt = `You are a used-car buying analyst. A weekly AutoTrader KZN sweep found models NOT currently
+watched by the buyer (standard filters: ≤R300 000, ≤100 000 km, 2019+, KZN only).
+Buyer lens: compact-SUV/van shape matters — boot ≥430 L is the established bar; reliability and dealer network valued; autos preferred.
+Candidates: ${JSON.stringify(cands)}
+
+Rank which (if any) are worth ADDING as a watched search, with boot-size caveats where relevant.
+Respond ONLY with JSON, no other text:
+{"headline": "<max 25 words>", "shortlist": [{"id": "<make/model key>", "note": "<max 20 words>"}, ...max 3]}
+If none are worth adding, return an empty shortlist and say why in the headline.`;
+    discResult = await askModel(discPrompt, 3000);
+    if (discResult?.headline) console.log(`analyst [discovery]: ${discResult.headline}`);
+  }
+
+  // ---- merge, write, alert ------------------------------------------------
   const byLabel = new Map(Object.entries(data.searches).map(([k, v]) => [k, v.label]));
   const out = { generatedAt: new Date().toISOString(), model: MODEL, searches: {} };
   const alertNew = [];
@@ -135,9 +159,14 @@ Provide an entry for EVERY search key above. Rank shortlists by desirability. Be
       }
     }
   }
+  out.discovery = discResult;
 
   const prevAnalysis = await readJsonSafe("data/analysis.json");
-  const relevant = (x) => JSON.stringify(Object.entries(x.searches ?? {}).map(([k, v]) => [k, v.headline, v.shortlist]));
+  const relevant = (x) =>
+    JSON.stringify([
+      Object.entries(x.searches ?? {}).map(([k, v]) => [k, v.headline, v.shortlist]),
+      x.discovery ?? null,
+    ]);
   if (prevAnalysis && relevant(out) === relevant(prevAnalysis)) {
     console.log("analyst: no change in notes — not rewritten");
   } else {

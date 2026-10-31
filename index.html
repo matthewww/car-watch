@@ -84,7 +84,7 @@ const GROUP_ORDER = ["Durban", "Hillcrest & Pinetown", "Pietermaritzburg", "Nort
 const GROUP_SHORT = { "Hillcrest & Pinetown": "Hillcrest/Pinetown", "North Coast & Outer": "N-Coast/Outer" };
 const fmt = (n) => n == null ? "?" : "R" + n.toLocaleString("en-ZA");
 const days = (iso) => (Date.now() - Date.parse(iso)) / 864e5;
-let filter = "all", sort = "price", data = null, cur = null;
+let filter = "all", sort = "price", data = null, cur = null, disc = false, discovery = null, analystData = null;
 
 const FILTERS = {
   all: (l) => !l.removedAt,
@@ -166,11 +166,13 @@ function render() {
 
 function renderTabs() {
   document.getElementById("tabs").innerHTML = Object.entries(data.searches)
-    .map(([k, v]) => `<button class="chip${k === cur ? " on" : ""}" data-k="${k}">${v.label}</button>`)
-    .join("");
+    .map(([k, v]) => `<button class="chip${!disc && k === cur ? " on" : ""}" data-k="${k}">${v.label}</button>`)
+    .join("") + `<button class="chip${disc ? " on" : ""}" data-k="__discover">Discover</button>`;
 }
 
 function renderAnalyst(a) {
+  analystData = a;
+  if (disc) return;
   const s = data.searches[cur];
   const block = a?.searches?.[cur];
   if (!block?.headline || !s) { document.getElementById("notes").replaceChildren(); return; }
@@ -190,13 +192,41 @@ function renderAnalyst(a) {
   document.getElementById("notes").replaceChildren(el);
 }
 
+function renderDiscovery() {
+  const outEl = document.getElementById("out");
+  document.getElementById("searchlink").style.display = "none";
+  document.getElementById("stats").textContent = discovery
+    ? `Discovery sweep ${new Date(discovery.generatedAt).toLocaleDateString("en-ZA")} — ${discovery.candidates?.length ?? 0} candidate models not yet watched (KZN · ≤R300k · ≤100k km)`
+    : "Discovery: no sweep yet — runs weekly via CarWatch";
+  const cands = discovery?.candidates ?? [];
+  if (!cands.length) {
+    outEl.innerHTML = `<div class="empty">${discovery ? "No candidates this sweep — every in-cap model with autos is already watched." : "No discovery data yet."}</div>`;
+    document.getElementById("notes").replaceChildren();
+    return;
+  }
+  const picks = new Map((analystData?.discovery?.shortlist ?? []).map((p) => [String(p.id), p.note]));
+  const head = analystData?.discovery?.headline;
+  outEl.innerHTML =
+    (head ? `<div class="group" style="padding:10px 14px"><div class="spec" style="font-size:13px">${head}</div></div>` : "")
+    + cands.map((c) => {
+        const note = picks.get(c.key);
+        const range = c.max > c.min ? `R${c.min.toLocaleString("en-ZA")}–R${c.max.toLocaleString("en-ZA")}` : `R${c.min.toLocaleString("en-ZA")}`;
+        return `<a class="card" href="${c.sample}" target="_blank" rel="noopener">
+          <div class="row1"><span class="title">${c.make} ${c.model}</span><span class="price">${range}</span></div>
+          <div class="spec">${c.count} in-cap listing${c.count == 1 ? "" : "s"} · ${c.autos} automatic</div>
+          ${note ? `<div class="deal">${note}</div>` : ""}</a>`;
+      }).join("");
+  document.getElementById("notes").replaceChildren();
+}
+
 fetch("data/listings.json", { cache: "no-store" })
   .then((r) => r.json())
   .then((d) => {
     data = d;
     const keys = Object.keys(data.searches);
     const saved = localStorage.getItem("cw-tab");
-    cur = keys.includes(saved) ? saved : keys[0];
+    if (saved === "__discover") { disc = true; cur = keys[0]; }
+    else cur = keys.includes(saved) ? saved : keys[0];
     renderTabs();
     document.getElementById("updated").textContent =
       "updated " + new Date(d.generatedAt).toLocaleString("en-ZA", { dateStyle: "medium", timeStyle: "short" });
@@ -213,20 +243,29 @@ fetch("data/listings.json", { cache: "no-store" })
       }
     }
     localStorage.setItem("cw-last-visit", String(Date.now()));
-    render();
+    if (disc) renderDiscovery(); else render();
     // optional LLM analyst notes (data/analysis.json only exists when configured)
     fetch("data/analysis.json", { cache: "no-store" })
       .then((r) => (r.ok ? r.json() : null))
       .then(renderAnalyst)
       .catch(() => {});
+    // optional discovery sweep (data/discovery.json only exists after discover.mjs)
+    fetch("data/discovery.json", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => { discovery = d; if (disc) renderDiscovery(); })
+      .catch(() => {});
   })
   .catch(() => { document.getElementById("out").innerHTML = '<div class="empty">Could not load data/listings.json — run <code>node fetch-listings.mjs</code> first.</div>'; });
 
 document.getElementById("tabs").addEventListener("click", (e) => {
-  if (!e.target.dataset.k || e.target.dataset.k === cur) return;
-  cur = e.target.dataset.k;
-  localStorage.setItem("cw-tab", cur);
+  const k = e.target.dataset.k;
+  if (!k) return;
+  if (k === "__discover") { if (disc) return; disc = true; }
+  else { if (!disc && k === cur) return; disc = false; cur = k; }
+  localStorage.setItem("cw-tab", disc ? "__discover" : cur);
   renderTabs();
+  if (disc) { renderDiscovery(); return; }
+  document.getElementById("searchlink").style.display = "";
   render();
   fetch("data/analysis.json", { cache: "no-store" })
     .then((r) => (r.ok ? r.json() : null))
