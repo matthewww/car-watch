@@ -5,8 +5,18 @@
 $ErrorActionPreference = "Continue"
 Set-Location $PSScriptRoot
 $log = Join-Path $PSScriptRoot "watch.log"
+$stateFile = Join-Path $PSScriptRoot ".lastrun"
 
 function Log($m) { "$(Get-Date -Format s) $m" | Add-Content $log }
+
+# trigger is "at logon" — throttle to at most one run per 6h (quick reboots etc.)
+if (Test-Path $stateFile) {
+  $age = (Get-Date) - (Get-Item $stateFile).LastWriteTime
+  if ($age -lt (New-TimeSpan -Hours 6)) {
+    Log "skipped: ran $(Get-Date (Get-Item $stateFile).LastWriteTime -Format s), <6h ago"
+    exit 0
+  }
+}
 
 Log "run start"
 # analyst reads ANALYZE_API_KEY (CI secret name); map from the local user env
@@ -29,3 +39,4 @@ if ($LASTEXITCODE -ne 0) {
   Log "no changes"
 }
 Log "run ok"
+Set-Content -Path $stateFile -Value "ok"

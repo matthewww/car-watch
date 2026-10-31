@@ -4,3 +4,4 @@ notes/
 *.local
 data/explore.json
 watch.log
+.lastrun
