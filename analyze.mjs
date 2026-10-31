@@ -96,8 +96,8 @@ try {
     }
   }
 
-  // ---- call 1: per-search shortlists -------------------------------------
-  const sections = [];
+  // ---- call 1: per-search shortlists (batched — one response per 5 searches) ----
+  const sectionsByKey = {};
   for (const [key, s] of Object.entries(data.searches)) {
     const live = s.listings.filter((l) => !l.removedAt && l.price);
     const d = diff.searches?.[key] ?? { total: 0, new: [], dropped: [], gone: [] };
@@ -115,25 +115,42 @@ try {
       ? `Changes this run: ${JSON.stringify({ new: d.new, dropped: d.dropped, gone: d.gone })}` +
         (d.baseline ? " — THIS WAS THE FIRST CAPTURE of this search (baseline). Set expectations in the headline but do NOT produce alert lines for it." : "")
       : "No changes this run.";
-    sections.push(
+    sectionsByKey[key] =
       `### Search "${key}" (${s.label})\nBuyer criteria: ${CRITERIA[key] ?? "general landscape overview"}\n` +
-      `Listings (cheapest first): ${JSON.stringify(brief)}\n${changes}`
-    );
+      `Listings (cheapest first): ${JSON.stringify(brief)}\n${changes}`;
   }
 
-  const mainPrompt = `You are a used-car buying analyst watching several AutoTrader KZN searches for one buyer.
+  const out = { generatedAt: new Date().toISOString(), model: MODEL, searches: {} };
+  const alertNew = [];
+  const keys = Object.keys(data.searches);
+  for (let i = 0; i < keys.length; i += 5) {
+    const batch = keys.slice(i, i + 5);
+    const prompt = `You are a used-car buying analyst watching several AutoTrader KZN searches for one buyer.
 estUnder = Rands below a price model fitted on that search's current inventory (positive = good value). Use it, km and year in your reasoning.
 
-${sections.join("\n\n")}
+${batch.map((k) => sectionsByKey[k]).join("\n\n")}
 
 Respond ONLY with JSON, no other text:
 {"searches": { "<key>": {"headline": "<one sentence, max 25 words: state of this market and the best move>",
   "shortlist": [{"id": <id>, "note": "<max 20 words, with numbers>"}, ...max 3],
   "alerts": ["<max 1 line, only if genuinely notable, else empty array>"]}, ... }}
-Provide an entry for EVERY search key above. Rank shortlists by desirability. Be concise — the response must fit comfortably in the token budget.`;
+Provide an entry for EVERY search key above (${batch.join(", ")}). Rank shortlists by desirability. Be concise — the response must fit comfortably in the token budget.`;
 
-  const parsed = await askModel(mainPrompt, 10000);
-  if (!parsed?.searches) throw new Error("model returned no per-search JSON after retry");
+    const parsed = await askModel(prompt, 10000);
+    if (!parsed?.searches) throw new Error(`model returned no JSON for batch: ${batch.join(", ")}`);
+    for (const key of batch) {
+      const s = data.searches[key];
+      const a = parsed.searches[key] ?? {};
+      out.searches[key] = { headline: a.headline ?? "", shortlist: a.shortlist ?? [], alerts: a.alerts ?? [] };
+      if (a.headline) console.log(`analyst [${s.label}]: ${a.headline}`);
+      const d = diff.searches?.[key] ?? { total: 0, baseline: false };
+      if (d.total && !d.baseline && Array.isArray(a.alerts)) {
+        for (const line of a.alerts.slice(0, 1)) {
+          alertNew.push(`[${s.label}] ${line}`);
+        }
+      }
+    }
+  }
 
   // ---- call 2: discovery candidate ranking (only when a fresh sweep exists)
   let discResult = null;
@@ -156,20 +173,6 @@ If none are worth adding, return an empty shortlist and say why in the headline.
   }
 
   // ---- merge, write, alert ------------------------------------------------
-  const byLabel = new Map(Object.entries(data.searches).map(([k, v]) => [k, v.label]));
-  const out = { generatedAt: new Date().toISOString(), model: MODEL, searches: {} };
-  const alertNew = [];
-  for (const [key, s] of Object.entries(data.searches)) {
-    const a = parsed.searches[key] ?? {};
-    out.searches[key] = { headline: a.headline ?? "", shortlist: a.shortlist ?? [], alerts: a.alerts ?? [] };
-    if (a.headline) console.log(`analyst [${s.label}]: ${a.headline}`);
-    const d = diff.searches?.[key] ?? { total: 0, baseline: false };
-    if (d.total && !d.baseline && Array.isArray(a.alerts)) {
-      for (const line of a.alerts.slice(0, 1)) {
-        alertNew.push(`[${byLabel.get(key) ?? key}] ${line}`);
-      }
-    }
-  }
   out.discovery = discResult;
 
   const prevAnalysis = await readJsonSafe("data/analysis.json");

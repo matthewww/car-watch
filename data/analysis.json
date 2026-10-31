@@ -1,140 +1,200 @@
 {
- "generatedAt": "2026-10-31T18:17:33.397Z",
+ "generatedAt": "2026-10-31T18:22:28.256Z",
  "model": "zai-org/GLM-5.3-Flash",
  "searches": {
   "duster": {
-   "headline": "No 2020+ diesel auto under R220k; criteria-fit pick is 2022 TechRoad Auto R249 900 (+R12 185, 47 051 km); biggest bargain 2022 Zen is manual.",
+   "headline": "Diesel-auto stock is thin; 2022 TechRoad Auto at R249 900 is the clean criteria fit, 2022 Zen manual is the value play.",
    "shortlist": [
     {
      "id": 28741951,
-     "note": "2022 TechRoad Auto diesel, R249 900, 47 051 km, +R12 185 — only listing meeting auto+2020+diesel."
+     "note": "2022 TechRoad Auto, R249 900, 47 051 km, +R12 185 — only cheap low-km diesel auto; fits all criteria"
     },
     {
      "id": 28729328,
-     "note": "2022 Zen diesel, R209 990, 72 000 km, +R24 273 — biggest discount, but manual."
+     "note": "2022 Zen, R209 990, 72 000 km, +R24 273 — biggest bargain, diesel 2022, but manual"
     },
     {
      "id": 28505612,
-     "note": "Cheapest diesel auto: 2019 Dynamique, R195 000, 88 500 km, +R5 717; pre-facelift, small dealer."
+     "note": "2019 Dynamique Auto, R195 000, 88 500 km, +R5 717 — cheapest diesel auto; pre-2020, high km"
     }
    ],
    "alerts": [
-    "Criteria floor for a 2020+ diesel auto is R249 900 (28741951); everything cheaper is manual or 2019."
+    "Avoid 28074226 (R269 990, -R37 033) and 28745083 (R284 900, -R26 707) — badly overpriced; 28728171 at Kia multifranchise suits the Duster trade-in"
    ]
   },
   "caddy": {
-   "headline": "Thin market: single Crew Bus at R279 990/76 000 km fits both caps; no alternatives — verify history at CBK before committing.",
+   "headline": "Extremely thin market: one 2020 Crew Bus at R279 990/76 000 km — inside both caps, but it's a Crew Bus, verify carefully.",
    "shortlist": [
     {
      "id": 28784831,
-     "note": "Only option: 2020 1.6 Crew Bus, R279 990, 76 000 km — R20k under cap; verify service history."
+     "note": "2020 1.6 Crew Bus, R279 990, 76 000 km — only listing; petrol Kombi-style, inspect before committing"
     }
    ],
    "alerts": [
-    "Sole listing under caps — no comparables to benchmark; treat R279 990 as negotiable."
+    "Single-listing market — widen radius or wait for fresh panel van/Kombi stock"
    ]
   },
   "jimny": {
-   "headline": "All three are 3-door (no 5-door present); 2018 1.3 at R234 890/86 000 km is cheapest, new-gen GLX from R289 890.",
+   "headline": "Three 3-door Jimnys under caps; 2018 1.3 cheapest at R234 890, 2021 GLX lowest-km at 25 115 km.",
    "shortlist": [
     {
      "id": 28780022,
-     "note": "Cheapest: 2018 1.3, R234 890, 86 000 km — old-gen but robust; R55k below new-gen entry."
-    },
-    {
-     "id": 28756433,
-     "note": "2020 1.5 GLX AllGrip, R289 890, 78 000 km — new-gen value under both caps."
+     "note": "2018 1.3, R234 890, 86 000 km — cheapest, older gen; budget pick"
     },
     {
      "id": 28687163,
-     "note": "2021 GLX AllGrip, R295 995, 25 115 km — lowest km but no dealer listed; verify seller."
+     "note": "2021 1.5 GLX AllGrip, R295 995, 25 115 km — lowest km, near cap; no dealer shown"
+    },
+    {
+     "id": 28756433,
+     "note": "2020 1.5 GLX AllGrip, R289 890, 78 000 km — newer-gen middle option"
     }
    ],
-   "alerts": []
+   "alerts": [
+    "All three are 3-door as preferred; no 5-doors in budget"
+   ]
   },
   "seltos": {
-   "headline": "Standout: 2021 EX Auto R210 000 (+R37 692) at 100 000 km; multi-franchise Durban Kia lists 2022 EX+ Auto R234 900 (+R13 700) — good for the Duster trade.",
+   "headline": "Petrol EX autos carry the value; R210 000 2021 EX Auto is cheapest but sits exactly on the 100 000 km mark.",
    "shortlist": [
     {
      "id": 28564368,
-     "note": "2021 1.6 EX Auto, R210 000, 100 000 km, +R37 692 — biggest auto bargain; six-figure km."
-    },
-    {
-     "id": 28818644,
-     "note": "2022 1.6 EX+ Auto, R234 900, 97 876 km, +R13 700; Durban Multifranchise — best trade-in fit."
+     "note": "2021 1.6 EX Auto, R210 000, 100 000 km, +R37 692 — cheapest auto; at km limit, verify history"
     },
     {
      "id": 28742881,
-     "note": "2023 1.6 EX Auto, R274 990, 44 000 km, +R26 946 — low-km newer alternative."
+     "note": "2023 1.6 EX Auto, R274 990, 44 000 km, +R26 946 — newest, low-km, cleanest fit"
+    },
+    {
+     "id": 28818644,
+     "note": "2022 1.6 EX+ Auto, R234 900, 97 876 km, +R13 700 — multifranchise dealer, good for Duster trade"
     }
    ],
    "alerts": [
-    "Manual 2021 EX at R189 900 (+R44 930) is the market's biggest discount but fails the automatic criterion."
+    "28682451 manual EX, R189 900 (+R44 930), is the market's biggest undervalue if manual is acceptable"
    ]
   },
   "creta": {
-   "headline": "2024 Premium Auto R279 999 (+R26 362, 40 000 km) leads; diesel-auto pick 2021 1.5D Executive R269 990/60 099 km is fairly priced.",
+   "headline": "Diesel autos start at R249 990; 2021 1.6D Executive fits criteria best, 2024 Premium Auto adds low-km value.",
    "shortlist": [
     {
-     "id": 28730217,
-     "note": "2024 1.5 Premium Auto, R279 999, 40 000 km, +R26 362 — newest, big discount; independent dealer, verify."
+     "id": 28479041,
+     "note": "2021 1.6D Executive Auto, R249 990, 98 000 km, +R15 779 — cheapest diesel auto; high km"
     },
     {
-     "id": 28760521,
-     "note": "2021 1.5D Executive Auto diesel, R269 990, 60 099 km, +R426 — gen2 diesel auto at fair money."
+     "id": 28730217,
+     "note": "2024 1.5 Premium Auto, R279 999, 40 000 km, +R26 362 — newest gen2, low km"
     },
     {
      "id": 28642521,
-     "note": "2021 1.5 Premium, R199 990, 81 000 km, +R33 653 — biggest discount but manual, seller unlisted."
+     "note": "2021 1.5 Premium manual, R199 990, 81 000 km, +R33 653 — gen2 bargain but manual"
     }
    ],
    "alerts": [
-    "28479041 '2021 1.6D Executive' is gen1-era 1.6 diesel (400 L boot), 98 000 km — confirm generation before viewing."
+    "28597538 (2019, R199 990) is gen1: 400 L boot, 1.6 motor — not the 433 L gen2"
    ]
   },
   "hr-v": {
-   "headline": "Both listings are old-gen with 448 L boot + Magic Seats; 2021 Comfort CVT R249 990/57 000 km undercuts the 1.8 Elegance by R49k.",
+   "headline": "Thin market: only two old-gen CVTs, no hybrid in cap; 2021 Comfort at R249,990/57k km is the value pick.",
    "shortlist": [
     {
      "id": 28564553,
-     "note": "2021 1.5 Comfort CVT, R249 990, 57 000 km — old-gen 448 L boot + Magic Seats."
+     "note": "2021 Comfort CVT, R249,990/57,000 km — old gen, 448L boot + Magic Seats; cheapest entry."
     },
     {
      "id": 28803864,
-     "note": "2020 1.8 Elegance Auto, R298 900, 50 000 km — more power, R49k dearer, same old-gen boot."
+     "note": "2020 1.8 Elegance CVT, R298,900/50,000 km — more power/trim but R49k premium hard to justify."
+    }
+   ],
+   "alerts": [
+    "No 2022+ hybrid within cap — boot-size tradeoff not in play yet."
+   ]
+  },
+  "corolla-cross": {
+   "headline": "Two 2021 XS at ~R250k lead on value (+R17-20k under model); no hybrids listed; verify the cheap 2024 Xi.",
+   "shortlist": [
+    {
+     "id": 28776932,
+     "note": "2021 XS, R249,990/36,300 km, estUnder +R20,200 — best value; Toyota resale intact."
+    },
+    {
+     "id": 28433108,
+     "note": "2021 XS, R249,999/29,000 km, +R17,488 — lowest km under R250k; compare service books."
+    },
+    {
+     "id": 28633563,
+     "note": "2024 XS, R269,999/42,342 km, +R17,109 — newest XS with strong value."
+    }
+   ],
+   "alerts": [
+    "2024 Xi at R259,990/22,294 km (Westown) is suspiciously cheap near-new — verify history before trusting the +R14k estimate."
+   ]
+  },
+  "mg-zs": {
+   "headline": "Baseline: nine facelift units, all 2025-26 with 443L boot; expect alerts as this fresh capture moves; best entry R249,900/9,906 km.",
+   "shortlist": [
+    {
+     "id": 28557318,
+     "note": "2026 Comfort, R249,900/9,906 km, +R17,809 — cheapest; CMH Suzuki Pinetown."
+    },
+    {
+     "id": 28771843,
+     "note": "2026 Luxury, R269,900/5,000 km, +R18,922 — top value but no dealer shown; verify seller."
+    },
+    {
+     "id": 28469130,
+     "note": "2026 Comfort, R249,950/14,700 km, +R8,681 — near-identical price alternative."
     }
    ],
    "alerts": []
   },
-  "corolla-cross": {
-   "headline": "Baseline: 14 units, R249 990–R299 990, no hybrids (as expected); 2021 XS R249 990/36 300 km (+R20 200) sets the value benchmark.",
+  "haval-h6": {
+   "headline": "Baseline: six units; 2022 2.0T autos from R279,990 fit the brief; skip the 2019 1.5T manual at 98,759 km.",
    "shortlist": [
     {
-     "id": 28776932,
-     "note": "2021 1.8 XS, R249 990, 36 300 km, +R20 200 — cheapest, full XS spec."
+     "id": 28802154,
+     "note": "2022 2.0T Premium, R279,990/51,300 km — cheapest proper H6; GWM/Haval Hillcrest good for Duster trade."
     },
     {
-     "id": 28433108,
-     "note": "2021 1.8 XS, R249 999, 29 000 km, +R17 488 — lowest-km XS."
+     "id": 28731026,
+     "note": "2025 2.0GDIT Premium, R299,900/40,000 km — newest, lowest km, at cap edge."
     },
     {
-     "id": 28775201,
-     "note": "2024 1.8 Xi, R259 990, 22 294 km, +R14 156 — near-new but base spec."
+     "id": 28560950,
+     "note": "2022 2.0T Luxury, R297,880/53,294 km — higher trim, ~R18k over the Premium."
+    }
+   ],
+   "alerts": []
+  },
+  "peugeot-2008": {
+   "headline": "Baseline: five gen2 6AT units from R229,990; wet-belt service history is the make-or-break check on every candidate.",
+   "shortlist": [
+    {
+     "id": 28193582,
+     "note": "2024 Active, R239,950/30,000 km — newest low-km value; demand wet-belt evidence."
+    },
+    {
+     "id": 28710066,
+     "note": "2022 Allure, R229,990/55,000 km — cheapest, higher trim; verify wet-belt history carefully."
+    },
+    {
+     "id": 28339967,
+     "note": "2025 Active, R259,950/32,000 km — clean low-km 2025 if budget stretches."
     }
    ],
    "alerts": []
   }
  },
  "discovery": {
-  "headline": "Only MG ZS (443 L) clears the 430 L bar; Omoda C5 qualifies only via 2025+ X Series (442 L); rest fail or unverified.",
+  "headline": "Only MG ZS (443 L, all autos) clears the 430 L bar; Omoda C5 qualifies only via 2025+ X Series (442 L); rest fall short.",
   "shortlist": [
    {
     "id": "mg/zs",
-    "note": "443 L clears bar outright; all 6 listings autos, within budget — top add."
+    "note": "443 L clears bar; all 6 listings autos, budget-fit; growing MG dealer network."
    },
    {
     "id": "omoda/c5",
-    "note": "Only 2025+ X Series trims hit 442 L; standard C5 is 378 L — conditional watch on X Series."
+    "note": "Conditional add: only 2025+ X Series hits 442 L; standard C5's 378 L fails."
    }
   ]
  }
