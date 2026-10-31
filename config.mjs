@@ -57,4 +57,13 @@ export const SEARCHES = [
     priceCap: 300000,
     pageCap: 8,
   },
+  {
+    key: "corolla-cross",
+    make: "toyota",
+    model: "corolla-cross",
+    label: "Corolla Cross",
+    filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
+    priceCap: 300000,
+    pageCap: 8,
+  },
 ];

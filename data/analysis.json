@@ -1,106 +1,127 @@
 {
- "generatedAt": "2026-10-31T15:10:18.108Z",
+ "generatedAt": "2026-10-31T17:36:45.914Z",
  "model": "zai-org/GLM-5.3-Flash",
  "searches": {
   "duster": {
-   "headline": "No new listings; 2022 dCi Zen (R209 990, +R24 273) is the standout bargain but manual — best criteria-matching auto diesel remains the 2022 TechRoad.",
+   "headline": "Diesel autos cluster R195k-R260k; 2022 TechRoad Auto (28741951) fits every criterion; manual Zen 28729328 is the price standout; multi-franchise stores suit your trade-in.",
    "shortlist": [
     {
      "id": 28741951,
-     "note": "2022 TechRoad Auto diesel, R249 990, 47 051 km, +R12 185 — only auto+diesel+2020+ fit; KIA Ballito franchise."
+     "note": "2022 TechRoad Auto diesel, R249 900/47 051 km, +R12 185 - only 2020+ diesel auto under R250k."
     },
     {
      "id": 28729328,
-     "note": "2022 Zen diesel R209 990, 72 000 km, +R24 273 — biggest bargain but manual; Durban Multifranchise suits Duster trade."
+     "note": "2022 Zen diesel, R209 990/72 000 km, +R24 273 - biggest bargain, but manual."
     },
     {
      "id": 28505612,
-     "note": "2019 Dynamique Auto diesel R195 000, 88 500 km, +R5 717 — cheapest auto diesel; pre-2020, high km."
+     "note": "2019 Dynamique Auto diesel, R195 000/88 500 km, +R5 717 - cheapest diesel auto, pre-2020."
     }
    ],
-   "alerts": []
+   "alerts": [
+    "28729328 undercuts comparable 2022 diesel autos by ~R40k - verify service history and accident record before committing."
+   ]
   },
   "caddy": {
-   "headline": "Very thin market: one viable listing, the 2020 1.6 Crew Bus at R279 990/76 000 km — under both caps; verify history before committing.",
+   "headline": "Thin market: single listing - 2020 1.6 Crew Bus R279 990/76 000 km, under both caps; Kombi-style crew cab, verify mechanicals thoroughly.",
    "shortlist": [
     {
      "id": 28784831,
-     "note": "2020 Crew Bus (Kombi-type, 5-seat) R279 990, 76 000 km, manual petrol — only option; priced fairly, not suspiciously cheap."
+     "note": "Only option: 2020 Crew Bus, R279 990/76 000 km, petrol manual - crew-cab Kombi type; full inspection essential."
     }
    ],
    "alerts": []
   },
   "jimny": {
-   "headline": "Three 3-door options under caps; cheapest 2018 1.3 is R234 890/86 000 km, but the 2021 GLX with 25 115 km is the strongest buy.",
+   "headline": "All three fit caps and are 3-door (no 5-doors listed); cheapest viable is 2018 1.3 at R234 890/86 000 km; low-km 2021 is private - verify.",
    "shortlist": [
     {
      "id": 28780022,
-     "note": "Cheapest: 2018 1.3 old-gen R234 890, 86 000 km — R55k under others; inspect condition carefully."
-    },
-    {
-     "id": 28687163,
-     "note": "2021 GLX AllGrip R295 995, only 25 115 km — newest, lowest km; no dealer shown, verify seller."
+     "note": "Cheapest: 2018 1.3, R234 890/86 000 km, manual - older gen; budget for checks/tyres."
     },
     {
      "id": 28756433,
-     "note": "2020 GLX AllGrip R289 890, 78 000 km — safe middle option at Jetour Ballito."
+     "note": "2020 1.5 GLX AllGrip, R289 890/78 000 km - newer gen, dealer-sold, safer buy."
+    },
+    {
+     "id": 28687163,
+     "note": "2021 GLX, R295 995/25 115 km - lowest km but no dealer listed; verify carefully."
     }
    ],
    "alerts": []
   },
   "seltos": {
-   "headline": "First capture, 22 listings: strong auto value — 2021 1.6 EX Auto R210 000 (+R37 692) and 2023 EX Auto R274 990 (+R26 946) lead; expect movement next run.",
+   "headline": "Strong value: 2021 EX Auto R210 000 (+R37.7k) tops the list; manual EX R189 900 (+R44.9k) if auto waived; multi-franchise stores suit the Duster trade.",
    "shortlist": [
     {
      "id": 28564368,
-     "note": "2021 1.6 EX Auto R210 000, 100 000 km (at cap), +R37 692; GAC Pinetown multi-franchise — Duster trade friendly."
+     "note": "2021 1.6 EX Auto, R210 000/100 000 km, +R37 692 - best auto value; confirm FSH at km milestone."
     },
     {
-     "id": 28742881,
-     "note": "2023 1.6 EX Auto R274 990, 44 000 km, +R26 946 — newest low-km auto; KIA Pinetown."
+     "id": 28682451,
+     "note": "2021 1.6 EX, R189 900/93 800 km, +R44 930 - biggest discount but manual; Bidvest is trade-friendly."
     },
     {
      "id": 28818644,
-     "note": "2022 1.6 EX+ Auto R234 900, 97 876 km, +R13 700; Durban Multifranchise trade-friendly, near km cap."
+     "note": "2022 1.6 EX+ Auto, R234 900/97 876 km, +R13 700 - Durban Multifranchise, ideal for the trade-in."
     }
    ],
-   "alerts": []
+   "alerts": [
+    "28564368 sits exactly on 100 000 km - verify full service history before banking the +R37.7k value gap."
+   ]
   },
   "creta": {
-   "headline": "First capture, 26 listings: gen2 diesel autos cluster R269 900–R299 990; standout is 2024 1.5 Premium Auto R279 999 (+R26 880, 40 000 km).",
+   "headline": "Diesel autos sit R250k-R270k; 2024 Premium Auto (28730217, +R26.4k) is the value pick; flag the 2021 '1.6D' as probable gen1 (400 L boot).",
    "shortlist": [
     {
      "id": 28730217,
-     "note": "2024 1.5 Premium Auto R279 999, 40 000 km, +R26 880 — newest, biggest value; petrol though."
+     "note": "2024 1.5 Premium Auto, R279 999/40 000 km, +R26 362 - near-new value; verify why so cheap."
     },
     {
      "id": 28760521,
-     "note": "2021 1.5D Executive Auto (gen2 diesel) R269 990, 60 099 km, +R442 — fair price, exactly the briefed diesel auto."
+     "note": "2021 1.5D Executive Auto, R269 990/60 099 km, +R426 - gen2 diesel auto, 433 L boot, fair."
     },
     {
-     "id": 28479041,
-     "note": "2021 1.6D Executive Auto R249 990, 98 000 km, +R15 610 — cheapest diesel auto but gen1 1.6D, near km cap."
+     "id": 28320991,
+     "note": "2021 1.5D Executive Auto, R269 900/70 000 km - gen2 diesel auto; GWM Haval Mobeni takes the trade."
+    }
+   ],
+   "alerts": [
+    "28479041 '2021 1.6D Executive' looks like gen1 (1.6 motor, 400 L boot) - confirm generation before chasing the +R15 779."
+   ]
+  },
+  "hr-v": {
+   "headline": "Two old-gen CVT autos with 448 L boots and Magic Seats; 2021 Comfort at R249 990/57 000 km is the clear pick; no hybrids listed.",
+   "shortlist": [
+    {
+     "id": 28564553,
+     "note": "2021 1.5 Comfort CVT, R249 990/57 000 km - old gen, 448 L boot + Magic Seats."
+    },
+    {
+     "id": 28803864,
+     "note": "2020 1.8 Elegance CVT, R298 900/50 000 km - more power/spec but R49k dearer."
     }
    ],
    "alerts": []
   },
-  "hr-v": {
-   "headline": "First capture: thin as expected — two old-gen automatics; 2021 Comfort R249 990/57 000 km keeps the 448 L boot and Magic Seats.",
+  "corolla-cross": {
+   "headline": "Baseline captured: 14 listings, all petrol CVT, no hybrids; value benchmark is 2021 XS at R249 990/36 300 km (+R20.2k); expect alerts next run.",
    "shortlist": [
     {
-     "id": 28564553,
-     "note": "2021 1.5 Comfort CVT R249 990, 57 000 km — old gen: 448 L boot, Magic Seats; matches CVT preference."
+     "id": 28776932,
+     "note": "2021 1.8 XS, R249 990/36 300 km, +R20 200 - best spec-per-rand, low km."
     },
     {
-     "id": 28803864,
-     "note": "2020 1.8 Elegance Auto R298 900, 50 000 km — more power, same old-gen practicality; R49k pricier."
+     "id": 28633563,
+     "note": "2024 1.8 XS, R269 999/42 342 km, +R17 109 - near-new XS at Xi money."
+    },
+    {
+     "id": 28433108,
+     "note": "2021 XS, R249 999/29 000 km, +R17 488 - suspiciously cheap; verify history carefully."
     }
    ],
    "alerts": []
   }
  },
- "discovery": {
-  "headline": "None qualify: every candidate misses the established ≥430 L boot bar; closest is Nissan Magnite at 405 L — not worth watching.",
-  "shortlist": []
- }
+ "discovery": null
 }

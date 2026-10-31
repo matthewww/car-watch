@@ -33,6 +33,8 @@ const CRITERIA = {
     "same buyer as the duster search: Automatic, 2020+, considers any standout bargain; 433 L boot; note 2019-early-2020 cars are the older gen1 (400 L boot, 1.6 motors) vs gen2 1.5 — call that out when relevant; 1.5D/1.6D diesel autos are especially relevant; trading in a 2014 Duster 1.5 dCi 4x4",
   "hr-v":
     "few listings expected — Honda reliability is the draw; 2021-and-earlier = old gen (448 L boot + Magic Seats), the 2022+ hybrid is 304 L — call that out if one appears; CVT auto preferred; trading in a 2014 Duster 1.5 dCi 4x4",
+  "corolla-cross":
+    "440 L boot qualifies; Toyota badge = resale and reliability priority; all CVT autos, no diesel; hybrid XS/XR mostly above the cap — note when one appears; Xi is base spec (cloth, manual aircon) vs XS/XR; verify suspiciously-cheap near-new units carefully; trading in a 2014 Duster 1.5 dCi 4x4",
 };
 
 async function askModel(prompt, maxTokens) {
