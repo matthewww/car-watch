@@ -10,7 +10,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import { SEARCHES } from "./config.mjs";
+import { SEARCHES, BOOT_LITRES } from "./config.mjs";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const DISCOVERY_FILE = path.join(ROOT, "data", "discovery.json");
@@ -135,7 +135,7 @@ for (const make of MAKES) {
       const key = `${make}/${model}`;
       if (watched.has(key)) continue;
       if (m.count >= 2 && m.autos >= 1) {
-        candidates.push({ key, make, model, count: m.count, autos: m.autos, min: m.min, max: m.max, sample: m.sample });
+        candidates.push({ key, make, model, count: m.count, autos: m.autos, min: m.min, max: m.max, sample: m.sample, boot: BOOT_LITRES[key] ?? "unknown — verify" });
       }
     }
     console.log(`${make}: ${Object.keys(models).length} models in-cap (KZN total ${kznTotal ?? "-"})`);

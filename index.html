@@ -192,30 +192,40 @@ function renderAnalyst(a) {
   document.getElementById("notes").replaceChildren(el);
 }
 
+function bootNum(t) {
+  const m = String(t ?? "").match(/\d{3}/);
+  return m ? parseInt(m[0], 10) : 0;
+}
+
 function renderDiscovery() {
   const outEl = document.getElementById("out");
   document.getElementById("searchlink").style.display = "none";
+  const cands = (discovery?.candidates ?? []).map((c) => ({ ...c, bootNum: bootNum(c.boot) }));
+  const good = cands.filter((c) => c.bootNum >= 400).sort((a, b) => b.bootNum - a.bootNum || b.autos - a.autos);
+  const ruled = cands.filter((c) => c.bootNum < 400).sort((a, b) => b.autos - a.autos);
   document.getElementById("stats").textContent = discovery
-    ? `Discovery sweep ${new Date(discovery.generatedAt).toLocaleDateString("en-ZA")} — ${discovery.candidates?.length ?? 0} candidate models not yet watched (KZN · ≤R300k · ≤100k km)`
+    ? `Discovery sweep ${new Date(discovery.generatedAt).toLocaleDateString("en-ZA")} — ${cands.length} unwatched models · ${good.length} boot-qualified/borderline`
     : "Discovery: no sweep yet — runs weekly via CarWatch";
-  const cands = discovery?.candidates ?? [];
   if (!cands.length) {
-    outEl.innerHTML = `<div class="empty">${discovery ? "No candidates this sweep — every in-cap model with autos is already watched." : "No discovery data yet."}</div>`;
+    outEl.innerHTML = `<div class="empty">${discovery ? "No candidates this sweep." : "No discovery data yet."}</div>`;
     document.getElementById("notes").replaceChildren();
     return;
   }
   const picks = new Map((analystData?.discovery?.shortlist ?? []).map((p) => [String(p.id), p.note]));
   const head = analystData?.discovery?.headline;
+  const card = (c) => {
+    const note = picks.get(c.key);
+    const range = c.max > c.min ? `R${c.min.toLocaleString("en-ZA")}–R${c.max.toLocaleString("en-ZA")}` : `R${c.min.toLocaleString("en-ZA")}`;
+    return `<a class="card" href="${c.sample}" target="_blank" rel="noopener">
+      <div class="row1"><span class="title">${c.make} ${c.model}</span><span class="price">${range}</span></div>
+      <div class="spec">${c.count} in-cap listing${c.count == 1 ? "" : "s"} · ${c.autos} automatic · boot ${c.boot ?? "?"}</div>
+      ${note ? `<div class="deal">${note}</div>` : ""}</a>`;
+  };
   outEl.innerHTML =
     (head ? `<div class="group" style="padding:10px 14px"><div class="spec" style="font-size:13px">${head}</div></div>` : "")
-    + cands.map((c) => {
-        const note = picks.get(c.key);
-        const range = c.max > c.min ? `R${c.min.toLocaleString("en-ZA")}–R${c.max.toLocaleString("en-ZA")}` : `R${c.min.toLocaleString("en-ZA")}`;
-        return `<a class="card" href="${c.sample}" target="_blank" rel="noopener">
-          <div class="row1"><span class="title">${c.make} ${c.model}</span><span class="price">${range}</span></div>
-          <div class="spec">${c.count} in-cap listing${c.count == 1 ? "" : "s"} · ${c.autos} automatic</div>
-          ${note ? `<div class="deal">${note}</div>` : ""}</a>`;
-      }).join("");
+    + (good.length ? `<details class="group" open><summary><span>Boot-qualified / borderline <small style="font-weight:400;color:var(--mut)">(≥400 L, ${good.length})</small></span></summary>${good.map(card).join("")}</details>` : "")
+    + (ruled.length ? `<details class="group"><summary><span>Ruled out on boot <small style="font-weight:400;color:var(--mut)">(&lt;400 L or unknown, ${ruled.length})</small></span></summary>${ruled.map(card).join("")}</details>` : "")
+    || `<div class="empty">No candidates.</div>`;
   document.getElementById("notes").replaceChildren();
 }
 

@@ -9,6 +9,7 @@
  *               ANALYZE_MODEL (default zai-org/GLM-5.3-Flash, ~3c/day)
  */
 import { readFile, writeFile, unlink } from "node:fs/promises";
+import { BOOT_LITRES } from "./config.mjs";
 
 const readJsonSafe = async (file) => {
   try { return JSON.parse(await readFile(file, "utf8")); } catch { return null; }
@@ -35,6 +36,12 @@ const CRITERIA = {
     "few listings expected — Honda reliability is the draw; 2021-and-earlier = old gen (448 L boot + Magic Seats), the 2022+ hybrid is 304 L — call that out if one appears; CVT auto preferred; trading in a 2014 Duster 1.5 dCi 4x4",
   "corolla-cross":
     "440 L boot qualifies; Toyota badge = resale and reliability priority; all CVT autos, no diesel; hybrid XS/XR mostly above the cap — note when one appears; Xi is base spec (cloth, manual aircon) vs XS/XR; verify suspiciously-cheap near-new units carefully; trading in a 2014 Duster 1.5 dCi 4x4",
+  "mg-zs":
+    "443 L boot qualifies outright (pre-facelift ~2018-21 ZS is ~400 L — check year per listing); 2022+ facelift: 1.5 NA + 4AT or hybrid; MG SA 5-yr warranty; resale unproven; trading in a 2014 Duster 1.5 dCi 4x4",
+  "haval-h6":
+    "560 L boot, C-SUV class bigger than the duster; 2.0T 7DCT or HEV, fuel ~9.8 L/100 km; GWM/Haval multi-franchise dealers are good trade candidates; 2021-22 units may retain 5-yr/100k warranty; resale unproven",
+  "peugeot-2008":
+    "434 L boot, 2020+ gen2 only (all in-cap autos are 6AT); PureTech 1.2T wet-belt engine — service history is critical; strong cabin; resale knock; trading in a 2014 Duster 1.5 dCi 4x4",
 };
 
 async function askModel(prompt, maxTokens) {
@@ -70,31 +77,6 @@ async function askModel(prompt, maxTokens) {
   }
   return null;
 }
-
-/** Verified/quoted boot litres, seats up (SA spec sheets + reviews where possible). */
-const BOOT_LITRES = {
-  "renault/duster": 445, "kia/seltos": 433, "hyundai/creta": 433, "honda/hr-v": 448,
-  "toyota/corolla-cross": 440, "mg/zs": 443, "mitsubishi/eclipse-cross": 437,
-  "haval/h6": 560, "peugeot/2008": 434, "opel/crossland": "410-520 (sliding bench)",
-  "citroen/c3-aircross": "410-444", "opel/grandland-x": "414-514", "peugeot/3008": 520,
-  "renault/triber": "625 (5-seat) / 84 (7-seat)", "omoda/c5": "378 (442 for 2025+ X Series)",
-  "haval/jolion": "337 SA (430 overseas, Pro 291)", "mitsubishi/asx": "358-393",
-  "nissan/magnite": "336 (392 facelift)", "renault/kiger": 405, "hyundai/venue": 368,
-  "kia/sonet": 352, "toyota/starlet": 342, "ford/ecosport": 333, "chery/tiggo-4-pro": 380,
-  "mazda/cx-5": 407, "mazda/cx-3": 264, "toyota/urban-cruiser": 328,
-  "suzuki/vitara-brezza": 328, "suzuki/fronx": 304, "suzuki/swift": 268,
-  "suzuki/baleno": 318, "kia/picanto": 255, "volkswagen/polo-vivo": 280,
-  "hyundai/i20": 351, "mg/mg3": 293, "citroen/c3": 300, "renault/kwid": 279,
-  "suzuki/s-presso": 214, "toyota/corolla-quest": "471 (sedan)", "chery/tiggo-7-pro": 475,
-  "chery/tiggo-8-pro": "448 (7-seat)", "mitsubishi/xpander": "200 up / ~700 folded",
-  "citroen/basalt": "470 (unverified)", "opel/mokka": 350, "fiat/500x": 350,
-  "suzuki/dzire": "378 (sedan)", "mahindra/xuv-3xo": "240-300", "nissan/x-trail": "565-585",
-  "mazda/mazda3": "508 (sedan)", "kia/pegas": "475 (sedan)", "honda/brio": 258,
-  "honda/amaze": "420 (sedan)", "toyota/agya": 200, "suzuki/ertiga": "550 (last row down)",
-  "hyundai/exter": "unknown", "chery/tiggo-cross": "unknown", "changan/alsvin": "unknown",
-  "baic/beijing-x55": "unknown", "toyota/vitz": "unknown", "hyundai/atos": "unknown",
-  "toyota/etios": "unknown",
-};
 
 try {
   const data = (await readJsonSafe("data/listings.json")) ?? { searches: {} };
