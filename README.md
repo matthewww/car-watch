@@ -13,6 +13,15 @@ Phone-friendly tracker for AutoTrader KZN Renault Duster listings
   NEW / price-drop / GONE badges.
 - `.github/workflows/update.yml` — runs 4× daily on GitHub Actions, commits
   data changes, pushes an alert if configured.
+- **Valuation**: each fetch fits a price model (year / km / trim / transmission /
+  4WD) on the current inventory and stores `estUnder` per listing — shown on the
+  site as "≈Rnk under/over" badges and a Value sort. Deterministic, no API needed.
+- **LLM analyst (optional)**: `analyze.mjs` runs after fetch when repo secret
+  `ANALYZE_API_KEY` is set (Together AI key; default model `zai-org/GLM-5.3-Flash`,
+  ≈ $0.002 per run). Writes `data/analysis.json` — a ranked shortlist with
+  one-line reasons rendered at the top of the site — and can add lines to the
+  push alert. Uses only listing data, no personal info. Test locally with
+  `$env:ANALYZE_API_KEY = "<key>"; node analyze.mjs`.
 
 ## Setup (one-time)
 1. Create a GitHub repo and push this folder.
