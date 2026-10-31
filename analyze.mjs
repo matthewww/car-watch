@@ -129,8 +129,8 @@ Provide an entry for EVERY search key above. Rank shortlists by desirability. Be
     const a = parsed.searches[key] ?? {};
     out.searches[key] = { headline: a.headline ?? "", shortlist: a.shortlist ?? [], alerts: a.alerts ?? [] };
     if (a.headline) console.log(`analyst [${s.label}]: ${a.headline}`);
-    if (diff.total && Array.isArray(a.alerts)) {
-      for (const line of a.alerts.slice(0, 2)) {
+    if (diff.total && !diff.searches?.[key]?.baseline && Array.isArray(a.alerts)) {
+      for (const line of a.alerts.slice(0, 1)) {
         alertNew.push(`[${byLabel.get(key) ?? key}] ${line}`);
       }
     }
