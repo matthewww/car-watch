@@ -1,0 +1,25 @@
+name: push-alert
+# Relays the fetcher's alert file to ntfy whenever a scheduled local run
+# pushes changed data (runs only when data/alert.txt itself changed).
+on:
+  push:
+    branches: [main]
+    paths: [data/alert.txt]
+  workflow_dispatch:
+
+jobs:
+  ntfy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send ntfy alert
+        if: env.NTFY_TOPIC != ''
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -s data/alert.txt ]; then
+            curl -sf -T data/alert.txt \
+              -H "Title: Duster watch update" -H "Tags: car" \
+              "https://ntfy.sh/${NTFY_TOPIC}"
+          fi

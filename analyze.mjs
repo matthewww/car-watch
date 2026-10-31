@@ -13,6 +13,10 @@
  */
 import { readFile, writeFile } from "node:fs/promises";
 
+const readJsonSafe = async (file) => {
+  try { return JSON.parse(await readFile(file, "utf8")); } catch { return null; }
+};
+
 const KEY = process.env.ANALYZE_API_KEY;
 if (!KEY) { console.log("analyst skipped: ANALYZE_API_KEY not set"); process.exit(0); }
 const BASE = process.env.ANALYZE_BASE_URL || "https://api.together.xyz/v1";
@@ -45,6 +49,15 @@ try {
       })}`
     : "No changes this run.";
 
+  // nothing changed and we produced a fresh analysis recently -> skip (saves cost)
+  if (!diff.total) {
+    const prevA = await readJsonSafe("data/analysis.json");
+    if (prevA?.generatedAt && Date.now() - Date.parse(prevA.generatedAt) < 22 * 3600e3) {
+      console.log("analyst: no changes and analysis <22h old — skipped");
+      process.exit(0);
+    }
+  }
+
   const prompt = `You are a used-car buying analyst for a Renault Duster watcher (AutoTrader KZN, <=R300 000, 2019+, <=100 000 km).
 Buyer criteria: wants Automatic, 2020 or newer, but will consider ANY standout bargain; diesel preferred over petrol; values dealers likely to accept a trade-in (multi-franchise groups: GWM/Haval, Hyundai, KIA, Durban Multifranchise).
 estUnder = Rands below a price model fitted on the current inventory (positive = good value, negative = overpriced). Use it, km and year in your reasoning.
@@ -73,8 +86,8 @@ Rank the shortlist by desirability for this buyer.`;
       signal: AbortSignal.timeout(90000),
     });
 
-  let out = null;
-  for (let attempt = 1; attempt <= 2 && !out; attempt++) {
+  let parsed = null;
+  for (let attempt = 1; attempt <= 2 && !parsed; attempt++) {
     const res = await callModel();
     if (!res.ok) throw new Error(`HTTP ${res.status} from ${BASE}`);
     const content = String((await res.json()).choices?.[0]?.message?.content ?? "");
@@ -83,17 +96,22 @@ Rank the shortlist by desirability for this buyer.`;
     }
     const fenced = content.match(/```(?:json)?\s*([\s\S]*?)```/);
     const jsonish = (fenced ? fenced[1] : content).match(/\{[\s\S]*\}/);
-    if (jsonish) out = JSON.parse(jsonish[0]);
+    if (jsonish) parsed = JSON.parse(jsonish[0]);
     else if (attempt < 2) {
       console.log("analyst: empty/invalid response, retrying");
       await new Promise((r) => setTimeout(r, 2000));
     }
   }
-  if (!out) throw new Error("model returned no JSON after retry");
-  out.generatedAt = new Date().toISOString();
-  out.model = MODEL;
-  await writeFile("data/analysis.json", JSON.stringify(out, null, 1));
-  console.log(`analyst: ${out.headline} (${out.shortlist?.length ?? 0} picks)`);
+  if (!parsed) throw new Error("model returned no JSON after retry");
+  const out = { ...parsed, generatedAt: new Date().toISOString(), model: MODEL };
+  const prevAnalysis = await readJsonSafe("data/analysis.json");
+  const relevant = (a) => JSON.stringify({ h: a.headline, s: a.shortlist, m: a.model ?? "" });
+  if (prevAnalysis && relevant(out) === relevant(prevAnalysis)) {
+    console.log("analyst: no change in notes — not rewritten");
+  } else {
+    await writeFile("data/analysis.json", JSON.stringify(out, null, 1));
+    console.log(`analyst: ${out.headline} (${out.shortlist?.length ?? 0} picks)`);
+  }
 
   if (diff.total && Array.isArray(out.alerts) && out.alerts.length) {
     const prev = await readFile("data/alert.txt", "utf8").catch(() => "");

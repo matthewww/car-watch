@@ -282,8 +282,17 @@ const diff = {
   gone: goneConfirmed.map((l) => l.id),
 };
 
-await writeFile(LISTINGS_FILE, JSON.stringify({ generatedAt: iso, searchUrl: SEARCH_URL, listings: all }, null, 1));
-await writeFile(DIFF_FILE, JSON.stringify(diff, null, 1));
+// skip rewriting when nothing but timestamps changed — avoids no-op commits
+const volatileKey = (listings) =>
+  JSON.stringify(listings.map((l) => { const c = { ...l }; delete c.lastSeen; return c; }));
+if (prev && volatileKey(all) === volatileKey(prev.listings ?? [])) {
+  console.log("listings unchanged (timestamps only) — not rewritten");
+} else {
+  await writeFile(LISTINGS_FILE, JSON.stringify({ generatedAt: iso, searchUrl: SEARCH_URL, listings: all }, null, 1));
+}
+// diff.json only exists when there are changes (analyze tolerates absence)
+if (diff.total) await writeFile(DIFF_FILE, JSON.stringify(diff, null, 1));
+else await unlink(DIFF_FILE).catch(() => {});
 
 // human-readable alert (only when something changed)
 const byId = new Map(all.map((l) => [l.id, l]));

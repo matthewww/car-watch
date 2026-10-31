@@ -11,8 +11,12 @@ Phone-friendly tracker for AutoTrader KZN Renault Duster listings
   (Durban / Hillcrest & Pinetown / Pietermaritzburg / North Coast & Outer)
   with filters (Auto only, 2020+, Auto+2020+), sorting, and
   NEW / price-drop / GONE badges.
-- `.github/workflows/update.yml` — runs 4× daily on GitHub Actions, commits
-  data changes, pushes an alert if configured.
+- `.github/workflows/push-alert.yml` — relays `data/alert.txt` to ntfy whenever
+  a push changes it (the fetcher only writes alert.txt when something changed).
+- `.github/workflows/update.yml` — manual/backup runner: **AutoTrader
+  503-blocks GitHub-hosted runners**, so the regular schedule is the local
+  Windows Task Scheduler task **DusterWatch** (4× daily via `run-local.ps1`,
+  which fetches, analyses, commits and pushes).
 - **Valuation**: each fetch fits a price model (year / km / trim / transmission /
   4WD) on the current inventory and stores `estUnder` per listing — shown on the
   site as "≈Rnk under/over" badges and a Value sort. Deterministic, no API needed.
@@ -24,12 +28,16 @@ Phone-friendly tracker for AutoTrader KZN Renault Duster listings
   `$env:ANALYZE_API_KEY = "<key>"; node analyze.mjs`.
 
 ## Setup (one-time)
-1. Create a GitHub repo and push this folder.
-2. Repo **Settings → Pages** → Deploy from branch → `main` / root.
-3. Alerts (optional): install the [ntfy app](https://ntfy.sh) on your phone,
-   subscribe to a random topic (e.g. `duster-watch-<random>`), and add repo
-   secret `NTFY_TOPIC` with that topic name.
-4. To run locally: `node fetch-listings.mjs`, then open `index.html`.
+1. Repo: <https://github.com/matthewww/duster-watch> (public).
+2. Pages deploys from `main` / root: <https://matthewww.github.io/duster-watch/>
+3. Alerts: ntfy app → subscribe to topic `duster-watch-1r7tipbh8l`
+   (secret `NTFY_TOPIC` already set in the repo).
+4. Schedule: local task `DusterWatch` runs `run-local.ps1` at
+   03:20 / 09:20 / 15:20 / 21:20 SAST (`schtasks /query /tn DusterWatch`).
+   It needs the machine on; missed slots are caught up when available.
+5. Optional manual CI run: Actions → update-listings → Run workflow (may 503).
+6. To run locally by hand: `node fetch-listings.mjs` (then open the site via
+   `npx serve .` — browsers block `file://` fetches).
 
 ## Notes
 - If AutoTrader starts blocking GitHub-hosted runners (HTTP 403), fall back to

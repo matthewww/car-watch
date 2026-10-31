@@ -1,7 +1,8 @@
 name: update-listings
+# Manual/backup only: AutoTrader 503-blocks GitHub-hosted runners, so the
+# regular schedule is a local Windows Task Scheduler job (run-local.ps1) that
+# commits data; push-alert.yml relays alerts to ntfy on push.
 on:
-  schedule:
-    - cron: "20 1,7,13,19 * * *"   # 4x daily, offset from the hour
   workflow_dispatch:
 
 permissions:
@@ -37,14 +38,4 @@ jobs:
             git commit -m "update listings $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
-
-      - name: Push alert
-        if: env.NTFY_TOPIC != ''
-        env:
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: |
-          if [ -s data/alert.txt ]; then
-            curl -sf -T data/alert.txt \
-              -H "Title: Duster watch update" -H "Tags: car" \
-              "https://ntfy.sh/${NTFY_TOPIC}"
-          fi
+      # alert delivery lives in push-alert.yml (triggered on data/alert.txt changes)
