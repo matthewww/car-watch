@@ -71,6 +71,31 @@ async function askModel(prompt, maxTokens) {
   return null;
 }
 
+/** Verified/quoted boot litres, seats up (SA spec sheets + reviews where possible). */
+const BOOT_LITRES = {
+  "renault/duster": 445, "kia/seltos": 433, "hyundai/creta": 433, "honda/hr-v": 448,
+  "toyota/corolla-cross": 440, "mg/zs": 443, "mitsubishi/eclipse-cross": 437,
+  "haval/h6": 560, "peugeot/2008": 434, "opel/crossland": "410-520 (sliding bench)",
+  "citroen/c3-aircross": "410-444", "opel/grandland-x": "414-514", "peugeot/3008": 520,
+  "renault/triber": "625 (5-seat) / 84 (7-seat)", "omoda/c5": "378 (442 for 2025+ X Series)",
+  "haval/jolion": "337 SA (430 overseas, Pro 291)", "mitsubishi/asx": "358-393",
+  "nissan/magnite": "336 (392 facelift)", "renault/kiger": 405, "hyundai/venue": 368,
+  "kia/sonet": 352, "toyota/starlet": 342, "ford/ecosport": 333, "chery/tiggo-4-pro": 380,
+  "mazda/cx-5": 407, "mazda/cx-3": 264, "toyota/urban-cruiser": 328,
+  "suzuki/vitara-brezza": 328, "suzuki/fronx": 304, "suzuki/swift": 268,
+  "suzuki/baleno": 318, "kia/picanto": 255, "volkswagen/polo-vivo": 280,
+  "hyundai/i20": 351, "mg/mg3": 293, "citroen/c3": 300, "renault/kwid": 279,
+  "suzuki/s-presso": 214, "toyota/corolla-quest": "471 (sedan)", "chery/tiggo-7-pro": 475,
+  "chery/tiggo-8-pro": "448 (7-seat)", "mitsubishi/xpander": "200 up / ~700 folded",
+  "citroen/basalt": "470 (unverified)", "opel/mokka": 350, "fiat/500x": 350,
+  "suzuki/dzire": "378 (sedan)", "mahindra/xuv-3xo": "240-300", "nissan/x-trail": "565-585",
+  "mazda/mazda3": "508 (sedan)", "kia/pegas": "475 (sedan)", "honda/brio": 258,
+  "honda/amaze": "420 (sedan)", "toyota/agya": 200, "suzuki/ertiga": "550 (last row down)",
+  "hyundai/exter": "unknown", "chery/tiggo-cross": "unknown", "changan/alsvin": "unknown",
+  "baic/beijing-x55": "unknown", "toyota/vitz": "unknown", "hyundai/atos": "unknown",
+  "toyota/etios": "unknown",
+};
+
 try {
   const data = (await readJsonSafe("data/listings.json")) ?? { searches: {} };
   let diff = { total: 0, searches: {} };
@@ -131,15 +156,16 @@ Provide an entry for EVERY search key above. Rank shortlists by desirability. Be
   // ---- call 2: discovery candidate ranking (only when a fresh sweep exists)
   let discResult = null;
   if (discovery?.candidates?.length) {
-    const cands = discovery.candidates.slice(0, 12).map((c) => ({
+    const cands = discovery.candidates.slice(0, 15).map((c) => ({
       key: c.key, count: c.count, autos: c.autos, min: c.min, max: c.max,
+      boot: BOOT_LITRES[c.key] ?? "unknown — verify",
     }));
     const discPrompt = `You are a used-car buying analyst. A weekly AutoTrader KZN sweep found models NOT currently
 watched by the buyer (standard filters: ≤R300 000, ≤100 000 km, 2019+, KZN only).
-Buyer lens: compact-SUV/van shape matters — boot ≥430 L is the established bar; reliability and dealer network valued; autos preferred.
-Candidates: ${JSON.stringify(cands)}
+Buyer lens: boot ≥430 L is the established bar (treat 410-430 sliding-bench designs as borderline-qualifying); reliability and dealer network valued; autos preferred.
+Candidates (boot = litres, seats up): ${JSON.stringify(cands)}
 
-Rank which (if any) are worth ADDING as a watched search, with boot-size caveats where relevant.
+Rank which (if any) are worth ADDING as a watched search, using the boot figures.
 Respond ONLY with JSON, no other text:
 {"headline": "<max 25 words>", "shortlist": [{"id": "<make/model key>", "note": "<max 20 words>"}, ...max 3]}
 If none are worth adding, return an empty shortlist and say why in the headline.`;

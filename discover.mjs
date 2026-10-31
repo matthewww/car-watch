@@ -18,7 +18,7 @@ const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 const FILTERS = "price=less-than-300000&year=more-than-2019&mileage=less-than-100000";
 const PRICE_CAP = 300000;
-const PAGE_CAP = 6; // deep enough for big makes (toyota/hyundai ~350-675 in-cap)
+const PAGE_CAP = 10; // deep enough that big makes (toyota/hyundai ~350-675 in-cap) can't hide models
 
 const MAKES = [
   "baic", "bmw", "chery", "changan", "citroen", "fiat", "ford", "gwm", "haval",
