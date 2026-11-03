@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02T13:24:58.416Z",
+ "generatedAt": "2026-11-03T13:35:56.664Z",
  "searches": {
   "duster": {
    "label": "Renault Duster",
@@ -27,10 +27,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -37033
+     "estUnder": -37520
     },
     {
      "id": "28097930",
@@ -50,10 +50,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 4121
+     "estUnder": 8441
     },
     {
      "id": "28320579",
@@ -65,7 +65,7 @@
      "km": 50000,
      "transmission": "Manual",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.8,
      "dealerReviews": 10,
      "dealer": "GWM Haval Mobeni",
@@ -73,10 +73,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -4301
+     "estUnder": -6279
     },
     {
      "id": "28505612",
@@ -88,7 +88,7 @@
      "km": 88500,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 4.3,
      "dealerReviews": 36,
      "dealer": "Super Auto",
@@ -96,10 +96,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 5717
+     "estUnder": 6213
     },
     {
      "id": "28508505",
@@ -111,7 +111,7 @@
      "km": 86000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.8,
      "dealerReviews": 10,
      "dealer": "GWM Haval Mobeni",
@@ -119,10 +119,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 7622
+     "estUnder": 4659
     },
     {
      "id": "28547722",
@@ -134,7 +134,7 @@
      "km": 90800,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.6,
      "dealerReviews": 28,
      "dealer": "Omars Car Sales",
@@ -142,10 +142,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -614
+     "estUnder": -1231
     },
     {
      "id": "28666537",
@@ -169,7 +169,7 @@
      "km": 91345,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.3,
      "dealerReviews": 17,
      "dealer": "KIA Pinetown",
@@ -177,10 +177,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 7693
+     "estUnder": 5460
     },
     {
      "id": "28727695",
@@ -192,7 +192,7 @@
      "km": 99000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "High Price",
      "dealerRating": 4.2,
      "dealerReviews": 45,
      "dealer": "Rally Motors",
@@ -200,10 +200,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -7036
+     "estUnder": -6401
     },
     {
      "id": "28728171",
@@ -215,7 +215,7 @@
      "km": 44460,
      "transmission": "Manual",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "Durban Multifranchise - kia",
@@ -223,10 +223,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12761
+     "estUnder": 9894
     },
     {
      "id": "28729328",
@@ -246,10 +246,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 24273
+     "estUnder": 25296
     },
     {
      "id": "28741951",
@@ -261,6 +261,7 @@
      "km": 47051,
      "transmission": "Automatic",
      "fuel": "Diesel",
+     "priceFlag": "Fair Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "KIA Ballito",
@@ -268,10 +269,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12185
+     "estUnder": 5335
     },
     {
      "id": "28742440",
@@ -283,7 +284,7 @@
      "km": 76000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.3,
      "dealerReviews": 30,
      "dealer": "Hyundai Mobeni",
@@ -291,10 +292,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 1139
+     "estUnder": -3188
     },
     {
      "id": "28745083",
@@ -314,10 +315,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -26707
+     "estUnder": -30081
     },
     {
      "id": "28764732",
@@ -337,10 +338,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 3723
+     "estUnder": 9817
     },
     {
      "id": "28774832",
@@ -361,7 +362,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
      "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-03T13:35:56.664Z",
      "removedAt": null,
      "estUnder": 10717
     },
@@ -395,10 +396,33 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -14467
+     "estUnder": -9850
+    },
+    {
+     "id": "28822140",
+     "url": "https://www.autotrader.co.za/car-for-sale/renault/duster/intens/28822140",
+     "price": 238500,
+     "year": 2022,
+     "variant": "1.5dCi Intens",
+     "condition": "Used",
+     "km": 57000,
+     "transmission": "Automatic",
+     "fuel": "Diesel",
+     "priceFlag": "Great Price",
+     "dealerRating": 3.6,
+     "dealerReviews": 2,
+     "dealer": "Renault Pietermaritzburg",
+     "area": "Town Hill, Pietermaritzburg",
+     "group": "Pietermaritzburg",
+     "priceHistory": [],
+     "firstSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "estUnder": 19234
     }
    ]
   },
@@ -428,7 +452,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -456,7 +480,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -499,7 +523,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -510,7 +534,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/kia/seltos?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 22
+    "kznTotal": 21
    },
    "listings": [
     {
@@ -529,10 +553,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -14355
+     "estUnder": -8655
     },
     {
      "id": "28333220",
@@ -551,10 +575,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -16146
+     "estUnder": -12923
     },
     {
      "id": "28340222",
@@ -570,10 +594,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 5725
+     "estUnder": 3303
     },
     {
      "id": "28564368",
@@ -593,10 +617,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 37692
+     "estUnder": 35168
     },
     {
      "id": "28569428",
@@ -616,10 +640,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -35585
+     "estUnder": -26839
     },
     {
      "id": "28631175",
@@ -639,10 +663,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -19188
+     "estUnder": -18520
     },
     {
      "id": "28682451",
@@ -662,10 +686,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 44930
+     "estUnder": 50602
     },
     {
      "id": "28682700",
@@ -677,7 +701,7 @@
      "km": 87000,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "High Price",
      "dealerRating": 3.8,
      "dealerReviews": 10,
      "dealer": "GWM Haval Mobeni",
@@ -685,10 +709,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -8182
+     "estUnder": -2278
     },
     {
      "id": "28691583",
@@ -706,10 +730,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -9526
+     "estUnder": -13028
     },
     {
      "id": "28696048",
@@ -721,7 +745,7 @@
      "km": 65539,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "High Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "Renault Pinetown",
@@ -729,10 +753,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 2702
+     "estUnder": 1352
     },
     {
      "id": "28697026",
@@ -752,10 +776,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -36870
+     "estUnder": -36797
     },
     {
      "id": "28706134",
@@ -767,7 +791,7 @@
      "km": 56000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 4.4,
      "dealerReviews": 11,
      "dealer": "Kia Waterfall",
@@ -775,10 +799,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12276
+     "estUnder": 11250
     },
     {
      "id": "28731021",
@@ -799,7 +823,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-03T13:35:56.664Z",
      "removedAt": null,
      "estUnder": 29255
     },
@@ -821,10 +845,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -1900
+     "estUnder": -1325
     },
     {
      "id": "28742881",
@@ -844,10 +868,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 26946
+     "estUnder": 31078
     },
     {
      "id": "28766518",
@@ -859,7 +883,7 @@
      "km": 72593,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.3,
      "dealerReviews": 34,
      "dealer": "KIA Durban South",
@@ -867,10 +891,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 5656
+     "estUnder": 4066
     },
     {
      "id": "28791470",
@@ -890,10 +914,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 8462
+     "estUnder": 12137
     },
     {
      "id": "28792116",
@@ -905,7 +929,7 @@
      "km": 71930,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "KIA Umhlanga",
@@ -913,10 +937,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -25015
+     "estUnder": -24209
     },
     {
      "id": "28799273",
@@ -928,14 +952,14 @@
      "km": 75200,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -28423
+     "estUnder": -27728
     },
     {
      "id": "28818644",
@@ -955,10 +979,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 13700
+     "estUnder": 13624
     },
     {
      "id": "28818691",
@@ -970,7 +994,7 @@
      "km": 60942,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "KIA Umhlanga",
@@ -978,10 +1002,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -3884
+     "estUnder": -2703
     },
     {
      "id": "28818917",
@@ -993,7 +1017,7 @@
      "km": 75244,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.2,
      "dealerReviews": 7,
      "dealer": "CMH Volvo Umhlanga",
@@ -1001,10 +1025,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 11628
+     "estUnder": 12321
     }
    ]
   },
@@ -1034,10 +1058,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -10917
+     "estUnder": -11457
     },
     {
      "id": "28242355",
@@ -1056,10 +1080,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-01T09:29:52.143Z",
-     "lastMissing": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastMissing": null,
      "removedAt": null,
-     "estUnder": -16165
+     "estUnder": -12628
     },
     {
      "id": "28246606",
@@ -1079,10 +1103,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -4796
+     "estUnder": -4308
     },
     {
      "id": "28320991",
@@ -1094,7 +1118,7 @@
      "km": 70000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.8,
      "dealerReviews": 10,
      "dealer": "GWM Haval Mobeni",
@@ -1102,10 +1126,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -1296
+     "estUnder": 826
     },
     {
      "id": "28433155",
@@ -1126,7 +1150,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-03T13:35:56.664Z",
      "removedAt": null,
      "estUnder": -1196
     },
@@ -1159,7 +1183,7 @@
      "km": 98000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.5,
      "dealerReviews": 26,
      "dealer": "Hyundai Ballito",
@@ -1167,10 +1191,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12454
+     "estUnder": 16102
     },
     {
      "id": "28564020",
@@ -1182,7 +1206,7 @@
      "km": 74500,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.9,
      "dealerReviews": 22,
      "dealer": "Kent Motors",
@@ -1190,10 +1214,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-01T09:29:52.143Z",
-     "lastMissing": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastMissing": null,
      "removedAt": null,
-     "estUnder": 9880
+     "estUnder": 9991
     },
     {
      "id": "28597538",
@@ -1214,7 +1238,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-03T13:35:56.664Z",
      "removedAt": null,
      "estUnder": 6250
     },
@@ -1232,10 +1256,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 34812
+     "estUnder": 38749
     },
     {
      "id": "28654400",
@@ -1247,7 +1271,7 @@
      "km": 57000,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.2,
      "dealerReviews": 24,
      "dealer": "Aksons Wheels and Haval PMB",
@@ -1255,10 +1279,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 1569
+     "estUnder": 4914
     },
     {
      "id": "28666888",
@@ -1279,7 +1303,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-03T13:35:56.664Z",
      "removedAt": null,
      "estUnder": 6062
     },
@@ -1293,7 +1317,7 @@
      "km": 44000,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 4.4,
      "dealerReviews": 61,
      "dealer": "MMA Cars Pinetown",
@@ -1301,10 +1325,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 13052
+     "estUnder": 14973
     },
     {
      "id": "28680625",
@@ -1324,10 +1348,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -10804
+     "estUnder": -13100
     },
     {
      "id": "28706374",
@@ -1339,7 +1363,7 @@
      "km": 51000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.7,
      "dealerReviews": 18,
      "dealer": "GAC Pinetown",
@@ -1347,10 +1371,33 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 17268
+     "estUnder": 14599
+    },
+    {
+     "id": "28717838",
+     "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28717838",
+     "price": 239990,
+     "year": 2021,
+     "variant": "1.5 Premium",
+     "condition": "Used",
+     "km": 82473,
+     "transmission": "Manual",
+     "fuel": "Petrol",
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.7,
+     "dealerReviews": 10,
+     "dealer": "Hyundai Amanzimtoti",
+     "area": "Amanzimtoti, Amanzimtoti",
+     "group": "Other",
+     "priceHistory": [],
+     "firstSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "estUnder": -1494
     },
     {
      "id": "28730217",
@@ -1392,10 +1439,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 989
+     "estUnder": -147
     },
     {
      "id": "28749921",
@@ -1408,17 +1455,17 @@
      "transmission": "Automatic",
      "fuel": "Diesel",
      "priceFlag": "Fair Price",
-     "dealerRating": 3.3,
-     "dealerReviews": 35,
+     "dealerRating": 3.2,
+     "dealerReviews": 36,
      "dealer": "Durban South Toyota",
      "area": "Prospecton Industrial, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -33344
+     "estUnder": -30737
     },
     {
      "id": "28754047",
@@ -1438,10 +1485,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -8406
+     "estUnder": -8201
     },
     {
      "id": "28760521",
@@ -1461,10 +1508,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 792
+     "estUnder": 2374
     },
     {
      "id": "28762803",
@@ -1484,10 +1531,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-01T09:29:52.143Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -10483
+     "estUnder": -8681
     },
     {
      "id": "28764734",
@@ -1507,10 +1554,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -29690
+     "estUnder": -29785
     },
     {
      "id": "28770421",
@@ -1530,10 +1577,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -14428
+     "estUnder": -11553
     },
     {
      "id": "28782717",
@@ -1545,7 +1592,7 @@
      "km": 57500,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.4,
      "dealerReviews": 5,
      "dealer": "Bidvest McCarthy Nissan Gateway",
@@ -1553,10 +1600,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 5748
+     "estUnder": 3433
     },
     {
      "id": "28792075",
@@ -1568,7 +1615,7 @@
      "km": 52991,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "High Price",
      "dealerRating": 3.9,
      "dealerReviews": 15,
      "dealer": "Hyundai Pinetown",
@@ -1576,10 +1623,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -17544
+     "estUnder": -14418
     },
     {
      "id": "28796898",
@@ -1591,7 +1638,7 @@
      "km": 93358,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 2.8,
      "dealerReviews": 5,
      "dealer": "Hyundai Umhlanga",
@@ -1599,10 +1646,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 10668
+     "estUnder": 12185
     },
     {
      "id": "28796920",
@@ -1622,10 +1669,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 8292
+     "estUnder": 8017
     },
     {
      "id": "28809372",
@@ -1637,7 +1684,7 @@
      "km": 49930,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 4.1,
      "dealerReviews": 10,
      "dealer": "SMG Select Pietermaritzburg",
@@ -1645,10 +1692,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 3314
+     "estUnder": -76
     },
     {
      "id": "28816421",
@@ -1660,7 +1707,7 @@
      "km": 77800,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.7,
      "dealerReviews": 5,
      "dealer": "MG Amanzimtoti",
@@ -1668,10 +1715,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-02T13:24:58.416Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 21372
+     "estUnder": 20163
     }
    ]
   },
@@ -1701,7 +1748,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -1715,15 +1762,15 @@
      "km": 50000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
-     "dealerRating": 2.6,
-     "dealerReviews": 47,
+     "priceFlag": "Fair Price",
+     "dealerRating": 2.7,
+     "dealerReviews": 48,
      "dealer": "Hoopers Volkswagen Durban",
      "area": "Durban Central, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -1734,7 +1781,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/toyota/corolla-cross?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 11
+    "kznTotal": 12
    },
    "listings": [
     {
@@ -1747,7 +1794,7 @@
      "km": 86000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 2.6,
      "dealerReviews": 13,
      "dealer": "Pennylane Cars",
@@ -1755,10 +1802,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -4496
+     "estUnder": -3116
     },
     {
      "id": "28433108",
@@ -1792,6 +1839,7 @@
      "km": 27535,
      "transmission": "Automatic",
      "fuel": "Petrol",
+     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 57,
      "dealer": "Premium Auto S.A",
@@ -1799,10 +1847,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -6314
+     "estUnder": -5622
     },
     {
      "id": "28633563",
@@ -1844,10 +1892,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -4679
+     "estUnder": -4071
     },
     {
      "id": "28749233",
@@ -1859,17 +1907,18 @@
      "km": 59830,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "dealerRating": 3.3,
-     "dealerReviews": 35,
+     "priceFlag": "Great Price",
+     "dealerRating": 3.2,
+     "dealerReviews": 36,
      "dealer": "Durban South Toyota",
      "area": "Prospecton Industrial, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -23730
+     "estUnder": -23931
     },
     {
      "id": "28775201",
@@ -1889,8 +1938,8 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
      "lastSeen": "2026-11-01T09:29:52.143Z",
-     "lastMissing": "2026-11-02T13:24:58.416Z",
-     "removedAt": null,
+     "lastMissing": "2026-11-03T13:35:56.664Z",
+     "removedAt": "2026-11-03T13:35:56.664Z",
      "estUnder": 18700
     },
     {
@@ -1910,10 +1959,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 28850
+     "estUnder": 28874
     },
     {
      "id": "28777149",
@@ -1925,7 +1974,7 @@
      "km": 80000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 4.2,
      "dealerReviews": 43,
      "dealer": "All Cars",
@@ -1933,10 +1982,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 2705
+     "estUnder": 4376
     },
     {
      "id": "28777439",
@@ -1948,6 +1997,7 @@
      "km": 70085,
      "transmission": "Automatic",
      "fuel": "Petrol",
+     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 57,
      "dealer": "Premium Auto S.A",
@@ -1955,10 +2005,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 15927
+     "estUnder": 16500
     },
     {
      "id": "28788680",
@@ -1978,10 +2028,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 2069
+     "estUnder": 3610
     },
     {
      "id": "28796647",
@@ -2001,10 +2051,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -10843
+     "estUnder": -9937
     },
     {
      "id": "28799379",
@@ -2016,6 +2066,7 @@
      "km": 26209,
      "transmission": "Automatic",
      "fuel": "Petrol",
+     "priceFlag": "Great Price",
      "dealerRating": 2.6,
      "dealerReviews": 13,
      "dealer": "Pennylane Cars",
@@ -2023,10 +2074,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -9947
+     "estUnder": -10572
     },
     {
      "id": "28811110",
@@ -2046,10 +2097,33 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 10341
+     "estUnder": 9892
+    },
+    {
+     "id": "28821285",
+     "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28821285",
+     "price": 299999,
+     "year": 2022,
+     "variant": "1.8 XS",
+     "condition": "Used",
+     "km": 77000,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Great Price",
+     "dealerRating": 4.6,
+     "dealerReviews": 39,
+     "dealer": "Ferreira Motors",
+     "area": "Umhlanga Rocks, Umhlanga",
+     "group": "North Coast & Outer",
+     "priceHistory": [],
+     "firstSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "estUnder": -6117
     }
    ]
   },
@@ -2079,7 +2153,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 6132
@@ -2102,7 +2176,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 6805
@@ -2125,7 +2199,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 13512
@@ -2140,7 +2214,7 @@
      "km": 12697,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "High Price",
      "dealerRating": 3.7,
      "dealerReviews": 5,
      "dealer": "MG Amanzimtoti",
@@ -2148,7 +2222,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -20364
@@ -2171,7 +2245,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -6941
@@ -2193,7 +2267,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -16691
@@ -2222,7 +2296,7 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 2313
@@ -2240,7 +2314,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 17891
@@ -2262,7 +2336,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -2771
@@ -2280,22 +2354,27 @@
     {
      "id": "28522952",
      "url": "https://www.autotrader.co.za/car-for-sale/haval/h6/premium/28522952",
-     "price": 165990,
+     "price": 119990,
      "year": 2019,
      "variant": "1.5T Premium",
      "condition": "Used",
      "km": 98759,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
      "dealerRating": 3.7,
      "dealerReviews": 5,
      "dealer": "MG Amanzimtoti",
      "area": "Umbogintwini, Amanzimtoti",
      "group": "Other",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-03T13:35:56.664Z",
+       "from": 165990,
+       "to": 119990
+      }
+     ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2317,7 +2396,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2331,7 +2410,7 @@
      "km": 70000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.8,
      "dealerReviews": 31,
      "dealer": "Cars On Ridge",
@@ -2339,7 +2418,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2353,7 +2432,6 @@
      "km": 40000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
      "dealerRating": 3.5,
      "dealerReviews": 27,
      "dealer": "GWM Haval Umhlanga Used Cars",
@@ -2361,7 +2439,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2375,6 +2453,7 @@
      "km": 51300,
      "transmission": "Automatic",
      "fuel": "Petrol",
+     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 24,
      "dealer": "GWM Haval Hillcrest",
@@ -2382,7 +2461,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2404,7 +2483,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -2428,6 +2507,7 @@
      "km": 30000,
      "transmission": "Automatic",
      "fuel": "Petrol",
+     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 20,
      "dealer": "Key Truck and Car Pinetown",
@@ -2435,7 +2515,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2457,7 +2537,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2479,7 +2559,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2497,7 +2577,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2519,7 +2599,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -2551,7 +2631,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2573,7 +2653,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2595,7 +2675,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2617,7 +2697,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2639,7 +2719,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2653,7 +2733,7 @@
      "km": 68100,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 2.9,
      "dealerReviews": 27,
      "dealer": "CMH Nissan Hillcrest",
@@ -2661,7 +2741,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2675,7 +2755,6 @@
      "km": 65300,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
      "dealerRating": 2.8,
      "dealerReviews": 5,
      "dealer": "Hyundai Umhlanga",
@@ -2683,7 +2762,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
+     "lastSeen": "2026-11-03T13:35:56.664Z",
      "lastMissing": null,
      "removedAt": null
     }
