@@ -1,13 +1,11 @@
 {
- "generatedAt": "2026-11-03T13:35:56.664Z",
- "total": 5,
+ "generatedAt": "2026-11-04T16:01:59.995Z",
+ "total": 2,
  "searches": {
   "duster": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
-   "new": [
-    "28822140"
-   ],
+   "new": [],
    "dropped": [],
    "increased": [],
    "gone": []
@@ -29,22 +27,28 @@
    "gone": []
   },
   "seltos": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
-   "dropped": [],
+   "dropped": [
+    {
+     "id": "28706134",
+     "from": 279990,
+     "to": 277990
+    }
+   ],
    "increased": [],
    "gone": []
   },
   "creta": {
    "total": 1,
    "baseline": false,
-   "new": [
-    "28717838"
-   ],
+   "new": [],
    "dropped": [],
    "increased": [],
-   "gone": []
+   "gone": [
+    "28717838"
+   ]
   },
   "hr-v": {
    "total": 0,
@@ -55,16 +59,12 @@
    "gone": []
   },
   "corolla-cross": {
-   "total": 2,
+   "total": 0,
    "baseline": false,
-   "new": [
-    "28821285"
-   ],
+   "new": [],
    "dropped": [],
    "increased": [],
-   "gone": [
-    "28775201"
-   ]
+   "gone": []
   },
   "mg-zs": {
    "total": 0,
@@ -75,16 +75,10 @@
    "gone": []
   },
   "haval-h6": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
    "new": [],
-   "dropped": [
-    {
-     "id": "28522952",
-     "from": 165990,
-     "to": 119990
-    }
-   ],
+   "dropped": [],
    "increased": [],
    "gone": []
   },

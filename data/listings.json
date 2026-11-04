@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03T13:35:56.664Z",
+ "generatedAt": "2026-11-04T16:01:59.995Z",
  "searches": {
   "duster": {
    "label": "Renault Duster",
@@ -27,7 +27,7 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -37520
@@ -50,7 +50,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 8441
@@ -73,7 +73,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -6279
@@ -96,7 +96,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 6213
@@ -119,7 +119,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 4659
@@ -142,7 +142,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -1231
@@ -177,7 +177,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 5460
@@ -200,7 +200,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -6401
@@ -223,7 +223,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 9894
@@ -246,7 +246,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 25296
@@ -269,7 +269,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 5335
@@ -292,7 +292,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -3188
@@ -315,7 +315,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -30081
@@ -338,7 +338,7 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 9817
@@ -362,8 +362,8 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
      "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": "2026-11-03T13:35:56.664Z",
-     "removedAt": null,
+     "lastMissing": "2026-11-04T06:51:42.436Z",
+     "removedAt": "2026-11-04T06:51:42.436Z",
      "estUnder": 10717
     },
     {
@@ -396,7 +396,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -9850
@@ -419,7 +419,7 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-11-03T13:35:56.664Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 19234
@@ -452,7 +452,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -480,7 +480,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -523,7 +523,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -553,10 +553,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -8655
+     "estUnder": -8610
     },
     {
      "id": "28333220",
@@ -575,10 +575,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -12923
+     "estUnder": -13022
     },
     {
      "id": "28340222",
@@ -594,10 +594,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 3303
+     "estUnder": 3297
     },
     {
      "id": "28564368",
@@ -610,17 +610,13 @@
      "transmission": "Automatic",
      "fuel": "Petrol",
      "priceFlag": "Great Price",
-     "dealerRating": 3.7,
-     "dealerReviews": 18,
-     "dealer": "GAC Pinetown",
-     "area": "Pinetown North Industria, Pinetown",
-     "group": "Hillcrest & Pinetown",
+     "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 35168
+     "estUnder": 35192
     },
     {
      "id": "28569428",
@@ -640,10 +636,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -26839
+     "estUnder": -26821
     },
     {
      "id": "28631175",
@@ -663,10 +659,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -18520
+     "estUnder": -18568
     },
     {
      "id": "28682451",
@@ -686,10 +682,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 50602
+     "estUnder": 50656
     },
     {
      "id": "28682700",
@@ -709,10 +705,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -2278
+     "estUnder": -2294
     },
     {
      "id": "28691583",
@@ -730,10 +726,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -13028
+     "estUnder": -13602
     },
     {
      "id": "28696048",
@@ -753,10 +749,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 1352
+     "estUnder": 1021
     },
     {
      "id": "28697026",
@@ -776,33 +772,39 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -36797
+     "estUnder": -36665
     },
     {
      "id": "28706134",
      "url": "https://www.autotrader.co.za/car-for-sale/kia/seltos/ex-and/28706134",
-     "price": 279990,
+     "price": 277990,
      "year": 2021,
      "variant": "1.5CRDi EX+",
      "condition": "Used",
      "km": 56000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 4.4,
      "dealerReviews": 11,
      "dealer": "Kia Waterfall",
      "area": "Waterfall, Hillcrest",
      "group": "Hillcrest & Pinetown",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-04T16:01:59.995Z",
+       "from": 279990,
+       "to": 277990
+      }
+     ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 11250
+     "estUnder": 12821
     },
     {
      "id": "28731021",
@@ -823,8 +825,8 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": "2026-11-03T13:35:56.664Z",
-     "removedAt": null,
+     "lastMissing": "2026-11-04T06:51:42.436Z",
+     "removedAt": "2026-11-04T06:51:42.436Z",
      "estUnder": 29255
     },
     {
@@ -845,10 +847,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -1325
+     "estUnder": -1344
     },
     {
      "id": "28742881",
@@ -868,10 +870,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 31078
+     "estUnder": 30876
     },
     {
      "id": "28766518",
@@ -891,10 +893,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 4066
+     "estUnder": 3807
     },
     {
      "id": "28791470",
@@ -907,17 +909,17 @@
      "transmission": "Automatic",
      "fuel": "Petrol",
      "priceFlag": "Great Price",
-     "dealerRating": 3.3,
-     "dealerReviews": 14,
+     "dealerRating": 3.4,
+     "dealerReviews": 15,
      "dealer": "Hyundai Durban South",
      "area": "Sea View, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12137
+     "estUnder": 12073
     },
     {
      "id": "28792116",
@@ -937,10 +939,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -24209
+     "estUnder": -24298
     },
     {
      "id": "28799273",
@@ -956,10 +958,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -27728
+     "estUnder": -27783
     },
     {
      "id": "28818644",
@@ -979,10 +981,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 13624
+     "estUnder": 13802
     },
     {
      "id": "28818691",
@@ -1002,10 +1004,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -2703
+     "estUnder": -2906
     },
     {
      "id": "28818917",
@@ -1025,10 +1027,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12321
+     "estUnder": 12266
     }
    ]
   },
@@ -1058,15 +1060,15 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -11457
+     "estUnder": -12565
     },
     {
      "id": "28242355",
      "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28242355",
-     "price": 249995,
+     "price": 259995,
      "year": 2019,
      "variant": "1.6 Executive Limited Edition Auto",
      "condition": "Used",
@@ -1078,12 +1080,18 @@
      "dealer": "Aksonsicar & Ashok Leyland PMB",
      "area": "Pietermaritzburg Central, Pietermaritzburg",
      "group": "Pietermaritzburg",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-04T06:51:42.436Z",
+       "from": 249995,
+       "to": 259995
+      }
+     ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -12628
+     "estUnder": -19007
     },
     {
      "id": "28246606",
@@ -1096,17 +1104,13 @@
      "transmission": "Automatic",
      "fuel": "Diesel",
      "priceFlag": "Great Price",
-     "dealerRating": 3.7,
-     "dealerReviews": 18,
-     "dealer": "GAC Pinetown",
-     "area": "Pinetown North Industria, Pinetown",
-     "group": "Hillcrest & Pinetown",
+     "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -4308
+     "estUnder": -4417
     },
     {
      "id": "28320991",
@@ -1126,10 +1130,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 826
+     "estUnder": 1386
     },
     {
      "id": "28433155",
@@ -1150,8 +1154,8 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": "2026-11-03T13:35:56.664Z",
-     "removedAt": null,
+     "lastMissing": "2026-11-04T06:51:42.436Z",
+     "removedAt": "2026-11-04T06:51:42.436Z",
      "estUnder": -1196
     },
     {
@@ -1191,10 +1195,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 16102
+     "estUnder": 17287
     },
     {
      "id": "28564020",
@@ -1214,10 +1218,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 9991
+     "estUnder": 10652
     },
     {
      "id": "28597538",
@@ -1238,8 +1242,8 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": "2026-11-03T13:35:56.664Z",
-     "removedAt": null,
+     "lastMissing": "2026-11-04T06:51:42.436Z",
+     "removedAt": "2026-11-04T06:51:42.436Z",
      "estUnder": 6250
     },
     {
@@ -1256,10 +1260,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 38749
+     "estUnder": 40739
     },
     {
      "id": "28654400",
@@ -1279,10 +1283,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 4914
+     "estUnder": 5278
     },
     {
      "id": "28666888",
@@ -1302,10 +1306,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-02T13:24:58.416Z",
-     "lastMissing": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
+     "lastMissing": null,
      "removedAt": null,
-     "estUnder": 6062
+     "estUnder": 5431
     },
     {
      "id": "28672921",
@@ -1325,10 +1329,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 14973
+     "estUnder": 16137
     },
     {
      "id": "28680625",
@@ -1348,33 +1352,35 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -13100
+     "estUnder": -14817
     },
     {
      "id": "28706374",
      "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28706374",
-     "price": 289900,
+     "price": 283000,
      "year": 2023,
      "variant": "1.5 Executive",
      "condition": "Used",
      "km": 51000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
-     "dealerRating": 3.7,
-     "dealerReviews": 18,
-     "dealer": "GAC Pinetown",
-     "area": "Pinetown North Industria, Pinetown",
-     "group": "Hillcrest & Pinetown",
-     "priceHistory": [],
+     "priceFlag": "Great Price",
+     "group": "Other",
+     "priceHistory": [
+      {
+       "date": "2026-11-04T06:51:42.436Z",
+       "from": 289900,
+       "to": 283000
+      }
+     ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 14599
+     "estUnder": 18942
     },
     {
      "id": "28717838",
@@ -1395,8 +1401,8 @@
      "priceHistory": [],
      "firstSeen": "2026-11-03T13:35:56.664Z",
      "lastSeen": "2026-11-03T13:35:56.664Z",
-     "lastMissing": null,
-     "removedAt": null,
+     "lastMissing": "2026-11-04T16:01:59.995Z",
+     "removedAt": "2026-11-04T16:01:59.995Z",
      "estUnder": -1494
     },
     {
@@ -1439,10 +1445,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -147
+     "estUnder": -2076
     },
     {
      "id": "28749921",
@@ -1462,10 +1468,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -30737
+     "estUnder": -29978
     },
     {
      "id": "28754047",
@@ -1485,10 +1491,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -8201
+     "estUnder": -7620
     },
     {
      "id": "28760521",
@@ -1508,10 +1514,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 2374
+     "estUnder": 2714
     },
     {
      "id": "28762803",
@@ -1531,10 +1537,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-01T09:29:52.143Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -8681
+     "estUnder": -8830
     },
     {
      "id": "28764734",
@@ -1554,10 +1560,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -29785
+     "estUnder": -30601
     },
     {
      "id": "28770421",
@@ -1577,10 +1583,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -11553
+     "estUnder": -10684
     },
     {
      "id": "28782717",
@@ -1600,10 +1606,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 3433
+     "estUnder": 1021
     },
     {
      "id": "28792075",
@@ -1623,10 +1629,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -14418
+     "estUnder": -14143
     },
     {
      "id": "28796898",
@@ -1646,10 +1652,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12185
+     "estUnder": 11919
     },
     {
      "id": "28796920",
@@ -1669,10 +1675,10 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 8017
+     "estUnder": 7596
     },
     {
      "id": "28809372",
@@ -1692,10 +1698,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -76
+     "estUnder": -2819
     },
     {
      "id": "28816421",
@@ -1715,10 +1721,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-02T13:24:58.416Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 20163
+     "estUnder": 18205
     }
    ]
   },
@@ -1748,7 +1754,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -1770,7 +1776,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -1802,7 +1808,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -3116
@@ -1847,7 +1853,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -5622
@@ -1892,7 +1898,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -4071
@@ -1915,7 +1921,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -23931
@@ -1959,7 +1965,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 28874
@@ -1982,7 +1988,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 4376
@@ -2005,7 +2011,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 16500
@@ -2028,7 +2034,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 3610
@@ -2051,7 +2057,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -9937
@@ -2074,7 +2080,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -10572
@@ -2097,7 +2103,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": 9892
@@ -2120,7 +2126,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-03T13:35:56.664Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
      "estUnder": -6117
@@ -2138,7 +2144,7 @@
     {
      "id": "28260879",
      "url": "https://www.autotrader.co.za/car-for-sale/mg/zs/1.5/28260879",
-     "price": 259900,
+     "price": 239900,
      "year": 2025,
      "variant": "1.5 Luxury",
      "condition": "Used",
@@ -2151,35 +2157,47 @@
      "dealer": "CMH Kempster Ford Durban",
      "area": "Springfield, Durban",
      "group": "North Coast & Outer",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-04T06:51:42.436Z",
+       "from": 259900,
+       "to": 239900
+      }
+     ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 6132
+     "estUnder": 11224
     },
     {
      "id": "28469130",
      "url": "https://www.autotrader.co.za/car-for-sale/mg/zs/1.5/28469130",
-     "price": 249950,
+     "price": 239900,
      "year": 2026,
      "variant": "1.5 Comfort",
      "condition": "Used",
      "km": 14700,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 2.9,
      "dealerReviews": 10,
      "dealer": "CMH Kempster Ford Durban",
      "area": "Springfield, Durban",
      "group": "North Coast & Outer",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-04T06:51:42.436Z",
+       "from": 249950,
+       "to": 239900
+      }
+     ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 6805
+     "estUnder": 9593
     },
     {
      "id": "28557318",
@@ -2199,10 +2217,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 13512
+     "estUnder": 10124
     },
     {
      "id": "28641536",
@@ -2222,10 +2240,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -20364
+     "estUnder": -26007
     },
     {
      "id": "28709642",
@@ -2245,10 +2263,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -6941
+     "estUnder": -11998
     },
     {
      "id": "28711221",
@@ -2267,10 +2285,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -16691
+     "estUnder": -18053
     },
     {
      "id": "28742202",
@@ -2296,10 +2314,10 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 2313
+     "estUnder": 4047
     },
     {
      "id": "28771843",
@@ -2314,10 +2332,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 17891
+     "estUnder": 19196
     },
     {
      "id": "28817670",
@@ -2336,10 +2354,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -2771
+     "estUnder": 1765
     }
    ]
   },
@@ -2374,7 +2392,7 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2396,7 +2414,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2418,7 +2436,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2439,7 +2457,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2461,7 +2479,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2483,7 +2501,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -2515,7 +2533,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2537,7 +2555,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2559,7 +2577,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2574,10 +2592,14 @@
      "transmission": "Automatic",
      "fuel": "Petrol",
      "priceFlag": "Great Price",
-     "group": "Other",
+     "dealerRating": 4.1,
+     "dealerReviews": 4,
+     "dealer": "NTT Nissan Zululand",
+     "area": "Empangeni Central, Empangeni",
+     "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2599,7 +2621,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -2631,29 +2653,35 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
     {
      "id": "28029154",
      "url": "https://www.autotrader.co.za/car-for-sale/proton/x70/executive/28029154",
-     "price": 239990,
+     "price": 219900,
      "year": 2023,
      "variant": "1.5T Executive AWD",
      "condition": "Used",
      "km": 76863,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 2.9,
      "dealerReviews": 10,
      "dealer": "CMH Kempster Ford Durban",
      "area": "Springfield, Durban",
      "group": "North Coast & Outer",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-04T06:51:42.436Z",
+       "from": 239990,
+       "to": 219900
+      }
+     ],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2675,7 +2703,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2697,7 +2725,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2719,7 +2747,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2741,7 +2769,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2762,7 +2790,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-03T13:35:56.664Z",
+     "lastSeen": "2026-11-04T16:01:59.995Z",
      "lastMissing": null,
      "removedAt": null
     }

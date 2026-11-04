@@ -1,10 +1,2 @@
-- **[Renault Duster] NEW** · [2022 1.5dCi Intens — R238 500 · 57 000 km · Renault Pietermaritzburg](https://www.autotrader.co.za/car-for-sale/renault/duster/intens/28822140) · ≈R19k under
-- **[Hyundai Creta] NEW** · [2021 1.5 Premium — R239 990 · 82 473 km · Hyundai Amanzimtoti](https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28717838)
-- **[Corolla Cross] NEW** · [2022 1.8 XS — R299 999 · 77 000 km · Ferreira Motors](https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28821285)
-- **[Corolla Cross] GONE** 2024 1.8 Xi — R259 990 · Westown Motors
-- **[Haval H6] DROP** R165 990 → R119 990 — [2019 1.5T Premium · MG Amanzimtoti](https://www.autotrader.co.za/car-for-sale/haval/h6/premium/28522952)
-
-- **[Renault Duster]** 2021 TechRoad R269990 flagged R37.5k overpriced — skip. — [view](https://www.autotrader.co.za/car-for-sale/renault/duster/techroad/28074226)
-- **[Hyundai Creta]** 2021 1.5D auto R299990 flagged R30.7k overpriced — skip. — [view](https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28749921)
-- **[Corolla Cross]** New Umhlanga XS overpriced R6k; 77k km — [view](https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28821285)
-- **[Haval H6]** 2019 manual cut to R119,990; warranty/km nearly exhausted — [view](https://www.autotrader.co.za/car-for-sale/haval/h6/premium/28522952)
+- **[Kia Seltos] DROP** R279 990 → R277 990 — [2021 1.5CRDi EX+ · Kia Waterfall](https://www.autotrader.co.za/car-for-sale/kia/seltos/ex-and/28706134)
+- **[Hyundai Creta] GONE** 2021 1.5 Premium — R239 990 · Hyundai Amanzimtoti
