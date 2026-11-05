@@ -159,4 +159,11 @@ export const BOOT_LITRES = {
   "hyundai/exter": 290, "chery/tiggo-cross": 340, "changan/alsvin": 390,
   "baic/beijing-x55": 350, "toyota/vitz": 295, "hyundai/atos": 235,
   "toyota/etios": "251 (hatch)", "chery/tiggo-5-pro": "500 (overseas)",
+  "hyundai/grand-i10": "360 (402 sedan)", "proton/saga": "420 (sedan)",
+  "mazda/mazda2": "280 (hatch)", "citroen/aircross": "444 (SA brochure)",
+  "haval/jolion-pro": "430 (new gen; 291 pre-facelift)", "ford/fiesta": "292",
+  "jeep/renegade": 351, "opel/grandland": "550 (new gen; 514 X)",
+  "volkswagen/polo": "280-351 (Vivo 280)", "opel/corsa": "309 (267 electric)",
+  "peugeot/208": "285-311", "nissan/almera": "490 (sedan)",
+  "haval/h2": "300-400 (sources conflict)",
 };

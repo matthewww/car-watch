@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T18:16:38.670Z",
+ "generatedAt": "2026-11-05T19:36:52.188Z",
  "filters": "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
  "makes": {
   "baic": {
@@ -8,7 +8,7 @@
     "beijing-x55": {
      "count": 5,
      "autos": 5,
-     "min": 279990,
+     "min": 269990,
      "max": 299990,
      "sample": "https://www.autotrader.co.za/car-for-sale/baic/beijing-x55/1.5/28656192"
     }
@@ -27,28 +27,21 @@
    }
   },
   "chery": {
-   "kznTotal": 133,
+   "kznTotal": 124,
    "models": {
+    "tiggo-4-pro": {
+     "count": 13,
+     "autos": 7,
+     "min": 199900,
+     "max": 299900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-4-pro/comfort/28785258"
+    },
     "tiggo-cross": {
      "count": 13,
      "autos": 11,
      "min": 264900,
      "max": 299995,
-     "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-cross/lit/28817601"
-    },
-    "tiggo-4-pro": {
-     "count": 12,
-     "autos": 7,
-     "min": 189900,
-     "max": 279990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-4-pro/lit/28785778"
-    },
-    "tiggo-7-pro": {
-     "count": 1,
-     "autos": 1,
-     "min": 299900,
-     "max": 299900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-7-pro/distinction/28798303"
+     "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-cross/lit/28563153"
     },
     "tiggo-8-pro": {
      "count": 2,
@@ -56,6 +49,13 @@
      "min": 289900,
      "max": 289900,
      "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-8-pro/executive/28816956"
+    },
+    "tiggo-7-pro": {
+     "count": 1,
+     "autos": 1,
+     "min": 299900,
+     "max": 299900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-7-pro/distinction/28798303"
     }
    }
   },
@@ -74,26 +74,26 @@
      "autos": 0,
      "min": 189000,
      "max": 204900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/changan/star/1.3/28777048"
+     "sample": "https://www.autotrader.co.za/car-for-sale/changan/star/1.3/28777051"
     }
    }
   },
   "citroen": {
-   "kznTotal": 44,
+   "kznTotal": 41,
    "models": {
-    "aircross": {
-     "count": 7,
-     "autos": 5,
-     "min": 199950,
-     "max": 269950,
-     "sample": "https://www.autotrader.co.za/car-for-sale/citroen/aircross/plus/28641865"
-    },
     "c3": {
-     "count": 17,
+     "count": 16,
      "autos": 9,
      "min": 159950,
      "max": 279990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/citroen/c3/max/28726424"
+     "sample": "https://www.autotrader.co.za/car-for-sale/citroen/c3/max/28741641"
+    },
+    "aircross": {
+     "count": 6,
+     "autos": 5,
+     "min": 199950,
+     "max": 269950,
+     "sample": "https://www.autotrader.co.za/car-for-sale/citroen/aircross/max/28729760"
     },
     "basalt": {
      "count": 2,
@@ -119,13 +119,13 @@
      "autos": 1,
      "min": 159900,
      "max": 269990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/fiat/500x/cult/28698742"
+     "sample": "https://www.autotrader.co.za/car-for-sale/fiat/500x/cult/28320968"
     },
     "tipo": {
      "count": 1,
      "autos": 1,
-     "min": 168990,
-     "max": 168990,
+     "min": 159990,
+     "max": 159990,
      "sample": "https://www.autotrader.co.za/car-for-sale/fiat/tipo/city-life/28277838"
     }
    }
@@ -133,19 +133,12 @@
   "ford": {
    "kznTotal": 57,
    "models": {
-    "ecosport": {
-     "count": 12,
-     "autos": 8,
-     "min": 139990,
-     "max": 249995,
-     "sample": "https://www.autotrader.co.za/car-for-sale/ford/ecosport/titanium/28440495"
-    },
     "figo": {
-     "count": 5,
+     "count": 3,
      "autos": 0,
-     "min": 145990,
-     "max": 179990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/ford/figo/titanium/28522967"
+     "min": 149900,
+     "max": 165990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/ford/figo/trend/28757336"
     },
     "ranger": {
      "count": 4,
@@ -154,6 +147,13 @@
      "max": 299990,
      "sample": "https://www.autotrader.co.za/car-for-sale/ford/ranger/xl/28815352"
     },
+    "ecosport": {
+     "count": 14,
+     "autos": 9,
+     "min": 139990,
+     "max": 239990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/ford/ecosport/titanium/28771781"
+    },
     "puma": {
      "count": 1,
      "autos": 1,
@@ -161,19 +161,19 @@
      "max": 279900,
      "sample": "https://www.autotrader.co.za/car-for-sale/ford/puma/1-l/28450760"
     },
-    "kuga": {
-     "count": 1,
-     "autos": 0,
-     "min": 249900,
-     "max": 249900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/ford/kuga/trend/28810652"
-    },
     "fiesta": {
      "count": 3,
      "autos": 2,
      "min": 159900,
      "max": 229990,
      "sample": "https://www.autotrader.co.za/car-for-sale/ford/fiesta/trend/28764708"
+    },
+    "kuga": {
+     "count": 1,
+     "autos": 0,
+     "min": 249900,
+     "max": 249900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/ford/kuga/trend/28810652"
     }
    }
   },
@@ -181,98 +181,84 @@
    "kznTotal": 8,
    "models": {
     "steed-5": {
-     "count": 4,
+     "count": 5,
      "autos": 0,
      "min": 179990,
      "max": 269990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/gwm/steed-5/2.2/28696387"
+     "sample": "https://www.autotrader.co.za/car-for-sale/gwm/steed-5/2.2/28813767"
     },
     "p-series": {
      "count": 3,
      "autos": 0,
      "min": 279790,
      "max": 299990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/gwm/p-series/sx/28433168"
-    },
-    "steed-5e": {
-     "count": 1,
-     "autos": 0,
-     "min": 239950,
-     "max": 239950,
-     "sample": "https://www.autotrader.co.za/car-for-sale/gwm/steed-5e/xscape/28373220"
+     "sample": "https://www.autotrader.co.za/car-for-sale/gwm/p-series/sx/27438895"
     }
    }
   },
   "haval": {
-   "kznTotal": 75,
+   "kznTotal": 80,
    "models": {
     "jolion": {
-     "count": 20,
-     "autos": 16,
-     "min": 239900,
-     "max": 289995,
-     "sample": "https://www.autotrader.co.za/car-for-sale/haval/jolion/super-luxury/28810610"
-    },
-    "h2": {
-     "count": 2,
-     "autos": 1,
-     "min": 199880,
-     "max": 239950,
-     "sample": "https://www.autotrader.co.za/car-for-sale/haval/h2/luxury/28316625"
-    },
-    "h6": {
-     "count": 3,
-     "autos": 3,
-     "min": 279990,
-     "max": 297880,
-     "sample": "https://www.autotrader.co.za/car-for-sale/haval/h6/luxury/28560950"
+     "count": 16,
+     "autos": 12,
+     "min": 229900,
+     "max": 299990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/haval/jolion/luxury/28769763"
     },
     "h1": {
      "count": 2,
      "autos": 0,
      "min": 159900,
      "max": 169990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/haval/h1/1.5/28816642"
+     "sample": "https://www.autotrader.co.za/car-for-sale/haval/h1/1.5/28795678"
+    },
+    "h6": {
+     "count": 4,
+     "autos": 3,
+     "min": 119990,
+     "max": 297880,
+     "sample": "https://www.autotrader.co.za/car-for-sale/haval/h6/luxury/28560950"
     },
     "jolion-pro": {
-     "count": 1,
-     "autos": 1,
+     "count": 3,
+     "autos": 3,
      "min": 299900,
      "max": 299900,
      "sample": "https://www.autotrader.co.za/car-for-sale/haval/jolion-pro/premium/28814306"
+    },
+    "h2": {
+     "count": 1,
+     "autos": 0,
+     "min": 199880,
+     "max": 199880,
+     "sample": "https://www.autotrader.co.za/car-for-sale/haval/h2/luxury/28771791"
     }
    }
   },
   "honda": {
-   "kznTotal": 41,
+   "kznTotal": 42,
    "models": {
+    "amaze": {
+     "count": 8,
+     "autos": 1,
+     "min": 159990,
+     "max": 259900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/honda/amaze/1.2/28810264"
+    },
     "elevate": {
      "count": 3,
      "autos": 0,
      "min": 269900,
      "max": 289850,
-     "sample": "https://www.autotrader.co.za/car-for-sale/honda/elevate/1.5/28810532"
-    },
-    "amaze": {
-     "count": 9,
-     "autos": 1,
-     "min": 159990,
-     "max": 259900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/honda/amaze/1.2/28769047"
+     "sample": "https://www.autotrader.co.za/car-for-sale/honda/elevate/1.5/28676460"
     },
     "wr-v": {
-     "count": 6,
+     "count": 7,
      "autos": 0,
      "min": 169990,
      "max": 249990,
      "sample": "https://www.autotrader.co.za/car-for-sale/honda/wr-v/elegance/28816299"
-    },
-    "hr-v": {
-     "count": 1,
-     "autos": 1,
-     "min": 298900,
-     "max": 298900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/honda/hr-v/elegance/28803864"
     },
     "brio": {
      "count": 2,
@@ -287,6 +273,13 @@
      "min": 299800,
      "max": 299800,
      "sample": "https://www.autotrader.co.za/car-for-sale/honda/fit/comfort/28703089"
+    },
+    "hr-v": {
+     "count": 1,
+     "autos": 1,
+     "min": 298900,
+     "max": 298900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/honda/hr-v/elegance/28803864"
     },
     "ballade": {
      "count": 1,
@@ -312,64 +305,71 @@
    }
   },
   "hyundai": {
-   "kznTotal": 675,
+   "kznTotal": 620,
    "models": {
-    "tucson": {
+    "grand-creta": {
      "count": 1,
      "autos": 0,
-     "min": 254990,
-     "max": 254990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/tucson/2.0/28333963"
+     "min": 279990,
+     "max": 279990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/grand-creta/executive/28825973"
+    },
+    "exter": {
+     "count": 3,
+     "autos": 1,
+     "min": 225900,
+     "max": 239900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/exter/1.2/28102703"
     },
     "i20": {
-     "count": 9,
-     "autos": 5,
-     "min": 199990,
-     "max": 297990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/i20/fluid/28304273"
+     "count": 4,
+     "autos": 3,
+     "min": 229900,
+     "max": 299990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/i20/motion/28334151"
+    },
+    "accent": {
+     "count": 1,
+     "autos": 1,
+     "min": 199999,
+     "max": 199999,
+     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/accent/fluid/28823118"
     },
     "grand-i10": {
      "count": 12,
-     "autos": 8,
-     "min": 169990,
+     "autos": 7,
+     "min": 179700,
      "max": 249900,
      "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/grand-i10/motion/28809418"
     },
     "creta": {
-     "count": 2,
-     "autos": 1,
-     "min": 279999,
+     "count": 3,
+     "autos": 2,
+     "min": 279900,
      "max": 289900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28809372"
+     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28816421"
     },
     "venue": {
-     "count": 4,
+     "count": 5,
      "autos": 3,
      "min": 209900,
-     "max": 299900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/venue/fluid/28808395"
+     "max": 269990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/venue/motion/28820970"
     },
     "atos": {
-     "count": 2,
-     "autos": 1,
-     "min": 139990,
-     "max": 164800,
-     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/atos/motion/28800171"
-    },
-    "exter": {
      "count": 1,
      "autos": 1,
-     "min": 239990,
-     "max": 239990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/exter/1.2/28819150"
+     "min": 164800,
+     "max": 164800,
+     "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/atos/motion/28800171"
     }
    }
   },
   "isuzu": {
-   "kznTotal": 7,
+   "kznTotal": 8,
    "models": {
     "d-max": {
-     "count": 5,
+     "count": 6,
      "autos": 0,
      "min": 269990,
      "max": 299999,
@@ -385,14 +385,14 @@
    }
   },
   "jeep": {
-   "kznTotal": 1,
+   "kznTotal": 2,
    "models": {
     "renegade": {
-     "count": 1,
-     "autos": 1,
+     "count": 2,
+     "autos": 2,
      "min": 269990,
-     "max": 269990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/jeep/renegade/1.4/28813271"
+     "max": 289990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/jeep/renegade/1.4/28395419"
     }
    }
   },
@@ -401,75 +401,68 @@
    "models": {}
   },
   "kia": {
-   "kznTotal": 200,
+   "kznTotal": 201,
    "models": {
-    "sonet": {
-     "count": 9,
-     "autos": 7,
-     "min": 219990,
-     "max": 299800,
-     "sample": "https://www.autotrader.co.za/car-for-sale/kia/sonet/1.0/28766196"
-    },
-    "k2500": {
-     "count": 1,
-     "autos": 0,
-     "min": 249990,
-     "max": 249990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/kia/k2500/2.5/28619820"
-    },
-    "picanto": {
-     "count": 8,
-     "autos": 4,
-     "min": 164890,
-     "max": 245500,
-     "sample": "https://www.autotrader.co.za/car-for-sale/kia/picanto/1-l/28818990"
-    },
     "pegas": {
-     "count": 3,
+     "count": 6,
      "autos": 1,
      "min": 229900,
-     "max": 259800,
-     "sample": "https://www.autotrader.co.za/car-for-sale/kia/pegas/lx/28817851"
+     "max": 279800,
+     "sample": "https://www.autotrader.co.za/car-for-sale/kia/pegas/ex/28825019"
     },
-    "rio": {
-     "count": 1,
-     "autos": 0,
-     "min": 209990,
-     "max": 209990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/kia/rio/1.4/28803569"
+    "picanto": {
+     "count": 7,
+     "autos": 5,
+     "min": 179990,
+     "max": 245500,
+     "sample": "https://www.autotrader.co.za/car-for-sale/kia/picanto/1-l/28826352"
     },
     "seltos": {
      "count": 4,
-     "autos": 3,
+     "autos": 2,
      "min": 189900,
      "max": 279900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/kia/seltos/ex-and/28791470"
+     "sample": "https://www.autotrader.co.za/car-for-sale/kia/seltos/ex/28682700"
+    },
+    "sonet": {
+     "count": 8,
+     "autos": 5,
+     "min": 229990,
+     "max": 299995,
+     "sample": "https://www.autotrader.co.za/car-for-sale/kia/sonet/1.0/28821430"
+    },
+    "sportage": {
+     "count": 1,
+     "autos": 1,
+     "min": 269890,
+     "max": 269890,
+     "sample": "https://www.autotrader.co.za/car-for-sale/kia/sportage/ignite/28823220"
     }
    }
   },
   "mahindra": {
-   "kznTotal": 48,
+   "kznTotal": 54,
    "models": {
-    "xuv300": {
-     "count": 5,
-     "autos": 0,
-     "min": 169900,
-     "max": 209990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/xuv300/w6/28707638"
-    },
-    "xuv-3xo": {
-     "count": 11,
-     "autos": 5,
-     "min": 209800,
-     "max": 299990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/xuv-3xo/1.2/28594978"
-    },
     "pik-up": {
-     "count": 7,
+     "count": 6,
      "autos": 0,
      "min": 169990,
      "max": 294995,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/pik-up/2.2/28669587"
+     "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/pik-up/2.2/28601137"
+    },
+    "xuv-3xo": {
+     "count": 12,
+     "autos": 5,
+     "min": 209800,
+     "max": 299990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/xuv-3xo/1.2/28748589"
+    },
+    "xuv300": {
+     "count": 6,
+     "autos": 0,
+     "min": 169990,
+     "max": 209990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/xuv300/w4/28697699"
     },
     "tuv300": {
      "count": 1,
@@ -477,25 +470,32 @@
      "min": 159990,
      "max": 159990,
      "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/tuv300/1.5/28742304"
-    },
-    "kuv100-nxt": {
-     "count": 1,
-     "autos": 0,
-     "min": 179995,
-     "max": 179995,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/kuv100-nxt/d75/28176820"
     }
    }
   },
   "mazda": {
-   "kznTotal": 21,
+   "kznTotal": 20,
    "models": {
+    "cx-5": {
+     "count": 5,
+     "autos": 3,
+     "min": 239500,
+     "max": 299950,
+     "sample": "https://www.autotrader.co.za/car-for-sale/mazda/cx-5/active/28599307"
+    },
+    "mazda2": {
+     "count": 7,
+     "autos": 4,
+     "min": 189950,
+     "max": 268990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/mazda/mazda2/dynamic/26800451"
+    },
     "cx-3": {
      "count": 6,
      "autos": 3,
-     "min": 184890,
+     "min": 179890,
      "max": 299995,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mazda/cx-3/dynamic/28628086"
+     "sample": "https://www.autotrader.co.za/car-for-sale/mazda/cx-3/dynamic/27992266"
     },
     "mazda3": {
      "count": 2,
@@ -503,27 +503,6 @@
      "min": 269990,
      "max": 270000,
      "sample": "https://www.autotrader.co.za/car-for-sale/mazda/mazda3/dynamic/28773757"
-    },
-    "cx-5": {
-     "count": 3,
-     "autos": 2,
-     "min": 279900,
-     "max": 299950,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mazda/cx-5/active/28707791"
-    },
-    "mazda2": {
-     "count": 9,
-     "autos": 6,
-     "min": 149949,
-     "max": 268990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mazda/mazda2/dynamic/28730833"
-    },
-    "cx-30": {
-     "count": 1,
-     "autos": 1,
-     "min": 279990,
-     "max": 279990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mazda/cx-30/active/28712286"
     }
    }
   },
@@ -531,18 +510,25 @@
    "kznTotal": 42,
    "models": {
     "mg3": {
-     "count": 19,
-     "autos": 10,
-     "min": 199949,
+     "count": 16,
+     "autos": 8,
+     "min": 209900,
      "max": 284890,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mg/mg3/1.5/28344166"
+     "sample": "https://www.autotrader.co.za/car-for-sale/mg/mg3/1.5/28817686"
     },
     "zs": {
-     "count": 6,
-     "autos": 6,
-     "min": 249900,
+     "count": 8,
+     "autos": 8,
+     "min": 239900,
      "max": 299900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mg/zs/1.5/28771843"
+     "sample": "https://www.autotrader.co.za/car-for-sale/mg/zs/1.5/28817670"
+    },
+    "zs-pro": {
+     "count": 1,
+     "autos": 1,
+     "min": 288900,
+     "max": 288900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/mg/zs-pro/1.5/28743945"
     }
    }
   },
@@ -552,9 +538,16 @@
     "xpander": {
      "count": 2,
      "autos": 2,
-     "min": 275900,
-     "max": 289990,
+     "min": 269900,
+     "max": 289900,
      "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/xpander/1.5/28680993"
+    },
+    "asx": {
+     "count": 8,
+     "autos": 8,
+     "min": 199990,
+     "max": 279990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/asx/2-l/28824729"
     },
     "eclipse-cross": {
      "count": 3,
@@ -562,84 +555,77 @@
      "min": 259990,
      "max": 299900,
      "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/eclipse-cross/gls/28802655"
-    },
-    "asx": {
-     "count": 8,
-     "autos": 8,
-     "min": 234990,
-     "max": 279990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/asx/2-l/28651265"
     }
    }
   },
   "nissan": {
-   "kznTotal": 150,
+   "kznTotal": 155,
    "models": {
-    "magnite": {
-     "count": 18,
-     "autos": 8,
-     "min": 179900,
-     "max": 274900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/nissan/magnite/acenta/28557671"
-    },
     "np200": {
-     "count": 7,
+     "count": 10,
      "autos": 0,
      "min": 174800,
-     "max": 259950,
-     "sample": "https://www.autotrader.co.za/car-for-sale/nissan/np200/1.6/28803422"
+     "max": 229995,
+     "sample": "https://www.autotrader.co.za/car-for-sale/nissan/np200/1.5/28284122"
+    },
+    "magnite": {
+     "count": 15,
+     "autos": 8,
+     "min": 179900,
+     "max": 299990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/nissan/magnite/acenta/28641317"
     },
     "x-trail": {
      "count": 2,
      "autos": 1,
-     "min": 209990,
+     "min": 219990,
      "max": 295000,
      "sample": "https://www.autotrader.co.za/car-for-sale/nissan/x-trail/1.6/28815667"
     },
     "almera": {
-     "count": 2,
-     "autos": 0,
-     "min": 169900,
+     "count": 3,
+     "autos": 1,
+     "min": 159995,
      "max": 189950,
      "sample": "https://www.autotrader.co.za/car-for-sale/nissan/almera/1.5/28700281"
     },
     "np300-hardbody": {
      "count": 1,
      "autos": 0,
-     "min": 235999,
-     "max": 235999,
+     "min": 229999,
+     "max": 229999,
      "sample": "https://www.autotrader.co.za/car-for-sale/nissan/np300-hardbody/2.5/28765637"
     }
    }
   },
   "omoda": {
-   "kznTotal": 19,
+   "kznTotal": 23,
    "models": {
     "c5": {
-     "count": 19,
-     "autos": 19,
+     "count": 23,
+     "autos": 23,
      "min": 249990,
      "max": 299995,
-     "sample": "https://www.autotrader.co.za/car-for-sale/omoda/c5/elegance/28688568"
+     "sample": "https://www.autotrader.co.za/car-for-sale/omoda/c5/street-and/28789328"
     }
    }
   },
   "opel": {
-   "kznTotal": 14,
+   "kznTotal": 15,
    "models": {
+    "corsa": {
+     "count": 4,
+     "autos": 1,
+     "min": 168990,
+     "max": 269000,
+     "sample": "https://www.autotrader.co.za/car-for-sale/opel/corsa/1.2/28759300"
+    },
     "mokka": {
      "count": 2,
      "autos": 2,
      "min": 285000,
      "max": 289990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/opel/mokka/1.2/28318679"
-    },
-    "crossland": {
-     "count": 3,
-     "autos": 3,
-     "min": 199950,
-     "max": 239999,
-     "sample": "https://www.autotrader.co.za/car-for-sale/opel/crossland/1.2/28769386"
+     "sample": "https://www.autotrader.co.za/car-for-sale/opel/mokka/1.2/28743400"
     },
     "adam": {
      "count": 1,
@@ -648,19 +634,12 @@
      "max": 164990,
      "sample": "https://www.autotrader.co.za/car-for-sale/opel/adam/1-l/28366983"
     },
-    "corsa": {
+    "crossland": {
      "count": 3,
-     "autos": 0,
-     "min": 168990,
-     "max": 229990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/opel/corsa/1.2/28759300"
-    },
-    "grandland": {
-     "count": 2,
-     "autos": 2,
-     "min": 279980,
-     "max": 289950,
-     "sample": "https://www.autotrader.co.za/car-for-sale/opel/grandland/1.6/28615773"
+     "autos": 3,
+     "min": 199950,
+     "max": 239999,
+     "sample": "https://www.autotrader.co.za/car-for-sale/opel/crossland/1.2/28246581"
     },
     "grandland-x": {
      "count": 2,
@@ -668,6 +647,13 @@
      "min": 209990,
      "max": 299990,
      "sample": "https://www.autotrader.co.za/car-for-sale/opel/grandland-x/turbo/28736704"
+    },
+    "grandland": {
+     "count": 2,
+     "autos": 2,
+     "min": 289950,
+     "max": 299900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/opel/grandland/1.6/28615773"
     },
     "combo": {
      "count": 1,
@@ -679,7 +665,7 @@
    }
   },
   "peugeot": {
-   "kznTotal": 17,
+   "kznTotal": 14,
    "models": {
     "208": {
      "count": 4,
@@ -710,138 +696,178 @@
      "sample": "https://www.autotrader.co.za/car-for-sale/peugeot/3008/allure/28621891"
     },
     "landtrek": {
-     "count": 4,
+     "count": 1,
      "autos": 0,
-     "min": 289900,
-     "max": 289980,
-     "sample": "https://www.autotrader.co.za/car-for-sale/peugeot/landtrek/1.9td/28818915"
+     "min": 279900,
+     "max": 279900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/peugeot/landtrek/1.9td/28539240"
+    }
+   }
+  },
+  "proton": {
+   "kznTotal": 28,
+   "models": {
+    "saga": {
+     "count": 7,
+     "autos": 7,
+     "min": 129990,
+     "max": 189900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/proton/saga/1.3/28801703"
+    },
+    "x50": {
+     "count": 11,
+     "autos": 11,
+     "min": 199900,
+     "max": 299999,
+     "sample": "https://www.autotrader.co.za/car-for-sale/proton/x50/standard/28825405"
+    },
+    "x70": {
+     "count": 7,
+     "autos": 7,
+     "min": 209899,
+     "max": 264990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/proton/x70/executive/28029154"
     }
    }
   },
   "renault": {
-   "kznTotal": 298,
+   "kznTotal": 294,
    "models": {
     "kwid": {
      "count": 3,
      "autos": 1,
      "min": 109990,
-     "max": 180734,
-     "sample": "https://www.autotrader.co.za/car-for-sale/renault/kwid/climber/28469514"
+     "max": 169990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/renault/kwid/techno/28596555"
     },
     "clio": {
      "count": 3,
      "autos": 0,
      "min": 149890,
      "max": 219950,
-     "sample": "https://www.autotrader.co.za/car-for-sale/renault/clio/intens/28781801"
-    },
-    "triber": {
-     "count": 14,
-     "autos": 3,
-     "min": 149990,
-     "max": 249995,
-     "sample": "https://www.autotrader.co.za/car-for-sale/renault/triber/iconic/28795277"
-    },
-    "duster": {
-     "count": 3,
-     "autos": 2,
-     "min": 209990,
-     "max": 279900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/renault/duster/techroad/28727695"
+     "sample": "https://www.autotrader.co.za/car-for-sale/renault/clio/life/28793152"
     },
     "kiger": {
-     "count": 5,
-     "autos": 3,
-     "min": 174890,
+     "count": 9,
+     "autos": 2,
+     "min": 159900,
      "max": 228900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/renault/kiger/intens/28173781"
+     "sample": "https://www.autotrader.co.za/car-for-sale/renault/kiger/zen/28760657"
+    },
+    "triber": {
+     "count": 11,
+     "autos": 3,
+     "min": 149990,
+     "max": 239995,
+     "sample": "https://www.autotrader.co.za/car-for-sale/renault/triber/dynamique/28822394"
+    },
+    "duster": {
+     "count": 4,
+     "autos": 3,
+     "min": 209990,
+     "max": 279900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/renault/duster/intens/28822140"
     }
    }
   },
   "suzuki": {
-   "kznTotal": 483,
+   "kznTotal": 488,
    "models": {
-    "dzire": {
-     "count": 3,
-     "autos": 2,
-     "min": 229800,
-     "max": 239900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/dzire/ga/28696339"
-    },
-    "ertiga": {
-     "count": 3,
-     "autos": 0,
-     "min": 249990,
-     "max": 299990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/ertiga/ga/28706532"
-    },
-    "fronx": {
-     "count": 4,
-     "autos": 2,
-     "min": 274890,
-     "max": 299800,
-     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/fronx/1.5/28797066"
-    },
     "swift": {
-     "count": 11,
-     "autos": 4,
+     "count": 12,
+     "autos": 5,
      "min": 169900,
      "max": 239800,
-     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/swift/1.2/28808522"
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/swift/1.2/28798264"
     },
-    "baleno": {
-     "count": 3,
-     "autos": 1,
-     "min": 236900,
-     "max": 289800,
-     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/baleno/1.5/28816361"
+    "fronx": {
+     "count": 5,
+     "autos": 2,
+     "min": 259900,
+     "max": 299990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/fronx/1.5/28783010"
+    },
+    "dzire": {
+     "count": 4,
+     "autos": 2,
+     "min": 229800,
+     "max": 249900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/dzire/ga/28804326"
     },
     "ciaz": {
-     "count": 1,
+     "count": 3,
      "autos": 0,
-     "min": 229950,
-     "max": 229950,
-     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/ciaz/1.5/28766815"
-    },
-    "s-presso": {
-     "count": 2,
-     "autos": 1,
-     "min": 145000,
-     "max": 159800,
-     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/s-presso/gl/28752147"
-    },
-    "celerio": {
-     "count": 1,
-     "autos": 1,
-     "min": 209800,
-     "max": 209800,
-     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/celerio/1.0-l/28797061"
+     "min": 229800,
+     "max": 229990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/ciaz/1.5/28822297"
     },
     "grand-vitara": {
      "count": 1,
+     "autos": 1,
+     "min": 299990,
+     "max": 299990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/grand-vitara/1.5/28820604"
+    },
+    "baleno": {
+     "count": 1,
      "autos": 0,
-     "min": 289990,
-     "max": 289990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/grand-vitara/1.5/28772849"
+     "min": 289800,
+     "max": 289800,
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/baleno/1.5/28797072"
+    },
+    "ertiga": {
+     "count": 1,
+     "autos": 0,
+     "min": 249990,
+     "max": 249990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/ertiga/ga/28690059"
+    },
+    "celerio": {
+     "count": 1,
+     "autos": 0,
+     "min": 179890,
+     "max": 179890,
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/celerio/1.0-l/28820861"
+    },
+    "ignis": {
+     "count": 1,
+     "autos": 1,
+     "min": 179900,
+     "max": 179900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/ignis/1.2/28825607"
+    },
+    "s-presso": {
+     "count": 1,
+     "autos": 0,
+     "min": 119900,
+     "max": 119900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/s-presso/gl/28798290"
     }
    }
   },
   "toyota": {
-   "kznTotal": 341,
+   "kznTotal": 340,
    "models": {
-    "starlet": {
-     "count": 18,
-     "autos": 9,
-     "min": 179990,
-     "max": 299900,
-     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/starlet/1.5/28718141"
+    "rumion": {
+     "count": 1,
+     "autos": 0,
+     "min": 298990,
+     "max": 298990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/rumion/1.5/28735469"
     },
     "corolla-quest": {
-     "count": 4,
-     "autos": 1,
-     "min": 229700,
-     "max": 269800,
-     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-quest/1.8/28816130"
+     "count": 7,
+     "autos": 4,
+     "min": 219990,
+     "max": 269990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-quest/1.8/28335993"
+    },
+    "corolla-cross": {
+     "count": 2,
+     "autos": 2,
+     "min": 269890,
+     "max": 299999,
+     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28821285"
     },
     "agya": {
      "count": 1,
@@ -850,12 +876,19 @@
      "max": 179900,
      "sample": "https://www.autotrader.co.za/car-for-sale/toyota/agya/1.0-l/28817954"
     },
-    "vitz": {
-     "count": 1,
+    "starlet": {
+     "count": 14,
+     "autos": 8,
+     "min": 179990,
+     "max": 299900,
+     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/starlet/1.4/28826141"
+    },
+    "urban-cruiser": {
+     "count": 2,
      "autos": 1,
-     "min": 194700,
-     "max": 194700,
-     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/vitz/1.0/28800212"
+     "min": 239990,
+     "max": 249950,
+     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/urban-cruiser/xs/28822042"
     },
     "etios": {
      "count": 1,
@@ -863,46 +896,32 @@
      "min": 169990,
      "max": 169990,
      "sample": "https://www.autotrader.co.za/car-for-sale/toyota/etios/sprint/28809474"
-    },
-    "starlet-cross": {
-     "count": 1,
-     "autos": 1,
-     "min": 294995,
-     "max": 294995,
-     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/starlet-cross/1.5/28807981"
-    },
-    "urban-cruiser": {
-     "count": 1,
-     "autos": 0,
-     "min": 259990,
-     "max": 259990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/toyota/urban-cruiser/xr/28803103"
     }
    }
   },
   "volkswagen": {
-   "kznTotal": 482,
+   "kznTotal": 470,
    "models": {
     "polo-vivo": {
-     "count": 23,
+     "count": 17,
      "autos": 4,
-     "min": 169990,
-     "max": 299990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/polo-vivo/1.4/28770525"
+     "min": 179000,
+     "max": 279990,
+     "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/polo-vivo/1.4/28432765"
     },
     "polo": {
-     "count": 6,
+     "count": 10,
      "autos": 1,
      "min": 209700,
      "max": 299990,
-     "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/polo/1.0tsi/28815129"
+     "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/polo/1.0tsi/28822898"
     },
     "t-cross": {
      "count": 1,
-     "autos": 1,
-     "min": 289999,
-     "max": 289999,
-     "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/t-cross/1.0tsi/28718551"
+     "autos": 0,
+     "min": 259995,
+     "max": 259995,
+     "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/t-cross/1.0tsi/28821440"
     }
    }
   }
@@ -912,21 +931,23 @@
    "key": "omoda/c5",
    "make": "omoda",
    "model": "c5",
-   "count": 19,
-   "autos": 19,
+   "count": 23,
+   "autos": 23,
    "min": 249990,
    "max": 299995,
-   "sample": "https://www.autotrader.co.za/car-for-sale/omoda/c5/elegance/28688568"
+   "sample": "https://www.autotrader.co.za/car-for-sale/omoda/c5/street-and/28789328",
+   "boot": "378 (442 for 2025+ X Series)"
   },
   {
    "key": "haval/jolion",
    "make": "haval",
    "model": "jolion",
-   "count": 20,
-   "autos": 16,
-   "min": 239900,
-   "max": 289995,
-   "sample": "https://www.autotrader.co.za/car-for-sale/haval/jolion/super-luxury/28810610"
+   "count": 16,
+   "autos": 12,
+   "min": 229900,
+   "max": 299990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/haval/jolion/luxury/28769763",
+   "boot": "337 SA (430 overseas, Pro 291)"
   },
   {
    "key": "chery/tiggo-cross",
@@ -936,67 +957,74 @@
    "autos": 11,
    "min": 264900,
    "max": 299995,
-   "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-cross/lit/28817601"
+   "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-cross/lit/28563153",
+   "boot": 340
   },
   {
-   "key": "mg/mg3",
-   "make": "mg",
-   "model": "mg3",
-   "count": 19,
-   "autos": 10,
-   "min": 199949,
-   "max": 284890,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mg/mg3/1.5/28344166"
-  },
-  {
-   "key": "toyota/starlet",
-   "make": "toyota",
-   "model": "starlet",
-   "count": 18,
-   "autos": 9,
-   "min": 179990,
-   "max": 299900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/toyota/starlet/1.5/28718141"
+   "key": "proton/x50",
+   "make": "proton",
+   "model": "x50",
+   "count": 11,
+   "autos": 11,
+   "min": 199900,
+   "max": 299999,
+   "sample": "https://www.autotrader.co.za/car-for-sale/proton/x50/standard/28825405",
+   "boot": 330
   },
   {
    "key": "citroen/c3",
    "make": "citroen",
    "model": "c3",
-   "count": 17,
+   "count": 16,
    "autos": 9,
    "min": 159950,
    "max": 279990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/citroen/c3/max/28726424"
-  },
-  {
-   "key": "nissan/magnite",
-   "make": "nissan",
-   "model": "magnite",
-   "count": 18,
-   "autos": 8,
-   "min": 179900,
-   "max": 274900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/nissan/magnite/acenta/28557671"
+   "sample": "https://www.autotrader.co.za/car-for-sale/citroen/c3/max/28741641",
+   "boot": 300
   },
   {
    "key": "ford/ecosport",
    "make": "ford",
    "model": "ecosport",
-   "count": 12,
-   "autos": 8,
+   "count": 14,
+   "autos": 9,
    "min": 139990,
-   "max": 249995,
-   "sample": "https://www.autotrader.co.za/car-for-sale/ford/ecosport/titanium/28440495"
+   "max": 239990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/ford/ecosport/titanium/28771781",
+   "boot": 333
   },
   {
-   "key": "hyundai/grand-i10",
-   "make": "hyundai",
-   "model": "grand-i10",
-   "count": 12,
+   "key": "mg/mg3",
+   "make": "mg",
+   "model": "mg3",
+   "count": 16,
    "autos": 8,
-   "min": 169990,
-   "max": 249900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/grand-i10/motion/28809418"
+   "min": 209900,
+   "max": 284890,
+   "sample": "https://www.autotrader.co.za/car-for-sale/mg/mg3/1.5/28817686",
+   "boot": 293
+  },
+  {
+   "key": "nissan/magnite",
+   "make": "nissan",
+   "model": "magnite",
+   "count": 15,
+   "autos": 8,
+   "min": 179900,
+   "max": 299990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/nissan/magnite/acenta/28641317",
+   "boot": "336 (392 facelift)"
+  },
+  {
+   "key": "toyota/starlet",
+   "make": "toyota",
+   "model": "starlet",
+   "count": 14,
+   "autos": 8,
+   "min": 179990,
+   "max": 299900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/toyota/starlet/1.4/28826141",
+   "boot": 342
   },
   {
    "key": "mitsubishi/asx",
@@ -1004,19 +1032,32 @@
    "model": "asx",
    "count": 8,
    "autos": 8,
-   "min": 234990,
+   "min": 199990,
    "max": 279990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/asx/2-l/28651265"
+   "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/asx/2-l/28824729",
+   "boot": "358-393"
   },
   {
    "key": "chery/tiggo-4-pro",
    "make": "chery",
    "model": "tiggo-4-pro",
+   "count": 13,
+   "autos": 7,
+   "min": 199900,
+   "max": 299900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-4-pro/comfort/28785258",
+   "boot": 380
+  },
+  {
+   "key": "hyundai/grand-i10",
+   "make": "hyundai",
+   "model": "grand-i10",
    "count": 12,
    "autos": 7,
-   "min": 189900,
-   "max": 279990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-4-pro/lit/28785778"
+   "min": 179700,
+   "max": 249900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/grand-i10/motion/28809418",
+   "boot": "360 (402 sedan)"
   },
   {
    "key": "changan/alsvin",
@@ -1026,77 +1067,74 @@
    "autos": 7,
    "min": 199995,
    "max": 274900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/changan/alsvin/1.5/28690785"
+   "sample": "https://www.autotrader.co.za/car-for-sale/changan/alsvin/1.5/28690785",
+   "boot": 390
   },
   {
-   "key": "kia/sonet",
-   "make": "kia",
-   "model": "sonet",
-   "count": 9,
+   "key": "proton/saga",
+   "make": "proton",
+   "model": "saga",
+   "count": 7,
    "autos": 7,
-   "min": 219990,
-   "max": 299800,
-   "sample": "https://www.autotrader.co.za/car-for-sale/kia/sonet/1.0/28766196"
+   "min": 129990,
+   "max": 189900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/proton/saga/1.3/28801703",
+   "boot": "420 (sedan)"
   },
   {
-   "key": "mazda/mazda2",
-   "make": "mazda",
-   "model": "mazda2",
-   "count": 9,
-   "autos": 6,
-   "min": 149949,
-   "max": 268990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mazda/mazda2/dynamic/28730833"
-  },
-  {
-   "key": "mg/zs",
-   "make": "mg",
-   "model": "zs",
-   "count": 6,
-   "autos": 6,
-   "min": 249900,
-   "max": 299900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mg/zs/1.5/28771843"
+   "key": "suzuki/swift",
+   "make": "suzuki",
+   "model": "swift",
+   "count": 12,
+   "autos": 5,
+   "min": 169900,
+   "max": 239800,
+   "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/swift/1.2/28798264",
+   "boot": 268
   },
   {
    "key": "mahindra/xuv-3xo",
    "make": "mahindra",
    "model": "xuv-3xo",
-   "count": 11,
+   "count": 12,
    "autos": 5,
    "min": 209800,
    "max": 299990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/xuv-3xo/1.2/28594978"
+   "sample": "https://www.autotrader.co.za/car-for-sale/mahindra/xuv-3xo/1.2/28748589",
+   "boot": "240-300"
   },
   {
-   "key": "hyundai/i20",
-   "make": "hyundai",
-   "model": "i20",
-   "count": 9,
+   "key": "kia/sonet",
+   "make": "kia",
+   "model": "sonet",
+   "count": 8,
    "autos": 5,
-   "min": 199990,
-   "max": 297990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/i20/fluid/28304273"
+   "min": 229990,
+   "max": 299995,
+   "sample": "https://www.autotrader.co.za/car-for-sale/kia/sonet/1.0/28821430",
+   "boot": 352
+  },
+  {
+   "key": "kia/picanto",
+   "make": "kia",
+   "model": "picanto",
+   "count": 7,
+   "autos": 5,
+   "min": 179990,
+   "max": 245500,
+   "sample": "https://www.autotrader.co.za/car-for-sale/kia/picanto/1-l/28826352",
+   "boot": 255
   },
   {
    "key": "citroen/aircross",
    "make": "citroen",
    "model": "aircross",
-   "count": 7,
+   "count": 6,
    "autos": 5,
    "min": 199950,
    "max": 269950,
-   "sample": "https://www.autotrader.co.za/car-for-sale/citroen/aircross/plus/28641865"
-  },
-  {
-   "key": "peugeot/2008",
-   "make": "peugeot",
-   "model": "2008",
-   "count": 5,
-   "autos": 5,
-   "min": 229990,
-   "max": 279950,
-   "sample": "https://www.autotrader.co.za/car-for-sale/peugeot/2008/active/28768682"
+   "sample": "https://www.autotrader.co.za/car-for-sale/citroen/aircross/max/28729760",
+   "boot": "444 (SA brochure)"
   },
   {
    "key": "baic/beijing-x55",
@@ -1104,49 +1142,54 @@
    "model": "beijing-x55",
    "count": 5,
    "autos": 5,
-   "min": 279990,
+   "min": 269990,
    "max": 299990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/baic/beijing-x55/1.5/28656192"
+   "sample": "https://www.autotrader.co.za/car-for-sale/baic/beijing-x55/1.5/28656192",
+   "boot": 350
   },
   {
    "key": "volkswagen/polo-vivo",
    "make": "volkswagen",
    "model": "polo-vivo",
-   "count": 23,
+   "count": 17,
    "autos": 4,
-   "min": 169990,
-   "max": 299990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/polo-vivo/1.4/28770525"
+   "min": 179000,
+   "max": 279990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/polo-vivo/1.4/28432765",
+   "boot": 280
   },
   {
-   "key": "suzuki/swift",
-   "make": "suzuki",
-   "model": "swift",
-   "count": 11,
+   "key": "mazda/mazda2",
+   "make": "mazda",
+   "model": "mazda2",
+   "count": 7,
    "autos": 4,
-   "min": 169900,
-   "max": 239800,
-   "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/swift/1.2/28808522"
+   "min": 189950,
+   "max": 268990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/mazda/mazda2/dynamic/26800451",
+   "boot": "280 (hatch)"
   },
   {
-   "key": "kia/picanto",
-   "make": "kia",
-   "model": "picanto",
-   "count": 8,
+   "key": "toyota/corolla-quest",
+   "make": "toyota",
+   "model": "corolla-quest",
+   "count": 7,
    "autos": 4,
-   "min": 164890,
-   "max": 245500,
-   "sample": "https://www.autotrader.co.za/car-for-sale/kia/picanto/1-l/28818990"
+   "min": 219990,
+   "max": 269990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-quest/1.8/28335993",
+   "boot": "471 (sedan)"
   },
   {
    "key": "renault/triber",
    "make": "renault",
    "model": "triber",
-   "count": 14,
+   "count": 11,
    "autos": 3,
    "min": 149990,
-   "max": 249995,
-   "sample": "https://www.autotrader.co.za/car-for-sale/renault/triber/iconic/28795277"
+   "max": 239995,
+   "sample": "https://www.autotrader.co.za/car-for-sale/renault/triber/dynamique/28822394",
+   "boot": "625 (5-seat) / 84 (7-seat)"
   },
   {
    "key": "mazda/cx-3",
@@ -1154,29 +1197,43 @@
    "model": "cx-3",
    "count": 6,
    "autos": 3,
-   "min": 184890,
+   "min": 179890,
    "max": 299995,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mazda/cx-3/dynamic/28628086"
-  },
-  {
-   "key": "renault/kiger",
-   "make": "renault",
-   "model": "kiger",
-   "count": 5,
-   "autos": 3,
-   "min": 174890,
-   "max": 228900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/renault/kiger/intens/28173781"
+   "sample": "https://www.autotrader.co.za/car-for-sale/mazda/cx-3/dynamic/27992266",
+   "boot": 264
   },
   {
    "key": "hyundai/venue",
    "make": "hyundai",
    "model": "venue",
-   "count": 4,
+   "count": 5,
    "autos": 3,
    "min": 209900,
-   "max": 299900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/venue/fluid/28808395"
+   "max": 269990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/venue/motion/28820970",
+   "boot": 368
+  },
+  {
+   "key": "mazda/cx-5",
+   "make": "mazda",
+   "model": "cx-5",
+   "count": 5,
+   "autos": 3,
+   "min": 239500,
+   "max": 299950,
+   "sample": "https://www.autotrader.co.za/car-for-sale/mazda/cx-5/active/28599307",
+   "boot": 407
+  },
+  {
+   "key": "hyundai/i20",
+   "make": "hyundai",
+   "model": "i20",
+   "count": 4,
+   "autos": 3,
+   "min": 229900,
+   "max": 299990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/i20/motion/28334151",
+   "boot": 351
   },
   {
    "key": "peugeot/3008",
@@ -1186,7 +1243,8 @@
    "autos": 3,
    "min": 189950,
    "max": 299990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/peugeot/3008/allure/28621891"
+   "sample": "https://www.autotrader.co.za/car-for-sale/peugeot/3008/allure/28621891",
+   "boot": 520
   },
   {
    "key": "opel/crossland",
@@ -1196,7 +1254,8 @@
    "autos": 3,
    "min": 199950,
    "max": 239999,
-   "sample": "https://www.autotrader.co.za/car-for-sale/opel/crossland/1.2/28769386"
+   "sample": "https://www.autotrader.co.za/car-for-sale/opel/crossland/1.2/28246581",
+   "boot": "410-520 (sliding bench)"
   },
   {
    "key": "mitsubishi/eclipse-cross",
@@ -1206,27 +1265,52 @@
    "autos": 3,
    "min": 259990,
    "max": 299900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/eclipse-cross/gls/28802655"
+   "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/eclipse-cross/gls/28802655",
+   "boot": 437
   },
   {
-   "key": "haval/h6",
+   "key": "haval/jolion-pro",
    "make": "haval",
-   "model": "h6",
+   "model": "jolion-pro",
    "count": 3,
    "autos": 3,
-   "min": 279990,
-   "max": 297880,
-   "sample": "https://www.autotrader.co.za/car-for-sale/haval/h6/luxury/28560950"
+   "min": 299900,
+   "max": 299900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/haval/jolion-pro/premium/28814306",
+   "boot": "430 (new gen; 291 pre-facelift)"
+  },
+  {
+   "key": "renault/kiger",
+   "make": "renault",
+   "model": "kiger",
+   "count": 9,
+   "autos": 2,
+   "min": 159900,
+   "max": 228900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/renault/kiger/zen/28760657",
+   "boot": 405
   },
   {
    "key": "suzuki/fronx",
    "make": "suzuki",
    "model": "fronx",
+   "count": 5,
+   "autos": 2,
+   "min": 259900,
+   "max": 299990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/fronx/1.5/28783010",
+   "boot": 304
+  },
+  {
+   "key": "suzuki/dzire",
+   "make": "suzuki",
+   "model": "dzire",
    "count": 4,
    "autos": 2,
-   "min": 274890,
-   "max": 299800,
-   "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/fronx/1.5/28797066"
+   "min": 229800,
+   "max": 249900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/dzire/ga/28804326",
+   "boot": "378 (sedan)"
   },
   {
    "key": "ford/fiesta",
@@ -1236,27 +1320,8 @@
    "autos": 2,
    "min": 159900,
    "max": 229990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/ford/fiesta/trend/28764708"
-  },
-  {
-   "key": "suzuki/dzire",
-   "make": "suzuki",
-   "model": "dzire",
-   "count": 3,
-   "autos": 2,
-   "min": 229800,
-   "max": 239900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/dzire/ga/28696339"
-  },
-  {
-   "key": "mazda/cx-5",
-   "make": "mazda",
-   "model": "cx-5",
-   "count": 3,
-   "autos": 2,
-   "min": 279900,
-   "max": 299950,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mazda/cx-5/active/28707791"
+   "sample": "https://www.autotrader.co.za/car-for-sale/ford/fiesta/trend/28764708",
+   "boot": "292"
   },
   {
    "key": "honda/brio",
@@ -1266,7 +1331,8 @@
    "autos": 2,
    "min": 159700,
    "max": 159800,
-   "sample": "https://www.autotrader.co.za/car-for-sale/honda/brio/comfort/28590591"
+   "sample": "https://www.autotrader.co.za/car-for-sale/honda/brio/comfort/28590591",
+   "boot": 258
   },
   {
    "key": "opel/grandland-x",
@@ -1276,7 +1342,8 @@
    "autos": 2,
    "min": 209990,
    "max": 299990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/opel/grandland-x/turbo/28736704"
+   "sample": "https://www.autotrader.co.za/car-for-sale/opel/grandland-x/turbo/28736704",
+   "boot": "414-514"
   },
   {
    "key": "citroen/c3-aircross",
@@ -1286,7 +1353,8 @@
    "autos": 2,
    "min": 219900,
    "max": 299990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/citroen/c3-aircross/shine/28628982"
+   "sample": "https://www.autotrader.co.za/car-for-sale/citroen/c3-aircross/shine/28628982",
+   "boot": "410-444"
   },
   {
    "key": "mitsubishi/xpander",
@@ -1294,19 +1362,21 @@
    "model": "xpander",
    "count": 2,
    "autos": 2,
-   "min": 275900,
-   "max": 289990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/xpander/1.5/28680993"
+   "min": 269900,
+   "max": 289900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/mitsubishi/xpander/1.5/28680993",
+   "boot": "200 up / ~700 folded"
   },
   {
-   "key": "opel/grandland",
-   "make": "opel",
-   "model": "grandland",
+   "key": "jeep/renegade",
+   "make": "jeep",
+   "model": "renegade",
    "count": 2,
    "autos": 2,
-   "min": 279980,
-   "max": 289950,
-   "sample": "https://www.autotrader.co.za/car-for-sale/opel/grandland/1.6/28615773"
+   "min": 269990,
+   "max": 289990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/jeep/renegade/1.4/28395419",
+   "boot": 351
   },
   {
    "key": "opel/mokka",
@@ -1316,7 +1386,8 @@
    "autos": 2,
    "min": 285000,
    "max": 289990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/opel/mokka/1.2/28318679"
+   "sample": "https://www.autotrader.co.za/car-for-sale/opel/mokka/1.2/28743400",
+   "boot": 350
   },
   {
    "key": "chery/tiggo-8-pro",
@@ -1326,7 +1397,19 @@
    "autos": 2,
    "min": 289900,
    "max": 289900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-8-pro/executive/28816956"
+   "sample": "https://www.autotrader.co.za/car-for-sale/chery/tiggo-8-pro/executive/28816956",
+   "boot": "448 (7-seat)"
+  },
+  {
+   "key": "opel/grandland",
+   "make": "opel",
+   "model": "grandland",
+   "count": 2,
+   "autos": 2,
+   "min": 289950,
+   "max": 299900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/opel/grandland/1.6/28615773",
+   "boot": "550 (new gen; 514 X)"
   },
   {
    "key": "citroen/basalt",
@@ -1336,27 +1419,52 @@
    "autos": 2,
    "min": 299950,
    "max": 299950,
-   "sample": "https://www.autotrader.co.za/car-for-sale/citroen/basalt/max/28803313"
-  },
-  {
-   "key": "honda/amaze",
-   "make": "honda",
-   "model": "amaze",
-   "count": 9,
-   "autos": 1,
-   "min": 159990,
-   "max": 259900,
-   "sample": "https://www.autotrader.co.za/car-for-sale/honda/amaze/1.2/28769047"
+   "sample": "https://www.autotrader.co.za/car-for-sale/citroen/basalt/max/28803313",
+   "boot": "470 (unverified)"
   },
   {
    "key": "volkswagen/polo",
    "make": "volkswagen",
    "model": "polo",
-   "count": 6,
+   "count": 10,
    "autos": 1,
    "min": 209700,
    "max": 299990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/polo/1.0tsi/28815129"
+   "sample": "https://www.autotrader.co.za/car-for-sale/volkswagen/polo/1.0tsi/28822898",
+   "boot": "280-351 (Vivo 280)"
+  },
+  {
+   "key": "honda/amaze",
+   "make": "honda",
+   "model": "amaze",
+   "count": 8,
+   "autos": 1,
+   "min": 159990,
+   "max": 259900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/honda/amaze/1.2/28810264",
+   "boot": "420 (sedan)"
+  },
+  {
+   "key": "kia/pegas",
+   "make": "kia",
+   "model": "pegas",
+   "count": 6,
+   "autos": 1,
+   "min": 229900,
+   "max": 279800,
+   "sample": "https://www.autotrader.co.za/car-for-sale/kia/pegas/ex/28825019",
+   "boot": "475 (sedan)"
+  },
+  {
+   "key": "opel/corsa",
+   "make": "opel",
+   "model": "corsa",
+   "count": 4,
+   "autos": 1,
+   "min": 168990,
+   "max": 269000,
+   "sample": "https://www.autotrader.co.za/car-for-sale/opel/corsa/1.2/28759300",
+   "boot": "309 (267 electric)"
   },
   {
    "key": "peugeot/208",
@@ -1366,17 +1474,8 @@
    "autos": 1,
    "min": 179900,
    "max": 199990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/peugeot/208/active/27927695"
-  },
-  {
-   "key": "toyota/corolla-quest",
-   "make": "toyota",
-   "model": "corolla-quest",
-   "count": 4,
-   "autos": 1,
-   "min": 229700,
-   "max": 269800,
-   "sample": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-quest/1.8/28816130"
+   "sample": "https://www.autotrader.co.za/car-for-sale/peugeot/208/active/27927695",
+   "boot": "285-311"
   },
   {
    "key": "renault/kwid",
@@ -1385,8 +1484,9 @@
    "count": 3,
    "autos": 1,
    "min": 109990,
-   "max": 180734,
-   "sample": "https://www.autotrader.co.za/car-for-sale/renault/kwid/climber/28469514"
+   "max": 169990,
+   "sample": "https://www.autotrader.co.za/car-for-sale/renault/kwid/techno/28596555",
+   "boot": 279
   },
   {
    "key": "fiat/500x",
@@ -1396,67 +1496,41 @@
    "autos": 1,
    "min": 159900,
    "max": 269990,
-   "sample": "https://www.autotrader.co.za/car-for-sale/fiat/500x/cult/28698742"
+   "sample": "https://www.autotrader.co.za/car-for-sale/fiat/500x/cult/28320968",
+   "boot": 350
   },
   {
-   "key": "kia/pegas",
-   "make": "kia",
-   "model": "pegas",
-   "count": 3,
-   "autos": 1,
-   "min": 229900,
-   "max": 259800,
-   "sample": "https://www.autotrader.co.za/car-for-sale/kia/pegas/lx/28817851"
-  },
-  {
-   "key": "suzuki/baleno",
-   "make": "suzuki",
-   "model": "baleno",
-   "count": 3,
-   "autos": 1,
-   "min": 236900,
-   "max": 289800,
-   "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/baleno/1.5/28816361"
-  },
-  {
-   "key": "hyundai/atos",
-   "make": "hyundai",
-   "model": "atos",
-   "count": 2,
-   "autos": 1,
-   "min": 139990,
-   "max": 164800,
-   "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/atos/motion/28800171"
-  },
-  {
-   "key": "suzuki/s-presso",
-   "make": "suzuki",
-   "model": "s-presso",
-   "count": 2,
-   "autos": 1,
-   "min": 145000,
-   "max": 159800,
-   "sample": "https://www.autotrader.co.za/car-for-sale/suzuki/s-presso/gl/28752147"
-  },
-  {
-   "key": "haval/h2",
-   "make": "haval",
-   "model": "h2",
-   "count": 2,
-   "autos": 1,
-   "min": 199880,
-   "max": 239950,
-   "sample": "https://www.autotrader.co.za/car-for-sale/haval/h2/luxury/28316625"
-  },
-  {
-   "key": "nissan/x-trail",
+   "key": "nissan/almera",
    "make": "nissan",
-   "model": "x-trail",
+   "model": "almera",
+   "count": 3,
+   "autos": 1,
+   "min": 159995,
+   "max": 189950,
+   "sample": "https://www.autotrader.co.za/car-for-sale/nissan/almera/1.5/28700281",
+   "boot": "490 (sedan)"
+  },
+  {
+   "key": "hyundai/exter",
+   "make": "hyundai",
+   "model": "exter",
+   "count": 3,
+   "autos": 1,
+   "min": 225900,
+   "max": 239900,
+   "sample": "https://www.autotrader.co.za/car-for-sale/hyundai/exter/1.2/28102703",
+   "boot": 290
+  },
+  {
+   "key": "toyota/urban-cruiser",
+   "make": "toyota",
+   "model": "urban-cruiser",
    "count": 2,
    "autos": 1,
-   "min": 209990,
-   "max": 295000,
-   "sample": "https://www.autotrader.co.za/car-for-sale/nissan/x-trail/1.6/28815667"
+   "min": 239990,
+   "max": 249950,
+   "sample": "https://www.autotrader.co.za/car-for-sale/toyota/urban-cruiser/xs/28822042",
+   "boot": 328
   },
   {
    "key": "mazda/mazda3",
@@ -1466,7 +1540,8 @@
    "autos": 1,
    "min": 269990,
    "max": 270000,
-   "sample": "https://www.autotrader.co.za/car-for-sale/mazda/mazda3/dynamic/28773757"
+   "sample": "https://www.autotrader.co.za/car-for-sale/mazda/mazda3/dynamic/28773757",
+   "boot": "508 (sedan)"
   }
  ]
 }
