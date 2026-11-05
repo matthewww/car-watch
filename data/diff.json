@@ -1,83 +1,16 @@
 {
- "generatedAt": "2026-11-05T13:36:02.601Z",
- "total": 8,
+ "generatedAt": "2026-11-05T19:12:36.940Z",
+ "total": 14,
  "searches": {
   "duster": {
-   "total": 1,
-   "baseline": false,
-   "new": [],
-   "dropped": [],
-   "increased": [
-    {
-     "id": "28822140",
-     "from": 238500,
-     "to": 263179
-    }
-   ],
-   "gone": []
-  },
-  "caddy": {
    "total": 0,
    "baseline": false,
    "new": [],
    "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "jimny": {
-   "total": 0,
-   "baseline": false,
-   "new": [],
-   "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "seltos": {
-   "total": 0,
-   "baseline": false,
-   "new": [],
-   "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "creta": {
-   "total": 4,
-   "baseline": false,
-   "new": [
-    "28106979",
-    "28825400",
-    "28825608",
-    "28825524"
-   ],
-   "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "hr-v": {
-   "total": 1,
-   "baseline": false,
-   "new": [],
-   "dropped": [
-    {
-     "id": "28564553",
-     "from": 249990,
-     "to": 229990
-    }
-   ],
    "increased": [],
    "gone": []
   },
   "corolla-cross": {
-   "total": 1,
-   "baseline": false,
-   "new": [
-    "28826220"
-   ],
-   "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "mg-zs": {
    "total": 0,
    "baseline": false,
    "new": [],
@@ -86,6 +19,73 @@
    "gone": []
   },
   "haval-h6": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "tiggo-5-pro": {
+   "total": 0,
+   "baseline": true,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "tiggo-7-pro": {
+   "total": 7,
+   "baseline": true,
+   "new": [
+    "28735889",
+    "28798303",
+    "28771947",
+    "28779782",
+    "28806760",
+    "28598642",
+    "28736041"
+   ],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "seltos": {
+   "total": 1,
+   "baseline": false,
+   "new": [],
+   "dropped": [
+    {
+     "id": "28340222",
+     "from": 245000,
+     "to": 239990
+    }
+   ],
+   "increased": [],
+   "gone": []
+  },
+  "creta": {
+   "total": 4,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": [
+    "28666888",
+    "28754047",
+    "28760521",
+    "28762803"
+   ]
+  },
+  "hr-v": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "mg-zs": {
    "total": 0,
    "baseline": false,
    "new": [],
@@ -102,16 +102,37 @@
    "gone": []
   },
   "proton-x70": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
    "new": [],
-   "dropped": [
-    {
-     "id": "28604114",
-     "from": 284990,
-     "to": 264990
-    }
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "x-trail": {
+   "total": 2,
+   "baseline": true,
+   "new": [
+    "28815667",
+    "28763131"
    ],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "caddy": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "jimny": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
    "increased": [],
    "gone": []
   }

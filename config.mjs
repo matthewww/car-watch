@@ -3,6 +3,7 @@
  * priceCap: drop listings above it (null = no cap, for landscape searches)
  * pageCap: max province pages scanned per run */
 export const SEARCHES = [
+  // priority cluster next to the Duster
   {
     key: "duster",
     make: "renault",
@@ -13,22 +14,42 @@ export const SEARCHES = [
     pageCap: 8,
   },
   {
-    key: "caddy",
-    make: "volkswagen",
-    model: "caddy",
-    label: "VW Caddy",
-    filters: "price=less-than-300000&mileage=less-than-100000",
+    key: "corolla-cross",
+    make: "toyota",
+    model: "corolla-cross",
+    label: "Corolla Cross",
+    filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
     priceCap: 300000,
-    pageCap: 14,
+    pageCap: 8,
   },
   {
-    key: "jimny",
-    make: "suzuki",
-    model: "jimny",
-    label: "Suzuki Jimny",
-    filters: "price=less-than-300000&mileage=less-than-100000", // no year cap; 5-door models get called out
+    key: "haval-h6",
+    make: "haval",
+    model: "h6",
+    label: "Haval H6",
+    filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
     priceCap: 300000,
-    pageCap: 14,
+    pageCap: 8,
+  },
+  // dormant: not on AutoTrader SA yet (slug 404s) — starts working automatically
+  // once the model launches and listings appear
+  {
+    key: "tiggo-5-pro",
+    make: "chery",
+    model: "tiggo-5-pro",
+    label: "Chery Tiggo 5 Pro",
+    filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
+    priceCap: 300000,
+    pageCap: 8,
+  },
+  {
+    key: "tiggo-7-pro",
+    make: "chery",
+    model: "tiggo-7-pro",
+    label: "Chery Tiggo 7 Pro",
+    filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
+    priceCap: 300000,
+    pageCap: 8,
   },
   {
     key: "seltos",
@@ -58,28 +79,10 @@ export const SEARCHES = [
     pageCap: 8,
   },
   {
-    key: "corolla-cross",
-    make: "toyota",
-    model: "corolla-cross",
-    label: "Corolla Cross",
-    filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
-    priceCap: 300000,
-    pageCap: 8,
-  },
-  {
     key: "mg-zs",
     make: "mg",
     model: "zs",
     label: "MG ZS",
-    filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
-    priceCap: 300000,
-    pageCap: 8,
-  },
-  {
-    key: "haval-h6",
-    make: "haval",
-    model: "h6",
-    label: "Haval H6",
     filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
     priceCap: 300000,
     pageCap: 8,
@@ -101,6 +104,34 @@ export const SEARCHES = [
     filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
     priceCap: 300000,
     pageCap: 8,
+  },
+  {
+    key: "x-trail",
+    make: "nissan",
+    model: "x-trail",
+    label: "Nissan X-Trail",
+    filters: "price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
+    priceCap: 300000,
+    pageCap: 8,
+  },
+  // landscape watches at the end
+  {
+    key: "caddy",
+    make: "volkswagen",
+    model: "caddy",
+    label: "VW Caddy",
+    filters: "price=less-than-300000&mileage=less-than-100000",
+    priceCap: 300000,
+    pageCap: 14,
+  },
+  {
+    key: "jimny",
+    make: "suzuki",
+    model: "jimny",
+    label: "Suzuki Jimny",
+    filters: "price=less-than-300000&mileage=less-than-100000", // no year cap; 5-door models get called out
+    priceCap: 300000,
+    pageCap: 14,
   },
 ];
 
@@ -125,7 +156,7 @@ export const BOOT_LITRES = {
   "suzuki/dzire": "378 (sedan)", "mahindra/xuv-3xo": "240-300", "nissan/x-trail": "565-585",
   "mazda/mazda3": "508 (sedan)", "kia/pegas": "475 (sedan)", "proton/x70": 515, "proton/x50": 330, "honda/brio": 258,
   "honda/amaze": "420 (sedan)", "toyota/agya": 200, "suzuki/ertiga": "550 (last row down)",
-  "hyundai/exter": "unknown", "chery/tiggo-cross": "unknown", "changan/alsvin": "unknown",
-  "baic/beijing-x55": "unknown", "toyota/vitz": "unknown", "hyundai/atos": "unknown",
-  "toyota/etios": "unknown",
+  "hyundai/exter": 290, "chery/tiggo-cross": 340, "changan/alsvin": 390,
+  "baic/beijing-x55": 350, "toyota/vitz": 295, "hyundai/atos": 235,
+  "toyota/etios": "251 (hatch)", "chery/tiggo-5-pro": "500 (overseas)",
 };

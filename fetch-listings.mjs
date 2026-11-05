@@ -242,6 +242,7 @@ const prevSearches = prevFile.searches ??
 const searches = {};
 const diffs = {};
 const alertLines = [];
+let colourBudget = 40; // detail-page fetches per run for paint colour
 
 for (const s of SEARCHES) {
   const prev = prevSearches[s.key] ?? { listings: [] };
@@ -249,7 +250,15 @@ for (const s of SEARCHES) {
   const prevIds = new Set(prev.listings.filter((l) => !l.removedAt).map((l) => l.id));
   const baseline = prev.listings.length === 0; // first run: capture, don't alert
 
-  const { listings: current, meta } = await fetchSearch(s);
+  let current = [], meta = {};
+  try {
+    ({ listings: current, meta } = await fetchSearch(s));
+  } catch (e) {
+    // brand-new searches can legitimately have no KZN stock yet — only
+    // hard-fail when an established search suddenly returns nothing
+    if (prev.listings.length) throw e;
+    console.log(`${s.key}: no KZN results yet — will retry next run`);
+  }
   const currentIds = new Set(current.map((l) => l.id));
 
   const merged = current.map((cur) => {
@@ -267,6 +276,30 @@ for (const s of SEARCHES) {
       removedAt: null,
     };
   });
+  // paint colour only exists on detail pages — fetch a few per run (newest
+  // first); carry the rest over from the previous snapshot
+  for (const l of merged) {
+    const o = prevById.get(l.id);
+    if (!l.colour && o?.colour) l.colour = o.colour;
+  }
+  for (const l of merged
+    .filter((l) => l.price && !l.removedAt && !l.colour)
+    .sort((a, b) => String(b.firstSeen).localeCompare(String(a.firstSeen)))
+    .slice(0, colourBudget)) {
+    colourBudget--;
+    try {
+      const res = await fetch(l.url, {
+        headers: { "User-Agent": UA, "Accept-Language": "en-ZA,en;q=0.9" },
+        signal: AbortSignal.timeout(30000),
+      });
+      if (res.ok) {
+        const html = await res.text();
+        const m = html.match(/"colour"\s*:\s*"([^"]{1,40})"/i)
+          ?? html.match(/Colour<\/span><span[^>]*>\s*([^<]{1,40})</i);
+        if (m) l.colour = m[1].trim();
+      }
+    } catch { /* non-fatal */ }
+  }
   // a listing missing from the page is only confirmed gone after two consecutive runs
   const goneNow = prev.listings.filter((l) => !currentIds.has(l.id) && !l.removedAt);
   const gone = goneNow.map((l) => ({ ...l, removedAt: l.lastMissing ? iso : null, lastMissing: iso }));
@@ -315,7 +348,7 @@ for (const s of SEARCHES) {
 
   searches[s.key] = {
     label: s.label,
-    url: searchUrl(s, meta.kznPage ?? 2),
+    url: searchUrl(s, meta.kznPage ?? 1),
     meta,
     listings: all.slice().sort((a, b) => a.id.localeCompare(b.id)),
   };

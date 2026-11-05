@@ -47,6 +47,10 @@
   .b.up   { background:#fef3c7; color:var(--up); }
   .gone { opacity:.45; }
   .gone .price { text-decoration:line-through; }
+  .spark { flex-shrink:0; opacity:.9; }
+  .cchip { display:inline-block; margin-left:6px; padding:0 6px; border-radius:999px;
+           font-size:10.5px; line-height:15px; vertical-align:1px; white-space:nowrap;
+           border:1px solid rgba(0,0,0,.12); }
   footer { text-align:center; color:var(--mut); font-size:12px; padding:12px; }
   .empty { color:var(--mut); font-size:13px; padding:20px; text-align:center; }
 </style>
@@ -75,6 +79,9 @@
     <option value="year">Year ↓</option>
   </select>
 </div>
+<div class="controls" id="arearow">
+  <div class="chips" id="areachips"></div>
+</div>
 <div id="notes"></div>
 <main id="out"><div class="empty">Loading…</div></main>
 <footer>AutoTrader KZN — <a id="searchlink" href="#">open current search</a></footer>
@@ -84,7 +91,7 @@ const GROUP_ORDER = ["Durban", "Hillcrest & Pinetown", "Pietermaritzburg", "Nort
 const GROUP_SHORT = { "Hillcrest & Pinetown": "Hillcrest/Pinetown", "North Coast & Outer": "N-Coast/Outer" };
 const fmt = (n) => n == null ? "?" : "R" + n.toLocaleString("en-ZA");
 const days = (iso) => (Date.now() - Date.parse(iso)) / 864e5;
-let filter = "all", sort = "price", data = null, cur = null, disc = false, discovery = null, analystData = null;
+let filter = "all", area = "all", sort = "price", data = null, cur = null, disc = false, discovery = null, analystData = null;
 
 const FILTERS = {
   all: (l) => !l.removedAt,
@@ -94,7 +101,9 @@ const FILTERS = {
 };
 
 function badges(l) {
-  let b = "";
+  let b = l.src
+    ? `<span class="b" style="background:#e0e7ff;color:#3730a3">${l.src}</span>`
+    : "";
   if (l.estUnder != null && Math.abs(l.estUnder) >= 3000)
     b += l.estUnder > 0
       ? `<span class="b under" title="vs price model fitted on current inventory">≈${Math.round(l.estUnder / 1000)}k under</span>`
@@ -111,6 +120,53 @@ function badges(l) {
   return b;
 }
 
+const COLOUR_HEX = {
+  white: "#f1f5f9", ivory: "#fdfbf4", pearl: "#eef2f7", cream: "#f5eeda",
+  silver: "#c9cdd4", grey: "#9ca3af", gray: "#9ca3af", gunmetal: "#4b5563",
+  graphite: "#414b57", charcoal: "#2f3540", black: "#111827",
+  red: "#dc2626", burgundy: "#6b1220", maroon: "#6b1220",
+  orange: "#ea580c", copper: "#b45309", bronze: "#8a5a2b", gold: "#c9a227", champagne: "#e3d3a8",
+  beige: "#e2d5b4", tan: "#cbaa6d", brown: "#6b4423",
+  yellow: "#eab308", green: "#15803d", olive: "#4d7c0f", lime: "#65a30d",
+  blue: "#2563eb", navy: "#1e3a8a", sky: "#38bdf8", turquoise: "#0d9488", teal: "#0d9488",
+  purple: "#6d28d9",
+};
+const DARK_HEX = new Set(["#111827", "#2f3540", "#414b57", "#4b5563", "#6b1220", "#6b4423",
+  "#8a5a2b", "#15803d", "#4d7c0f", "#1e3a8a", "#0d9488", "#6d28d9", "#b45309"]);
+
+function colourChip(l) {
+  const name = (l.colour ?? "").replace(/[^A-Za-z ]/g, "").trim();
+  if (!name) return "";
+  const key = Object.keys(COLOUR_HEX).find((k) => name.toLowerCase().includes(k));
+  const bg = key ? COLOUR_HEX[key] : "#e5e7eb";
+  const fg = DARK_HEX.has(bg) ? "#fff" : "#111827";
+  return `<span class="cchip" title="Colour: ${name}" style="background:${bg};color:${fg}">${name}</span>`;
+}
+
+/** Mini price graph from priceHistory (+ current price); hidden until there
+ * are at least two points. */
+function spark(l) {
+  const hist = l.priceHistory ?? [];
+  if (!hist.length || l.price == null) return "";
+  const series = [hist[0].from, ...hist.map((h) => h.to)];
+  if (series[series.length - 1] !== l.price) series.push(l.price);
+  if (series.length < 2) return "";
+  const lo = Math.min(...series), hi = Math.max(...series);
+  const W = 56, H = 15, pad = 2.5;
+  const xy = series.map((p, i) => {
+    const x = pad + (i / (series.length - 1)) * (W - 2 * pad);
+    const y = hi === lo ? H / 2 : pad + (1 - (p - lo) / (hi - lo)) * (H - 2 * pad);
+    return [x, y];
+  });
+  const stroke = series[series.length - 1] > series[0] ? "var(--up)"
+    : series[series.length - 1] < series[0] ? "var(--drop)" : "var(--mut)";
+  const pts = xy.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(" ");
+  const [lx, ly] = xy[xy.length - 1];
+  return `<svg class="spark" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" aria-hidden="true">
+    <polyline points="${pts}" fill="none" stroke="${stroke}" stroke-width="1.5" stroke-linejoin="round"/>
+    <circle cx="${lx.toFixed(1)}" cy="${ly.toFixed(1)}" r="2" fill="${stroke}"/></svg>`;
+}
+
 function card(l) {
   const hist = (l.priceHistory ?? []).map((h) => `${h.date.slice(0, 10)}: ${fmt(h.from)} → ${fmt(h.to)}`).join("\n");
   const spec = [l.condition, l.km != null ? l.km.toLocaleString("en-ZA") + " km" : null,
@@ -119,16 +175,29 @@ function card(l) {
     + (l.dealerRating != null ? ` · ⭐${l.dealerRating} (${l.dealerReviews})` : "");
   return `<a class="card${l.removedAt ? " gone" : ""}" href="${l.url}" target="_blank" rel="noopener">
     <div class="row1"><span class="title">${l.year ?? "?"} ${l.variant ?? l.trim ?? "?"}</span>
-      <span class="price">${fmt(l.price)}</span></div>
-    <div class="spec">${spec}${l.incomplete ? " · <em>details not rendered by source</em>" : ""}</div>
+      <span style="display:flex;align-items:center;gap:6px"><span class="price">${fmt(l.price)}</span>${spark(l)}</span></div>
+    <div class="spec">${spec}${colourChip(l)}${l.incomplete ? " · <em>details not rendered by source</em>" : ""}</div>
     <div class="deal">${deal}</div>
     <div style="margin-top:4px">${badges(l)}</div></a>`;
 }
 
+/** Virtual search for the "All" tab: every live listing across all searches,
+ * each tagged with its source search label. */
+function getSearch() {
+  if (cur === "__all") {
+    const listings = Object.entries(data.searches)
+      .flatMap(([k, s]) => s.listings.map((l) => ({ ...l, src: s.label })));
+    return { label: "All models", url: null, listings };
+  }
+  return data.searches[cur];
+}
+
 function render() {
-  const s = data.searches[cur];
+  const s = getSearch();
   if (!s) return;
-  const live = s.listings.filter(FILTERS[filter]);
+  document.getElementById("arearow").style.display = "";
+  const live = s.listings.filter(FILTERS[filter])
+    .filter((l) => area === "all" || (l.group ?? "Other") === area);
   const cmp = {
     price: (a, b) => (a.price ?? 9e9) - (b.price ?? 9e9),
     "price-desc": (a, b) => (b.price ?? 0) - (a.price ?? 0),
@@ -141,7 +210,9 @@ function render() {
   document.getElementById("stats").textContent = priced.length
     ? `${s.label} market: ${priced.length} live · R${Math.min(...priced).toLocaleString("en-ZA")} – R${Math.max(...priced).toLocaleString("en-ZA")} · median R${priced[Math.floor(priced.length / 2)].toLocaleString("en-ZA")}`
     : `${s.label}: no priced listings`;
-  document.getElementById("searchlink").href = s.url;
+  const linkEl = document.getElementById("searchlink");
+  if (s.url) { linkEl.style.display = ""; linkEl.href = s.url; }
+  else linkEl.style.display = "none";
   const groups = GROUP_ORDER.map((g) => ({ name: g, items: live.filter((l) => (l.group ?? "Other") === g).sort(cmp) }));
   if (live.length && groups.every((g) => !g.items.length))
     groups.push({ name: "Unmatched area", items: live.filter((l) => !GROUP_ORDER.includes(l.group)).sort(cmp) });
@@ -165,9 +236,12 @@ function render() {
 }
 
 function renderTabs() {
-  document.getElementById("tabs").innerHTML = Object.entries(data.searches)
-    .map(([k, v]) => `<button class="chip${!disc && k === cur ? " on" : ""}" data-k="${k}">${v.label}</button>`)
-    .join("") + `<button class="chip${disc ? " on" : ""}" data-k="__discover">Discover</button>`;
+  document.getElementById("tabs").innerHTML =
+    `<button class="chip${!disc && cur === "__all" ? " on" : ""}" data-k="__all">All</button>`
+    + Object.entries(data.searches)
+      .map(([k, v]) => `<button class="chip${!disc && k === cur ? " on" : ""}" data-k="${k}">${v.label}</button>`)
+      .join("")
+    + `<button class="chip${disc ? " on" : ""}" data-k="__discover">Discover</button>`;
 }
 
 function renderAnalyst(a) {
@@ -200,6 +274,7 @@ function bootNum(t) {
 function renderDiscovery() {
   const outEl = document.getElementById("out");
   document.getElementById("searchlink").style.display = "none";
+  document.getElementById("arearow").style.display = "none";
   const cands = (discovery?.candidates ?? []).map((c) => ({ ...c, bootNum: bootNum(c.boot) }));
   const good = cands.filter((c) => c.bootNum >= 400).sort((a, b) => b.bootNum - a.bootNum || b.autos - a.autos);
   const ruled = cands.filter((c) => c.bootNum < 400).sort((a, b) => b.autos - a.autos);
@@ -227,6 +302,14 @@ function renderDiscovery() {
     + (ruled.length ? `<details class="group"><summary><span>Ruled out on boot <small style="font-weight:400;color:var(--mut)">(&lt;400 L or unknown, ${ruled.length})</small></span></summary>${ruled.map(card).join("")}</details>` : "")
     || `<div class="empty">No candidates.</div>`;
   document.getElementById("notes").replaceChildren();
+}
+
+function renderAreaChips() {
+  document.getElementById("areachips").innerHTML =
+    [{ v: "all", t: "All areas" }]
+      .concat(GROUP_ORDER.map((g) => ({ v: g, t: GROUP_SHORT[g] ?? g })))
+      .map((o) => `<button class="chip${area === o.v ? " on" : ""}" data-a="${o.v}">${o.t}</button>`)
+      .join("");
 }
 
 fetch("data/listings.json", { cache: "no-store" })
@@ -287,6 +370,13 @@ document.getElementById("chips").addEventListener("click", (e) => {
   if (!e.target.dataset.f) return;
   filter = e.target.dataset.f;
   for (const c of document.querySelectorAll(".chip")) c.classList.toggle("on", c === e.target);
+  render();
+});
+document.getElementById("areachips").addEventListener("click", (e) => {
+  const a = e.target.dataset.a;
+  if (!a) return;
+  area = a;
+  renderAreaChips();
   render();
 });
 document.getElementById("sort").addEventListener("change", (e) => { sort = e.target.value; render(); });
