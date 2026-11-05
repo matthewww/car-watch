@@ -1,13 +1,19 @@
 {
- "generatedAt": "2026-11-04T16:01:59.995Z",
- "total": 2,
+ "generatedAt": "2026-11-05T13:36:02.601Z",
+ "total": 8,
  "searches": {
   "duster": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [],
-   "increased": [],
+   "increased": [
+    {
+     "id": "28822140",
+     "from": 238500,
+     "to": 263179
+    }
+   ],
    "gone": []
   },
   "caddy": {
@@ -27,41 +33,46 @@
    "gone": []
   },
   "seltos": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "creta": {
+   "total": 4,
+   "baseline": false,
+   "new": [
+    "28106979",
+    "28825400",
+    "28825608",
+    "28825524"
+   ],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "hr-v": {
    "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [
     {
-     "id": "28706134",
-     "from": 279990,
-     "to": 277990
+     "id": "28564553",
+     "from": 249990,
+     "to": 229990
     }
    ],
    "increased": [],
    "gone": []
   },
-  "creta": {
+  "corolla-cross": {
    "total": 1,
    "baseline": false,
-   "new": [],
-   "dropped": [],
-   "increased": [],
-   "gone": [
-    "28717838"
-   ]
-  },
-  "hr-v": {
-   "total": 0,
-   "baseline": false,
-   "new": [],
-   "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "corolla-cross": {
-   "total": 0,
-   "baseline": false,
-   "new": [],
+   "new": [
+    "28826220"
+   ],
    "dropped": [],
    "increased": [],
    "gone": []
@@ -91,10 +102,16 @@
    "gone": []
   },
   "proton-x70": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
-   "dropped": [],
+   "dropped": [
+    {
+     "id": "28604114",
+     "from": 284990,
+     "to": 264990
+    }
+   ],
    "increased": [],
    "gone": []
   }
