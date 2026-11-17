@@ -1,27 +1,58 @@
 {
- "generatedAt": "2026-11-05T19:12:36.940Z",
- "total": 14,
+ "generatedAt": "2026-11-17T10:19:59.204Z",
+ "total": 36,
  "searches": {
   "duster": {
-   "total": 0,
+   "total": 3,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28834781",
+    "27452144",
+    "28839413"
+   ],
    "dropped": [],
    "increased": [],
    "gone": []
   },
   "corolla-cross": {
-   "total": 0,
+   "total": 8,
    "baseline": false,
-   "new": [],
-   "dropped": [],
-   "increased": [],
+   "new": [
+    "28819615",
+    "28691769",
+    "28833164",
+    "28737617",
+    "28830275"
+   ],
+   "dropped": [
+    {
+     "id": "28777149",
+     "from": 289990,
+     "to": 279990
+    },
+    {
+     "id": "28826220",
+     "from": 269890,
+     "to": 259890
+    }
+   ],
+   "increased": [
+    {
+     "id": "28776932",
+     "from": 249990,
+     "to": 259990
+    }
+   ],
    "gone": []
   },
   "haval-h6": {
-   "total": 0,
+   "total": 3,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28772665",
+    "28502503",
+    "28499124"
+   ],
    "dropped": [],
    "increased": [],
    "gone": []
@@ -35,47 +66,75 @@
    "gone": []
   },
   "tiggo-7-pro": {
-   "total": 7,
-   "baseline": true,
-   "new": [
-    "28735889",
-    "28798303",
-    "28771947",
-    "28779782",
-    "28806760",
-    "28598642",
-    "28736041"
-   ],
+   "total": 0,
+   "baseline": false,
+   "new": [],
    "dropped": [],
    "increased": [],
    "gone": []
   },
   "seltos": {
-   "total": 1,
+   "total": 5,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28837897"
+   ],
    "dropped": [
     {
-     "id": "28340222",
-     "from": 245000,
-     "to": 239990
+     "id": "28818917",
+     "from": 259900,
+     "to": 239900
+    },
+    {
+     "id": "28733299",
+     "from": 269900,
+     "to": 264900
+    },
+    {
+     "id": "28696048",
+     "from": 279900,
+     "to": 274900
+    }
+   ],
+   "increased": [
+    {
+     "id": "28706134",
+     "from": 277990,
+     "to": 279990
+    }
+   ],
+   "gone": []
+  },
+  "creta": {
+   "total": 9,
+   "baseline": false,
+   "new": [
+    "28682059",
+    "28829741",
+    "28720995",
+    "28834306",
+    "28497118",
+    "28832130"
+   ],
+   "dropped": [
+    {
+     "id": "28479041",
+     "from": 249990,
+     "to": 229990
+    },
+    {
+     "id": "28680625",
+     "from": 289990,
+     "to": 259990
+    },
+    {
+     "id": "28242355",
+     "from": 259995,
+     "to": 239600
     }
    ],
    "increased": [],
    "gone": []
-  },
-  "creta": {
-   "total": 4,
-   "baseline": false,
-   "new": [],
-   "dropped": [],
-   "increased": [],
-   "gone": [
-    "28666888",
-    "28754047",
-    "28760521",
-    "28762803"
-   ]
   },
   "hr-v": {
    "total": 0,
@@ -86,52 +145,79 @@
    "gone": []
   },
   "mg-zs": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
-   "dropped": [],
+   "dropped": [
+    {
+     "id": "28641536",
+     "from": 279900,
+     "to": 269990
+    }
+   ],
    "increased": [],
    "gone": []
   },
   "peugeot-2008": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
-   "dropped": [],
+   "dropped": [
+    {
+     "id": "28789628",
+     "from": 279950,
+     "to": 259950
+    }
+   ],
    "increased": [],
    "gone": []
   },
   "proton-x70": {
-   "total": 0,
+   "total": 3,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28699574",
+    "28503411"
+   ],
    "dropped": [],
-   "increased": [],
+   "increased": [
+    {
+     "id": "27777826",
+     "from": 239900,
+     "to": 279900
+    }
+   ],
    "gone": []
   },
   "x-trail": {
-   "total": 2,
-   "baseline": true,
-   "new": [
-    "28815667",
-    "28763131"
-   ],
+   "total": 0,
+   "baseline": false,
+   "new": [],
    "dropped": [],
    "increased": [],
    "gone": []
   },
   "caddy": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [],
-   "increased": [],
+   "increased": [
+    {
+     "id": "28784831",
+     "from": 279990,
+     "to": 289990
+    }
+   ],
    "gone": []
   },
   "jimny": {
-   "total": 0,
+   "total": 2,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28778401",
+    "28840393"
+   ],
    "dropped": [],
    "increased": [],
    "gone": []

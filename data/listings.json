@@ -1,14 +1,38 @@
 {
- "generatedAt": "2026-11-05T19:12:36.940Z",
+ "generatedAt": "2026-11-17T10:19:59.204Z",
  "searches": {
   "duster": {
    "label": "Renault Duster",
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/renault/duster?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 16
+    "kznTotal": 18
    },
    "listings": [
+    {
+     "id": "27452144",
+     "url": "https://www.autotrader.co.za/car-for-sale/renault/duster/techroad/27452144",
+     "price": 239990,
+     "year": 2021,
+     "variant": "1.5dCi TechRoad Auto",
+     "condition": "Used",
+     "km": 66903,
+     "transmission": "Automatic",
+     "fuel": "Diesel",
+     "priceFlag": "Great Price",
+     "dealerRating": 3.4,
+     "dealerReviews": 29,
+     "dealer": "APC Car Sales",
+     "area": "Pietermaritzburg Central, Pietermaritzburg",
+     "group": "Pietermaritzburg",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Gold",
+     "estUnder": -2071
+    },
     {
      "id": "28074226",
      "url": "https://www.autotrader.co.za/car-for-sale/renault/duster/techroad/28074226",
@@ -27,11 +51,11 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -35113
+     "estUnder": -37391
     },
     {
      "id": "28097930",
@@ -52,7 +76,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "colour": "Orange",
      "estUnder": 3625
@@ -67,19 +91,19 @@
      "km": 50000,
      "transmission": "Manual",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.8,
-     "dealerReviews": 10,
+     "dealerReviews": 11,
      "dealer": "GWM Haval Mobeni",
      "area": "Mobeni, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
-     "estUnder": -3653
+     "estUnder": -7989
     },
     {
      "id": "28505612",
@@ -91,19 +115,19 @@
      "km": 88500,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 4.3,
-     "dealerReviews": 36,
+     "dealerReviews": 38,
      "dealer": "Super Auto",
      "area": "Hillcrest Central, Hillcrest",
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": 7712
+     "estUnder": 7302
     },
     {
      "id": "28508505",
@@ -115,19 +139,19 @@
      "km": 86000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.8,
-     "dealerReviews": 10,
+     "dealerReviews": 11,
      "dealer": "GWM Haval Mobeni",
      "area": "Mobeni, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Orange",
-     "estUnder": 5007
+     "estUnder": 11231
     },
     {
      "id": "28547722",
@@ -139,7 +163,7 @@
      "km": 90800,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.6,
      "dealerReviews": 28,
      "dealer": "Omars Car Sales",
@@ -147,11 +171,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 487
+     "estUnder": 1279
     },
     {
      "id": "28666537",
@@ -175,7 +199,7 @@
      "km": 91345,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.3,
      "dealerReviews": 17,
      "dealer": "KIA Pinetown",
@@ -183,11 +207,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 4555
+     "estUnder": 12916
     },
     {
      "id": "28727695",
@@ -199,19 +223,19 @@
      "km": 99000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "High Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 4.2,
-     "dealerReviews": 45,
+     "dealerReviews": 47,
      "dealer": "Rally Motors",
      "area": "Pinetown North Industria, Pinetown",
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Burgundy",
-     "estUnder": -4979
+     "estUnder": -4443
     },
     {
      "id": "28728171",
@@ -223,7 +247,7 @@
      "km": 44460,
      "transmission": "Manual",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "Durban Multifranchise - kia",
@@ -231,11 +255,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
-     "estUnder": 12193
+     "estUnder": 9176
     },
     {
      "id": "28729328",
@@ -255,11 +279,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
-     "estUnder": 22763
+     "estUnder": 27221
     },
     {
      "id": "28741951",
@@ -271,7 +295,6 @@
      "km": 47051,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "KIA Ballito",
@@ -279,11 +302,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 14058
+     "estUnder": 4430
     },
     {
      "id": "28742440",
@@ -295,19 +318,19 @@
      "km": 76000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.3,
-     "dealerReviews": 30,
+     "dealerReviews": 33,
      "dealer": "Hyundai Mobeni",
      "area": "Mobeni, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": -494
+     "estUnder": 1732
     },
     {
      "id": "28745083",
@@ -327,11 +350,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
-     "estUnder": -29676
+     "estUnder": -26809
     },
     {
      "id": "28764732",
@@ -351,11 +374,11 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": 9637
+     "estUnder": 2387
     },
     {
      "id": "28774832",
@@ -410,11 +433,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -9671
+     "estUnder": -18402
     },
     {
      "id": "28822140",
@@ -426,8 +449,8 @@
      "km": 57000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
-     "dealerRating": 3.6,
+     "priceFlag": "Great Price",
+     "dealerRating": 3.7,
      "dealerReviews": 2,
      "dealer": "Renault Pietermaritzburg",
      "area": "Town Hill, Pietermaritzburg",
@@ -440,11 +463,59 @@
       }
      ],
      "firstSeen": "2026-11-03T13:35:56.664Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": 3332
+     "estUnder": -5572
+    },
+    {
+     "id": "28834781",
+     "url": "https://www.autotrader.co.za/car-for-sale/renault/duster/dynamique/28834781",
+     "price": 239990,
+     "year": 2021,
+     "variant": "1.5dCi Dynamique 4WD",
+     "condition": "Used",
+     "km": 29317,
+     "transmission": "Manual",
+     "fuel": "Diesel",
+     "priceFlag": "Great Price",
+     "dealerRating": 4.1,
+     "dealerReviews": 7,
+     "dealer": "Pmb Auto Sales",
+     "area": "Pietermaritzburg Central, Pietermaritzburg",
+     "group": "Pietermaritzburg",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White",
+     "estUnder": 15991
+    },
+    {
+     "id": "28839413",
+     "url": "https://www.autotrader.co.za/car-for-sale/renault/duster/expression/28839413",
+     "price": 189990,
+     "year": 2020,
+     "variant": "1.6 Expression",
+     "condition": "Used",
+     "km": 75259,
+     "transmission": "Manual",
+     "fuel": "Petrol",
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.8,
+     "dealerReviews": 6,
+     "dealer": "Wescole Cars",
+     "area": "Pinetown Central, Pinetown",
+     "group": "Hillcrest & Pinetown",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Orange",
+     "estUnder": 8823
     }
    ]
   },
@@ -453,7 +524,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/toyota/corolla-cross?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 13
+    "kznTotal": 16
    },
    "listings": [
     {
@@ -466,7 +537,7 @@
      "km": 86000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 2.6,
      "dealerReviews": 13,
      "dealer": "Pennylane Cars",
@@ -474,11 +545,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Maroon",
-     "estUnder": -4714
+     "estUnder": -10009
     },
     {
      "id": "28433108",
@@ -512,7 +583,6 @@
      "km": 27535,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 57,
      "dealer": "Premium Auto S.A",
@@ -520,11 +590,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
-     "estUnder": -3143
+     "estUnder": -1399
     },
     {
      "id": "28633563",
@@ -549,6 +619,53 @@
      "estUnder": 17109
     },
     {
+     "id": "28691769",
+     "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/1.8/28691769",
+     "price": 299990,
+     "year": 2023,
+     "variant": "1.8 Xi",
+     "condition": "Used",
+     "km": 70960,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Great Price",
+     "dealerRating": 3.2,
+     "dealerReviews": 36,
+     "dealer": "Durban South Toyota",
+     "area": "Prospecton Industrial, Durban",
+     "group": "Durban",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White",
+     "estUnder": -18456
+    },
+    {
+     "id": "28737617",
+     "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28737617",
+     "price": 299990,
+     "year": 2023,
+     "variant": "1.8 XS",
+     "condition": "Used",
+     "km": 83000,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "dealerRating": 4.9,
+     "dealerReviews": 103,
+     "dealer": "Trade Wheels",
+     "area": "Cotswold Downs Golf & Country Estate, Hillcrest",
+     "group": "Hillcrest & Pinetown",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White",
+     "estUnder": 3038
+    },
+    {
      "id": "28738734",
      "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/1.8/28738734",
      "price": 294990,
@@ -566,11 +683,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -9933
+     "estUnder": -12093
     },
     {
      "id": "28749233",
@@ -591,7 +708,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "colour": "White",
      "estUnder": -24698
@@ -621,7 +738,7 @@
     {
      "id": "28776932",
      "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28776932",
-     "price": 249990,
+     "price": 259990,
      "year": 2021,
      "variant": "1.8 XS",
      "condition": "Used",
@@ -633,37 +750,49 @@
      "dealer": "Westown Motors",
      "area": "Peter Road, Durban",
      "group": "Durban",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 249990,
+       "to": 259990
+      }
+     ],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
-     "estUnder": 31683
+     "estUnder": 16015
     },
     {
      "id": "28777149",
      "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28777149",
-     "price": 289990,
+     "price": 279990,
      "year": 2022,
      "variant": "1.8 XS",
      "condition": "Used",
      "km": 80000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 4.2,
      "dealerReviews": 43,
      "dealer": "All Cars",
      "area": "Pinetown North Industria, Pinetown",
      "group": "Hillcrest & Pinetown",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 289990,
+       "to": 279990
+      }
+     ],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 2756
+     "estUnder": 11154
     },
     {
      "id": "28777439",
@@ -675,7 +804,6 @@
      "km": 70085,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 57,
      "dealer": "Premium Auto S.A",
@@ -683,11 +811,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 11673
+     "estUnder": 13117
     },
     {
      "id": "28788680",
@@ -707,11 +835,11 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 2411
+     "estUnder": 774
     },
     {
      "id": "28796647",
@@ -731,11 +859,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Burgundy",
-     "estUnder": -9074
+     "estUnder": -10885
     },
     {
      "id": "28799379",
@@ -756,7 +884,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "colour": "White",
      "estUnder": -11508
@@ -779,11 +907,34 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 6547
+     "estUnder": 482
+    },
+    {
+     "id": "28819615",
+     "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/1.8/28819615",
+     "price": 299990,
+     "year": 2024,
+     "variant": "1.8 Xi",
+     "condition": "Used",
+     "km": 52740,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "dealerRating": 3.2,
+     "dealerReviews": 36,
+     "dealer": "Durban South Toyota",
+     "area": "Prospecton Industrial, Durban",
+     "group": "Durban",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Grey",
+     "estUnder": -8270
     },
     {
      "id": "28821285",
@@ -797,41 +948,92 @@
      "fuel": "Petrol",
      "priceFlag": "Great Price",
      "dealerRating": 4.6,
-     "dealerReviews": 39,
+     "dealerReviews": 42,
      "dealer": "Ferreira Motors",
      "area": "Umhlanga Rocks, Umhlanga",
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-03T13:35:56.664Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
-     "estUnder": -7471
+     "estUnder": -9095
     },
     {
      "id": "28826220",
      "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/1.8/28826220",
-     "price": 269890,
+     "price": 259890,
      "year": 2023,
      "variant": "1.8 Xi",
      "condition": "Used",
      "km": 90600,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
      "dealerRating": 4.1,
      "dealerReviews": 21,
      "dealer": "Ford Amanzimtoti",
      "area": "Umbogintwini, Amanzimtoti",
      "group": "Other",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 269890,
+       "to": 259890
+      }
+     ],
      "firstSeen": "2026-11-05T13:36:02.601Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 15355
+     "estUnder": 23215
+    },
+    {
+     "id": "28830275",
+     "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28830275",
+     "price": 299900,
+     "year": 2023,
+     "variant": "1.8 XS",
+     "condition": "Used",
+     "km": 50029,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "dealerRating": 3.1,
+     "dealerReviews": 18,
+     "dealer": "Bidvest McCarthy Toyota Ballito",
+     "area": "Ballito Commercial District, Ballito",
+     "group": "North Coast & Outer",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Silver",
+     "estUnder": 491
+    },
+    {
+     "id": "28833164",
+     "url": "https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/1.8/28833164",
+     "price": 279000,
+     "year": 2023,
+     "variant": "1.8 Xi",
+     "condition": "Used",
+     "km": 62000,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "dealerRating": 2.8,
+     "dealerReviews": 29,
+     "dealer": "Mercedes-Benz Empangeni",
+     "area": "Empangeni Rail, Empangeni",
+     "group": "North Coast & Outer",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Red",
+     "estUnder": 1817
     }
    ]
   },
@@ -840,9 +1042,57 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/haval/h6?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 6
+    "kznTotal": 9
    },
    "listings": [
+    {
+     "id": "28499124",
+     "url": "https://www.autotrader.co.za/car-for-sale/haval/h6/luxury/28499124",
+     "price": 299990,
+     "year": 2022,
+     "variant": "2.0T 4WD Super Luxury",
+     "condition": "Used",
+     "km": 71412,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Great Price",
+     "dealerRating": 3.5,
+     "dealerReviews": 12,
+     "dealer": "CMH Multifranchise Pinetown",
+     "area": "Pinetown Central, Pinetown",
+     "group": "Hillcrest & Pinetown",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Brown",
+     "estUnder": -5
+    },
+    {
+     "id": "28502503",
+     "url": "https://www.autotrader.co.za/car-for-sale/haval/h6/luxury/28502503",
+     "price": 289990,
+     "year": 2023,
+     "variant": "2.0T Luxury",
+     "condition": "Used",
+     "km": 64000,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Great Price",
+     "dealerRating": 3.5,
+     "dealerReviews": 3,
+     "dealer": "Sean McCann Motors",
+     "area": "Durban North, Durban North",
+     "group": "Durban",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Grey",
+     "estUnder": 7192
+    },
     {
      "id": "28522952",
      "url": "https://www.autotrader.co.za/car-for-sale/haval/h6/premium/28522952",
@@ -853,8 +1103,8 @@
      "km": 98759,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "dealerRating": 3.7,
-     "dealerReviews": 5,
+     "dealerRating": 3.8,
+     "dealerReviews": 6,
      "dealer": "MG Amanzimtoti",
      "area": "Umbogintwini, Amanzimtoti",
      "group": "Other",
@@ -866,10 +1116,11 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "colour": "White"
+     "colour": "White",
+     "estUnder": 157
     },
     {
      "id": "28560950",
@@ -889,10 +1140,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "colour": "Maroon"
+     "colour": "Maroon",
+     "estUnder": -8878
     },
     {
      "id": "28626123",
@@ -904,7 +1156,7 @@
      "km": 70000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.8,
      "dealerReviews": 31,
      "dealer": "Cars On Ridge",
@@ -912,10 +1164,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "colour": "White"
+     "colour": "White",
+     "estUnder": -5559
     },
     {
      "id": "28731026",
@@ -927,17 +1180,43 @@
      "km": 40000,
      "transmission": "Automatic",
      "fuel": "Petrol",
+     "priceFlag": "Great Price",
      "dealerRating": 3.5,
-     "dealerReviews": 27,
+     "dealerReviews": 28,
      "dealer": "GWM Haval Umhlanga Used Cars",
      "area": "New Town Centre, Umhlanga",
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "colour": "Blue"
+     "colour": "Blue",
+     "estUnder": -1116
+    },
+    {
+     "id": "28772665",
+     "url": "https://www.autotrader.co.za/car-for-sale/haval/h6/premium/28772665",
+     "price": 299900,
+     "year": 2023,
+     "variant": "2.0T Premium",
+     "condition": "Used",
+     "km": 62084,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Great Price",
+     "dealerRating": 4.1,
+     "dealerReviews": 20,
+     "dealer": "Toyz Autohouse Umhlanga",
+     "area": "Umhlanga Rocks, Umhlanga",
+     "group": "North Coast & Outer",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White",
+     "estUnder": -3341
     },
     {
      "id": "28802154",
@@ -949,7 +1228,6 @@
      "km": 51300,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 24,
      "dealer": "GWM Haval Hillcrest",
@@ -957,10 +1235,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "colour": "White"
+     "colour": "White",
+     "estUnder": 8364
     },
     {
      "id": "28817203",
@@ -980,10 +1259,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "colour": "Brown"
+     "colour": "Brown",
+     "estUnder": 3173
     }
    ]
   },
@@ -998,7 +1278,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/chery/tiggo-7-pro?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 7
+    "kznTotal": 6
    },
    "listings": [
     {
@@ -1011,15 +1291,16 @@
      "km": 49300,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
-     "dealerRating": 3.6,
+     "priceFlag": "Great Price",
+     "dealerRating": 3.7,
      "dealerReviews": 6,
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
-     "removedAt": null
+     "removedAt": null,
+     "colour": "White"
     },
     {
      "id": "28735889",
@@ -1040,7 +1321,7 @@
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "colour": "Silver"
     },
@@ -1054,7 +1335,7 @@
      "km": 78800,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.9,
      "dealerReviews": 3,
      "dealer": "SMG Chery Hillcrest",
@@ -1062,9 +1343,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
-     "removedAt": null
+     "removedAt": null,
+     "colour": "Grey"
     },
     {
      "id": "28771947",
@@ -1076,7 +1358,7 @@
      "km": 83000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.9,
      "dealerReviews": 35,
      "dealer": "Just Cars",
@@ -1084,7 +1366,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey"
@@ -1099,13 +1381,13 @@
      "km": 59200,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
-     "dealerRating": 3.6,
+     "priceFlag": "Great Price",
+     "dealerRating": 3.7,
      "dealerReviews": 6,
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red"
@@ -1120,7 +1402,7 @@
      "km": 31395,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 24,
      "dealer": "Bidvest McCarthy VW Umhlanga",
@@ -1128,7 +1410,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey"
@@ -1143,15 +1425,15 @@
      "km": 38000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 2.9,
-     "dealerReviews": 74,
+     "dealerReviews": 75,
      "dealer": "Chery Ladysmith",
      "area": "Ladysmith Central, Ladysmith",
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Black"
@@ -1163,7 +1445,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/kia/seltos?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 21
+    "kznTotal": 17
    },
    "listings": [
     {
@@ -1177,15 +1459,16 @@
      "transmission": "Manual",
      "fuel": "Diesel",
      "priceFlag": "Fair Price",
-     "dealerRating": 3.6,
+     "dealerRating": 3.7,
      "dealerReviews": 6,
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -8682
+     "colour": "Blue",
+     "estUnder": 5129
     },
     {
      "id": "28333220",
@@ -1204,10 +1487,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -13230
+     "colour": "White",
+     "estUnder": -3413
     },
     {
      "id": "28340222",
@@ -1219,7 +1503,7 @@
      "km": 99000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "group": "Other",
      "priceHistory": [
       {
@@ -1229,10 +1513,11 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 5587
+     "colour": "Black",
+     "estUnder": 2482
     },
     {
      "id": "28564368",
@@ -1248,10 +1533,11 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 34524
+     "colour": "Maroon",
+     "estUnder": 31624
     },
     {
      "id": "28569428",
@@ -1271,10 +1557,11 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -26484
+     "colour": "White",
+     "estUnder": -12129
     },
     {
      "id": "28631175",
@@ -1294,10 +1581,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -18758
+     "colour": "White",
+     "estUnder": -21989
     },
     {
      "id": "28682451",
@@ -1318,7 +1606,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": 50571
     },
@@ -1332,18 +1620,19 @@
      "km": 87000,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "High Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.8,
-     "dealerReviews": 10,
+     "dealerReviews": 11,
      "dealer": "GWM Haval Mobeni",
      "area": "Mobeni, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -2268
+     "colour": "Red",
+     "estUnder": 10307
     },
     {
      "id": "28691583",
@@ -1362,32 +1651,39 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": -13690
     },
     {
      "id": "28696048",
      "url": "https://www.autotrader.co.za/car-for-sale/kia/seltos/ex/28696048",
-     "price": 279900,
+     "price": 274900,
      "year": 2021,
      "variant": "1.6 EX Auto",
      "condition": "Used",
      "km": 65539,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "High Price",
+     "priceFlag": "Fair Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "Renault Pinetown",
      "area": "Pinetown Central, Pinetown",
      "group": "Hillcrest & Pinetown",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 279900,
+       "to": 274900
+      }
+     ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 913
+     "colour": "White",
+     "estUnder": -4083
     },
     {
      "id": "28697026",
@@ -1407,15 +1703,16 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -37140
+     "colour": "White",
+     "estUnder": -36766
     },
     {
      "id": "28706134",
      "url": "https://www.autotrader.co.za/car-for-sale/kia/seltos/ex-and/28706134",
-     "price": 277990,
+     "price": 279990,
      "year": 2021,
      "variant": "1.5CRDi EX+",
      "condition": "Used",
@@ -1433,13 +1730,19 @@
        "date": "2026-11-04T16:01:59.995Z",
        "from": 279990,
        "to": 277990
+      },
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 277990,
+       "to": 279990
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12869
+     "colour": "Red",
+     "estUnder": -1093
     },
     {
      "id": "28731021",
@@ -1467,25 +1770,32 @@
     {
      "id": "28733299",
      "url": "https://www.autotrader.co.za/car-for-sale/kia/seltos/ex/28733299",
-     "price": 269900,
+     "price": 264900,
      "year": 2022,
      "variant": "1.6 EX Auto",
      "condition": "Used",
      "km": 78726,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "Renault Pinetown",
      "area": "Pinetown Central, Pinetown",
      "group": "Hillcrest & Pinetown",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 269900,
+       "to": 264900
+      }
+     ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -1579
+     "colour": "Red",
+     "estUnder": 752
     },
     {
      "id": "28742881",
@@ -1505,10 +1815,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 31295
+     "colour": "White",
+     "estUnder": 26085
     },
     {
      "id": "28766518",
@@ -1520,7 +1831,7 @@
      "km": 72593,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.3,
      "dealerReviews": 34,
      "dealer": "KIA Durban South",
@@ -1528,10 +1839,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 3585
+     "colour": "White",
+     "estUnder": -4959
     },
     {
      "id": "28791470",
@@ -1552,7 +1864,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": 12273
     },
@@ -1566,7 +1878,7 @@
      "km": 71930,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": null,
      "dealerReviews": null,
      "dealer": "KIA Umhlanga",
@@ -1574,10 +1886,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -24422
+     "colour": "White",
+     "estUnder": -28491
     },
     {
      "id": "28799273",
@@ -1594,7 +1907,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": -27961
     },
@@ -1616,10 +1929,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 13255
+     "colour": "Blue",
+     "estUnder": 14530
     },
     {
      "id": "28818691",
@@ -1640,32 +1954,63 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": -2851
     },
     {
      "id": "28818917",
      "url": "https://www.autotrader.co.za/car-for-sale/kia/seltos/ex/28818917",
-     "price": 259900,
+     "price": 239900,
      "year": 2022,
      "variant": "1.6 EX Auto",
      "condition": "Used",
      "km": 75244,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.2,
      "dealerReviews": 7,
      "dealer": "CMH Volvo Umhlanga",
      "area": "New Town Centre, Umhlanga",
      "group": "North Coast & Outer",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 259900,
+       "to": 239900
+      }
+     ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12088
+     "colour": "Red",
+     "estUnder": 28702
+    },
+    {
+     "id": "28837897",
+     "url": "https://www.autotrader.co.za/car-for-sale/kia/seltos/ex-and/28837897",
+     "price": 269800,
+     "year": 2021,
+     "variant": "1.5CRDi EX+",
+     "condition": "Used",
+     "km": 74750,
+     "transmission": "Automatic",
+     "fuel": "Diesel",
+     "priceFlag": "Great Price",
+     "dealerRating": 4.1,
+     "dealerReviews": 7,
+     "dealer": "Aksons Durban",
+     "area": "Durban Central, Durban",
+     "group": "Durban",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White",
+     "estUnder": -6786
     }
    ]
   },
@@ -1674,7 +2019,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/hyundai/creta?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 32
+    "kznTotal": 37
    },
    "listings": [
     {
@@ -1687,7 +2032,7 @@
      "km": 61500,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 4.2,
      "dealerReviews": 52,
      "dealer": "Sure Drive – GAC & JMC Springfield",
@@ -1695,10 +2040,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-05T13:36:02.601Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -5335
+     "colour": "White",
+     "estUnder": -2794
     },
     {
      "id": "28127836",
@@ -1718,15 +2064,15 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -14748
+     "estUnder": -11592
     },
     {
      "id": "28242355",
      "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28242355",
-     "price": 259995,
+     "price": 239600,
      "year": 2019,
      "variant": "1.6 Executive Limited Edition Auto",
      "condition": "Used",
@@ -1743,13 +2089,18 @@
        "date": "2026-11-04T06:51:42.436Z",
        "from": 249995,
        "to": 259995
+      },
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 259995,
+       "to": 239600
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -27355
+     "estUnder": -2571
     },
     {
      "id": "28246606",
@@ -1765,10 +2116,10 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -10265
+     "estUnder": -3999
     },
     {
      "id": "28320991",
@@ -1780,18 +2131,18 @@
      "km": 70000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.8,
-     "dealerReviews": 10,
+     "dealerReviews": 11,
      "dealer": "GWM Haval Mobeni",
      "area": "Mobeni, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -2597
+     "estUnder": 543
     },
     {
      "id": "28433155",
@@ -1838,25 +2189,55 @@
     {
      "id": "28479041",
      "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28479041",
-     "price": 249990,
+     "price": 229990,
      "year": 2021,
      "variant": "1.6D Executive",
      "condition": "Used",
      "km": 98000,
      "transmission": "Automatic",
      "fuel": "Diesel",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.5,
      "dealerReviews": 26,
      "dealer": "Hyundai Ballito",
      "area": "Ballito Commercial District, Ballito",
      "group": "North Coast & Outer",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 249990,
+       "to": 229990
+      }
+     ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 15044
+     "estUnder": 35267
+    },
+    {
+     "id": "28497118",
+     "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28497118",
+     "price": 249990,
+     "year": 2023,
+     "variant": "1.5 Premium Manual",
+     "condition": "Used",
+     "km": 88000,
+     "transmission": "Manual",
+     "fuel": "Petrol",
+     "priceFlag": "Great Price",
+     "dealerRating": 3.8,
+     "dealerReviews": 10,
+     "dealer": "Hyundai Amanzimtoti",
+     "area": "Amanzimtoti, Amanzimtoti",
+     "group": "Other",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White",
+     "estUnder": 12351
     },
     {
      "id": "28564020",
@@ -1868,7 +2249,7 @@
      "km": 74500,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.9,
      "dealerReviews": 22,
      "dealer": "Kent Motors",
@@ -1876,10 +2257,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 6948
+     "estUnder": 9619
     },
     {
      "id": "28597538",
@@ -1919,7 +2300,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": 39225
     },
@@ -1933,7 +2314,7 @@
      "km": 57000,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.2,
      "dealerReviews": 24,
      "dealer": "Aksons Wheels and Haval PMB",
@@ -1941,10 +2322,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 3433
+     "estUnder": 16466
     },
     {
      "id": "28666888",
@@ -1979,7 +2360,7 @@
      "km": 44000,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 4.4,
      "dealerReviews": 61,
      "dealer": "MMA Cars Pinetown",
@@ -1987,33 +2368,63 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 12323
+     "estUnder": 10243
     },
     {
      "id": "28680625",
      "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28680625",
-     "price": 289990,
+     "price": 259990,
      "year": 2023,
      "variant": "1.5 Premium Manual",
      "condition": "Used",
      "km": 35545,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.9,
-     "dealerReviews": 15,
+     "dealerReviews": 16,
      "dealer": "Hyundai Pinetown",
      "area": "Pinetown North Industria, Pinetown",
      "group": "Hillcrest & Pinetown",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 289990,
+       "to": 259990
+      }
+     ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -13766
+     "estUnder": 12067
+    },
+    {
+     "id": "28682059",
+     "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28682059",
+     "price": 299990,
+     "year": 2024,
+     "variant": "1.5 Premium Auto",
+     "condition": "Used",
+     "km": 68000,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.3,
+     "dealerReviews": 33,
+     "dealer": "Hyundai Mobeni",
+     "area": "Mobeni, Durban",
+     "group": "Durban",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White",
+     "estUnder": -7555
     },
     {
      "id": "28706374",
@@ -2035,10 +2446,10 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 19168
+     "estUnder": 21320
     },
     {
      "id": "28717838",
@@ -2062,6 +2473,30 @@
      "lastMissing": "2026-11-04T16:01:59.995Z",
      "removedAt": "2026-11-04T16:01:59.995Z",
      "estUnder": -1494
+    },
+    {
+     "id": "28720995",
+     "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28720995",
+     "price": 299900,
+     "year": 2022,
+     "variant": "1.5 Executive",
+     "condition": "Used",
+     "km": 72000,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.4,
+     "dealerReviews": 15,
+     "dealer": "Hyundai Durban South",
+     "area": "Sea View, Durban",
+     "group": "Durban",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White",
+     "estUnder": -14649
     },
     {
      "id": "28730217",
@@ -2103,10 +2538,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -101
+     "estUnder": -881
     },
     {
      "id": "28749921",
@@ -2126,10 +2561,10 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -33408
+     "estUnder": -31196
     },
     {
      "id": "28754047",
@@ -2218,10 +2653,10 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -27039
+     "estUnder": -35415
     },
     {
      "id": "28770421",
@@ -2241,10 +2676,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -13807
+     "estUnder": -12108
     },
     {
      "id": "28782717",
@@ -2265,7 +2700,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": 1652
     },
@@ -2279,18 +2714,18 @@
      "km": 52991,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "High Price",
+     "priceFlag": "Fair Price",
      "dealerRating": 3.9,
-     "dealerReviews": 15,
+     "dealerReviews": 16,
      "dealer": "Hyundai Pinetown",
      "area": "Pinetown North Industria, Pinetown",
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -16237
+     "estUnder": -2786
     },
     {
      "id": "28796898",
@@ -2311,7 +2746,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": 12083
     },
@@ -2334,7 +2769,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": 878
     },
@@ -2348,7 +2783,7 @@
      "km": 49930,
      "transmission": "Manual",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 4.1,
      "dealerReviews": 10,
      "dealer": "SMG Select Pietermaritzburg",
@@ -2356,10 +2791,11 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 1821
+     "colour": "Silver",
+     "estUnder": -5329
     },
     {
      "id": "28816421",
@@ -2371,18 +2807,19 @@
      "km": 77800,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
-     "dealerRating": 3.7,
-     "dealerReviews": 5,
+     "priceFlag": "Great Price",
+     "dealerRating": 3.8,
+     "dealerReviews": 6,
      "dealer": "MG Amanzimtoti",
      "area": "Umbogintwini, Amanzimtoti",
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-02T13:24:58.416Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 20097
+     "colour": "White",
+     "estUnder": 19456
     },
     {
      "id": "28825400",
@@ -2395,17 +2832,18 @@
      "transmission": "Automatic",
      "fuel": "Diesel",
      "priceFlag": "Great Price",
-     "dealerRating": 3.7,
+     "dealerRating": 3.8,
      "dealerReviews": 10,
      "dealer": "Hyundai Amanzimtoti",
      "area": "Amanzimtoti, Amanzimtoti",
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-05T13:36:02.601Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -9770
+     "colour": "White",
+     "estUnder": -2879
     },
     {
      "id": "28825524",
@@ -2426,7 +2864,7 @@
      "priceHistory": [],
      "firstSeen": "2026-11-05T13:36:02.601Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": -11501
     },
@@ -2449,9 +2887,81 @@
      "priceHistory": [],
      "firstSeen": "2026-11-05T13:36:02.601Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": 53000
+    },
+    {
+     "id": "28829741",
+     "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28829741",
+     "price": 249990,
+     "year": 2023,
+     "variant": "1.5 Premium Auto",
+     "condition": "Used",
+     "km": 91000,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Great Price",
+     "dealerRating": 4.2,
+     "dealerReviews": 43,
+     "dealer": "All Cars",
+     "area": "Pinetown North Industria, Pinetown",
+     "group": "Hillcrest & Pinetown",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Silver",
+     "estUnder": 23006
+    },
+    {
+     "id": "28832130",
+     "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28832130",
+     "price": 299990,
+     "year": 2022,
+     "variant": "1.5D Executive",
+     "condition": "Used",
+     "km": 95000,
+     "transmission": "Automatic",
+     "fuel": "Diesel",
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.7,
+     "dealerReviews": 6,
+     "dealer": "Hyundai Pietermaritzburg",
+     "area": "Pietermaritzburg Central, Pietermaritzburg",
+     "group": "Pietermaritzburg",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Silver",
+     "estUnder": -18999
+    },
+    {
+     "id": "28834306",
+     "url": "https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28834306",
+     "price": 259900,
+     "year": 2022,
+     "variant": "1.5 Premium",
+     "condition": "Used",
+     "km": 62000,
+     "transmission": "Manual",
+     "fuel": "Petrol",
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.9,
+     "dealerReviews": 16,
+     "dealer": "Hyundai Pinetown",
+     "area": "Pinetown North Industria, Pinetown",
+     "group": "Hillcrest & Pinetown",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Silver",
+     "estUnder": -7922
     }
    ]
   },
@@ -2487,7 +2997,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2501,7 +3011,7 @@
      "km": 50000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 2.7,
      "dealerReviews": 48,
      "dealer": "Hoopers Volkswagen Durban",
@@ -2509,7 +3019,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -2520,7 +3030,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/mg/zs?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 9
+    "kznTotal": 8
    },
    "listings": [
     {
@@ -2533,7 +3043,7 @@
      "km": 23082,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 2.9,
      "dealerReviews": 10,
      "dealer": "CMH Kempster Ford Durban",
@@ -2547,10 +3057,10 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 11224
+     "estUnder": 12401
     },
     {
      "id": "28469130",
@@ -2576,10 +3086,10 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 9593
+     "estUnder": 10368
     },
     {
      "id": "28557318",
@@ -2599,33 +3109,39 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 10124
+     "estUnder": 10262
     },
     {
      "id": "28641536",
      "url": "https://www.autotrader.co.za/car-for-sale/mg/zs/1.5/28641536",
-     "price": 279900,
+     "price": 269990,
      "year": 2026,
      "variant": "1.5 Comfort",
      "condition": "Used",
-     "km": 12697,
+     "km": 17000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "High Price",
-     "dealerRating": 3.7,
-     "dealerReviews": 5,
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.8,
+     "dealerReviews": 6,
      "dealer": "MG Amanzimtoti",
      "area": "Umbogintwini, Amanzimtoti",
      "group": "Other",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 279900,
+       "to": 269990
+      }
+     ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -26007
+     "estUnder": -24469
     },
     {
      "id": "28709642",
@@ -2638,17 +3154,17 @@
      "transmission": "Automatic",
      "fuel": "Petrol",
      "priceFlag": "High Price",
-     "dealerRating": 3.7,
-     "dealerReviews": 5,
+     "dealerRating": 3.8,
+     "dealerReviews": 6,
      "dealer": "MG Amanzimtoti",
      "area": "Umbogintwini, Amanzimtoti",
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -11998
+     "estUnder": -12440
     },
     {
      "id": "28711221",
@@ -2660,17 +3176,17 @@
      "km": 8300,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "dealerRating": 3.7,
-     "dealerReviews": 5,
+     "dealerRating": 3.8,
+     "dealerReviews": 6,
      "dealer": "MG Amanzimtoti",
      "area": "Umbogintwini, Amanzimtoti",
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": -18053
+     "estUnder": -74
     },
     {
      "id": "28742202",
@@ -2696,10 +3212,10 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 4047
+     "estUnder": 3343
     },
     {
      "id": "28771843",
@@ -2715,7 +3231,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null,
      "estUnder": 19196
     },
@@ -2730,16 +3246,16 @@
      "transmission": "Automatic",
      "fuel": "Petrol",
      "dealerRating": 4.2,
-     "dealerReviews": 72,
+     "dealerReviews": 74,
      "dealer": "Heyhalfway Hillcrest",
      "area": "Assagay, Hillcrest",
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null,
-     "estUnder": 1765
+     "estUnder": 601
     }
    ]
   },
@@ -2748,7 +3264,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/peugeot/2008?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 5
+    "kznTotal": 4
    },
    "listings": [
     {
@@ -2761,7 +3277,6 @@
      "km": 30000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 20,
      "dealer": "Key Truck and Car Pinetown",
@@ -2769,7 +3284,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2791,7 +3306,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2813,7 +3328,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -2836,28 +3351,34 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
      "lastSeen": "2026-11-05T19:12:36.940Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-17T10:19:59.204Z",
      "removedAt": null
     },
     {
      "id": "28789628",
      "url": "https://www.autotrader.co.za/car-for-sale/peugeot/2008/allure/28789628",
-     "price": 279950,
+     "price": 259950,
      "year": 2024,
      "variant": "1.2T 96KW Allure",
      "condition": "Used",
      "km": 51000,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 3.7,
      "dealerReviews": 20,
      "dealer": "Key Truck and Car Pinetown",
      "area": "Pinetown North Industria, Pinetown",
      "group": "Hillcrest & Pinetown",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 279950,
+       "to": 259950
+      }
+     ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -2868,30 +3389,37 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/proton/x70?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 7
+    "kznTotal": 9
    },
    "listings": [
     {
      "id": "27777826",
      "url": "https://www.autotrader.co.za/car-for-sale/proton/x70/executive/27777826",
-     "price": 239900,
+     "price": 279900,
      "year": 2022,
      "variant": "1.5T Executive AWD",
      "condition": "Used",
      "km": 66500,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "High Price",
      "dealerRating": 3.5,
      "dealerReviews": 12,
      "dealer": "CMH Multifranchise Pinetown",
      "area": "Pinetown Central, Pinetown",
      "group": "Hillcrest & Pinetown",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 239900,
+       "to": 279900
+      }
+     ],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
-     "removedAt": null
+     "removedAt": null,
+     "estUnder": -2432
     },
     {
      "id": "28029154",
@@ -2903,7 +3431,6 @@
      "km": 76863,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Great Price",
      "dealerRating": 2.9,
      "dealerReviews": 10,
      "dealer": "CMH Kempster Ford Durban",
@@ -2917,9 +3444,10 @@
       }
      ],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
-     "removedAt": null
+     "removedAt": null,
+     "estUnder": 6797
     },
     {
      "id": "28039173",
@@ -2939,9 +3467,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
-     "removedAt": null
+     "removedAt": null,
+     "estUnder": 6810
     },
     {
      "id": "28049099",
@@ -2950,7 +3479,7 @@
      "year": 2023,
      "variant": "1.5T Executive AWD",
      "condition": "Used",
-     "km": 67000,
+     "km": 70500,
      "transmission": "Automatic",
      "fuel": "Petrol",
      "priceFlag": "Fair Price",
@@ -2961,9 +3490,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
-     "removedAt": null
+     "removedAt": null,
+     "estUnder": -4356
     },
     {
      "id": "28049100",
@@ -2983,9 +3513,10 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
-     "removedAt": null
+     "removedAt": null,
+     "estUnder": -10124
     },
     {
      "id": "28118381",
@@ -2997,7 +3528,7 @@
      "km": 68100,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 2.9,
      "dealerReviews": 27,
      "dealer": "CMH Nissan Hillcrest",
@@ -3005,9 +3536,33 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
-     "removedAt": null
+     "removedAt": null,
+     "estUnder": 12518
+    },
+    {
+     "id": "28503411",
+     "url": "https://www.autotrader.co.za/car-for-sale/proton/x70/standard/28503411",
+     "price": 229990,
+     "year": 2023,
+     "variant": "1.5T Standard",
+     "condition": "Used",
+     "km": 67175,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.3,
+     "dealerReviews": 20,
+     "dealer": "CMH Nissan Pinetown",
+     "area": "Pinetown North Industria, Pinetown",
+     "group": "Hillcrest & Pinetown",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "estUnder": -6287
     },
     {
      "id": "28604114",
@@ -3019,6 +3574,7 @@
      "km": 65300,
      "transmission": "Automatic",
      "fuel": "Petrol",
+     "priceFlag": "Fair Price",
      "dealerRating": 2.8,
      "dealerReviews": 5,
      "dealer": "Hyundai Umhlanga",
@@ -3032,9 +3588,32 @@
       }
      ],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
-     "removedAt": null
+     "removedAt": null,
+     "estUnder": -5752
+    },
+    {
+     "id": "28699574",
+     "url": "https://www.autotrader.co.za/car-for-sale/proton/x70/premium/28699574",
+     "price": 249950,
+     "year": 2025,
+     "variant": "1.5T Premium X",
+     "condition": "Used",
+     "km": 17790,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "dealerRating": 3.9,
+     "dealerReviews": 18,
+     "dealer": "CMH Suzuki Ballito",
+     "area": "Ballito Commercial District, Ballito",
+     "group": "North Coast & Outer",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "estUnder": 2620
     }
    ]
   },
@@ -3056,7 +3635,7 @@
      "km": 72500,
      "transmission": "Automatic",
      "fuel": "Petrol",
-     "priceFlag": "Fair Price",
+     "priceFlag": "Great Price",
      "dealerRating": 4.5,
      "dealerReviews": 37,
      "dealer": "Peach Garage",
@@ -3064,7 +3643,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -3078,7 +3657,6 @@
      "km": 75134,
      "transmission": "Manual",
      "fuel": "Diesel",
-     "priceFlag": "Great Price",
      "dealerRating": 4.1,
      "dealerReviews": 4,
      "dealer": "NTT Nissan Zululand",
@@ -3086,7 +3664,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -3103,7 +3681,7 @@
     {
      "id": "28784831",
      "url": "https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/1.6/28784831",
-     "price": 279990,
+     "price": 289990,
      "year": 2020,
      "variant": "1.6 Crew Bus",
      "condition": "Used",
@@ -3112,13 +3690,19 @@
      "fuel": "Petrol",
      "priceFlag": "Fair Price",
      "dealerRating": 4.5,
-     "dealerReviews": 160,
+     "dealerReviews": 168,
      "dealer": "CBK Motors KZN",
      "area": "Ballito Commercial District, Ballito",
      "group": "North Coast & Outer",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-17T10:19:59.204Z",
+       "from": 279990,
+       "to": 289990
+      }
+     ],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     }
@@ -3129,7 +3713,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/suzuki/jimny?price=less-than-300000&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 2
+    "kznTotal": 4
    },
    "listings": [
     {
@@ -3146,7 +3730,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     },
@@ -3173,6 +3757,28 @@
      "removedAt": "2026-11-02T13:24:58.416Z"
     },
     {
+     "id": "28778401",
+     "url": "https://www.autotrader.co.za/car-for-sale/suzuki/jimny/1.5/28778401",
+     "price": 299990,
+     "year": 2022,
+     "variant": "1.5 GLX AllGrip Auto",
+     "condition": "Used",
+     "km": 57000,
+     "transmission": "Automatic",
+     "fuel": "Petrol",
+     "priceFlag": "Great Price",
+     "dealerRating": 3.5,
+     "dealerReviews": 14,
+     "dealer": "Mystic Cars",
+     "area": "Ballito Commercial District, Ballito",
+     "group": "North Coast & Outer",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null
+    },
+    {
      "id": "28780022",
      "url": "https://www.autotrader.co.za/car-for-sale/suzuki/jimny/1.3/28780022",
      "price": 234890,
@@ -3189,7 +3795,29 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-05T19:12:36.940Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
+     "lastMissing": null,
+     "removedAt": null
+    },
+    {
+     "id": "28840393",
+     "url": "https://www.autotrader.co.za/car-for-sale/suzuki/jimny/1.5/28840393",
+     "price": 299990,
+     "year": 2021,
+     "variant": "1.5 GLX AllGrip",
+     "condition": "Used",
+     "km": 68000,
+     "transmission": "Manual",
+     "fuel": "Petrol",
+     "priceFlag": "Great Price",
+     "dealerRating": 3.7,
+     "dealerReviews": 6,
+     "dealer": "Hyundai Pietermaritzburg",
+     "area": "Pietermaritzburg Central, Pietermaritzburg",
+     "group": "Pietermaritzburg",
+     "priceHistory": [],
+     "firstSeen": "2026-11-17T10:19:59.204Z",
+     "lastSeen": "2026-11-17T10:19:59.204Z",
      "lastMissing": null,
      "removedAt": null
     }
