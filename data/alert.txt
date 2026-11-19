@@ -1,25 +1,4 @@
-- **[Renault Duster] DROP** R257 900 → R234 900 — [2023 1.5dCi Intens · KIA Pinetown](https://www.autotrader.co.za/car-for-sale/renault/duster/intens/28694134)
-- **[Renault Duster] GONE** 2020 1.6 Expression — R189 990 · Sure Drive – GAC & JMC Springfield
-- **[Corolla Cross] DROP** R259 890 → R249 890 — [2023 1.8 Xi · Ford Amanzimtoti](https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/1.8/28826220)
-- **[Corolla Cross] GONE** 2021 1.8 XR — R299 990 · Durban South Toyota
-- **[Corolla Cross] GONE** 2024 1.8 Xi — R299 990 · Pennylane Cars
-- **[Haval H6] DROP** R299 990 → R289 990 — [2022 2.0T 4WD Super Luxury · CMH Multifranchise Pinetown](https://www.autotrader.co.za/car-for-sale/haval/h6/luxury/28499124)
-- **[Chery Tiggo 7 Pro] GONE** 2023 1.5T Distinction — R299 900 · SMG Toyota Hillcrest
-- **[Kia Seltos] DROP** R210 000 → R199 900 — [2021 1.6 EX Auto · ](https://www.autotrader.co.za/car-for-sale/kia/seltos/ex/28564368)
-- **[Kia Seltos] GONE** 2021 1.6 EX — R189 900 · Bidvest McCarthy VW Umhlanga
-- **[Kia Seltos] GONE** 2020 1.4T-GDI GT Line — R299 995 · 
-- **[Kia Seltos] GONE** 2023 1.6 EX+ — R279 900 · Hyundai Durban South
-- **[Kia Seltos] GONE** 2022 1.5CRDi EX+ — R299 995 · 
-- **[Hyundai Creta] NEW** · [2024 1.5 Premium Manual — R279 990 · 55 000 km · Westend Motors](https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28846548)
-- **[Hyundai Creta] DROP** R279 999 → R269 900 — [2021 1.5D Executive · ](https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28246606)
-- **[Hyundai Creta] DROP** R283 000 → R269 900 — [2023 1.5 Executive · ](https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28706374)
-- **[Hyundai Creta] GONE** 2021 1.5 Premium — R199 990 · 
-- **[Hyundai Creta] GONE** 2023 1.5 Executive — R299 990 · Bidvest McCarthy Nissan Gateway
-- **[Hyundai Creta] GONE** 2022 1.5 Executive — R269 990 · Hyundai Umhlanga
-- **[Hyundai Creta] GONE** 2021 1.5 Executive — R269 990 · Hyundai Umhlanga
-- **[Hyundai Creta] GONE** 2022 1.5 Premium Auto — R289 990 · Hyundai Amanzimtoti
-- **[Hyundai Creta] GONE** 2020 1.6 Executive Auto — R199 990 · Hyundai Umhlanga
-- **[MG ZS] NEW** · [2025 1.5 Luxury — R269 990 · 46 470 km · CMH Mazda Umhlanga](https://www.autotrader.co.za/car-for-sale/mg/zs/1.5/28846437)
-- **[MG ZS] GONE** 2026 1.5 Luxury — R269 900 · 
-- **[Peugeot 2008] GONE** 2025 1.2T 96kW Active — R249 990 · NTT Nissan Zululand
-- **[Nissan X-Trail] DROP** R295 000 → R289 900 — [2022 1.6dCi 4x4 Tekna · NTT Nissan Zululand](https://www.autotrader.co.za/car-for-sale/nissan/x-trail/1.6/28815667)
+- **[Corolla Cross] NEW** · [2022 1.8 XS — R299 900 · 60 254 km · MMG Ford Kokstad](https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28849318)
+- **[Chery Tiggo 7 Pro] NEW** · [2022 1.5T Distinction — R259 900 · 66 400 km · Chery Pinetown Pre-Owned](https://www.autotrader.co.za/car-for-sale/chery/tiggo-7-pro/distinction/28848820)
+- **[Kia Seltos] NEW** · [2022 1.6 EX+ — R269 995 · 84 000 km · Other](https://www.autotrader.co.za/car-for-sale/kia/seltos/ex-and/28847611)
+- **[Hyundai Creta] GONE** 2022 1.5D Executive — R299 990 · Hyundai Pietermaritzburg
