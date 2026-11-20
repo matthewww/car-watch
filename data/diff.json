@@ -1,30 +1,46 @@
 {
- "generatedAt": "2026-11-19T18:57:58.970Z",
- "total": 4,
+ "generatedAt": "2026-11-20T16:16:51.275Z",
+ "total": 10,
  "searches": {
   "duster": {
-   "total": 0,
+   "total": 3,
    "baseline": false,
-   "new": [],
-   "dropped": [],
+   "new": [
+    "28840706"
+   ],
+   "dropped": [
+    {
+     "id": "28822140",
+     "from": 263179,
+     "to": 261500
+    }
+   ],
    "increased": [],
-   "gone": []
+   "gone": [
+    "28729328"
+   ]
   },
   "corolla-cross": {
    "total": 1,
    "baseline": false,
-   "new": [
-    "28849318"
-   ],
-   "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "haval-h6": {
-   "total": 0,
-   "baseline": false,
    "new": [],
    "dropped": [],
+   "increased": [],
+   "gone": [
+    "28821285"
+   ]
+  },
+  "haval-h6": {
+   "total": 1,
+   "baseline": false,
+   "new": [],
+   "dropped": [
+    {
+     "id": "28731026",
+     "from": 299900,
+     "to": 289900
+    }
+   ],
    "increased": [],
    "gone": []
   },
@@ -39,32 +55,40 @@
   "tiggo-7-pro": {
    "total": 1,
    "baseline": false,
-   "new": [
-    "28848820"
+   "new": [],
+   "dropped": [
+    {
+     "id": "28798303",
+     "from": 299900,
+     "to": 279900
+    }
    ],
-   "dropped": [],
    "increased": [],
    "gone": []
   },
   "seltos": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
-   "new": [
-    "28847611"
-   ],
+   "new": [],
    "dropped": [],
    "increased": [],
    "gone": []
   },
   "creta": {
-   "total": 1,
+   "total": 2,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28850793"
+   ],
    "dropped": [],
-   "increased": [],
-   "gone": [
-    "28832130"
-   ]
+   "increased": [
+    {
+     "id": "28242355",
+     "from": 239600,
+     "to": 259995
+    }
+   ],
+   "gone": []
   },
   "hr-v": {
    "total": 0,
@@ -83,19 +107,27 @@
    "gone": []
   },
   "peugeot-2008": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": []
+   "gone": [
+    "28710066"
+   ]
   },
   "proton-x70": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [],
-   "increased": [],
+   "increased": [
+    {
+     "id": "28049100",
+     "from": 229900,
+     "to": 279990
+    }
+   ],
    "gone": []
   },
   "x-trail": {
