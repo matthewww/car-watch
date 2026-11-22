@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20T16:16:51.275Z",
+ "generatedAt": "2026-11-22T12:24:49.955Z",
  "searches": {
   "duster": {
    "label": "Renault Duster",
@@ -27,11 +27,11 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Gold",
-     "estUnder": -3892
+     "estUnder": -6181
     },
     {
      "id": "28074226",
@@ -51,11 +51,11 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -33153
+     "estUnder": -33786
     },
     {
      "id": "28097930",
@@ -99,11 +99,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
-     "estUnder": -985
+     "estUnder": -378
     },
     {
      "id": "28505612",
@@ -123,11 +123,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": 7379
+     "estUnder": 3105
     },
     {
      "id": "28508505",
@@ -147,16 +147,16 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Orange",
-     "estUnder": 6345
+     "estUnder": 5441
     },
     {
      "id": "28547722",
      "url": "https://www.autotrader.co.za/car-for-sale/renault/duster/techroad/28547722",
-     "price": 219990,
+     "price": 199990,
      "year": 2020,
      "variant": "1.5dCi TechRoad Auto",
      "condition": "Used",
@@ -169,13 +169,19 @@
      "dealer": "Omars Car Sales",
      "area": "Durban Central, Durban",
      "group": "Durban",
-     "priceHistory": [],
+     "priceHistory": [
+      {
+       "date": "2026-11-22T12:24:49.955Z",
+       "from": 219990,
+       "to": 199990
+      }
+     ],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -386
+     "estUnder": 16162
     },
     {
      "id": "28666537",
@@ -212,11 +218,11 @@
       }
      ],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 30876
+     "estUnder": 29893
     },
     {
      "id": "28727695",
@@ -236,11 +242,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Burgundy",
-     "estUnder": -5503
+     "estUnder": -9886
     },
     {
      "id": "28728171",
@@ -260,11 +266,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
-     "estUnder": 15498
+     "estUnder": 16998
     },
     {
      "id": "28729328",
@@ -307,11 +313,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 2337
+     "estUnder": 1151
     },
     {
      "id": "28742440",
@@ -331,11 +337,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": -2867
+     "estUnder": -3624
     },
     {
      "id": "28745083",
@@ -355,11 +361,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
-     "estUnder": -27180
+     "estUnder": -27662
     },
     {
      "id": "28764732",
@@ -379,11 +385,11 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": 1138
+     "estUnder": -34
     },
     {
      "id": "28774832",
@@ -438,11 +444,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T11:42:23.714Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -17995
+     "estUnder": -18023
     },
     {
      "id": "28822140",
@@ -473,11 +479,11 @@
       }
      ],
      "firstSeen": "2026-11-03T13:35:56.664Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": -7106
+     "estUnder": -8394
     },
     {
      "id": "28834781",
@@ -497,11 +503,11 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 16534
+     "estUnder": 16281
     },
     {
      "id": "28839413",
@@ -521,11 +527,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Orange",
-     "estUnder": 18455
+     "estUnder": 16979
     },
     {
      "id": "28840706",
@@ -545,11 +551,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-11-20T16:16:51.275Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": 306
+     "estUnder": 1758
     }
    ]
   },
@@ -558,7 +564,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/toyota/corolla-cross?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 16
+    "kznTotal": 15
    },
    "listings": [
     {
@@ -579,11 +585,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Maroon",
-     "estUnder": -11511
+     "estUnder": -11565
     },
     {
      "id": "28433108",
@@ -624,11 +630,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
-     "estUnder": 1075
+     "estUnder": 1103
     },
     {
      "id": "28633563",
@@ -670,11 +676,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -19820
+     "estUnder": -19898
     },
     {
      "id": "28737617",
@@ -693,11 +699,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 1377
+     "estUnder": 1467
     },
     {
      "id": "28738734",
@@ -717,11 +723,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -14728
+     "estUnder": -14786
     },
     {
      "id": "28749233",
@@ -792,11 +798,11 @@
       }
      ],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
-     "estUnder": 18219
+     "estUnder": 18108
     },
     {
      "id": "28777149",
@@ -822,11 +828,11 @@
       }
      ],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 9908
+     "estUnder": 9922
     },
     {
      "id": "28777439",
@@ -845,11 +851,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 11627
+     "estUnder": 11622
     },
     {
      "id": "28788680",
@@ -869,11 +875,11 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -117
+     "estUnder": -110
     },
     {
      "id": "28796647",
@@ -893,11 +899,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Burgundy",
-     "estUnder": -10044
+     "estUnder": -10063
     },
     {
      "id": "28799379",
@@ -942,7 +948,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T17:35:59.886Z",
      "lastSeen": "2026-11-20T16:16:51.275Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-22T12:24:49.955Z",
      "removedAt": null,
      "colour": "White",
      "estUnder": -310
@@ -964,11 +970,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": -8468
+     "estUnder": -8492
     },
     {
      "id": "28821285",
@@ -1022,11 +1028,11 @@
       }
      ],
      "firstSeen": "2026-11-05T13:36:02.601Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": 30386
+     "estUnder": 30331
     },
     {
      "id": "28830275",
@@ -1045,11 +1051,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
-     "estUnder": 1287
+     "estUnder": 1341
     },
     {
      "id": "28833164",
@@ -1068,11 +1074,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
-     "estUnder": 1121
+     "estUnder": 1033
     },
     {
      "id": "28849318",
@@ -1092,11 +1098,11 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-19T18:57:58.970Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
-     "estUnder": -10109
+     "estUnder": -10118
     }
    ]
   },
@@ -1111,7 +1117,7 @@
     {
      "id": "28499124",
      "url": "https://www.autotrader.co.za/car-for-sale/haval/h6/luxury/28499124",
-     "price": 289990,
+     "price": 279990,
      "year": 2022,
      "variant": "2.0T 4WD Super Luxury",
      "condition": "Used",
@@ -1128,14 +1134,19 @@
        "date": "2026-11-18T18:10:54.565Z",
        "from": 299990,
        "to": 289990
+      },
+      {
+       "date": "2026-11-22T12:24:49.955Z",
+       "from": 289990,
+       "to": 279990
       }
      ],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Brown",
-     "estUnder": 7
+     "estUnder": 17
     },
     {
      "id": "28502503",
@@ -1155,11 +1166,11 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
-     "estUnder": 5743
+     "estUnder": 5740
     },
     {
      "id": "28522952",
@@ -1184,7 +1195,7 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -1202,13 +1213,13 @@
      "fuel": "Petrol",
      "priceFlag": "Great Price",
      "dealerRating": 4.6,
-     "dealerReviews": 117,
+     "dealerReviews": 118,
      "dealer": "Autotique",
      "area": "Windermere, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Maroon",
@@ -1225,18 +1236,18 @@
      "transmission": "Automatic",
      "fuel": "Petrol",
      "priceFlag": "Great Price",
-     "dealerRating": 3.8,
-     "dealerReviews": 31,
+     "dealerRating": 3.9,
+     "dealerReviews": 33,
      "dealer": "Cars On Ridge",
      "area": "Essenwood, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -3937
+     "estUnder": -3941
     },
     {
      "id": "28731026",
@@ -1262,11 +1273,11 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
-     "estUnder": -65
+     "estUnder": -63
     },
     {
      "id": "28772665",
@@ -1286,11 +1297,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -5007
+     "estUnder": -5009
     },
     {
      "id": "28802154",
@@ -1309,7 +1320,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -1327,17 +1338,17 @@
      "fuel": "Petrol",
      "priceFlag": "Great Price",
      "dealerRating": 4.6,
-     "dealerReviews": 88,
+     "dealerReviews": 89,
      "dealer": "Chery Pinetown Pre-Owned",
      "area": "Pinetown North Industria, Pinetown",
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Brown",
-     "estUnder": 4354
+     "estUnder": 4351
     }
    ]
   },
@@ -1366,12 +1377,12 @@
      "transmission": "Automatic",
      "fuel": "Petrol",
      "priceFlag": "Great Price",
-     "dealerRating": 3.7,
-     "dealerReviews": 6,
+     "dealerRating": 3.8,
+     "dealerReviews": 8,
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
@@ -1417,7 +1428,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey"
@@ -1440,7 +1451,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey"
@@ -1456,12 +1467,12 @@
      "transmission": "Automatic",
      "fuel": "Petrol",
      "priceFlag": "Great Price",
-     "dealerRating": 3.7,
-     "dealerReviews": 6,
+     "dealerRating": 3.8,
+     "dealerReviews": 8,
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red"
@@ -1490,7 +1501,7 @@
       }
      ],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey"
@@ -1513,7 +1524,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Black"
@@ -1530,13 +1541,13 @@
      "fuel": "Petrol",
      "priceFlag": "Great Price",
      "dealerRating": 4.6,
-     "dealerReviews": 88,
+     "dealerReviews": 89,
      "dealer": "Chery Pinetown Pre-Owned",
      "area": "Pinetown North Industria, Pinetown",
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-11-19T18:57:58.970Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
@@ -1562,12 +1573,12 @@
      "transmission": "Manual",
      "fuel": "Diesel",
      "priceFlag": "Fair Price",
-     "dealerRating": 3.7,
-     "dealerReviews": 6,
+     "dealerRating": 3.8,
+     "dealerReviews": 8,
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
@@ -1590,7 +1601,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -1616,7 +1627,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Black",
@@ -1642,7 +1653,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Maroon",
@@ -1666,7 +1677,7 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -1690,7 +1701,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -1737,7 +1748,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
@@ -1788,7 +1799,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -1812,7 +1823,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -1847,7 +1858,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
@@ -1900,7 +1911,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
@@ -1924,7 +1935,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -1948,7 +1959,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -1995,7 +2006,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2038,7 +2049,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
@@ -2063,8 +2074,8 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
      "lastSeen": "2026-11-19T18:57:58.970Z",
-     "lastMissing": "2026-11-20T16:16:51.275Z",
-     "removedAt": null,
+     "lastMissing": "2026-11-22T12:24:49.955Z",
+     "removedAt": "2026-11-22T12:24:49.955Z",
      "colour": "White",
      "estUnder": -7324
     },
@@ -2092,7 +2103,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
@@ -2116,7 +2127,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2136,7 +2147,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-19T18:57:58.970Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
@@ -2149,7 +2160,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/hyundai/creta?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 36
+    "kznTotal": 37
    },
    "listings": [
     {
@@ -2170,7 +2181,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-05T13:36:02.601Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2188,13 +2199,13 @@
      "fuel": "Petrol",
      "priceFlag": "Fair Price",
      "dealerRating": 4.6,
-     "dealerReviews": 117,
+     "dealerReviews": 118,
      "dealer": "Autotique",
      "area": "Windermere, Durban",
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2233,7 +2244,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2259,7 +2270,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
@@ -2283,7 +2294,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
@@ -2355,7 +2366,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
@@ -2379,7 +2390,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2403,7 +2414,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2469,7 +2480,7 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
@@ -2516,7 +2527,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
@@ -2546,7 +2557,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
@@ -2570,7 +2581,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2601,7 +2612,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
@@ -2648,7 +2659,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2694,7 +2705,7 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey",
@@ -2718,7 +2729,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2811,7 +2822,7 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2835,7 +2846,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
@@ -2882,7 +2893,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -2952,7 +2963,7 @@
      "group": "Pietermaritzburg",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
@@ -2976,7 +2987,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-02T13:24:58.416Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
@@ -3001,8 +3012,8 @@
      "priceHistory": [],
      "firstSeen": "2026-11-05T13:36:02.601Z",
      "lastSeen": "2026-11-19T18:57:58.970Z",
-     "lastMissing": "2026-11-20T16:16:51.275Z",
-     "removedAt": null,
+     "lastMissing": "2026-11-22T12:24:49.955Z",
+     "removedAt": "2026-11-22T12:24:49.955Z",
      "colour": "White",
      "estUnder": -5042
     },
@@ -3070,7 +3081,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
@@ -3118,7 +3129,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
@@ -3142,7 +3153,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-11-18T18:10:54.565Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
@@ -3166,7 +3177,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-11-20T16:16:51.275Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Red",
@@ -3194,7 +3205,7 @@
      "fuel": "Petrol",
      "priceFlag": "Great Price",
      "dealerRating": 2.6,
-     "dealerReviews": 6,
+     "dealerReviews": 7,
      "dealer": "Hyundai Umhlanga",
      "area": "New Town Centre, Umhlanga",
      "group": "North Coast & Outer",
@@ -3206,7 +3217,7 @@
       }
      ],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
@@ -3229,7 +3240,7 @@
      "group": "Durban",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:24:11.801Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Orange"
@@ -3241,7 +3252,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/mg/zs?price=less-than-300000&year=more-than-2019&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 9
+    "kznTotal": 8
    },
    "listings": [
     {
@@ -3268,11 +3279,11 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
-     "estUnder": 28843
+     "estUnder": 28827
     },
     {
      "id": "28469130",
@@ -3298,11 +3309,11 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Black",
-     "estUnder": 18881
+     "estUnder": 21973
     },
     {
      "id": "28557318",
@@ -3323,7 +3334,7 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
      "lastSeen": "2026-11-20T16:16:51.275Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-22T12:24:49.955Z",
      "removedAt": null,
      "colour": "Silver",
      "estUnder": 11570
@@ -3352,11 +3363,11 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver",
-     "estUnder": -12499
+     "estUnder": -9325
     },
     {
      "id": "28709642",
@@ -3376,11 +3387,11 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Black",
-     "estUnder": -14320
+     "estUnder": -14771
     },
     {
      "id": "28711221",
@@ -3399,11 +3410,11 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -385
+     "estUnder": -322
     },
     {
      "id": "28742202",
@@ -3429,11 +3440,11 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Blue",
-     "estUnder": -4875
+     "estUnder": -2180
     },
     {
      "id": "28771843",
@@ -3470,11 +3481,11 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -12830
+     "estUnder": -10258
     },
     {
      "id": "28846437",
@@ -3483,7 +3494,7 @@
      "year": 2025,
      "variant": "1.5 Luxury",
      "condition": "Used",
-     "km": 46470,
+     "km": 47198,
      "transmission": "Automatic",
      "fuel": "Petrol",
      "priceFlag": "High Price",
@@ -3494,11 +3505,11 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-18T18:10:54.565Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White",
-     "estUnder": -14365
+     "estUnder": -13930
     }
    ]
   },
@@ -3527,7 +3538,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey"
@@ -3550,7 +3561,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey"
@@ -3624,7 +3635,7 @@
       }
      ],
      "firstSeen": "2026-10-31T18:19:45.199Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey"
@@ -3664,8 +3675,8 @@
      ],
      "firstSeen": "2026-10-31T18:26:11.234Z",
      "lastSeen": "2026-11-19T18:57:58.970Z",
-     "lastMissing": "2026-11-20T16:16:51.275Z",
-     "removedAt": null,
+     "lastMissing": "2026-11-22T12:24:49.955Z",
+     "removedAt": "2026-11-22T12:24:49.955Z",
      "colour": "Silver",
      "estUnder": -2432
     },
@@ -3692,7 +3703,7 @@
       }
      ],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver"
@@ -3715,7 +3726,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
@@ -3739,8 +3750,8 @@
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
      "lastSeen": "2026-11-19T18:57:58.970Z",
-     "lastMissing": "2026-11-20T16:16:51.275Z",
-     "removedAt": null,
+     "lastMissing": "2026-11-22T12:24:49.955Z",
+     "removedAt": "2026-11-22T12:24:49.955Z",
      "colour": "Silver",
      "estUnder": -4356
     },
@@ -3768,7 +3779,7 @@
       }
      ],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver"
@@ -3791,7 +3802,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
@@ -3814,7 +3825,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
@@ -3831,7 +3842,7 @@
      "fuel": "Petrol",
      "priceFlag": "Fair Price",
      "dealerRating": 2.6,
-     "dealerReviews": 6,
+     "dealerReviews": 7,
      "dealer": "Hyundai Umhlanga",
      "area": "New Town Centre, Umhlanga",
      "group": "North Coast & Outer",
@@ -3843,7 +3854,7 @@
       }
      ],
      "firstSeen": "2026-10-31T18:26:11.234Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
@@ -3861,7 +3872,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Grey"
@@ -3894,7 +3905,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
@@ -3922,7 +3933,7 @@
       }
      ],
      "firstSeen": "2026-11-05T19:12:36.940Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Silver"
@@ -3934,9 +3945,32 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/volkswagen/caddy?price=less-than-300000&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 1
+    "kznTotal": 0
    },
    "listings": [
+    {
+     "id": "28589067",
+     "url": "https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/2.0tdi/28589067",
+     "price": 199990,
+     "year": 2017,
+     "variant": "2.0TDI Crew Bus",
+     "condition": "Used",
+     "km": 239000,
+     "transmission": "Manual",
+     "fuel": "Diesel",
+     "priceFlag": "Fair Price",
+     "dealerRating": 4.3,
+     "dealerReviews": 41,
+     "dealer": "KZN Motors",
+     "area": "Umgeni Business Park, Durban",
+     "group": "Durban",
+     "priceHistory": [],
+     "firstSeen": "2026-11-22T12:24:49.955Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White"
+    },
     {
      "id": "28784831",
      "url": "https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/1.6/28784831",
@@ -3962,9 +3996,74 @@
      ],
      "firstSeen": "2026-10-31T14:00:59.610Z",
      "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastMissing": "2026-11-22T12:24:49.955Z",
+     "removedAt": null,
+     "colour": "White"
+    },
+    {
+     "id": "28796943",
+     "url": "https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/1.6/28796943",
+     "price": 299990,
+     "year": 2020,
+     "variant": "1.6 Crew Bus",
+     "condition": "Used",
+     "km": 32000,
+     "transmission": "Manual",
+     "fuel": "Petrol",
+     "priceFlag": "Fair Price",
+     "group": "Other",
+     "priceHistory": [],
+     "firstSeen": "2026-11-22T12:24:49.955Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
+    },
+    {
+     "id": "28839224",
+     "url": "https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/2.0tdi/28839224",
+     "price": 199990,
+     "year": 2017,
+     "variant": "2.0TDI Crew Bus",
+     "condition": "Used",
+     "km": 196000,
+     "transmission": "Manual",
+     "fuel": "Diesel",
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.9,
+     "dealerReviews": 36,
+     "dealer": "Hi-5 Auto",
+     "area": "Gillitts, Kloof",
+     "group": "Hillcrest & Pinetown",
+     "priceHistory": [],
+     "firstSeen": "2026-11-22T12:24:49.955Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "White"
+    },
+    {
+     "id": "28848695",
+     "url": "https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/1.6/28848695",
+     "price": 249900,
+     "year": 2019,
+     "variant": "1.6 Crew Bus",
+     "condition": "Used",
+     "km": 97000,
+     "transmission": "Manual",
+     "fuel": "Petrol",
+     "priceFlag": "Fair Price",
+     "dealerRating": 3.6,
+     "dealerReviews": 5,
+     "dealer": "N10 Motors",
+     "area": "Cradock, Cradock",
+     "group": "Other",
+     "priceHistory": [],
+     "firstSeen": "2026-11-22T12:24:49.955Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
+     "lastMissing": null,
+     "removedAt": null,
+     "colour": "Black"
     }
    ]
   },
@@ -3973,7 +4072,7 @@
    "url": "https://www.autotrader.co.za/cars-for-sale/kwazulu-natal/p-2/suzuki/jimny?price=less-than-300000&mileage=less-than-100000",
    "meta": {
     "kznPage": 2,
-    "kznTotal": 4
+    "kznTotal": 3
    },
    "listings": [
     {
@@ -3990,7 +4089,7 @@
      "group": "Other",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "White"
@@ -4035,7 +4134,7 @@
      "group": "North Coast & Outer",
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Beige"
@@ -4057,7 +4156,7 @@
      "group": "Hillcrest & Pinetown",
      "priceHistory": [],
      "firstSeen": "2026-10-31T14:00:59.610Z",
-     "lastSeen": "2026-11-20T16:16:51.275Z",
+     "lastSeen": "2026-11-22T12:24:49.955Z",
      "lastMissing": null,
      "removedAt": null,
      "colour": "Brown"
@@ -4081,7 +4180,7 @@
      "priceHistory": [],
      "firstSeen": "2026-11-17T10:19:59.204Z",
      "lastSeen": "2026-11-20T16:16:51.275Z",
-     "lastMissing": null,
+     "lastMissing": "2026-11-22T12:24:49.955Z",
      "removedAt": null,
      "colour": "Black"
     }
