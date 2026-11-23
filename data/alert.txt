@@ -1,10 +1,5 @@
-- **[Renault Duster] DROP** R219 990 → R199 990 — [2020 1.5dCi TechRoad Auto · Omars Car Sales](https://www.autotrader.co.za/car-for-sale/renault/duster/techroad/28547722)
-- **[Haval H6] DROP** R289 990 → R279 990 — [2022 2.0T 4WD Super Luxury · CMH Multifranchise Pinetown](https://www.autotrader.co.za/car-for-sale/haval/h6/luxury/28499124)
-- **[Kia Seltos] GONE** 2022 1.6 EX+ — R289 900 · KIA Umhlanga
-- **[Hyundai Creta] GONE** 2021 1.5D Executive — R279 990 · Hyundai Amanzimtoti
-- **[Proton X70] GONE** 2022 1.5T Executive AWD — R279 900 · CMH Multifranchise Pinetown
-- **[Proton X70] GONE** 2023 1.5T Executive AWD — R239 900 · CMH Multifranchise Pinetown
-- **[VW Caddy] NEW** · [2020 1.6 Crew Bus — R299 990 · 32 000 km · Other](https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/1.6/28796943)
-- **[VW Caddy] NEW** · [2019 1.6 Crew Bus — R249 900 · 97 000 km · N10 Motors](https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/1.6/28848695)
-- **[VW Caddy] NEW** · [2017 2.0TDI Crew Bus — R199 990 · 196 000 km · Hi-5 Auto](https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/2.0tdi/28839224)
-- **[VW Caddy] NEW** · [2017 2.0TDI Crew Bus — R199 990 · 239 000 km · KZN Motors](https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/2.0tdi/28589067)
+- **[Corolla Cross] GONE** 2022 1.8 Xi — R269 000 · Bidvest McCarthy Toyota Richards Bay
+- **[Hyundai Creta] NEW** · [2023 1.5 Premium Manual — R279 140 · 43 000 km · NTT Nissan Ladysmith](https://www.autotrader.co.za/car-for-sale/hyundai/creta/premium/28853105)
+- **[MG ZS] GONE** 2026 1.5 Comfort — R249 900 · CMH Suzuki Pinetown
+- **[VW Caddy] GONE** 2020 1.6 Crew Bus — R289 990 · CBK Motors KZN
+- **[Suzuki Jimny] GONE** 2021 1.5 GLX AllGrip — R299 990 · Hyundai Pietermaritzburg

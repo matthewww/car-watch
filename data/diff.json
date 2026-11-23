@@ -1,22 +1,8 @@
 {
- "generatedAt": "2026-11-22T12:24:49.955Z",
- "total": 10,
+ "generatedAt": "2026-11-23T13:36:55.051Z",
+ "total": 5,
  "searches": {
   "duster": {
-   "total": 1,
-   "baseline": false,
-   "new": [],
-   "dropped": [
-    {
-     "id": "28547722",
-     "from": 219990,
-     "to": 199990
-    }
-   ],
-   "increased": [],
-   "gone": []
-  },
-  "corolla-cross": {
    "total": 0,
    "baseline": false,
    "new": [],
@@ -24,17 +10,21 @@
    "increased": [],
    "gone": []
   },
-  "haval-h6": {
+  "corolla-cross": {
    "total": 1,
    "baseline": false,
    "new": [],
-   "dropped": [
-    {
-     "id": "28499124",
-     "from": 289990,
-     "to": 279990
-    }
-   ],
+   "dropped": [],
+   "increased": [],
+   "gone": [
+    "28811110"
+   ]
+  },
+  "haval-h6": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
    "increased": [],
    "gone": []
   },
@@ -55,24 +45,22 @@
    "gone": []
   },
   "seltos": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": [
-    "28818691"
-   ]
+   "gone": []
   },
   "creta": {
    "total": 1,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28853105"
+   ],
    "dropped": [],
    "increased": [],
-   "gone": [
-    "28825400"
-   ]
+   "gone": []
   },
   "hr-v": {
    "total": 0,
@@ -83,12 +71,14 @@
    "gone": []
   },
   "mg-zs": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": []
+   "gone": [
+    "28557318"
+   ]
   },
   "peugeot-2008": {
    "total": 0,
@@ -99,15 +89,12 @@
    "gone": []
   },
   "proton-x70": {
-   "total": 2,
+   "total": 0,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": [
-    "27777826",
-    "28049099"
-   ]
+   "gone": []
   },
   "x-trail": {
    "total": 0,
@@ -118,25 +105,24 @@
    "gone": []
   },
   "caddy": {
-   "total": 4,
-   "baseline": false,
-   "new": [
-    "28796943",
-    "28848695",
-    "28839224",
-    "28589067"
-   ],
-   "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "jimny": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": []
+   "gone": [
+    "28784831"
+   ]
+  },
+  "jimny": {
+   "total": 1,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": [
+    "28840393"
+   ]
   }
  }
 }
