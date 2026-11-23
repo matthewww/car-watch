@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-11-23T18:46:45.376Z",
+ "generatedAt": "2026-11-23T19:04:19.989Z",
  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
  "searches": {
   "duster": {
-   "headline": "2023 Intens Auto at KIA Pinetown is the standout value; 2020 TechRoad Auto cheapest diesel auto.",
+   "headline": "Slow market; 2023 Intens at Kia Pinetown best value auto diesel.",
    "shortlist": [
     {
      "id": "28694134",
@@ -21,12 +21,12 @@
    "alerts": [
     {
      "id": "28694134",
-     "line": "Multi-franchise dealer best for Duster trade-in"
+     "line": "Best overall: newest, strongest value, multi-franchise dealer"
     }
    ]
   },
   "corolla-cross": {
-   "headline": "2023 Xi at Ford Amanzimtoti leads value; XS spec scarce under R280k.",
+   "headline": "Tight market, prices rising; 2023 Xi at Ford Amanzimtoti exceptional value.",
    "shortlist": [
     {
      "id": "28826220",
@@ -37,19 +37,19 @@
      "note": "2021 XS, 36k km, R259.9k, R18.1k under"
     },
     {
-     "id": "28777439",
-     "note": "2024 Xi, 70k km, R279.9k, R11.6k under"
+     "id": "28830275",
+     "note": "2023 XS, 50k km, R299.9k, R1.3k under, Toyota dealer"
     }
    ],
    "alerts": [
     {
      "id": "28826220",
-     "line": "High km for year; verify service history"
+     "line": "Standout bargain: lowest price, highest estUnder, Xi spec"
     }
    ]
   },
   "haval-h6": {
-   "headline": "2022 2.0T Premium at GWM Hillcrest best value; warranty likely active.",
+   "headline": "Softening prices, zero sales flow; 2022 Premium at GWM Hillcrest best value.",
    "shortlist": [
     {
      "id": "28802154",
@@ -60,239 +60,252 @@
      "note": "2022 2.0T Luxury, 66k km, R289.9k, R6.1k under"
     },
     {
-     "id": "28502503",
-     "note": "2023 2.0T Luxury, 64k km, R289.9k, R4.0k under"
+     "id": "28499124",
+     "note": "2022 2.0T 4WD Super Luxury, 71k km, R279.9k, fair value"
     }
    ],
    "alerts": [
     {
      "id": "28802154",
-     "line": "GWM dealer ideal for trade-in and warranty"
+     "line": "Best buy: lowest km, good value, franchised GWM dealer"
     }
    ]
   },
   "tiggo-5-pro": {
-   "headline": "No listings currently; monitor for new stock.",
+   "headline": "No listings currently; market absent in KZN.",
    "shortlist": [],
    "alerts": [
     {
      "id": null,
-     "line": "Empty search — widen radius or check daily"
+     "line": "No inventory to monitor; check back later"
     }
    ]
   },
   "tiggo-7-pro": {
-   "headline": "2024 Distinction at Bidvest McCarthy VW Umhlanga best spec/km/price balance.",
+   "headline": "Prices falling 3.4%; 2024 Distinction at VW Umhlanga best spec-value.",
    "shortlist": [
     {
      "id": "28798303",
-     "note": "2024 Distinction, 31k km, R279.9k, franchised dealer"
+     "note": "2024 1.5T Distinction, 31k km, R279.9k, low km"
     },
     {
      "id": "28848820",
-     "note": "2022 Distinction, 66k km, R259.9k, Chery Pinetown"
+     "note": "2022 1.5T Distinction, 66k km, R259.9k, cheapest"
     },
     {
      "id": "28806760",
-     "note": "2022 Distinction, 38k km, R279.9k, Chery Ladysmith"
+     "note": "2022 1.5T Distinction, 38k km, R279.9k, low km"
     }
    ],
    "alerts": [
     {
      "id": "28798303",
-     "line": "Near-new, low km, major dealer group"
+     "line": "Newest, lowest km Distinction; bidvest McCarthy dealer"
     }
    ]
   },
   "seltos": {
-   "headline": "2021 1.6 EX Auto at R199.9k is the standout bargain; diesel autos overpriced.",
+   "headline": "Slow market, prices falling; 2021 1.6 EX Auto at R199.9k is exceptional value.",
    "shortlist": [
     {
-     "id": "28564368",
-     "note": "R40k under, 100k km, 2021 1.6 EX Auto — best value"
+     "id": 28564368,
+     "note": "R40.3k under, 100k km, 2021 1.6 EX Auto — standout bargain"
     },
     {
-     "id": "28818917",
-     "note": "R29k under, 75k km, 2022 1.6 EX Auto, CMH Volvo dealer"
+     "id": 28818917,
+     "note": "R29.1k under, 75k km, 2022 1.6 EX Auto, CMH Volvo dealer"
     },
     {
-     "id": "28818644",
-     "note": "R14k under, 98k km, 2022 1.6 EX+, multifranchise Kia dealer"
+     "id": 28818644,
+     "note": "R14.3k under, 98k km, 2022 1.6 EX+, Kia multi-franchise dealer"
     }
    ],
    "alerts": [
     {
-     "id": "28564368",
-     "line": "R40k below model — inspect high km but exceptional value"
+     "id": 28564368,
+     "line": "Best value by far; act before 18-day median sale speed."
     }
    ]
   },
   "creta": {
-   "headline": "2021 1.6D Executive Auto at R229.9k leads; gen2 diesel autos scarce.",
+   "headline": "Fast market, prices dropping 3.6%; 2021 1.6D Executive Auto at R229.9k leads.",
    "shortlist": [
     {
-     "id": "28479041",
-     "note": "R39k under, 98k km, 2021 1.6D Executive Auto — diesel value"
+     "id": 28479041,
+     "note": "R38.8k under, 98k km, 2021 1.6D Executive Auto — diesel value"
     },
     {
-     "id": "28829741",
-     "note": "R28k under, 91k km, 2023 1.5 Premium Auto, newer gen2"
+     "id": 28829741,
+     "note": "R28.0k under, 91k km, 2023 1.5 Premium Auto, newer gen2"
     },
     {
-     "id": "28706374",
-     "note": "R25k under, 51k km, 2023 1.5 Executive Auto, lower km"
+     "id": 28706374,
+     "note": "R25.2k under, 51k km, 2023 1.5 Executive Auto, low km petrol"
     }
    ],
    "alerts": [
     {
-     "id": "28479041",
-     "line": "R39k under on diesel auto — verify service history"
+     "id": 28479041,
+     "line": "Top diesel auto value; sells in 5 days median."
     }
    ]
   },
   "hr-v": {
-   "headline": "Only two old-gen listings; 2021 1.5 Comfort at R229.9k is the buy.",
+   "headline": "Stagnant market, zero flow; only two old-gen listings, both manual-check needed.",
    "shortlist": [
     {
-     "id": "28564553",
-     "note": "2021 1.5 Comfort CVT, 57k km, 448L boot + Magic Seats"
+     "id": 28564553,
+     "note": "2021 1.5 Comfort CVT, 57k km, R229.9k — old gen, Magic Seats"
     },
     {
-     "id": "28803864",
-     "note": "2020 1.8 Elegance CVT, 50k km, R298.9k — pricier"
+     "id": 28803864,
+     "note": "2020 1.8 Elegance CVT, 50k km, R298.9k — VW dealer, high price"
     }
    ],
    "alerts": [
     {
-     "id": "28564553",
-     "line": "Only viable HR-V — old gen practicality, Honda reliability"
+     "id": 28564553,
+     "line": "Only relevant auto; verify CVT and service history."
     }
    ]
   },
   "mg-zs": {
-   "headline": "New 2025/26 facelift models dominate; 2025 Luxury at R239.9k best value.",
+   "headline": "New/demo stock dominates; 2025 Luxury at R239.9k shows R28.8k value.",
    "shortlist": [
     {
-     "id": "28260879",
-     "note": "R29k under, 23k km, 2025 1.5 Luxury Auto, 443L boot"
+     "id": 28260879,
+     "note": "R28.8k under, 23k km, 2025 1.5 Luxury Auto, CMH Ford dealer"
     },
     {
-     "id": "28469130",
-     "note": "R22k under, 15k km, 2026 1.5 Comfort Auto, newer build"
+     "id": 28469130,
+     "note": "R22.0k under, 15k km, 2026 1.5 Comfort Auto, CMH Ford dealer"
     },
     {
-     "id": "28742202",
-     "note": "2026 1.5 Comfort, 3.5k km, R269.9k — near-new but over model"
+     "id": 28742202,
+     "note": "3.6k km, 2026 1.5 Comfort Auto, R269.9k — slight overvalue"
     }
    ],
    "alerts": [
     {
-     "id": "28260879",
-     "line": "R29k under on 2025 Luxury — 5-yr warranty, unproven resale"
+     "id": 28260879,
+     "line": "Best used value; 5-yr warranty, multi-franchise trade-in."
     }
    ]
   },
   "peugeot-2008": {
-   "headline": "Three gen2 1.2T autos; 2024 Active at R239.9k leads but wet-belt risk.",
+   "headline": "Tiny rising market (+4%); only three 2024/25 Active/Allure autos at one dealer.",
    "shortlist": [
     {
-     "id": "28193582",
-     "note": "2024 1.2T Active, 30k km, R239.9k — lowest price/km"
+     "id": 28193582,
+     "note": "2024 1.2T Active, 30k km, R239.9k — cheapest gen2 auto"
     },
     {
-     "id": "28339967",
-     "note": "2025 1.2T Active, 32k km, R259.9k — newer, R20k more"
+     "id": 28339967,
+     "note": "2025 1.2T Active, 32k km, R259.9k — newer, same spec"
     },
     {
-     "id": "28789628",
+     "id": 28789628,
      "note": "2024 1.2T Allure, 51k km, R259.9k — higher spec, more km"
     }
    ],
    "alerts": [
     {
-     "id": "28193582",
-     "line": "Verify wet-belt service history — critical on PureTech 1.2T"
+     "id": 28193582,
+     "line": "Demand wet-belt service proof; single-dealer risk."
     }
    ]
   },
   "proton-x70": {
-   "headline": "Strong value in 2023 Standards ~R210k; CMH dealers ease Duster trade.",
+   "headline": "Market rising 4.2%; 2023 Standard at R209.9k/68k km is best value.",
    "shortlist": [
     {
      "id": "28118381",
-     "note": "2023 Standard, 68k km, R209.9k — lowest price/km."
-    },
-    {
-     "id": "28503411",
-     "note": "2023 Standard, 67k km, R230k — similar, Pinetown."
+     "note": "R209.9k, 68k km, CMH dealer — trade-friendly, well under R300k cap."
     },
     {
      "id": "28029154",
-     "note": "2023 Exec AWD, 77k km, R219.9k — AWD premium."
+     "note": "R219.9k, 77k km, AWD Executive — extra traction, CMH dealer."
+    },
+    {
+     "id": "28503411",
+     "note": "R230k, 67k km, Standard — similar to top pick but R20k dearer."
     }
    ],
    "alerts": [
     {
      "id": "28049100",
-     "line": "R280k for Std 70k km — overpriced."
+     "line": "R280k for Standard spec is overpriced vs R210k market."
     }
    ]
   },
   "x-trail": {
-   "headline": "Thin market; 2019 2.5 Acenta only viable sub-R300k option.",
+   "headline": "Only two stale listings; market illiquid — wait for fresh stock.",
    "shortlist": [
     {
+     "id": "28815667",
+     "note": "R289.9k, 2022 1.6dCi 4x4 Tekna, 75k km — newer, diesel torque."
+    },
+    {
      "id": "28763131",
-     "note": "2019 2.5 4x4 Acenta, 72k km, R219.9k — sole pick."
+     "note": "R219.9k, 2019 2.5 4x4 Acenta, 73k km — older petrol, cheaper."
     }
    ],
    "alerts": [
     {
-     "id": "28815667",
-     "line": "R290k manual diesel — high km/price."
+     "id": null,
+     "line": "Zero weekly flow; listings ageing — expand search radius."
     }
    ]
   },
   "caddy": {
-   "headline": "Only 2020 1.6 (32k km, R300k) meets hard caps; others exceed km.",
+   "headline": "Only 2020 1.6 at R300k/32k km fits hard caps; others exceed km.",
    "shortlist": [
     {
      "id": "28796943",
-     "note": "2020 1.6 Crew Bus, 32k km, R299.9k — only compliant unit."
+     "note": "R299.9k, 32k km, 2020 1.6 Crew Bus — sole listing under R300k/100k km."
     }
    ],
    "alerts": [
     {
      "id": "28589067",
-     "line": "R199k but 239k km — verify carefully."
+     "line": "R199.9k but 239k km — verify carefully; likely worn out."
+    },
+    {
+     "id": "28839224",
+     "line": "R199.9k, 196k km — suspiciously cheap for age/km; inspect thoroughly."
     }
    ]
   },
   "jimny": {
-   "headline": "2018 3-door best value; 2021/22 3-door low km near R300k cap.",
+   "headline": "Prices firm (+2.1%); 2018 3-door at R234.9k/86k km is cheapest viable.",
    "shortlist": [
     {
      "id": "28780022",
-     "note": "2018 1.3 3-dr, 86k km, R234.9k — cheapest 3-door."
+     "note": "R234.9k, 86k km, 2018 3-door — lowest price, preferred body style."
     },
     {
      "id": "28687163",
-     "note": "2021 1.5 GLX 3-dr, 25k km, R296k — near-new."
+     "note": "R296k, 25k km, 2021 3-door GLX — low km, near budget limit."
     },
     {
      "id": "28778401",
-     "note": "2022 1.5 GLX Auto 3-dr, 57k km, R300k — top cap."
+     "line": "R300k, 57k km, 2022 5-door Auto — 5-door, at budget ceiling."
     }
    ],
-   "alerts": []
+   "alerts": [
+    {
+     "id": "28778401",
+     "line": "5-door model; confirm buyer accepts non-3-door."
+    }
+   ]
   }
  },
  "discovery": {
-  "headline": "Only C3 Aircross clears the 430 L bar; others fall short.",
+  "headline": "Only Citroën Aircross meets boot threshold; reliability risk remains.",
   "shortlist": [
    {
     "id": "citroen/aircross",
-    "note": "444 L boot meets threshold; auto stock available."
+    "note": "444 L boot clears bar; 8 autos in budget. Monitor Citroën SA parts/support feedback."
    }
   ]
  }

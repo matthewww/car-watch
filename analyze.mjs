@@ -99,6 +99,7 @@ try {
   let diff = { total: 0, searches: {} };
   try { diff = (await readJsonSafe("data/diff.json")) ?? diff; } catch {}
   const discovery = (await readJsonSafe("data/discovery.json")) ?? null;
+  const insights = (await readJsonSafe("data/insights.json")) ?? null;
   if (!Object.keys(data.searches ?? {}).length) throw new Error("no searches in listings.json");
 
   // nothing changed anywhere and we produced a fresh analysis recently -> skip,
@@ -114,6 +115,17 @@ try {
 
   // ---- call 1: per-search shortlists (batched — one response per 5 searches) ----
   const sectionsByKey = {};
+  // deterministic metrics from insights.mjs — the model must not invent these
+  const metricLine = (key) => {
+    const m = insights?.searches?.[key];
+    if (!m) return "";
+    const parts = [];
+    if (m.daysOnMarket) parts.push(`listings that sell are gone in ~${m.daysOnMarket.median}d (median, n=${m.daysOnMarket.n})`);
+    if (m.trend) parts.push(`median ask moved ${m.trend.pct >= 0 ? "+" : ""}${m.trend.pct}% over ${m.trend.weeks}wk`);
+    if (m.supply) parts.push(`flow: ${m.supply.newPerWeek}/wk new vs ${m.supply.gonePerWeek}/wk gone`);
+    if (m.drops) parts.push(`price drops: median ${m.drops.medianPct}%` + (m.drops.goneAfterMedianDays != null ? `, dropped cars gone ~${m.drops.goneAfterMedianDays}d later` : ""));
+    return parts.length ? `Watch-history metrics (computed, treat as facts): ${parts.join("; ")}.\n` : "";
+  };
   for (const [key, s] of Object.entries(data.searches)) {
     const live = s.listings.filter((l) => !l.removedAt && l.price);
     const d = diff.searches?.[key] ?? { total: 0, new: [], dropped: [], gone: [] };
@@ -133,6 +145,7 @@ try {
       : "No changes this run.";
     sectionsByKey[key] =
       `### Search "${key}" (${s.label})\nBuyer criteria: ${CRITERIA[key] ?? "general landscape overview"}\n` +
+      metricLine(key) +
       `Listings (cheapest first): ${JSON.stringify(brief)}\n${changes}`;
   }
 

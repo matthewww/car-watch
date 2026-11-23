@@ -1,0 +1,174 @@
+{
+ "generatedAt": "2026-11-23T19:04:15.117Z",
+ "searches": {
+  "duster": {
+   "daysOnMarket": {
+    "median": 3.8,
+    "n": 5
+   },
+   "trend": {
+    "first": 246500,
+    "last": 246500,
+    "pct": 0,
+    "weeks": 4
+   },
+   "supply": {
+    "newPerWeek": 1.5,
+    "gonePerWeek": 1.5
+   }
+  },
+  "corolla-cross": {
+   "daysOnMarket": {
+    "median": 17.1,
+    "n": 7
+   },
+   "trend": {
+    "first": 289990,
+    "last": 294990,
+    "pct": 1.7,
+    "weeks": 4
+   },
+   "supply": {
+    "newPerWeek": 2.4,
+    "gonePerWeek": 2.1
+   }
+  },
+  "haval-h6": {
+   "trend": {
+    "first": 293935,
+    "last": 289990,
+    "pct": -1.3,
+    "weeks": 4
+   },
+   "supply": {
+    "newPerWeek": 0.9,
+    "gonePerWeek": 0
+   }
+  },
+  "tiggo-5-pro": {
+   "supply": {
+    "newPerWeek": 0,
+    "gonePerWeek": 0
+   }
+  },
+  "tiggo-7-pro": {
+   "trend": {
+    "first": 289990,
+    "last": 279990,
+    "pct": -3.4,
+    "weeks": 3
+   },
+   "supply": {
+    "newPerWeek": 0.3,
+    "gonePerWeek": 0.3
+   }
+  },
+  "seltos": {
+   "daysOnMarket": {
+    "median": 18.2,
+    "n": 6
+   },
+   "trend": {
+    "first": 274990,
+    "last": 269800,
+    "pct": -1.9,
+    "weeks": 4
+   },
+   "supply": {
+    "newPerWeek": 0.6,
+    "gonePerWeek": 1.8
+   }
+  },
+  "creta": {
+   "daysOnMarket": {
+    "median": 5.2,
+    "n": 17
+   },
+   "trend": {
+    "first": 279990,
+    "last": 269900,
+    "pct": -3.6,
+    "weeks": 4
+   },
+   "supply": {
+    "newPerWeek": 4.8,
+    "gonePerWeek": 5.1
+   }
+  },
+  "hr-v": {
+   "supply": {
+    "newPerWeek": 0,
+    "gonePerWeek": 0
+   }
+  },
+  "mg-zs": {
+   "trend": {
+    "first": 274850,
+    "last": 269990,
+    "pct": -1.8,
+    "weeks": 4
+   },
+   "supply": {
+    "newPerWeek": 0.3,
+    "gonePerWeek": 0.6
+   }
+  },
+  "peugeot-2008": {
+   "trend": {
+    "first": 249990,
+    "last": 259950,
+    "pct": 4,
+    "weeks": 4
+   },
+   "supply": {
+    "newPerWeek": 0,
+    "gonePerWeek": 0.6
+   }
+  },
+  "proton-x70": {
+   "trend": {
+    "first": 239900,
+    "last": 249950,
+    "pct": 4.2,
+    "weeks": 4
+   },
+   "supply": {
+    "newPerWeek": 0.6,
+    "gonePerWeek": 0.6
+   }
+  },
+  "x-trail": {
+   "supply": {
+    "newPerWeek": 0,
+    "gonePerWeek": 0
+   }
+  },
+  "caddy": {
+   "supply": {
+    "newPerWeek": 1.2,
+    "gonePerWeek": 0.3
+   }
+  },
+  "jimny": {
+   "trend": {
+    "first": 289890,
+    "last": 295995,
+    "pct": 2.1,
+    "weeks": 3
+   },
+   "supply": {
+    "newPerWeek": 0.6,
+    "gonePerWeek": 0.6
+   }
+  }
+ },
+ "dataStart": "2026-10-31T11:42:23.714Z",
+ "dataDays": 23,
+ "validation": {
+  "goneMedian": 1652,
+  "liveMedian": -350,
+  "goneN": 37,
+  "liveN": 94,
+  "delta": 2002
+ }
+}

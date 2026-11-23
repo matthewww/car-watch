@@ -32,6 +32,11 @@ $out = node fetch-listings.mjs 2>&1
 $out | Out-File -Append -Encoding utf8 $log
 if ($LASTEXITCODE -ne 0) { Log "FAILED: fetch-listings exited $LASTEXITCODE"; exit 1 }
 
+# deterministic market metrics (feed both the analyst prompt and the site)
+$out = node insights.mjs 2>&1
+$out | Out-File -Append -Encoding utf8 $log
+if ($LASTEXITCODE -ne 0) { Log "insights failed (non-fatal): exited $LASTEXITCODE" }
+
 $out = node analyze.mjs 2>&1
 $out | Out-File -Append -Encoding utf8 $log
 # analyst is optional — a flaky LLM must not block the data commit

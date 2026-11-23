@@ -83,6 +83,7 @@
   <div class="chips" id="areachips"></div>
 </div>
 <div id="notes"></div>
+<div id="market"></div>
 <main id="out"><div class="empty">Loading…</div></main>
 <footer>AutoTrader KZN — <a id="searchlink" href="#">open current search</a></footer>
 
@@ -91,7 +92,7 @@ const GROUP_ORDER = ["Durban", "Hillcrest & Pinetown", "Pietermaritzburg", "Nort
 const GROUP_SHORT = { "Hillcrest & Pinetown": "Hillcrest/Pinetown", "North Coast & Outer": "N-Coast/Outer" };
 const fmt = (n) => n == null ? "?" : "R" + n.toLocaleString("en-ZA");
 const days = (iso) => (Date.now() - Date.parse(iso)) / 864e5;
-let filter = "all", area = "all", sort = "price", data = null, cur = null, disc = false, discovery = null, analystData = null;
+let filter = "all", area = "all", sort = "price", data = null, cur = null, disc = false, discovery = null, analystData = null, insights = null;
 
 const FILTERS = {
   all: (l) => !l.removedAt,
@@ -233,6 +234,7 @@ function render() {
       ? `<details class="group"><summary><span>Recently removed <small style="font-weight:400;color:var(--mut)">(${removedRecent.length})</small></span></summary>${removedRecent.map(card).join("")}</details>`
       : "")
     || `<div class="empty">Nothing matches this filter right now.</div>`;
+  renderMarket();
 }
 
 function renderTabs() {
@@ -266,6 +268,45 @@ function renderAnalyst(a) {
   document.getElementById("notes").replaceChildren(el);
 }
 
+function renderMarket() {
+  const el = document.getElementById("market");
+  if (disc || !insights) { el.replaceChildren(); return; }
+  const m = insights.searches?.[cur];
+  const audit = insights.validation;
+  if (!m && !audit) { el.replaceChildren(); return; }
+  const lines = [];
+  if (m?.daysOnMarket) {
+    const d = m.daysOnMarket.median;
+    const pace = d <= 7 ? "moves fast — act quickly on good stock" : d <= 21 ? "moves steadily" : "sits a while — room to negotiate";
+    lines.push(`⏱ <b>Sells in ~${d} days</b> (median of ${m.daysOnMarket.n} gone) — ${pace}`);
+  }
+  if (m?.trend) {
+    const t = m.trend;
+    const dir = t.pct <= -1 ? "softening" : t.pct >= 1 ? "firming" : "flat";
+    lines.push(`📈 Median ask ${fmt(t.first)} → ${fmt(t.last)} (<b>${t.pct >= 0 ? "+" : ""}${t.pct}%</b>, ${t.weeks} wk) — ${dir}`);
+  }
+  if (m?.supply) {
+    const sp = m.supply;
+    const net = sp.newPerWeek - sp.gonePerWeek;
+    lines.push(`🔄 <b>${sp.newPerWeek}/wk new · ${sp.gonePerWeek}/wk gone</b> — ${net > 0.5 ? `stock building (+${net.toFixed(1)}/wk), more choice` : net < -0.5 ? `stock shrinking (${net.toFixed(1)}/wk), less choice` : "stock steady"}`);
+  }
+  if (m?.drops) {
+    const dr = m.drops;
+    lines.push(`📉 <b>${dr.sharePct ?? "?"}% of live stock</b> has dropped, median drop ${dr.medianPct}%` +
+      (dr.goneAfterMedianDays != null ? ` — dropped cars are usually gone ~${dr.goneAfterMedianDays} days later, so a drop is a buy-now signal` : ""));
+  }
+  if (audit)
+    lines.push(`🎯 <b>Value-score audit:</b> cars that sold averaged estUnder <b>${fmt(audit.goneMedian)}</b> vs ${fmt(audit.liveMedian)} for stock still sitting — the ranking tracks what actually moves (n=${audit.goneN}/${audit.liveN})`);
+  if (!lines.length) { el.replaceChildren(); return; }
+  const s = data.searches[cur];
+  const el2 = document.createElement("details");
+  el2.className = "group";
+  el2.innerHTML =
+    `<summary><span>${s ? s.label : ""} market metrics <small style="font-weight:400;color:var(--mut)">· ${insights.dataDays}d of history · computed, no LLM</small></span></summary>
+     <div class="card" style="cursor:default"><div class="spec" style="font-size:13px">${lines.join("<br>")}</div></div>`;
+  el.replaceChildren(el2);
+}
+
 function bootNum(t) {
   const m = String(t ?? "").match(/\d{3}/);
   return m ? parseInt(m[0], 10) : 0;
@@ -273,6 +314,7 @@ function bootNum(t) {
 
 function renderDiscovery() {
   const outEl = document.getElementById("out");
+  document.getElementById("market").replaceChildren();
   document.getElementById("searchlink").style.display = "none";
   document.getElementById("arearow").style.display = "none";
   const cands = (discovery?.candidates ?? []).map((c) => ({ ...c, bootNum: bootNum(c.boot) }));
@@ -346,6 +388,11 @@ fetch("data/listings.json", { cache: "no-store" })
     fetch("data/discovery.json", { cache: "no-store" })
       .then((r) => (r.ok ? r.json() : null))
       .then((d) => { discovery = d; if (disc) renderDiscovery(); })
+      .catch(() => {});
+    // optional deterministic market metrics (data/insights.json from insights.mjs)
+    fetch("data/insights.json", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => { insights = d; if (!disc) renderMarket(); })
       .catch(() => {});
   })
   .catch(() => { document.getElementById("out").innerHTML = '<div class="empty">Could not load data/listings.json — run <code>node fetch-listings.mjs</code> first.</div>'; });

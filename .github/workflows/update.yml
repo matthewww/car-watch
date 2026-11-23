@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # insights.mjs reads the data history for price trends
 
       - uses: actions/setup-node@v4
         with:
@@ -20,6 +22,9 @@ jobs:
 
       - name: Fetch listings
         run: node fetch-listings.mjs
+
+      - name: Market metrics (deterministic)
+        run: node insights.mjs
 
       - name: LLM analyst (optional — runs only if ANALYZE_API_KEY secret is set)
         env:
