@@ -48,20 +48,31 @@ const CRITERIA = {
 
 async function askModel(prompt, maxTokens) {
   for (let attempt = 1; attempt <= 2; attempt++) {
-    const res = await fetch(`${BASE}/chat/completions`, {
-      method: "POST",
-      headers: { authorization: `Bearer ${KEY}`, "content-type": "application/json" },
-      body: JSON.stringify({
-        model: MODEL,
-        temperature: 0.3,
-        max_tokens: maxTokens, // reasoning models spend some budget on reasoning_content
-        // OpenRouter reasoning models emit nothing but reasoning_content within
-        // max_tokens unless reasoning is disabled (free tier: nemotron etc.)
-        ...(BASE.includes("openrouter") ? { reasoning: { enabled: false } } : {}),
-        messages: [{ role: "user", content: prompt }],
-      }),
-      signal: AbortSignal.timeout(90000),
-    });
+    const payload = {
+      model: MODEL,
+      temperature: 0.3,
+      max_tokens: maxTokens, // reasoning models spend some budget on reasoning_content
+      // OpenRouter reasoning models emit nothing but reasoning_content within
+      // max_tokens unless reasoning is disabled (nemotron etc.) — but some
+      // free endpoints (ernie) reject the flag, so fall back below
+      ...(BASE.includes("openrouter") ? { reasoning: { enabled: false } } : {}),
+      messages: [{ role: "user", content: prompt }],
+    };
+    const send = (p) =>
+      fetch(`${BASE}/chat/completions`, {
+        method: "POST",
+        headers: { authorization: `Bearer ${KEY}`, "content-type": "application/json" },
+        body: JSON.stringify(p),
+        signal: AbortSignal.timeout(90000),
+      });
+    let res = await send(payload);
+    if (!res.ok && res.status === 400) {
+      const msg = await res.text();
+      if (/reasoning/i.test(msg)) {
+        delete payload.reasoning;
+        res = await send(payload);
+      }
+    }
     if (!res.ok) throw new Error(`HTTP ${res.status} from ${BASE}`);
     const content = String((await res.json()).choices?.[0]?.message?.content ?? "");
     if (process.env.ANALYZE_DEBUG) {

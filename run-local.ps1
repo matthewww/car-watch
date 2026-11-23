@@ -25,7 +25,7 @@ if (-not $env:ANALYZE_API_KEY) {
   if ($env:OPENCODE_OPENROUTER) {
     $env:ANALYZE_API_KEY  = $env:OPENCODE_OPENROUTER
     $env:ANALYZE_BASE_URL = "https://openrouter.ai/api/v1"
-    $env:ANALYZE_MODEL    = "nvidia/nemotron-3.5-lightning:free"
+    $env:ANALYZE_MODEL    = "nvidia/nemotron-3-ultra-550b-a55b:free"
   } elseif ($env:OPENCODE_TOGETHER_AI) { $env:ANALYZE_API_KEY = $env:OPENCODE_TOGETHER_AI }
 }
 $out = node fetch-listings.mjs 2>&1
@@ -34,7 +34,8 @@ if ($LASTEXITCODE -ne 0) { Log "FAILED: fetch-listings exited $LASTEXITCODE"; ex
 
 $out = node analyze.mjs 2>&1
 $out | Out-File -Append -Encoding utf8 $log
-if ($LASTEXITCODE -ne 0) { Log "FAILED: analyze exited $LASTEXITCODE"; exit 1 }
+# analyst is optional — a flaky LLM must not block the data commit
+if ($LASTEXITCODE -ne 0) { Log "analyze failed (non-fatal): exited $LASTEXITCODE" }
 
 # discovery: weekly make-level census sweep (piggyback, non-fatal)
 $discFile = Join-Path $PSScriptRoot "data\discovery.json"
