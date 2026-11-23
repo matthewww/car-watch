@@ -55,6 +55,9 @@ async function askModel(prompt, maxTokens) {
         model: MODEL,
         temperature: 0.3,
         max_tokens: maxTokens, // reasoning models spend some budget on reasoning_content
+        // OpenRouter reasoning models emit nothing but reasoning_content within
+        // max_tokens unless reasoning is disabled (free tier: nemotron etc.)
+        ...(BASE.includes("openrouter") ? { reasoning: { enabled: false } } : {}),
         messages: [{ role: "user", content: prompt }],
       }),
       signal: AbortSignal.timeout(90000),
@@ -139,10 +142,13 @@ Respond ONLY with JSON, no other text:
 Provide an entry for EVERY search key above (${batch.join(", ")}). Rank shortlists by desirability. Be concise — the response must fit comfortably in the token budget.`;
 
     const parsed = await askModel(prompt, 10000);
-    if (!parsed?.searches) throw new Error(`model returned no JSON for batch: ${batch.join(", ")}`);
+    // some models omit the "searches" wrapper and key results directly
+    const body = parsed?.searches ?? parsed;
+    if (!body || typeof body !== "object" || !batch.some((k) => k in body))
+      throw new Error(`model returned no JSON for batch: ${batch.join(", ")}`);
     for (const key of batch) {
       const s = data.searches[key];
-      const a = parsed.searches[key] ?? {};
+      const a = body[key] ?? {};
       out.searches[key] = { headline: a.headline ?? "", shortlist: a.shortlist ?? [], alerts: a.alerts ?? [] };
       if (a.headline) console.log(`analyst [${s.label}]: ${a.headline}`);
       const d = diff.searches?.[key] ?? { total: 0, baseline: false };

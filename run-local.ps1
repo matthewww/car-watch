@@ -19,8 +19,15 @@ if (Test-Path $stateFile) {
 }
 
 Log "run start"
-# analyst reads ANALYZE_API_KEY (CI secret name); map from the local user env
-if (-not $env:ANALYZE_API_KEY -and $env:OPENCODE_TOGETHER_AI) { $env:ANALYZE_API_KEY = $env:OPENCODE_TOGETHER_AI }
+# analyst reads ANALYZE_API_KEY (CI secret name); Together is out of credits, so
+# default to OpenRouter's free tier (1,000 free req/day unlocked on this key)
+if (-not $env:ANALYZE_API_KEY) {
+  if ($env:OPENCODE_OPENROUTER) {
+    $env:ANALYZE_API_KEY  = $env:OPENCODE_OPENROUTER
+    $env:ANALYZE_BASE_URL = "https://openrouter.ai/api/v1"
+    $env:ANALYZE_MODEL    = "nvidia/nemotron-3.5-lightning:free"
+  } elseif ($env:OPENCODE_TOGETHER_AI) { $env:ANALYZE_API_KEY = $env:OPENCODE_TOGETHER_AI }
+}
 $out = node fetch-listings.mjs 2>&1
 $out | Out-File -Append -Encoding utf8 $log
 if ($LASTEXITCODE -ne 0) { Log "FAILED: fetch-listings exited $LASTEXITCODE"; exit 1 }
