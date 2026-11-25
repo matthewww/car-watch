@@ -1,18 +1,8 @@
 {
- "generatedAt": "2026-11-24T15:10:27.872Z",
+ "generatedAt": "2026-11-25T14:10:48.858Z",
  "total": 7,
  "searches": {
   "duster": {
-   "total": 1,
-   "baseline": false,
-   "new": [
-    "28466968"
-   ],
-   "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "corolla-cross": {
    "total": 0,
    "baseline": false,
    "new": [],
@@ -20,15 +10,23 @@
    "increased": [],
    "gone": []
   },
-  "haval-h6": {
+  "corolla-cross": {
    "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
    "gone": [
-    "28802154"
+    "28833164"
    ]
+  },
+  "haval-h6": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
   },
   "tiggo-5-pro": {
    "total": 0,
@@ -39,40 +37,37 @@
    "gone": []
   },
   "tiggo-7-pro": {
-   "total": 2,
+   "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [
     {
-     "id": "28779782",
-     "from": 284995,
-     "to": 284990
+     "id": "28598642",
+     "from": 299995,
+     "to": 299990
     }
    ],
    "increased": [],
-   "gone": [
-    "28848820"
-   ]
+   "gone": []
   },
   "seltos": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
-   "new": [
-    "28855486"
-   ],
+   "new": [],
    "dropped": [],
    "increased": [],
    "gone": []
   },
   "creta": {
-   "total": 1,
+   "total": 2,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28858209",
+    "28856943"
+   ],
    "dropped": [],
    "increased": [],
-   "gone": [
-    "28497118"
-   ]
+   "gone": []
   },
   "hr-v": {
    "total": 0,
@@ -91,27 +86,37 @@
    "gone": []
   },
   "peugeot-2008": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
-   "dropped": [],
+   "dropped": [
+    {
+     "id": "28789628",
+     "from": 259950,
+     "to": 249950
+    }
+   ],
    "increased": [],
    "gone": []
   },
   "proton-x70": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
-   "dropped": [],
+   "dropped": [
+    {
+     "id": "28118381",
+     "from": 209899,
+     "to": 205990
+    }
+   ],
    "increased": [],
    "gone": []
   },
   "x-trail": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
-   "new": [
-    "28796120"
-   ],
+   "new": [],
    "dropped": [],
    "increased": [],
    "gone": []
@@ -125,9 +130,11 @@
    "gone": []
   },
   "jimny": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28840393"
+   ],
    "dropped": [],
    "increased": [],
    "gone": []

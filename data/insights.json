@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-24T15:10:42.997Z",
+ "generatedAt": "2026-11-25T14:10:58.314Z",
  "searches": {
   "duster": {
    "daysOnMarket": {
@@ -19,8 +19,8 @@
   },
   "corolla-cross": {
    "daysOnMarket": {
-    "median": 17.1,
-    "n": 7
+    "median": 12.6,
+    "n": 8
    },
    "trend": {
     "first": 289990,
@@ -29,8 +29,8 @@
     "weeks": 4
    },
    "supply": {
-    "newPerWeek": 2.3,
-    "gonePerWeek": 2
+    "newPerWeek": 2.2,
+    "gonePerWeek": 2.2
    }
   },
   "haval-h6": {
@@ -41,7 +41,7 @@
     "weeks": 4
    },
    "supply": {
-    "newPerWeek": 0.9,
+    "newPerWeek": 0.8,
     "gonePerWeek": 0.3
    }
   },
@@ -75,7 +75,7 @@
     "weeks": 4
    },
    "supply": {
-    "newPerWeek": 0.9,
+    "newPerWeek": 0.8,
     "gonePerWeek": 1.7
    }
   },
@@ -91,8 +91,8 @@
     "weeks": 4
    },
    "supply": {
-    "newPerWeek": 4.6,
-    "gonePerWeek": 5.2
+    "newPerWeek": 5,
+    "gonePerWeek": 5
    }
   },
   "hr-v": {
@@ -145,7 +145,7 @@
   },
   "caddy": {
    "supply": {
-    "newPerWeek": 1.2,
+    "newPerWeek": 1.1,
     "gonePerWeek": 0.3
    }
   },
@@ -157,18 +157,18 @@
     "weeks": 3
    },
    "supply": {
-    "newPerWeek": 0.6,
+    "newPerWeek": 0.8,
     "gonePerWeek": 0.6
    }
   }
  },
  "dataStart": "2026-10-31T11:42:23.714Z",
- "dataDays": 24,
+ "dataDays": 25,
  "validation": {
-  "goneMedian": 2714,
-  "liveMedian": -411.5,
-  "goneN": 39,
-  "liveN": 94,
-  "delta": 3126
+  "goneMedian": 2183,
+  "liveMedian": -739,
+  "goneN": 40,
+  "liveN": 88,
+  "delta": 2922
  }
 }
