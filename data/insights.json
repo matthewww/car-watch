@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-25T14:10:58.314Z",
+ "generatedAt": "2026-11-26T15:17:55.865Z",
  "searches": {
   "duster": {
    "daysOnMarket": {
-    "median": 3.8,
-    "n": 5
+    "median": 4.9,
+    "n": 6
    },
    "trend": {
     "first": 246500,
@@ -13,14 +13,14 @@
     "weeks": 4
    },
    "supply": {
-    "newPerWeek": 1.7,
-    "gonePerWeek": 1.4
+    "newPerWeek": 1.6,
+    "gonePerWeek": 1.6
    }
   },
   "corolla-cross": {
    "daysOnMarket": {
-    "median": 12.6,
-    "n": 8
+    "median": 13.2,
+    "n": 10
    },
    "trend": {
     "first": 289990,
@@ -29,8 +29,8 @@
     "weeks": 4
    },
    "supply": {
-    "newPerWeek": 2.2,
-    "gonePerWeek": 2.2
+    "newPerWeek": 2.1,
+    "gonePerWeek": 2.7
    }
   },
   "haval-h6": {
@@ -60,13 +60,13 @@
    },
    "supply": {
     "newPerWeek": 0.3,
-    "gonePerWeek": 0.6
+    "gonePerWeek": 0.5
    }
   },
   "seltos": {
    "daysOnMarket": {
     "median": 18.2,
-    "n": 6
+    "n": 7
    },
    "trend": {
     "first": 274990,
@@ -76,13 +76,13 @@
    },
    "supply": {
     "newPerWeek": 0.8,
-    "gonePerWeek": 1.7
+    "gonePerWeek": 1.9
    }
   },
   "creta": {
    "daysOnMarket": {
     "median": 5.2,
-    "n": 18
+    "n": 19
    },
    "trend": {
     "first": 279990,
@@ -91,8 +91,8 @@
     "weeks": 4
    },
    "supply": {
-    "newPerWeek": 5,
-    "gonePerWeek": 5
+    "newPerWeek": 4.8,
+    "gonePerWeek": 5.1
    }
   },
   "hr-v": {
@@ -102,6 +102,10 @@
    }
   },
   "mg-zs": {
+   "daysOnMarket": {
+    "median": 22.8,
+    "n": 3
+   },
    "trend": {
     "first": 274850,
     "last": 269990,
@@ -110,7 +114,7 @@
    },
    "supply": {
     "newPerWeek": 0.3,
-    "gonePerWeek": 0.6
+    "gonePerWeek": 0.8
    }
   },
   "peugeot-2008": {
@@ -122,7 +126,7 @@
    },
    "supply": {
     "newPerWeek": 0,
-    "gonePerWeek": 0.6
+    "gonePerWeek": 0.5
    }
   },
   "proton-x70": {
@@ -133,8 +137,8 @@
     "weeks": 4
    },
    "supply": {
-    "newPerWeek": 0.6,
-    "gonePerWeek": 0.6
+    "newPerWeek": 0.5,
+    "gonePerWeek": 0.5
    }
   },
   "x-trail": {
@@ -145,7 +149,7 @@
   },
   "caddy": {
    "supply": {
-    "newPerWeek": 1.1,
+    "newPerWeek": 1.3,
     "gonePerWeek": 0.3
    }
   },
@@ -157,18 +161,18 @@
     "weeks": 3
    },
    "supply": {
-    "newPerWeek": 0.8,
-    "gonePerWeek": 0.6
+    "newPerWeek": 1.1,
+    "gonePerWeek": 0.5
    }
   }
  },
  "dataStart": "2026-10-31T11:42:23.714Z",
- "dataDays": 25,
+ "dataDays": 26,
  "validation": {
-  "goneMedian": 2183,
-  "liveMedian": -739,
-  "goneN": 40,
-  "liveN": 88,
-  "delta": 2922
+  "goneMedian": 1720.5,
+  "liveMedian": 158,
+  "goneN": 46,
+  "liveN": 75,
+  "delta": 1563
  }
 }
