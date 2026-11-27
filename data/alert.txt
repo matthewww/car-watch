@@ -1,18 +1,23 @@
-- **[Renault Duster] DROP** R209 990 → R199 990 — [2019 1.5dCi TechRoad Auto · Rally Motors](https://www.autotrader.co.za/car-for-sale/renault/duster/techroad/28727695)
-- **[Renault Duster] GONE** 2023 1.5dCi Zen 4WD — R279 990 · Omars Car Sales
-- **[Corolla Cross] GONE** 2022 1.8 XS — R299 790 · KMH Durban
-- **[Corolla Cross] GONE** 2023 1.8 XS — R299 900 · Bidvest McCarthy Toyota Ballito
-- **[Kia Seltos] GONE** 2023 1.6 EX Auto — R274 990 · KIA Pinetown
-- **[Hyundai Creta] GONE** 2021 1.5 Premium — R229 890 · MMA Cars Pinetown
-- **[MG ZS] DROP** R269 990 → R259 990 — [2025 1.5 Luxury · CMH Mazda Umhlanga](https://www.autotrader.co.za/car-for-sale/mg/zs/1.5/28846437)
-- **[MG ZS] GONE** 2026 1.5 Comfort — R269 900 · CMH Suzuki Pinetown
-- **[VW Caddy] NEW** · [2020 1.6 Crew Bus — R239 790 · 75 000 km · KMH Durban](https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/1.6/28858276)
-- **[Suzuki Jimny] NEW** · [2022 1.5 GL Allgrip Auto — R289 800 · 88 000 km · Hoopers Volkswagen Durban](https://www.autotrader.co.za/car-for-sale/suzuki/jimny/1.5/28859295)
+- **[Renault Duster] DROP** R244 900 → R234 900 — [2023 1.5dCi Zen · Durban Multifranchise - kia](https://www.autotrader.co.za/car-for-sale/renault/duster/zen/28728171)
+- **[Renault Duster] DROP** R284 900 → R279 900 — [2023 1.5dCi Zen Auto · Durban Multifranchise - kia](https://www.autotrader.co.za/car-for-sale/renault/duster/zen/28745083)
+- **[Renault Duster] DROP** R249 900 → R244 900 — [2022 1.5dCi TechRoad Auto · KIA Ballito](https://www.autotrader.co.za/car-for-sale/renault/duster/techroad/28741951)
+- **[Corolla Cross] NEW** · [2023 1.8 XR — R299 995 · 90 088 km · Aksonsicar & Ashok Leyland PMB](https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xr/28819222)
+- **[Corolla Cross] GONE** 2023 1.8 Xi — R249 890 · Ford Amanzimtoti
+- **[Haval H6] GONE** 2022 2.0T Luxury — R289 990 · Chery Pinetown Pre-Owned
+- **[Chery Tiggo 7 Pro] NEW** · [2024 1.5T Executive — R299 900 · 27 600 km · East Toyota](https://www.autotrader.co.za/car-for-sale/chery/tiggo-7-pro/executive/28799551)
+- **[Chery Tiggo 7 Pro] NEW** · [2024 1.5T Executive — R299 900 · 8 550 km · Suzuki Salt Rock and Chery Ballito](https://www.autotrader.co.za/car-for-sale/chery/tiggo-7-pro/executive/28841984)
+- **[Hyundai Creta] DROP** R259 995 → R239 995 — [2019 1.6 Executive Limited Edition Auto · Aksonsicar & Ashok Leyland PMB](https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28242355)
+- **[Hyundai Creta] GONE** 2022 1.5 Executive — R269 900 · CMH Kempster Ford Umhlanga
+- **[VW Caddy] GONE** 2017 2.0TDI Crew Bus — R199 990 · KZN Motors
+- **[VW Caddy] GONE** 2020 1.6 Crew Bus — R299 990 · 
+- **[VW Caddy] GONE** 2017 2.0TDI Crew Bus — R199 990 · Hi-5 Auto
+- **[VW Caddy] GONE** 2019 1.6 Crew Bus — R249 900 · N10 Motors
+- **[Suzuki Jimny] NEW** · [2020 1.5 GLX AllGrip — R289 950 · 70 960 km · Other](https://www.autotrader.co.za/car-for-sale/suzuki/jimny/1.5/28860437)
 
-- **[Renault Duster]** Best overall value; multi-franchise dealer aids trade-in. — [view](https://www.autotrader.co.za/car-for-sale/renault/duster/intens/28694134)
-- **[Corolla Cross]** Top value metric; verify condition at high km. — [view](https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/1.8/28826220)
-- **[Kia Seltos]** Cheapest auto by R35k; high km but deep value — [view](https://www.autotrader.co.za/car-for-sale/kia/seltos/ex/28564368)
-- **[Hyundai Creta]** Best diesel auto bargain; sells in ~5 days — [view](https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28479041)
-- **[MG ZS]** Newest, lowest km at same price as 2025 Luxury — [view](https://www.autotrader.co.za/car-for-sale/mg/zs/1.5/28469130)
-- **[VW Caddy]** R199k but 239k km — verify carefully. — [view](https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/2.0tdi/28589067)
-- **[Suzuki Jimny]** New 5-door Auto at R290k/88k km — not 3-door. — [view](https://www.autotrader.co.za/car-for-sale/suzuki/jimny/1.5/28859295)
+- **[Renault Duster]** Best overall: new shape, auto diesel, multi-franchise for trade-in. — [view](https://www.autotrader.co.za/car-for-sale/renault/duster/intens/28694134)
+- **[Corolla Cross]** Top pick: low km XS spec, strong estUnder, Toyota reliability. — [view](https://www.autotrader.co.za/car-for-sale/toyota/corolla-cross/xs/28776932)
+- **[Haval H6]** CMH multi-franchise best for Duster trade-in; 4WD, warranty. — [view](https://www.autotrader.co.za/car-for-sale/haval/h6/luxury/28499124)
+- **[Chery Tiggo 7 Pro]** Strongest estUnder with franchised Chery dealer; verify history. — [view](https://www.autotrader.co.za/car-for-sale/chery/tiggo-7-pro/executive/28736041)
+- **[Hyundai Creta]** Only diesel auto R36k under; sells in ~5 days. — [view](https://www.autotrader.co.za/car-for-sale/hyundai/creta/executive/28479041)
+- **[VW Caddy]** Sole listing; verify mechanicals urgently, 5-day median sale time — [view](https://www.autotrader.co.za/car-for-sale/volkswagen/caddy/1.6/28858276)
+- **[Suzuki Jimny]** Cheapest 3-door but 86k km; verify off-road wear — [view](https://www.autotrader.co.za/car-for-sale/suzuki/jimny/1.3/28780022)

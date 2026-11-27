@@ -1,41 +1,52 @@
 {
- "generatedAt": "2026-11-26T15:17:44.173Z",
- "total": 10,
+ "generatedAt": "2026-11-27T13:53:16.076Z",
+ "total": 15,
  "searches": {
   "duster": {
-   "total": 2,
+   "total": 3,
    "baseline": false,
    "new": [],
    "dropped": [
     {
-     "id": "28727695",
-     "from": 209990,
-     "to": 199990
+     "id": "28728171",
+     "from": 244900,
+     "to": 234900
+    },
+    {
+     "id": "28745083",
+     "from": 284900,
+     "to": 279900
+    },
+    {
+     "id": "28741951",
+     "from": 249900,
+     "to": 244900
     }
    ],
    "increased": [],
-   "gone": [
-    "28840706"
-   ]
+   "gone": []
   },
   "corolla-cross": {
    "total": 2,
    "baseline": false,
-   "new": [],
+   "new": [
+    "28819222"
+   ],
    "dropped": [],
    "increased": [],
    "gone": [
-    "28796647",
-    "28830275"
+    "28826220"
    ]
   },
   "haval-h6": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": []
+   "gone": [
+    "28817203"
+   ]
   },
   "tiggo-5-pro": {
    "total": 0,
@@ -46,6 +57,17 @@
    "gone": []
   },
   "tiggo-7-pro": {
+   "total": 2,
+   "baseline": false,
+   "new": [
+    "28799551",
+    "28841984"
+   ],
+   "dropped": [],
+   "increased": [],
+   "gone": []
+  },
+  "seltos": {
    "total": 0,
    "baseline": false,
    "new": [],
@@ -53,24 +75,20 @@
    "increased": [],
    "gone": []
   },
-  "seltos": {
-   "total": 1,
-   "baseline": false,
-   "new": [],
-   "dropped": [],
-   "increased": [],
-   "gone": [
-    "28742881"
-   ]
-  },
   "creta": {
-   "total": 1,
+   "total": 2,
    "baseline": false,
    "new": [],
-   "dropped": [],
+   "dropped": [
+    {
+     "id": "28242355",
+     "from": 259995,
+     "to": 239995
+    }
+   ],
    "increased": [],
    "gone": [
-    "28672921"
+    "28856943"
    ]
   },
   "hr-v": {
@@ -82,20 +100,12 @@
    "gone": []
   },
   "mg-zs": {
-   "total": 2,
+   "total": 0,
    "baseline": false,
    "new": [],
-   "dropped": [
-    {
-     "id": "28846437",
-     "from": 269990,
-     "to": 259990
-    }
-   ],
+   "dropped": [],
    "increased": [],
-   "gone": [
-    "28742202"
-   ]
+   "gone": []
   },
   "peugeot-2008": {
    "total": 0,
@@ -122,20 +132,23 @@
    "gone": []
   },
   "caddy": {
-   "total": 1,
+   "total": 4,
    "baseline": false,
-   "new": [
-    "28858276"
-   ],
+   "new": [],
    "dropped": [],
    "increased": [],
-   "gone": []
+   "gone": [
+    "28589067",
+    "28796943",
+    "28839224",
+    "28848695"
+   ]
   },
   "jimny": {
    "total": 1,
    "baseline": false,
    "new": [
-    "28859295"
+    "28860437"
    ],
    "dropped": [],
    "increased": [],
