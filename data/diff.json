@@ -1,52 +1,30 @@
 {
- "generatedAt": "2026-11-27T13:53:16.076Z",
- "total": 15,
+ "generatedAt": "2026-11-27T20:26:10.887Z",
+ "total": 1,
  "searches": {
   "duster": {
-   "total": 3,
+   "total": 0,
    "baseline": false,
    "new": [],
-   "dropped": [
-    {
-     "id": "28728171",
-     "from": 244900,
-     "to": 234900
-    },
-    {
-     "id": "28745083",
-     "from": 284900,
-     "to": 279900
-    },
-    {
-     "id": "28741951",
-     "from": 249900,
-     "to": 244900
-    }
-   ],
+   "dropped": [],
    "increased": [],
    "gone": []
   },
   "corolla-cross": {
-   "total": 2,
-   "baseline": false,
-   "new": [
-    "28819222"
-   ],
-   "dropped": [],
-   "increased": [],
-   "gone": [
-    "28826220"
-   ]
-  },
-  "haval-h6": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": [
-    "28817203"
-   ]
+   "gone": []
+  },
+  "haval-h6": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
   },
   "tiggo-5-pro": {
    "total": 0,
@@ -57,17 +35,6 @@
    "gone": []
   },
   "tiggo-7-pro": {
-   "total": 2,
-   "baseline": false,
-   "new": [
-    "28799551",
-    "28841984"
-   ],
-   "dropped": [],
-   "increased": [],
-   "gone": []
-  },
-  "seltos": {
    "total": 0,
    "baseline": false,
    "new": [],
@@ -75,21 +42,23 @@
    "increased": [],
    "gone": []
   },
-  "creta": {
-   "total": 2,
+  "seltos": {
+   "total": 1,
    "baseline": false,
    "new": [],
-   "dropped": [
-    {
-     "id": "28242355",
-     "from": 259995,
-     "to": 239995
-    }
-   ],
+   "dropped": [],
    "increased": [],
    "gone": [
-    "28856943"
+    "28631175"
    ]
+  },
+  "creta": {
+   "total": 0,
+   "baseline": false,
+   "new": [],
+   "dropped": [],
+   "increased": [],
+   "gone": []
   },
   "hr-v": {
    "total": 0,
@@ -132,24 +101,17 @@
    "gone": []
   },
   "caddy": {
-   "total": 4,
+   "total": 0,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": [
-    "28589067",
-    "28796943",
-    "28839224",
-    "28848695"
-   ]
+   "gone": []
   },
   "jimny": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
-   "new": [
-    "28860437"
-   ],
+   "new": [],
    "dropped": [],
    "increased": [],
    "gone": []

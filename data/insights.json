@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-27T13:53:27.331Z",
+ "generatedAt": "2026-11-27T20:26:22.309Z",
  "searches": {
   "duster": {
    "daysOnMarket": {
@@ -8,13 +8,13 @@
    },
    "trend": {
     "first": 246500,
-    "last": 245700,
-    "pct": -0.3,
+    "last": 244900,
+    "pct": -0.6,
     "weeks": 5
    },
    "supply": {
-    "newPerWeek": 1.6,
-    "gonePerWeek": 1.6
+    "newPerWeek": 1.5,
+    "gonePerWeek": 1.5
    }
   },
   "corolla-cross": {
@@ -24,8 +24,8 @@
    },
    "trend": {
     "first": 289990,
-    "last": 292490,
-    "pct": 0.9,
+    "last": 294990,
+    "pct": 1.7,
     "weeks": 5
    },
    "supply": {
@@ -54,8 +54,8 @@
   "tiggo-7-pro": {
    "trend": {
     "first": 289990,
-    "last": 282490,
-    "pct": -2.6,
+    "last": 284990,
+    "pct": -1.7,
     "weeks": 4
    },
    "supply": {
@@ -66,7 +66,7 @@
   "seltos": {
    "daysOnMarket": {
     "median": 18.2,
-    "n": 7
+    "n": 8
    },
    "trend": {
     "first": 274990,
@@ -76,7 +76,7 @@
    },
    "supply": {
     "newPerWeek": 0.8,
-    "gonePerWeek": 1.8
+    "gonePerWeek": 2
    }
   },
   "creta": {
@@ -86,13 +86,13 @@
    },
    "trend": {
     "first": 279990,
-    "last": 269945,
+    "last": 269990,
     "pct": -3.6,
     "weeks": 5
    },
    "supply": {
-    "newPerWeek": 4.7,
-    "gonePerWeek": 5.2
+    "newPerWeek": 4.6,
+    "gonePerWeek": 5.1
    }
   },
   "hr-v": {
@@ -185,10 +185,10 @@
  "dataStart": "2026-10-31T11:42:23.714Z",
  "dataDays": 27,
  "validation": {
-  "goneMedian": 2714,
-  "liveMedian": -1854,
-  "goneN": 49,
-  "liveN": 81,
-  "delta": 4568
+  "goneMedian": 2251.5,
+  "liveMedian": -1665,
+  "goneN": 50,
+  "liveN": 80,
+  "delta": 3917
  }
 }
