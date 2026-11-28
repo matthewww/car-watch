@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T20:26:10.887Z",
- "total": 1,
+ "generatedAt": "2026-11-28T12:21:10.086Z",
+ "total": 5,
  "searches": {
   "duster": {
    "total": 0,
@@ -43,14 +43,12 @@
    "gone": []
   },
   "seltos": {
-   "total": 1,
+   "total": 0,
    "baseline": false,
    "new": [],
    "dropped": [],
    "increased": [],
-   "gone": [
-    "28631175"
-   ]
+   "gone": []
   },
   "creta": {
    "total": 0,
@@ -69,10 +67,16 @@
    "gone": []
   },
   "mg-zs": {
-   "total": 0,
+   "total": 1,
    "baseline": false,
    "new": [],
-   "dropped": [],
+   "dropped": [
+    {
+     "id": "28817670",
+     "from": 279800,
+     "to": 269800
+    }
+   ],
    "increased": [],
    "gone": []
   },
@@ -85,11 +89,26 @@
    "gone": []
   },
   "proton-x70": {
-   "total": 0,
+   "total": 4,
    "baseline": false,
-   "new": [],
-   "dropped": [],
-   "increased": [],
+   "new": [
+    "28175704",
+    "28049099"
+   ],
+   "dropped": [
+    {
+     "id": "28049100",
+     "from": 279990,
+     "to": 229990
+    }
+   ],
+   "increased": [
+    {
+     "id": "28049099",
+     "from": 239900,
+     "to": 239990
+    }
+   ],
    "gone": []
   },
   "x-trail": {
